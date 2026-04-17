@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
+<html lang="fr"><head>
 <meta charset="UTF-8">
 <link rel="apple-touch-icon" sizes="180x180" href="icon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <title>DLV Guide — Disney Dreamlight Valley</title>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&amp;family=Quicksand:wght@500;600;700&amp;display=swap" rel="stylesheet">
 <style>
 :root {
   --bg: #f7f3ff;
@@ -465,20 +463,60 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
 </style>
 </head>
 <body>
-<div id="overlay" onclick="closeSidebar()"></div>
-<div id="loading-screen" style="position:fixed;inset:0;background:#f7f3ff;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9999;font-family:'Nunito',sans-serif;">
+<div id="overlay" onclick="closeSidebar()" class="active"></div>
+<div id="loading-screen" style="position: fixed; inset: 0px; background: rgb(247, 243, 255); display: none; flex-direction: column; align-items: center; justify-content: center; z-index: 9999; font-family: Nunito, sans-serif;">
   <div style="font-size:32px;margin-bottom:12px">✦</div>
   <div style="font-size:16px;font-weight:700;color:#7c5cbf">DLV Guide</div>
   <div style="font-size:13px;color:#7a6898;margin-top:6px">Chargement...</div>
 </div>
-<button id="scroll-top" onclick="document.getElementById('list-area').scrollTo({top:0,behavior:'smooth'})" title="Remonter en haut">↑</button>
+<button id="scroll-top" onclick="document.getElementById('list-area').scrollTo({top:0,behavior:'smooth'})" title="Remonter en haut" class="">↑</button>
 <div id="app">
-  <div id="sidebar">
+  <div id="sidebar" class="open">
     <div id="sidebar-header">
       <h1>✦ DLV Guide</h1>
       <p>Disney Dreamlight Valley</p>
     </div>
-    <div id="nav-list"></div>
+    <div id="nav-list"><div class="nav-item" data-cat="characters" onclick="switchCat('characters')">
+      <img class="nav-icon" src="/DLV-Guide/images/Menu_Icon_Characters.png" alt="Characters">
+      <span class="nav-label">Characters</span>
+      <span class="nav-count">50/66</span>
+    </div><div class="nav-item" data-cat="clothing" onclick="switchCat('clothing')">
+      <img class="nav-icon" src="/DLV-Guide/images/Menu_Icon_Clothing.png" alt="Clothing sets">
+      <span class="nav-label">Clothing sets</span>
+      <span class="nav-count">658/1442</span>
+    </div><div class="nav-item" data-cat="crafting" onclick="switchCat('crafting')">
+      <img class="nav-icon" src="/DLV-Guide/images/Crafting.png" alt="Crafting recipes">
+      <span class="nav-label">Crafting recipes</span>
+      <span class="nav-count">299/730</span>
+    </div><div class="nav-item" data-cat="companions" onclick="switchCat('companions')">
+      <img class="nav-icon" src="/DLV-Guide/images/Menu_Icon_Companions.png" alt="Companions">
+      <span class="nav-label">Companions</span>
+      <span class="nav-count">19/185</span>
+    </div><div class="nav-item" data-cat="fish" onclick="switchCat('fish')">
+      <img class="nav-icon" src="/DLV-Guide/images/Menu_Icon_Fish.png" alt="Fish">
+      <span class="nav-label">Fish</span>
+      <span class="nav-count">36/60</span>
+    </div><div class="nav-item" data-cat="foraging" onclick="switchCat('foraging')">
+      <img class="nav-icon" src="/DLV-Guide/images/Foraging.png" alt="Foraging">
+      <span class="nav-label">Foraging</span>
+      <span class="nav-count">82/125</span>
+    </div><div class="nav-item active" data-cat="furniture" onclick="switchCat('furniture')">
+      <img class="nav-icon" src="/DLV-Guide/images/Menu_Icon_Furniture.png" alt="Furniture sets">
+      <span class="nav-label">Furniture sets</span>
+      <span class="nav-count">1031/3190</span>
+    </div><div class="nav-item" data-cat="gems" onclick="switchCat('gems')">
+      <img class="nav-icon" src="/DLV-Guide/images/Menu_Icon_Gems.png" alt="Gems">
+      <span class="nav-label">Gems</span>
+      <span class="nav-count">26/50</span>
+    </div><div class="nav-item" data-cat="ingredients" onclick="switchCat('ingredients')">
+      <img class="nav-icon" src="/DLV-Guide/images/Menu_Icon_Ingredients.png" alt="Ingredients">
+      <span class="nav-label">Ingredients</span>
+      <span class="nav-count">57/91</span>
+    </div><div class="nav-item" data-cat="meals" onclick="switchCat('meals')">
+      <img class="nav-icon" src="/DLV-Guide/images/Menu_Icon_Meals.png" alt="Meal recipes">
+      <span class="nav-label">Meal recipes</span>
+      <span class="nav-count">219/468</span>
+    </div></div>
     <div id="sidebar-footer">
       <button class="sidebar-btn save" onclick="openGhModal()" title="Sauvegarder sur GitHub">💾 Sauvegarder</button>
       <button class="sidebar-btn export" onclick="exportData()" title="Exporter les données">⬇ Export</button>
@@ -487,10 +525,10 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
   <div id="main">
     <div id="topbar">
       <button id="menu-btn" onclick="toggleSidebar()">☰</button>
-      <h2 id="page-title">Characters</h2>
+      <h2 id="page-title">Furniture sets</h2>
       <div class="progress-wrap">
-        <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
-        <span class="progress-text" id="progress-text">0 / 0</span>
+        <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width: 32.319749%;"></div></div>
+        <span class="progress-text" id="progress-text">1031 / 3190</span>
       </div>
     </div>
     <div id="search-bar">
@@ -501,7 +539,19 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
         <button class="filter-btn" id="filter-done" onclick="setFilter('done')">Faits</button>
       </div>
     </div>
-    <div id="list-area"></div>
+    <div id="list-area"><div class="group-header">GENERAL</div><div class="list-item" data-id="2801">
+    <span class="item-owned owned" onclick="cycleOwned(2801)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(2801)">Pink Marble Shower Stall</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(2801)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(2801)" title="Supprimer">✕</button>
+  </div><div class="add-row">
+    <input type="text" id="add-name" placeholder="Ajouter furniture set...">
+    <input type="text" id="add-meta" class="add-meta-input" placeholder="Tag 1">
+    <input type="text" id="add-meta2" class="add-meta2-input" placeholder="Tag 2">
+    <button class="add-btn" id="add-btn-main">+ Ajouter</button>
+  </div></div>
   </div>
 </div>
 
@@ -1196,7 +1246,7 @@ bindModalOverlay();
 </script>
 
 <!-- GitHub Save Modal -->
-<div id="gh-modal-overlay" style="display:none">
+<div id="gh-modal-overlay" style="display: flex;" class="active">
   <div id="gh-modal">
     <h3>💾 Sauvegarder sur GitHub</h3>
     <p>Tes données seront intégrées dans le fichier HTML et envoyées sur GitHub. La page se rechargera automatiquement.</p>
@@ -1216,13 +1266,14 @@ bindModalOverlay();
       <label>TOKEN GITHUB</label>
       <input type="password" id="gh-token" placeholder="ghp_xxxxxxxxxxxx">
     </div>
-    <div id="gh-status"></div>
+    <div id="gh-status" class="">Génération du fichier...</div>
     <div class="gh-actions">
       <button type="button" class="gh-btn secondary" onclick="closeGhModal()">Annuler</button>
-      <button type="button" class="gh-btn primary" id="gh-save-btn" onclick="saveToGithub()">Envoyer</button>
+      <button type="button" class="gh-btn primary" id="gh-save-btn" onclick="saveToGithub()" data-saving="1" disabled="">...</button>
     </div>
   </div>
 </div>
 
-</body>
-</html>
+
+
+</body></html>
