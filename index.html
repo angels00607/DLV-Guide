@@ -618,15 +618,15 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
     <div id="nav-list"><div class="nav-item active" data-cat="clothing" onclick="switchCat('clothing')">
       <img class="nav-icon" src="/DLV-Guide/images/Menu_Icon_Clothing.png" alt="Clothing sets">
       <span class="nav-label">Clothing sets</span>
-      <span class="nav-count">693/1451</span>
+      <span class="nav-count">710/1454</span>
     </div><div class="nav-item" data-cat="crafting" onclick="switchCat('crafting')">
       <img class="nav-icon" src="/DLV-Guide/images/Crafting.png" alt="Crafting recipes">
       <span class="nav-label">Crafting recipes</span>
-      <span class="nav-count">299/730</span>
+      <span class="nav-count">304/731</span>
     </div><div class="nav-item" data-cat="furniture" onclick="switchCat('furniture')">
       <img class="nav-icon" src="/DLV-Guide/images/Menu_Icon_Furniture.png" alt="Furniture sets">
       <span class="nav-label">Furniture sets</span>
-      <span class="nav-count">1099/3199</span>
+      <span class="nav-count">1131/3206</span>
     </div><div class="nav-item" data-cat="meals" onclick="switchCat('meals')">
       <img class="nav-icon" src="/DLV-Guide/images/Menu_Icon_Meals.png" alt="Meal recipes">
       <span class="nav-label">Meal recipes</span>
@@ -642,8 +642,8 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
       <button id="menu-btn" onclick="toggleSidebar()">☰</button>
       <h2 id="page-title">Clothing sets</h2>
       <div class="progress-wrap">
-        <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width: 47.760165%;"></div></div>
-        <span class="progress-text" id="progress-text">693 / 1451</span>
+        <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width: 48.830812%;"></div></div>
+        <span class="progress-text" id="progress-text">710 / 1454</span>
       </div>
     </div>
     <div id="search-bar">
@@ -659,29 +659,32 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
     <input type="text" id="add-meta" class="add-meta-input" placeholder="Tag 1">
     <input type="text" id="add-meta2" class="add-meta2-input" placeholder="Tag 2">
     <button class="add-btn" id="add-btn-main">+ Ajouter</button>
-  </div><button class="group-accordion-btn open" onclick="toggleGroupAccordion('clothing',0)" data-group-key="OTHER (GENERAL)" data-group-idx="0">
+  </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',0)" data-group-key="OTHER (GENERAL)" data-group-idx="0">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">OTHER (GENERAL)</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 100%;"></span></span>
-          <span class="group-accordion-count">2/2</span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/0</span>
         </span>
       </button>
-      <div class="group-accordion-panel open" data-group-panel="OTHER (GENERAL)" data-group-idx="0" data-loaded="1">
-        <div class="list-item" data-id="1452">
-    <span class="item-owned owned" onclick="cycleOwned(1452)" title="Possession">✓</span>
-    <span class="item-label" onclick="toggleCheck(1452)">Blue and Gold Sleeved Gown</span>
+      <div class="group-accordion-panel" data-group-panel="OTHER (GENERAL)" data-group-idx="0" data-loaded="0">
+        
+      </div><button class="group-accordion-btn open" onclick="toggleGroupAccordion('clothing',1)" data-group-key="RATATOUILLE" data-group-idx="1">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">RATATOUILLE</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 100%;"></span></span>
+          <span class="group-accordion-count">1/1</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel open" data-group-panel="RATATOUILLE" data-group-idx="1" data-loaded="1">
+        <div class="list-item" data-id="527">
+    <span class="item-owned owned" onclick="cycleOwned(527)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(527)">Red Cardigan</span>
     
     
-    <button class="item-edit" onclick="startEdit(1452)" title="Modifier">✎</button>
-    <button class="item-delete" onclick="deleteItem(1452)" title="Supprimer">✕</button>
-  </div><div class="list-item" data-id="1455">
-    <span class="item-owned owned" onclick="cycleOwned(1455)" title="Possession">✓</span>
-    <span class="item-label" onclick="toggleCheck(1455)">Blue and Gold Strapless Gown</span>
-    
-    
-    <button class="item-edit" onclick="startEdit(1455)" title="Modifier">✎</button>
-    <button class="item-delete" onclick="deleteItem(1455)" title="Supprimer">✕</button>
+    <button class="item-edit" onclick="startEdit(527)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(527)" title="Supprimer">✕</button>
   </div>
       </div></div>
   </div>
