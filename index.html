@@ -608,7 +608,7 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
   <div style="font-size:16px;font-weight:700;color:#7c5cbf">DLV Guide</div>
   <div style="font-size:13px;color:#7a6898;margin-top:6px">Chargement...</div>
 </div>
-<button id="scroll-top" onclick="document.getElementById('list-area').scrollTo({top:0,behavior:'smooth'})" title="Remonter en haut" class="">↑</button>
+<button id="scroll-top" onclick="document.getElementById('list-area').scrollTo({top:0,behavior:'smooth'})" title="Remonter en haut" class="visible">↑</button>
 <div id="app">
   <div id="sidebar" class="">
     <div id="sidebar-header">
@@ -622,7 +622,7 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
     </div><div class="nav-item active" data-cat="crafting" onclick="switchCat('crafting')">
       <img class="nav-icon" src="/DLV-Guide/images/Crafting.png" alt="Crafting recipes">
       <span class="nav-label">Crafting recipes</span>
-      <span class="nav-count">299/926</span>
+      <span class="nav-count">248/858</span>
     </div><div class="nav-item" data-cat="furniture" onclick="switchCat('furniture')">
       <img class="nav-icon" src="/DLV-Guide/images/Menu_Icon_Furniture.png" alt="Furniture sets">
       <span class="nav-label">Furniture sets</span>
@@ -642,8 +642,8 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
       <button id="menu-btn" onclick="toggleSidebar()">☰</button>
       <h2 id="page-title">Crafting recipes</h2>
       <div class="progress-wrap">
-        <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width: 32.2894%;"></div></div>
-        <span class="progress-text" id="progress-text">299 / 926</span>
+        <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width: 28.9044%;"></div></div>
+        <span class="progress-text" id="progress-text">248 / 858</span>
       </div>
     </div>
     <div id="search-bar">
@@ -659,1223 +659,16 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
     <input type="text" id="add-meta" class="add-meta-input" placeholder="Tag 1">
     <input type="text" id="add-meta2" class="add-meta2-input" placeholder="Tag 2">
     <button class="add-btn" id="add-btn-main">+ Ajouter</button>
-  </div><button class="group-accordion-btn open" onclick="toggleGroupAccordion('crafting',0)" data-group-key="—" data-group-idx="0">
+  </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('crafting',0)" data-group-key="—" data-group-idx="0">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">—</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:42%"></span></span>
-          <span class="group-accordion-count">298/711</span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:37%"></span></span>
+          <span class="group-accordion-count">224/601</span>
         </span>
       </button>
-      <div class="group-accordion-panel open" data-group-panel="—" data-group-idx="0" data-loaded="1">
-        <div class="list-item recipe-item" data-id="2">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(2)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(2)">"End of the Rainbow" Cauldron</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,2)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(2)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(2)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="2">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-2" onkeydown="if(event.key==='Enter')addIngredient(2)">
-          <button class="ingredient-add-btn" onclick="addIngredient(2)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="354">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(354)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(354)">"La Ratatouille" Sign</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,354)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(354)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(354)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="354">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-354" onkeydown="if(event.key==='Enter')addIngredient(354)">
-          <button class="ingredient-add-btn" onclick="addIngredient(354)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="49">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(49)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(49)">Ancient Fence</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,49)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(49)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(49)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="49">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-49" onkeydown="if(event.key==='Enter')addIngredient(49)">
-          <button class="ingredient-add-btn" onclick="addIngredient(49)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="50">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(50)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(50)">Ancient Gear Corner Tile</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,50)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(50)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(50)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="50">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-50" onkeydown="if(event.key==='Enter')addIngredient(50)">
-          <button class="ingredient-add-btn" onclick="addIngredient(50)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="51">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(51)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(51)">Ancient Gear Tile</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,51)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(51)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(51)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="51">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-51" onkeydown="if(event.key==='Enter')addIngredient(51)">
-          <button class="ingredient-add-btn" onclick="addIngredient(51)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="52">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(52)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(52)">Ancient Tile Path</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,52)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(52)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(52)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="52">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-52" onkeydown="if(event.key==='Enter')addIngredient(52)">
-          <button class="ingredient-add-btn" onclick="addIngredient(52)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="53">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(53)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(53)">Ancient Tile Road</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,53)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(53)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(53)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="53">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-53" onkeydown="if(event.key==='Enter')addIngredient(53)">
-          <button class="ingredient-add-btn" onclick="addIngredient(53)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="54">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(54)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(54)">Ancient's Bamboo Fence</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,54)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(54)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(54)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="54">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-54" onkeydown="if(event.key==='Enter')addIngredient(54)">
-          <button class="ingredient-add-btn" onclick="addIngredient(54)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="2">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(2)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(2)">Ancient's Road</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,2)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(2)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(2)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="2">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-2" onkeydown="if(event.key==='Enter')addIngredient(2)">
-          <button class="ingredient-add-btn" onclick="addIngredient(2)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="356">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(356)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(356)">Archery Target</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,356)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(356)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(356)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="356">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-356" onkeydown="if(event.key==='Enter')addIngredient(356)">
-          <button class="ingredient-add-btn" onclick="addIngredient(356)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="3">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(3)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(3)">Ariel's Crafting Station</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,3)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(3)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(3)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="3">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-3" onkeydown="if(event.key==='Enter')addIngredient(3)">
-          <button class="ingredient-add-btn" onclick="addIngredient(3)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="416">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(416)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(416)">Artful Roots Arch</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,416)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(416)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(416)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="416">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-416" onkeydown="if(event.key==='Enter')addIngredient(416)">
-          <button class="ingredient-add-btn" onclick="addIngredient(416)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="3">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(3)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(3)">Asphalt</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,3)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(3)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(3)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="3">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-3" onkeydown="if(event.key==='Enter')addIngredient(3)">
-          <button class="ingredient-add-btn" onclick="addIngredient(3)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="4">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(4)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(4)">Asphalt with Border</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,4)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(4)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(4)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="4">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-4" onkeydown="if(event.key==='Enter')addIngredient(4)">
-          <button class="ingredient-add-btn" onclick="addIngredient(4)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="357">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(357)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(357)">Atrium Candles</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,357)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(357)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(357)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="357">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-357" onkeydown="if(event.key==='Enter')addIngredient(357)">
-          <button class="ingredient-add-btn" onclick="addIngredient(357)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="268">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(268)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(268)">Attorney Stand</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,268)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(268)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(268)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="268">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-268" onkeydown="if(event.key==='Enter')addIngredient(268)">
-          <button class="ingredient-add-btn" onclick="addIngredient(268)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="4">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(4)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(4)">Autumn Harvest Pennants</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,4)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(4)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(4)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="4">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-4" onkeydown="if(event.key==='Enter')addIngredient(4)">
-          <button class="ingredient-add-btn" onclick="addIngredient(4)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="358">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(358)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(358)">Autumn Mage Scarecrow</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,358)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(358)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(358)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="358">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-358" onkeydown="if(event.key==='Enter')addIngredient(358)">
-          <button class="ingredient-add-btn" onclick="addIngredient(358)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="5">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(5)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(5)">Autumn Wreath</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,5)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(5)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(5)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="5">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-5" onkeydown="if(event.key==='Enter')addIngredient(5)">
-          <button class="ingredient-add-btn" onclick="addIngredient(5)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="359">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(359)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(359)">Autumnal Bind Barrier</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,359)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(359)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(359)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="359">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-359" onkeydown="if(event.key==='Enter')addIngredient(359)">
-          <button class="ingredient-add-btn" onclick="addIngredient(359)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="360">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(360)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(360)">Autumnal Volleyball Net</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,360)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(360)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(360)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="360">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-360" onkeydown="if(event.key==='Enter')addIngredient(360)">
-          <button class="ingredient-add-btn" onclick="addIngredient(360)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="269">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(269)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(269)">Bamboo Bench</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,269)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(269)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(269)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="269">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-269" onkeydown="if(event.key==='Enter')addIngredient(269)">
-          <button class="ingredient-add-btn" onclick="addIngredient(269)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="270">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(270)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(270)">Barbecue</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,270)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(270)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(270)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="270">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-270" onkeydown="if(event.key==='Enter')addIngredient(270)">
-          <button class="ingredient-add-btn" onclick="addIngredient(270)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="6">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(6)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(6)">Barrel Part</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,6)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(6)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(6)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="6">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-6" onkeydown="if(event.key==='Enter')addIngredient(6)">
-          <button class="ingredient-add-btn" onclick="addIngredient(6)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="7">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(7)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(7)">Basic Armchair</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,7)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(7)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(7)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="7">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-7" onkeydown="if(event.key==='Enter')addIngredient(7)">
-          <button class="ingredient-add-btn" onclick="addIngredient(7)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="8">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(8)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(8)">Basic Beach Chair</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,8)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(8)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(8)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="8">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-8" onkeydown="if(event.key==='Enter')addIngredient(8)">
-          <button class="ingredient-add-btn" onclick="addIngredient(8)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="271">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(271)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(271)">Basic Canvas</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,271)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(271)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(271)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="271">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-271" onkeydown="if(event.key==='Enter')addIngredient(271)">
-          <button class="ingredient-add-btn" onclick="addIngredient(271)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="9">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(9)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(9)">Basic Chair</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,9)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(9)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(9)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="9">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-9" onkeydown="if(event.key==='Enter')addIngredient(9)">
-          <button class="ingredient-add-btn" onclick="addIngredient(9)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="10">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(10)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(10)">Basic Couch</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,10)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(10)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(10)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="10">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-10" onkeydown="if(event.key==='Enter')addIngredient(10)">
-          <button class="ingredient-add-btn" onclick="addIngredient(10)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="11">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(11)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(11)">Basic Desk</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,11)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(11)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(11)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="11">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-11" onkeydown="if(event.key==='Enter')addIngredient(11)">
-          <button class="ingredient-add-btn" onclick="addIngredient(11)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="12">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(12)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(12)">Basic Double Bed</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,12)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(12)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(12)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="12">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-12" onkeydown="if(event.key==='Enter')addIngredient(12)">
-          <button class="ingredient-add-btn" onclick="addIngredient(12)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="13">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(13)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(13)">Basic Dresser</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,13)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(13)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(13)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="13">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-13" onkeydown="if(event.key==='Enter')addIngredient(13)">
-          <button class="ingredient-add-btn" onclick="addIngredient(13)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="64">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(64)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(64)">Basic Faerie Lure Trap</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,64)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(64)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(64)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="64">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-64" onkeydown="if(event.key==='Enter')addIngredient(64)">
-          <button class="ingredient-add-btn" onclick="addIngredient(64)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="65">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(65)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(65)">Basic Faerie Slow Trap</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,65)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(65)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(65)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="65">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-65" onkeydown="if(event.key==='Enter')addIngredient(65)">
-          <button class="ingredient-add-btn" onclick="addIngredient(65)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="68">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(68)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(68)">Basic Fall Leaves Slow Trap</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,68)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(68)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(68)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="68">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-68" onkeydown="if(event.key==='Enter')addIngredient(68)">
-          <button class="ingredient-add-btn" onclick="addIngredient(68)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="69">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(69)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(69)">Basic Fall Leaves Snippet Repellent</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,69)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(69)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(69)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="69">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-69" onkeydown="if(event.key==='Enter')addIngredient(69)">
-          <button class="ingredient-add-btn" onclick="addIngredient(69)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="14">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(14)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(14)">Basic Fridge</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,14)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(14)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(14)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="14">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-14" onkeydown="if(event.key==='Enter')addIngredient(14)">
-          <button class="ingredient-add-btn" onclick="addIngredient(14)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="15">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(15)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(15)">Basic Lamp</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,15)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(15)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(15)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="15">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-15" onkeydown="if(event.key==='Enter')addIngredient(15)">
-          <button class="ingredient-add-btn" onclick="addIngredient(15)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="16">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(16)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(16)">Basic Large Table</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,16)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(16)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(16)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="16">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-16" onkeydown="if(event.key==='Enter')addIngredient(16)">
-          <button class="ingredient-add-btn" onclick="addIngredient(16)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="70">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(70)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(70)">Basic Olympic Lure Trap</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,70)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(70)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(70)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="70">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-70" onkeydown="if(event.key==='Enter')addIngredient(70)">
-          <button class="ingredient-add-btn" onclick="addIngredient(70)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="71">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(71)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(71)">Basic Olympic Slow Trap</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,71)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(71)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(71)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="71">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-71" onkeydown="if(event.key==='Enter')addIngredient(71)">
-          <button class="ingredient-add-btn" onclick="addIngredient(71)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="72">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(72)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(72)">Basic Olympic Snippet Repellent</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,72)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(72)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(72)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="72">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-72" onkeydown="if(event.key==='Enter')addIngredient(72)">
-          <button class="ingredient-add-btn" onclick="addIngredient(72)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="17">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(17)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(17)">Basic Parasol and Towel</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,17)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(17)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(17)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="17">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-17" onkeydown="if(event.key==='Enter')addIngredient(17)">
-          <button class="ingredient-add-btn" onclick="addIngredient(17)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="18">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(18)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(18)">Basic Picnic Table</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,18)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(18)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(18)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="18">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-18" onkeydown="if(event.key==='Enter')addIngredient(18)">
-          <button class="ingredient-add-btn" onclick="addIngredient(18)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="19">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(19)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(19)">Basic Rug</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,19)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(19)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(19)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="19">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-19" onkeydown="if(event.key==='Enter')addIngredient(19)">
-          <button class="ingredient-add-btn" onclick="addIngredient(19)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="20">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(20)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(20)">Basic Side Table</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,20)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(20)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(20)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="20">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-20" onkeydown="if(event.key==='Enter')addIngredient(20)">
-          <button class="ingredient-add-btn" onclick="addIngredient(20)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="21">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(21)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(21)">Basic Wardrobe</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,21)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(21)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(21)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="21">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-21" onkeydown="if(event.key==='Enter')addIngredient(21)">
-          <button class="ingredient-add-btn" onclick="addIngredient(21)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="22">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(22)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(22)">Basket</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,22)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(22)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(22)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="22">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-22" onkeydown="if(event.key==='Enter')addIngredient(22)">
-          <button class="ingredient-add-btn" onclick="addIngredient(22)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="23">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(23)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(23)">Bench</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,23)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(23)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(23)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="23">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-23" onkeydown="if(event.key==='Enter')addIngredient(23)">
-          <button class="ingredient-add-btn" onclick="addIngredient(23)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="417">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(417)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(417)">Bicycle Coffee Bar</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,417)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(417)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(417)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="417">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-417" onkeydown="if(event.key==='Enter')addIngredient(417)">
-          <button class="ingredient-add-btn" onclick="addIngredient(417)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="272">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(272)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(272)">Bird's Nest</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,272)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(272)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(272)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="272">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-272" onkeydown="if(event.key==='Enter')addIngredient(272)">
-          <button class="ingredient-add-btn" onclick="addIngredient(272)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="24">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(24)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(24)">Bistro Chair</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,24)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(24)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(24)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="24">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-24" onkeydown="if(event.key==='Enter')addIngredient(24)">
-          <button class="ingredient-add-btn" onclick="addIngredient(24)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="25">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(25)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(25)">Bistro Table</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,25)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(25)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(25)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="25">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-25" onkeydown="if(event.key==='Enter')addIngredient(25)">
-          <button class="ingredient-add-btn" onclick="addIngredient(25)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="273">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(273)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(273)">Black and White Flower Disk</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,273)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(273)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(273)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="273">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-273" onkeydown="if(event.key==='Enter')addIngredient(273)">
-          <button class="ingredient-add-btn" onclick="addIngredient(273)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="274">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(274)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(274)">Black and White Flower Rectangle</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,274)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(274)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(274)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="274">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-274" onkeydown="if(event.key==='Enter')addIngredient(274)">
-          <button class="ingredient-add-btn" onclick="addIngredient(274)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="418">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(418)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(418)">Black and White Striped Settee</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,418)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(418)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(418)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="418">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-418" onkeydown="if(event.key==='Enter')addIngredient(418)">
-          <button class="ingredient-add-btn" onclick="addIngredient(418)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="2">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(2)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(2)">Black Flat-Top Stove</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,2)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(2)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(2)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="2">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-2" onkeydown="if(event.key==='Enter')addIngredient(2)">
-          <button class="ingredient-add-btn" onclick="addIngredient(2)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="3">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(3)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(3)">Black Gas Stove</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,3)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(3)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(3)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="3">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-3" onkeydown="if(event.key==='Enter')addIngredient(3)">
-          <button class="ingredient-add-btn" onclick="addIngredient(3)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="419">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(419)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(419)">Black Glass Mod Coffee Table</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,419)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(419)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(419)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="419">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-419" onkeydown="if(event.key==='Enter')addIngredient(419)">
-          <button class="ingredient-add-btn" onclick="addIngredient(419)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="420">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(420)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(420)">Black Leaf Sculpture</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,420)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(420)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(420)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="420">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-420" onkeydown="if(event.key==='Enter')addIngredient(420)">
-          <button class="ingredient-add-btn" onclick="addIngredient(420)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="68">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(68)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(68)">Black Metal Barrier</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,68)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(68)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(68)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="68">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-68" onkeydown="if(event.key==='Enter')addIngredient(68)">
-          <button class="ingredient-add-btn" onclick="addIngredient(68)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="4">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(4)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(4)">Black Retro Portable Radio</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,4)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(4)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(4)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="4">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-4" onkeydown="if(event.key==='Enter')addIngredient(4)">
-          <button class="ingredient-add-btn" onclick="addIngredient(4)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="361">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(361)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(361)">Black Rose Stones</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,361)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(361)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(361)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="361">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-361" onkeydown="if(event.key==='Enter')addIngredient(361)">
-          <button class="ingredient-add-btn" onclick="addIngredient(361)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="26">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(26)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(26)">Black Wrought Iron Streetlamp</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,26)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(26)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(26)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="26">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-26" onkeydown="if(event.key==='Enter')addIngredient(26)">
-          <button class="ingredient-add-btn" onclick="addIngredient(26)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="27">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(27)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(27)">Blank Sandwich Board</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,27)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(27)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(27)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="27">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-27" onkeydown="if(event.key==='Enter')addIngredient(27)">
-          <button class="ingredient-add-btn" onclick="addIngredient(27)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="5">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(5)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(5)">Blend Left-Curving Trolley Tracks</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,5)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(5)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(5)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="5">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-5" onkeydown="if(event.key==='Enter')addIngredient(5)">
-          <button class="ingredient-add-btn" onclick="addIngredient(5)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="6">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(6)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(6)">Blend Right-Curving Trolley Tracks</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,6)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(6)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(6)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="6">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-6" onkeydown="if(event.key==='Enter')addIngredient(6)">
-          <button class="ingredient-add-btn" onclick="addIngredient(6)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="275">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(275)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(275)">Blue Ancient's Lamppost</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,275)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(275)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(275)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="275">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-275" onkeydown="if(event.key==='Enter')addIngredient(275)">
-          <button class="ingredient-add-btn" onclick="addIngredient(275)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="28">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(28)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(28)">Blue and Silver Balloon Arch</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,28)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(28)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(28)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="28">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-28" onkeydown="if(event.key==='Enter')addIngredient(28)">
-          <button class="ingredient-add-btn" onclick="addIngredient(28)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="29">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(29)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(29)">Blue and Silver Balloon Cluster</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,29)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(29)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(29)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="29">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-29" onkeydown="if(event.key==='Enter')addIngredient(29)">
-          <button class="ingredient-add-btn" onclick="addIngredient(29)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="22">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(22)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(22)">Blue Bird Snippet</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,22)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(22)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(22)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="22">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-22" onkeydown="if(event.key==='Enter')addIngredient(22)">
-          <button class="ingredient-add-btn" onclick="addIngredient(22)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="421">
+      <div class="group-accordion-panel" data-group-panel="—" data-group-idx="0" data-loaded="1">
+        <div class="list-item recipe-item" data-id="421">
       <div class="recipe-main">
         <span class="item-owned" onclick="cycleOwned(421)" title="Possession">·</span>
         <span class="item-label" onclick="toggleCheck(421)">Blue Birthday Candle Lamppost</span>
@@ -2009,23 +802,6 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
         <div class="ingredient-add-row">
           <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-32" onkeydown="if(event.key==='Enter')addIngredient(32)">
           <button class="ingredient-add-btn" onclick="addIngredient(32)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="5">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(5)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(5)">Blue Retro Portable Radio</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,5)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(5)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(5)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="5">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-5" onkeydown="if(event.key==='Enter')addIngredient(5)">
-          <button class="ingredient-add-btn" onclick="addIngredient(5)">+</button>
         </div>
       </div>
     </div><div class="list-item recipe-item" data-id="33">
@@ -2368,23 +1144,6 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <button class="ingredient-add-btn" onclick="addIngredient(19)">+</button>
         </div>
       </div>
-    </div><div class="list-item recipe-item" data-id="6">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(6)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(6)">Brown Retro Portable Radio</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,6)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(6)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(6)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="6">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-6" onkeydown="if(event.key==='Enter')addIngredient(6)">
-          <button class="ingredient-add-btn" onclick="addIngredient(6)">+</button>
-        </div>
-      </div>
     </div><div class="list-item recipe-item" data-id="41">
       <div class="recipe-main">
         <span class="item-owned owned" onclick="cycleOwned(41)" title="Possession">✓</span>
@@ -2555,23 +1314,6 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <button class="ingredient-add-btn" onclick="addIngredient(48)">+</button>
         </div>
       </div>
-    </div><div class="list-item recipe-item" data-id="49">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(49)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(49)">Cart</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,49)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(49)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(49)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="49">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-49" onkeydown="if(event.key==='Enter')addIngredient(49)">
-          <button class="ingredient-add-btn" onclick="addIngredient(49)">+</button>
-        </div>
-      </div>
     </div><div class="list-item recipe-item" data-id="423">
       <div class="recipe-main">
         <span class="item-owned" onclick="cycleOwned(423)" title="Possession">·</span>
@@ -2623,23 +1365,6 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <button class="ingredient-add-btn" onclick="addIngredient(366)">+</button>
         </div>
       </div>
-    </div><div class="list-item recipe-item" data-id="50">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(50)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(50)">Charter Rug</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,50)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(50)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(50)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="50">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-50" onkeydown="if(event.key==='Enter')addIngredient(50)">
-          <button class="ingredient-add-btn" onclick="addIngredient(50)">+</button>
-        </div>
-      </div>
     </div><div class="list-item recipe-item" data-id="425">
       <div class="recipe-main">
         <span class="item-owned" onclick="cycleOwned(425)" title="Possession">·</span>
@@ -2672,57 +1397,6 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
         <div class="ingredient-add-row">
           <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-8" onkeydown="if(event.key==='Enter')addIngredient(8)">
           <button class="ingredient-add-btn" onclick="addIngredient(8)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="51">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(51)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(51)">Cinderella Popcorn Bucket</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,51)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(51)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(51)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="51">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-51" onkeydown="if(event.key==='Enter')addIngredient(51)">
-          <button class="ingredient-add-btn" onclick="addIngredient(51)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="69">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(69)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(69)">Classic Farm Fence</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,69)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(69)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(69)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="69">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-69" onkeydown="if(event.key==='Enter')addIngredient(69)">
-          <button class="ingredient-add-btn" onclick="addIngredient(69)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="52">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(52)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(52)">Classic Snowman</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,52)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(52)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(52)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="52">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-52" onkeydown="if(event.key==='Enter')addIngredient(52)">
-          <button class="ingredient-add-btn" onclick="addIngredient(52)">+</button>
         </div>
       </div>
     </div><div class="list-item recipe-item" data-id="367">
@@ -2776,23 +1450,6 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <button class="ingredient-add-btn" onclick="addIngredient(282)">+</button>
         </div>
       </div>
-    </div><div class="list-item recipe-item" data-id="2">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(2)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(2)">Coal Ore</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,2)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(2)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(2)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="2">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-2" onkeydown="if(event.key==='Enter')addIngredient(2)">
-          <button class="ingredient-add-btn" onclick="addIngredient(2)">+</button>
-        </div>
-      </div>
     </div><div class="list-item recipe-item" data-id="283">
       <div class="recipe-main">
         <span class="item-owned" onclick="cycleOwned(283)" title="Possession">·</span>
@@ -2808,40 +1465,6 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
         <div class="ingredient-add-row">
           <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-283" onkeydown="if(event.key==='Enter')addIngredient(283)">
           <button class="ingredient-add-btn" onclick="addIngredient(283)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="53">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(53)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(53)">Colorful Park Bench</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,53)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(53)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(53)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="53">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-53" onkeydown="if(event.key==='Enter')addIngredient(53)">
-          <button class="ingredient-add-btn" onclick="addIngredient(53)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="54">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(54)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(54)">Compass Ottoman</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,54)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(54)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(54)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="54">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-54" onkeydown="if(event.key==='Enter')addIngredient(54)">
-          <button class="ingredient-add-btn" onclick="addIngredient(54)">+</button>
         </div>
       </div>
     </div><div class="list-item recipe-item" data-id="55">
@@ -3388,23 +2011,6 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <button class="ingredient-add-btn" onclick="addIngredient(289)">+</button>
         </div>
       </div>
-    </div><div class="list-item recipe-item" data-id="2">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(2)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(2)">Dreamlight (250)</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,2)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(2)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(2)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="2">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-2" onkeydown="if(event.key==='Enter')addIngredient(2)">
-          <button class="ingredient-add-btn" onclick="addIngredient(2)">+</button>
-        </div>
-      </div>
     </div><div class="list-item recipe-item" data-id="63">
       <div class="recipe-main">
         <span class="item-owned" onclick="cycleOwned(63)" title="Possession">·</span>
@@ -3437,40 +2043,6 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
         <div class="ingredient-add-row">
           <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-370" onkeydown="if(event.key==='Enter')addIngredient(370)">
           <button class="ingredient-add-btn" onclick="addIngredient(370)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="64">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(64)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(64)">Egg Banner</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,64)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(64)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(64)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="64">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-64" onkeydown="if(event.key==='Enter')addIngredient(64)">
-          <button class="ingredient-add-btn" onclick="addIngredient(64)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="65">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(65)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(65)">Egg-cellent Balloons</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,65)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(65)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(65)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="65">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-65" onkeydown="if(event.key==='Enter')addIngredient(65)">
-          <button class="ingredient-add-btn" onclick="addIngredient(65)">+</button>
         </div>
       </div>
     </div><div class="list-item recipe-item" data-id="20">
@@ -3507,40 +2079,6 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <button class="ingredient-add-btn" onclick="addIngredient(436)">+</button>
         </div>
       </div>
-    </div><div class="list-item recipe-item" data-id="68">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(68)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(68)">Elegant Town Square Clock</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,68)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(68)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(68)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="68">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-68" onkeydown="if(event.key==='Enter')addIngredient(68)">
-          <button class="ingredient-add-btn" onclick="addIngredient(68)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="70">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(70)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(70)">Elegant White Fence</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,70)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(70)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(70)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="70">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-70" onkeydown="if(event.key==='Enter')addIngredient(70)">
-          <button class="ingredient-add-btn" onclick="addIngredient(70)">+</button>
-        </div>
-      </div>
     </div><div class="list-item recipe-item" data-id="371">
       <div class="recipe-main">
         <span class="item-owned" onclick="cycleOwned(371)" title="Possession">·</span>
@@ -3556,125 +2094,6 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
         <div class="ingredient-add-row">
           <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-371" onkeydown="if(event.key==='Enter')addIngredient(371)">
           <button class="ingredient-add-btn" onclick="addIngredient(371)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="3">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(3)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(3)">Empty Vial</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,3)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(3)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(3)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="3">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-3" onkeydown="if(event.key==='Enter')addIngredient(3)">
-          <button class="ingredient-add-btn" onclick="addIngredient(3)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="69">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(69)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(69)">Enchanted Stage</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,69)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(69)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(69)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="69">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-69" onkeydown="if(event.key==='Enter')addIngredient(69)">
-          <button class="ingredient-add-btn" onclick="addIngredient(69)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="3">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(3)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(3)">Even More Miraculous Fishing Bait</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,3)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(3)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(3)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="3">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-3" onkeydown="if(event.key==='Enter')addIngredient(3)">
-          <button class="ingredient-add-btn" onclick="addIngredient(3)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="4">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(4)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(4)">Even More Miraculous Growth Elixir</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,4)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(4)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(4)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="4">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-4" onkeydown="if(event.key==='Enter')addIngredient(4)">
-          <button class="ingredient-add-btn" onclick="addIngredient(4)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="5">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(5)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(5)">Even More Miraculous Pickaxe Polish</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,5)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(5)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(5)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="5">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-5" onkeydown="if(event.key==='Enter')addIngredient(5)">
-          <button class="ingredient-add-btn" onclick="addIngredient(5)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="6">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(6)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(6)">Even More Miraculous Shovel Varnish</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,6)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(6)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(6)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="6">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-6" onkeydown="if(event.key==='Enter')addIngredient(6)">
-          <button class="ingredient-add-btn" onclick="addIngredient(6)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="4">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(4)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(4)">Fabric</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,4)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(4)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(4)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="4">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-4" onkeydown="if(event.key==='Enter')addIngredient(4)">
-          <button class="ingredient-add-btn" onclick="addIngredient(4)">+</button>
         </div>
       </div>
     </div><div class="list-item recipe-item" data-id="437">
@@ -3728,40 +2147,6 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <button class="ingredient-add-btn" onclick="addIngredient(73)">+</button>
         </div>
       </div>
-    </div><div class="list-item recipe-item" data-id="70">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(70)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(70)">Falling Penstemon and Bell Flower Pot</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,70)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(70)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(70)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="70">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-70" onkeydown="if(event.key==='Enter')addIngredient(70)">
-          <button class="ingredient-add-btn" onclick="addIngredient(70)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="71">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(71)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(71)">Fancy Gift Box</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,71)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(71)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(71)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="71">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-71" onkeydown="if(event.key==='Enter')addIngredient(71)">
-          <button class="ingredient-add-btn" onclick="addIngredient(71)">+</button>
-        </div>
-      </div>
     </div><div class="list-item recipe-item" data-id="439">
       <div class="recipe-main">
         <span class="item-owned" onclick="cycleOwned(439)" title="Possession">·</span>
@@ -3794,57 +2179,6 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
         <div class="ingredient-add-row">
           <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-440" onkeydown="if(event.key==='Enter')addIngredient(440)">
           <button class="ingredient-add-btn" onclick="addIngredient(440)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="71">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(71)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(71)">Feathered Fence</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,71)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(71)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(71)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="71">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-71" onkeydown="if(event.key==='Enter')addIngredient(71)">
-          <button class="ingredient-add-btn" onclick="addIngredient(71)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="72">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(72)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(72)">Festive Pennants</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,72)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(72)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(72)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="72">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-72" onkeydown="if(event.key==='Enter')addIngredient(72)">
-          <button class="ingredient-add-btn" onclick="addIngredient(72)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="5">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(5)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(5)">Fiber</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,5)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(5)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(5)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="5">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-5" onkeydown="if(event.key==='Enter')addIngredient(5)">
-          <button class="ingredient-add-btn" onclick="addIngredient(5)">+</button>
         </div>
       </div>
     </div><div class="list-item recipe-item" data-id="73">
@@ -4051,23 +2385,6 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <button class="ingredient-add-btn" onclick="addIngredient(76)">+</button>
         </div>
       </div>
-    </div><div class="list-item recipe-item" data-id="72">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(72)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(72)">Flowering Wood Fencing</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,72)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(72)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(72)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="72">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-72" onkeydown="if(event.key==='Enter')addIngredient(72)">
-          <button class="ingredient-add-btn" onclick="addIngredient(72)">+</button>
-        </div>
-      </div>
     </div><div class="list-item recipe-item" data-id="447">
       <div class="recipe-main">
         <span class="item-owned" onclick="cycleOwned(447)" title="Possession">·</span>
@@ -4168,23 +2485,6 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
         <div class="ingredient-add-row">
           <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-372" onkeydown="if(event.key==='Enter')addIngredient(372)">
           <button class="ingredient-add-btn" onclick="addIngredient(372)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="6">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(6)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(6)">Four-Leaf Clover</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,6)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(6)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(6)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="6">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-6" onkeydown="if(event.key==='Enter')addIngredient(6)">
-          <button class="ingredient-add-btn" onclick="addIngredient(6)">+</button>
         </div>
       </div>
     </div><div class="list-item recipe-item" data-id="78">
@@ -5734,23 +4034,6 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <button class="ingredient-add-btn" onclick="addIngredient(299)">+</button>
         </div>
       </div>
-    </div><div class="list-item recipe-item" data-id="22">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(22)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(22)">Large Chest</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,22)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(22)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(22)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="22">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-22" onkeydown="if(event.key==='Enter')addIngredient(22)">
-          <button class="ingredient-add-btn" onclick="addIngredient(22)">+</button>
-        </div>
-      </div>
     </div><div class="list-item recipe-item" data-id="385">
       <div class="recipe-main">
         <span class="item-owned" onclick="cycleOwned(385)" title="Possession">·</span>
@@ -5953,23 +4236,6 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
         <div class="ingredient-add-row">
           <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-21" onkeydown="if(event.key==='Enter')addIngredient(21)">
           <button class="ingredient-add-btn" onclick="addIngredient(21)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="22">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(22)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(22)">Leaf-Strewn Path with Border</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,22)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(22)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(22)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="22">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-22" onkeydown="if(event.key==='Enter')addIngredient(22)">
-          <button class="ingredient-add-btn" onclick="addIngredient(22)">+</button>
         </div>
       </div>
     </div><div class="list-item recipe-item" data-id="461">
@@ -6276,23 +4542,6 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
         <div class="ingredient-add-row">
           <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-25" onkeydown="if(event.key==='Enter')addIngredient(25)">
           <button class="ingredient-add-btn" onclick="addIngredient(25)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="65">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(65)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(65)">Marble Fence</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,65)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(65)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(65)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="65">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-65" onkeydown="if(event.key==='Enter')addIngredient(65)">
-          <button class="ingredient-add-btn" onclick="addIngredient(65)">+</button>
         </div>
       </div>
     </div><div class="list-item recipe-item" data-id="464">
@@ -10188,40 +8437,6 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <button class="ingredient-add-btn" onclick="addIngredient(334)">+</button>
         </div>
       </div>
-    </div><div class="list-item recipe-item" data-id="49">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(49)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(49)">Small Chest</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,49)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(49)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(49)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="49">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-49" onkeydown="if(event.key==='Enter')addIngredient(49)">
-          <button class="ingredient-add-btn" onclick="addIngredient(49)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="50">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(50)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(50)">Small Green Chest</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,50)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(50)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(50)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="50">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-50" onkeydown="if(event.key==='Enter')addIngredient(50)">
-          <button class="ingredient-add-btn" onclick="addIngredient(50)">+</button>
-        </div>
-      </div>
     </div><div class="list-item recipe-item" data-id="335">
       <div class="recipe-main">
         <span class="item-owned" onclick="cycleOwned(335)" title="Possession">·</span>
@@ -10256,23 +8471,6 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <button class="ingredient-add-btn" onclick="addIngredient(206)">+</button>
         </div>
       </div>
-    </div><div class="list-item recipe-item" data-id="51">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(51)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(51)">Small Red Chest</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,51)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(51)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(51)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="51">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-51" onkeydown="if(event.key==='Enter')addIngredient(51)">
-          <button class="ingredient-add-btn" onclick="addIngredient(51)">+</button>
-        </div>
-      </div>
     </div><div class="list-item recipe-item" data-id="336">
       <div class="recipe-main">
         <span class="item-owned" onclick="cycleOwned(336)" title="Possession">·</span>
@@ -10305,40 +8503,6 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
         <div class="ingredient-add-row">
           <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-337" onkeydown="if(event.key==='Enter')addIngredient(337)">
           <button class="ingredient-add-btn" onclick="addIngredient(337)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="52">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(52)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(52)">Small White Chest</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,52)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(52)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(52)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="52">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-52" onkeydown="if(event.key==='Enter')addIngredient(52)">
-          <button class="ingredient-add-btn" onclick="addIngredient(52)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="53">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(53)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(53)">Small Yellow Chest</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,53)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(53)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(53)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="53">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-53" onkeydown="if(event.key==='Enter')addIngredient(53)">
-          <button class="ingredient-add-btn" onclick="addIngredient(53)">+</button>
         </div>
       </div>
     </div><div class="list-item recipe-item" data-id="19">
@@ -11155,23 +9319,6 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
         <div class="ingredient-add-row">
           <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-224" onkeydown="if(event.key==='Enter')addIngredient(224)">
           <button class="ingredient-add-btn" onclick="addIngredient(224)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="54">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(54)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(54)">Substitute Snout</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,54)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(54)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(54)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="54">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-54" onkeydown="if(event.key==='Enter')addIngredient(54)">
-          <button class="ingredient-add-btn" onclick="addIngredient(54)">+</button>
         </div>
       </div>
     </div><div class="list-item recipe-item" data-id="42">
@@ -12398,23 +10545,6 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <button class="ingredient-add-btn" onclick="addIngredient(346)">+</button>
         </div>
       </div>
-    </div><div class="list-item recipe-item" data-id="64">
-      <div class="recipe-main">
-        <span class="item-owned owned" onclick="cycleOwned(64)" title="Possession">✓</span>
-        <span class="item-label" onclick="toggleCheck(64)">Yellow and Blue Speckled Path</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,64)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(64)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(64)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="64">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-64" onkeydown="if(event.key==='Enter')addIngredient(64)">
-          <button class="ingredient-add-btn" onclick="addIngredient(64)">+</button>
-        </div>
-      </div>
     </div><div class="list-item recipe-item" data-id="347">
       <div class="recipe-main">
         <span class="item-owned" onclick="cycleOwned(347)" title="Possession">·</span>
@@ -12786,17 +10916,984 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
       </button>
       <div class="group-accordion-panel" data-group-panel="Functional Items" data-group-idx="3" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('crafting',4)" data-group-key="Furniture" data-group-idx="4">
+      </div><button class="group-accordion-btn open" onclick="toggleGroupAccordion('crafting',4)" data-group-key="Furniture" data-group-idx="4">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">Furniture</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:7%"></span></span>
-          <span class="group-accordion-count">1/15</span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:42%"></span></span>
+          <span class="group-accordion-count">24/57</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="Furniture" data-group-idx="4" data-loaded="0">
+      <div class="group-accordion-panel open" data-group-panel="Furniture" data-group-idx="4" data-loaded="1"><div class="list-item recipe-item" data-id="359">
+      <div class="recipe-main">
+        <span class="item-owned owned" onclick="cycleOwned(359)" title="Possession">✓</span>
+        <span class="item-label" onclick="toggleCheck(359)">Autumnal Bind Barrier</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,359)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(359)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(359)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="359">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('crafting',5)" data-group-key="MATERIALS" data-group-idx="5">
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-359" onkeydown="if(event.key==='Enter')addIngredient(359)">
+          <button class="ingredient-add-btn" onclick="addIngredient(359)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="360">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(360)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(360)">Autumnal Volleyball Net</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,360)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(360)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(360)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="360">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-360" onkeydown="if(event.key==='Enter')addIngredient(360)">
+          <button class="ingredient-add-btn" onclick="addIngredient(360)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="269">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(269)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(269)">Bamboo Bench</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,269)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(269)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(269)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="269">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-269" onkeydown="if(event.key==='Enter')addIngredient(269)">
+          <button class="ingredient-add-btn" onclick="addIngredient(269)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="270">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(270)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(270)">Barbecue</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,270)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(270)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(270)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="270">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-270" onkeydown="if(event.key==='Enter')addIngredient(270)">
+          <button class="ingredient-add-btn" onclick="addIngredient(270)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="7">
+      <div class="recipe-main">
+        <span class="item-owned owned" onclick="cycleOwned(7)" title="Possession">✓</span>
+        <span class="item-label" onclick="toggleCheck(7)">Basic Armchair</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,7)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(7)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(7)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="7">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-7" onkeydown="if(event.key==='Enter')addIngredient(7)">
+          <button class="ingredient-add-btn" onclick="addIngredient(7)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="8">
+      <div class="recipe-main">
+        <span class="item-owned owned" onclick="cycleOwned(8)" title="Possession">✓</span>
+        <span class="item-label" onclick="toggleCheck(8)">Basic Beach Chair</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,8)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(8)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(8)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="8">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-8" onkeydown="if(event.key==='Enter')addIngredient(8)">
+          <button class="ingredient-add-btn" onclick="addIngredient(8)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="271">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(271)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(271)">Basic Canvas</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,271)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(271)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(271)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="271">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-271" onkeydown="if(event.key==='Enter')addIngredient(271)">
+          <button class="ingredient-add-btn" onclick="addIngredient(271)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="9">
+      <div class="recipe-main">
+        <span class="item-owned owned" onclick="cycleOwned(9)" title="Possession">✓</span>
+        <span class="item-label" onclick="toggleCheck(9)">Basic Chair</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,9)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(9)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(9)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="9">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-9" onkeydown="if(event.key==='Enter')addIngredient(9)">
+          <button class="ingredient-add-btn" onclick="addIngredient(9)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="10">
+      <div class="recipe-main">
+        <span class="item-owned owned" onclick="cycleOwned(10)" title="Possession">✓</span>
+        <span class="item-label" onclick="toggleCheck(10)">Basic Couch</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,10)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(10)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(10)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="10">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-10" onkeydown="if(event.key==='Enter')addIngredient(10)">
+          <button class="ingredient-add-btn" onclick="addIngredient(10)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="11">
+      <div class="recipe-main">
+        <span class="item-owned owned" onclick="cycleOwned(11)" title="Possession">✓</span>
+        <span class="item-label" onclick="toggleCheck(11)">Basic Desk</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,11)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(11)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(11)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="11">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-11" onkeydown="if(event.key==='Enter')addIngredient(11)">
+          <button class="ingredient-add-btn" onclick="addIngredient(11)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="12">
+      <div class="recipe-main">
+        <span class="item-owned owned" onclick="cycleOwned(12)" title="Possession">✓</span>
+        <span class="item-label" onclick="toggleCheck(12)">Basic Double Bed</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,12)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(12)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(12)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="12">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-12" onkeydown="if(event.key==='Enter')addIngredient(12)">
+          <button class="ingredient-add-btn" onclick="addIngredient(12)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="13">
+      <div class="recipe-main">
+        <span class="item-owned owned" onclick="cycleOwned(13)" title="Possession">✓</span>
+        <span class="item-label" onclick="toggleCheck(13)">Basic Dresser</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,13)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(13)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(13)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="13">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-13" onkeydown="if(event.key==='Enter')addIngredient(13)">
+          <button class="ingredient-add-btn" onclick="addIngredient(13)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="14">
+      <div class="recipe-main">
+        <span class="item-owned owned" onclick="cycleOwned(14)" title="Possession">✓</span>
+        <span class="item-label" onclick="toggleCheck(14)">Basic Fridge</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,14)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(14)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(14)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="14">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-14" onkeydown="if(event.key==='Enter')addIngredient(14)">
+          <button class="ingredient-add-btn" onclick="addIngredient(14)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="15">
+      <div class="recipe-main">
+        <span class="item-owned owned" onclick="cycleOwned(15)" title="Possession">✓</span>
+        <span class="item-label" onclick="toggleCheck(15)">Basic Lamp</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,15)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(15)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(15)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="15">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-15" onkeydown="if(event.key==='Enter')addIngredient(15)">
+          <button class="ingredient-add-btn" onclick="addIngredient(15)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="16">
+      <div class="recipe-main">
+        <span class="item-owned owned" onclick="cycleOwned(16)" title="Possession">✓</span>
+        <span class="item-label" onclick="toggleCheck(16)">Basic Large Table</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,16)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(16)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(16)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="16">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-16" onkeydown="if(event.key==='Enter')addIngredient(16)">
+          <button class="ingredient-add-btn" onclick="addIngredient(16)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="17">
+      <div class="recipe-main">
+        <span class="item-owned owned" onclick="cycleOwned(17)" title="Possession">✓</span>
+        <span class="item-label" onclick="toggleCheck(17)">Basic Parasol and Towel</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,17)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(17)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(17)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="17">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-17" onkeydown="if(event.key==='Enter')addIngredient(17)">
+          <button class="ingredient-add-btn" onclick="addIngredient(17)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="18">
+      <div class="recipe-main">
+        <span class="item-owned owned" onclick="cycleOwned(18)" title="Possession">✓</span>
+        <span class="item-label" onclick="toggleCheck(18)">Basic Picnic Table</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,18)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(18)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(18)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="18">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-18" onkeydown="if(event.key==='Enter')addIngredient(18)">
+          <button class="ingredient-add-btn" onclick="addIngredient(18)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="19">
+      <div class="recipe-main">
+        <span class="item-owned owned" onclick="cycleOwned(19)" title="Possession">✓</span>
+        <span class="item-label" onclick="toggleCheck(19)">Basic Rug</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,19)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(19)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(19)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="19">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-19" onkeydown="if(event.key==='Enter')addIngredient(19)">
+          <button class="ingredient-add-btn" onclick="addIngredient(19)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="20">
+      <div class="recipe-main">
+        <span class="item-owned owned" onclick="cycleOwned(20)" title="Possession">✓</span>
+        <span class="item-label" onclick="toggleCheck(20)">Basic Side Table</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,20)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(20)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(20)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="20">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-20" onkeydown="if(event.key==='Enter')addIngredient(20)">
+          <button class="ingredient-add-btn" onclick="addIngredient(20)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="21">
+      <div class="recipe-main">
+        <span class="item-owned owned" onclick="cycleOwned(21)" title="Possession">✓</span>
+        <span class="item-label" onclick="toggleCheck(21)">Basic Wardrobe</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,21)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(21)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(21)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="21">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-21" onkeydown="if(event.key==='Enter')addIngredient(21)">
+          <button class="ingredient-add-btn" onclick="addIngredient(21)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="23">
+      <div class="recipe-main">
+        <span class="item-owned owned" onclick="cycleOwned(23)" title="Possession">✓</span>
+        <span class="item-label" onclick="toggleCheck(23)">Bench</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,23)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(23)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(23)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="23">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-23" onkeydown="if(event.key==='Enter')addIngredient(23)">
+          <button class="ingredient-add-btn" onclick="addIngredient(23)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="417">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(417)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(417)">Bicycle Coffee Bar</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,417)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(417)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(417)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="417">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-417" onkeydown="if(event.key==='Enter')addIngredient(417)">
+          <button class="ingredient-add-btn" onclick="addIngredient(417)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="272">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(272)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(272)">Bird's Nest</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,272)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(272)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(272)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="272">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-272" onkeydown="if(event.key==='Enter')addIngredient(272)">
+          <button class="ingredient-add-btn" onclick="addIngredient(272)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="24">
+      <div class="recipe-main">
+        <span class="item-owned owned" onclick="cycleOwned(24)" title="Possession">✓</span>
+        <span class="item-label" onclick="toggleCheck(24)">Bistro Chair</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,24)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(24)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(24)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="24">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-24" onkeydown="if(event.key==='Enter')addIngredient(24)">
+          <button class="ingredient-add-btn" onclick="addIngredient(24)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="25">
+      <div class="recipe-main">
+        <span class="item-owned owned" onclick="cycleOwned(25)" title="Possession">✓</span>
+        <span class="item-label" onclick="toggleCheck(25)">Bistro Table</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,25)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(25)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(25)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="25">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-25" onkeydown="if(event.key==='Enter')addIngredient(25)">
+          <button class="ingredient-add-btn" onclick="addIngredient(25)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="273">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(273)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(273)">Black and White Flower Disk</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,273)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(273)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(273)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="273">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-273" onkeydown="if(event.key==='Enter')addIngredient(273)">
+          <button class="ingredient-add-btn" onclick="addIngredient(273)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="274">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(274)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(274)">Black and White Flower Rectangle</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,274)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(274)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(274)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="274">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-274" onkeydown="if(event.key==='Enter')addIngredient(274)">
+          <button class="ingredient-add-btn" onclick="addIngredient(274)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="418">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(418)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(418)">Black and White Striped Settee</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,418)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(418)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(418)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="418">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-418" onkeydown="if(event.key==='Enter')addIngredient(418)">
+          <button class="ingredient-add-btn" onclick="addIngredient(418)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="419">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(419)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(419)">Black Glass Mod Coffee Table</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,419)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(419)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(419)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="419">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-419" onkeydown="if(event.key==='Enter')addIngredient(419)">
+          <button class="ingredient-add-btn" onclick="addIngredient(419)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="420">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(420)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(420)">Black Leaf Sculpture</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,420)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(420)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(420)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="420">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-420" onkeydown="if(event.key==='Enter')addIngredient(420)">
+          <button class="ingredient-add-btn" onclick="addIngredient(420)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="361">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(361)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(361)">Black Rose Stones</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,361)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(361)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(361)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="361">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-361" onkeydown="if(event.key==='Enter')addIngredient(361)">
+          <button class="ingredient-add-btn" onclick="addIngredient(361)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="26">
+      <div class="recipe-main">
+        <span class="item-owned owned" onclick="cycleOwned(26)" title="Possession">✓</span>
+        <span class="item-label" onclick="toggleCheck(26)">Black Wrought Iron Streetlamp</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,26)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(26)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(26)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="26">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-26" onkeydown="if(event.key==='Enter')addIngredient(26)">
+          <button class="ingredient-add-btn" onclick="addIngredient(26)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="27">
+      <div class="recipe-main">
+        <span class="item-owned owned" onclick="cycleOwned(27)" title="Possession">✓</span>
+        <span class="item-label" onclick="toggleCheck(27)">Blank Sandwich Board</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,27)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(27)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(27)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="27">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-27" onkeydown="if(event.key==='Enter')addIngredient(27)">
+          <button class="ingredient-add-btn" onclick="addIngredient(27)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="275">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(275)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(275)">Blue Ancient's Lamppost</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,275)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(275)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(275)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="275">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-275" onkeydown="if(event.key==='Enter')addIngredient(275)">
+          <button class="ingredient-add-btn" onclick="addIngredient(275)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="28">
+      <div class="recipe-main">
+        <span class="item-owned owned" onclick="cycleOwned(28)" title="Possession">✓</span>
+        <span class="item-label" onclick="toggleCheck(28)">Blue and Silver Balloon Arch</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,28)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(28)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(28)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="28">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-28" onkeydown="if(event.key==='Enter')addIngredient(28)">
+          <button class="ingredient-add-btn" onclick="addIngredient(28)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="29">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(29)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(29)">Blue and Silver Balloon Cluster</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,29)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(29)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(29)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="29">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-29" onkeydown="if(event.key==='Enter')addIngredient(29)">
+          <button class="ingredient-add-btn" onclick="addIngredient(29)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="994">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(994)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(994)">"Don't Put 'Em All in One Basket" Basket</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,994)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(994)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(994)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="994">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-994" onkeydown="if(event.key==='Enter')addIngredient(994)">
+          <button class="ingredient-add-btn" onclick="addIngredient(994)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="409">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(409)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(409)">"End of the Rainbow" Cauldron</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,409)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(409)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(409)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="409">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-409" onkeydown="if(event.key==='Enter')addIngredient(409)">
+          <button class="ingredient-add-btn" onclick="addIngredient(409)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="1011">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(1011)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(1011)">"La Ratatouille" Sign</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,1011)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(1011)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(1011)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="1011">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-1011" onkeydown="if(event.key==='Enter')addIngredient(1011)">
+          <button class="ingredient-add-btn" onclick="addIngredient(1011)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="410">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(410)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(410)">Acorn Drums</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,410)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(410)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(410)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="410">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-410" onkeydown="if(event.key==='Enter')addIngredient(410)">
+          <button class="ingredient-add-btn" onclick="addIngredient(410)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="263">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(263)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(263)">Adirondack Chair</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,263)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(263)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(263)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="263">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-263" onkeydown="if(event.key==='Enter')addIngredient(263)">
+          <button class="ingredient-add-btn" onclick="addIngredient(263)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="355">
+      <div class="recipe-main">
+        <span class="item-owned owned" onclick="cycleOwned(355)" title="Possession">✓</span>
+        <span class="item-label" onclick="toggleCheck(355)">Agrabah Chair</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,355)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(355)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(355)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="355">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-355" onkeydown="if(event.key==='Enter')addIngredient(355)">
+          <button class="ingredient-add-btn" onclick="addIngredient(355)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="411">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(411)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(411)">Alpine Cuckoo Clock</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,411)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(411)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(411)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="411">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-411" onkeydown="if(event.key==='Enter')addIngredient(411)">
+          <button class="ingredient-add-btn" onclick="addIngredient(411)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="412">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(412)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(412)">Alpine Dining Chair</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,412)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(412)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(412)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="412">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-412" onkeydown="if(event.key==='Enter')addIngredient(412)">
+          <button class="ingredient-add-btn" onclick="addIngredient(412)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="413">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(413)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(413)">Alpine Farmhouse Sink</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,413)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(413)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(413)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="413">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-413" onkeydown="if(event.key==='Enter')addIngredient(413)">
+          <button class="ingredient-add-btn" onclick="addIngredient(413)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="414">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(414)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(414)">Alpine Floral Arch</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,414)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(414)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(414)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="414">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-414" onkeydown="if(event.key==='Enter')addIngredient(414)">
+          <button class="ingredient-add-btn" onclick="addIngredient(414)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="415">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(415)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(415)">Alpine Water Tower</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,415)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(415)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(415)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="415">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-415" onkeydown="if(event.key==='Enter')addIngredient(415)">
+          <button class="ingredient-add-btn" onclick="addIngredient(415)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="264">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(264)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(264)">Ancient Canoe</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,264)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(264)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(264)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="264">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-264" onkeydown="if(event.key==='Enter')addIngredient(264)">
+          <button class="ingredient-add-btn" onclick="addIngredient(264)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="265">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(265)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(265)">Ancient's Fish Vehicle</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,265)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(265)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(265)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="265">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-265" onkeydown="if(event.key==='Enter')addIngredient(265)">
+          <button class="ingredient-add-btn" onclick="addIngredient(265)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="266">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(266)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(266)">Ancient's Landing Wall</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,266)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(266)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(266)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="266">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-266" onkeydown="if(event.key==='Enter')addIngredient(266)">
+          <button class="ingredient-add-btn" onclick="addIngredient(266)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="267">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(267)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(267)">Ancient's Wooden Lamppost</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,267)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(267)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(267)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="267">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-267" onkeydown="if(event.key==='Enter')addIngredient(267)">
+          <button class="ingredient-add-btn" onclick="addIngredient(267)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="356">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(356)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(356)">Archery Target</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,356)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(356)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(356)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="356">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-356" onkeydown="if(event.key==='Enter')addIngredient(356)">
+          <button class="ingredient-add-btn" onclick="addIngredient(356)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="416">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(416)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(416)">Artful Roots Arch</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,416)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(416)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(416)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="416">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-416" onkeydown="if(event.key==='Enter')addIngredient(416)">
+          <button class="ingredient-add-btn" onclick="addIngredient(416)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="357">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(357)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(357)">Atrium Candles</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,357)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(357)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(357)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="357">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-357" onkeydown="if(event.key==='Enter')addIngredient(357)">
+          <button class="ingredient-add-btn" onclick="addIngredient(357)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="268">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(268)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(268)">Attorney Stand</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,268)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(268)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(268)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="268">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-268" onkeydown="if(event.key==='Enter')addIngredient(268)">
+          <button class="ingredient-add-btn" onclick="addIngredient(268)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="1012">
+      <div class="recipe-main">
+        <span class="item-owned" onclick="cycleOwned(1012)" title="Possession">·</span>
+        <span class="item-label" onclick="toggleCheck(1012)">Autumn Harvest Pennants</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,1012)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(1012)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(1012)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="1012">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-1012" onkeydown="if(event.key==='Enter')addIngredient(1012)">
+          <button class="ingredient-add-btn" onclick="addIngredient(1012)">+</button>
+        </div>
+      </div>
+    </div><div class="list-item recipe-item" data-id="358">
+      <div class="recipe-main">
+        <span class="item-owned owned" onclick="cycleOwned(358)" title="Possession">✓</span>
+        <span class="item-label" onclick="toggleCheck(358)">Autumn Mage Scarecrow</span>
+        <button class="accordion-btn" onclick="toggleAccordion(this,358)" title="Ingrédients">
+          <span class="accordion-arrow">▶</span> Ing.
+        </button>
+        <button class="item-edit" onclick="startEdit(358)" title="Modifier">✎</button>
+        <button class="item-delete" onclick="deleteItem(358)" title="Supprimer">✕</button>
+      </div>
+      <div class="ingredient-panel" data-item-id="358">
+        
+        <div class="ingredient-add-row">
+          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-358" onkeydown="if(event.key==='Enter')addIngredient(358)">
+          <button class="ingredient-add-btn" onclick="addIngredient(358)">+</button>
+        </div>
+      </div>
+    </div></div><button class="group-accordion-btn" onclick="toggleGroupAccordion('crafting',5)" data-group-key="MATERIALS" data-group-idx="5">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">MATERIALS</span>
         <span class="group-accordion-progress-wrap">
