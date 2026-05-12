@@ -29109,7 +29109,7 @@
   },
   "nextId": {
     "characters": 68,
-    "clothing": 1503,
+    "clothing": 1507,
     "crafting": 1,
     "companions": 3547,
     "fish": 61,
@@ -29136,7 +29136,11 @@
       "556": true,
       "557": true,
       "1453": true,
-      "1466": true
+      "1466": true,
+      "1503": true,
+      "1504": true,
+      "1505": true,
+      "1506": true
     },
     "crafting": {
       "2": true,
@@ -29678,5 +29682,5 @@
     },
     "meals": {}
   },
-  "savedAt": "2026-05-12T21:39:34.981Z"
+  "savedAt": "2026-05-12T21:46:33.988Z"
 }
