@@ -831,7 +831,7 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
     </div><div class="nav-item active" data-cat="crafting" onclick="switchCat('crafting')">
       <img class="nav-icon" src="/DLV-Guide/images/Crafting.png" alt="Crafting recipes">
       <span class="nav-label">Crafting recipes</span>
-      <span class="nav-count">0/1</span>
+      <span class="nav-count">0/2</span>
     </div><div class="nav-item" data-cat="furniture" onclick="switchCat('furniture')">
       <img class="nav-icon" src="/DLV-Guide/images/Menu_Icon_Furniture.png" alt="Furniture sets">
       <span class="nav-label">Furniture sets</span>
@@ -852,7 +852,7 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
       <h2 id="page-title">Crafting recipes</h2>
       <div class="progress-wrap">
         <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width: 0%;"></div></div>
-        <span class="progress-text" id="progress-text">0 / 1</span>
+        <span class="progress-text" id="progress-text">0 / 2</span>
       </div>
     </div>
     <div id="search-bar">
@@ -895,6 +895,16 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
         </div>
       </div>
     </div>
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('crafting',1)" data-group-key="TEST2" data-group-idx="1">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">TEST2</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/1</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="TEST2" data-group-idx="1" data-loaded="0">
+        
       </div></div>
   </div>
 </div>
