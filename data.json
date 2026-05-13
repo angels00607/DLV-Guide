@@ -35640,7 +35640,541 @@
         "5 Pink Crocus",
         "4 Purple Crocus",
         "2 Yellow Crocus"
-      ]
+      ],
+       "1023": [
+    "15 Clam",
+    "13 Scallop",
+    "35 Clay",
+    "20 Hardwood"
+  ],
+  "290": [
+    "3 Evergem",
+    "1 Coal Ore",
+    "1 Electric Power",
+    "1 Blue Zircon",
+    "1 Peridot"
+  ],
+  "441": [
+    "2 Sequin Strands",
+    "2 Wire Coat Hanger",
+    "2 Black Silk Flower",
+    "2 Red Silk Flower",
+    "2 Silver Silk Flower"
+  ],
+  "442": [
+    "5 Old Braided Rope",
+    "5 Wheat"
+  ],
+  "443": [
+    "4 Grassy Ore",
+    "3 Blue Lily of the Valley",
+    "3 Purple Lily of the Valley",
+    "10 Hardwood"
+  ],
+  "444": [
+    "3 Reclaimed Barn Wood",
+    "1 Copter Seeds",
+    "2 Pincushion Peach"
+  ],
+  "445": [
+    "2 Grassy Ore",
+    "2 Giant Acorns",
+    "1 Soil"
+  ],
+  "446": [
+    "5 Reclaimed Barn Wood",
+    "5 Giant Acorns",
+    "3 Copter Seeds"
+  ],
+  "1095": [
+    "6 Dry Wood",
+    "2 Dandelion",
+    "2 Pink Hydrangea",
+    "2 Blue Marsh Milkweed"
+  ],
+  "1096": [
+    "6 Clay",
+    "2 Soil"
+  ],
+  "447": [
+    "2 Pink Crocus",
+    "2 White Crocus",
+    "2 Yellow Crocus",
+    "2 Purple Crocus",
+    "2 Old Braided Rope"
+  ],
+  "448": [
+    "25 Pebbles",
+    "10 Reclaimed Barn Wood",
+    "10 Pink Crocus",
+    "6 Purple Crocus",
+    "4 Yellow Crocus"
+  ],
+  "1098": [
+    "50 Stone",
+    "20 Pebbles",
+    "10 Gold Ingot"
+  ],
+  "372": [
+    "5 Pure Ice",
+    "2 Volcanic Rock",
+    "5 Sea Monster Tooth",
+    "5 Star Sapphire",
+    "500 Storybook Magic"
+  ],
+  "78": [
+    "6 Dry Wood",
+    "3 Orange Houseleek"
+  ],
+  "373": [
+    "10 Stone",
+    "3 Crimson Eternal Poppies",
+    "2 Ruby",
+    "5 Gravel",
+    "5 Petrified Wood"
+  ],
+  "449": [
+    "2 Honeycomb Stone",
+    "2 Clay",
+    "2 Giant Acorns",
+    "1 Honey Coral",
+    "1 Yellow Lily of the Valley"
+  ],
+  "450": [
+    "12 Goose Feathers",
+    "8 Hardwood"
+  ],
+  "451": [
+    "3 Balloon Fish",
+    "1 Blue Lily of the Valley",
+    "1 Yellow Lily of the Valley"
+  ],
+  "291": [
+    "3 Oasis Glass",
+    "1 Glass",
+    "1 Sand"
+  ],
+  "374": [
+    "10 Mud",
+    "5 Soil",
+    "500 Storybook Magic"
+  ],
+  "79": [
+    "2 Tomato",
+    "2 Chili Pepper",
+    "3 Clay"
+  ],
+  "292": [
+    "3 Bumblestone",
+    "1 Scales"
+  ],
+  "452": [
+    "2 Antique Clothes Iron",
+    "1 Sequin Strands",
+    "1 Red Silk Flower",
+    "1 Beady Soil"
+  ],
+  "453": [
+    "2 Antique Clothes Iron",
+    "1 Sequin Strands",
+    "1 Red Silk Flower",
+    "1 Beady Soil"
+  ],
+  "454": [
+    "3 Antique Clothes Iron",
+    "2 Sequin Strands",
+    "1 Red Silk Flower",
+    "2 Beady Soil",
+    "2 Glass"
+  ],
+  "80": [
+    "20 Sand",
+    "25 Stone",
+    "10 Coal Ore",
+    "3 Red Falling Penstemon"
+  ],
+  "375": [
+    "2 Petrified Wood",
+    "250 Storybook Magic",
+    "2 Green Frog Snippet"
+  ],
+  "376": [
+    "10 Fairy Bubbles",
+    "20 Yellow Tale Cone Flowers",
+    "10 Blue Tale Cone Flower",
+    "10 Olive Green Tale Cone Flower",
+    "5 Beige Tale Cone Flower"
+  ],
+  "377": [
+    "20 Lightning Spice",
+    "5 Gravel",
+    "20 Marble",
+    "5 Iron Ingot"
+  ],
+  "378": [
+    "1 Gravel",
+    "2 Broken Weapon",
+    "1 Ruby",
+    "4 Blue Tale Cone Flower"
+  ],
+  "293": [
+    "3 Quartz",
+    "1 Oasis Glass",
+    "1 Electric Power",
+    "1 Jade"
+  ],
+  "379": [
+    "5 Petrified Wood",
+    "2 Moss",
+    "5 Pine Cone",
+    "2 Teal Eternal Poppies"
+  ],
+  "380": [
+    "20 Petrified Wood",
+    "20 Moss",
+    "1 Pine Cone",
+    "1 Common Club Rush",
+    "1 Teal Eternal Poppies"
+  ],
+  "381": [
+    "15 Petrified Wood",
+    "6 Moss",
+    "15 Pine Cone",
+    "6 Posidonia",
+    "6 Teal Eternal Poppies"
+  ],
+  "294": [
+    "3 Bones",
+    "1 Fiber",
+    "1 Tin",
+    "1 Green Glass-Like Flowers"
+  ],
+  "295": [
+    "3 Bumblestone",
+    "1 Scales",
+    "1 Alexandrite"
+  ],
+  "296": [
+    "3 Bronze Ingot",
+    "1 Quartz",
+    "1 Green Fly Trap"
+  ],
+  "81": [
+    "5 Fishy Green Egg",
+    "1 Emerald",
+    "1 Glass",
+    "2 Gold Ingot",
+    "1 Stone"
+  ],
+  "455": [
+    "8 Balloon Fish",
+    "8 Goose Feathers",
+    "4 Blue Lily of the Valley"
+  ],
+  "456": [
+    "2 Beady Soil",
+    "1 Stone",
+    "1 Green Silk Flower",
+    "1 Jasper"
+  ],
+  "297": [
+    "3 Tropical Wood",
+    "1 Green Fly Trap"
+  ],
+  "82": [
+    "5 Softwood",
+    "5 Fiber",
+    "3 Sand",
+    "1 Peridot"
+  ],
+  "83": [
+    "5 Softwood",
+    "5 Fiber",
+    "3 Sand",
+    "1 Peridot"
+  ],
+  "382": [
+    "5 Petrified Wood",
+    "10 Pine Cone",
+    "5 Moss",
+    "10 Mud",
+    "10 Green Bird Snippet"
+  ],
+  "383": [
+    "5 Petrified Wood",
+    "3 Iron Ingot",
+    "1 Opal",
+    "2 Olive Green Tale Cone Flower"
+  ],
+  "84": [
+    "5 Iron Ingot",
+    "2 Glass",
+    "1 Emerald"
+  ],
+  "85": [
+    "10 Iron Ingot",
+    "20 Green Rising Penstemon",
+    "20 Dandelion",
+    "20 White Daisy"
+  ],
+  "86": [
+    "5 Iron Ingot",
+    "8 Green Rising Penstemon",
+    "8 Dandelion",
+    "8 White Daisy"
+  ],
+  "87": [
+    "5 Dark Wood",
+    "1 Iron Ingot"
+  ],
+  "384": [
+    "5 Petrified Wood",
+    "2 White Rose",
+    "2 Trumpet Snail",
+    "2 Sea Monster Tooth",
+    "500 Storybook Magic"
+  ],
+  "88": [
+    "25 Purple Spring Egg",
+    "20 Wild Spring Egg",
+    "20 Egg-cellent Fruit",
+    "20 Spring V-EGG-etable"
+  ],
+  "90": [
+    "10 Snowball",
+    "1 Crystal",
+    "2 Fabric",
+    "2 Ruby"
+  ],
+  "91": [
+    "10 Fiber",
+    "10 Wheat"
+  ],
+  "92": [
+    "10 Fiber",
+    "10 Wheat"
+  ],
+  "457": [
+    "1 Old Braided Rope",
+    "2 Dry Wood",
+    "1 Pink Crocus",
+    "1 White Crocus"
+  ],
+  "93": [
+    "20 Softwood"
+  ],
+  "94": [
+    "25 Dark Wood",
+    "5 Iron Ingot"
+  ],
+  "95": [
+    "5 Hardwood",
+    "3 Fabric"
+  ],
+  "96": [
+    "5 Clay",
+    "1 Gold Ingot",
+    "1 Fabric"
+  ],
+  "458": [
+    "4 Clay",
+    "4 Hardwood",
+    "2 Honeycomb Stone"
+  ],
+  "459": [
+    "5 Hardwood",
+    "6 Blue Lily of the Valley",
+    "4 Pink Lily of the Valley",
+    "3 Purple Lily of the Valley",
+    "2 Yellow Lily of the Valley"
+  ],
+  "97": [
+    "1 Flower Pots",
+    "1 Blue Hydrangea",
+    "2 Purple Bell Flower"
+  ],
+  "99": [
+    "50 Snowball",
+    "15 Crystal"
+  ],
+  "101": [
+    "1 Flower Pots",
+    "1 Purple Impatiens",
+    "2 Yellow Bromeliad"
+  ],
+  "460": [
+    "4 Antique Clothes Iron",
+    "4 Beady Soil",
+    "2 Red Silk Flower"
+  ],
+  "102": [
+    "5 Clay",
+    "5 Soil",
+    "3 Pink Houseleek"
+  ],
+  "103": [
+    "3 Softwood",
+    "7 Soya"
+  ],
+  "104": [
+    "3 Iron Ingot",
+    "1 Glass",
+    "1 Sapphire"
+  ],
+  "105": [
+    "3 Iron Ingot",
+    "1 Glass",
+    "1 Emerald"
+  ],
+  "106": [
+    "3 Iron Ingot",
+    "1 Glass",
+    "1 Garnet"
+  ],
+  "107": [
+    "3 Iron Ingot",
+    "1 Glass",
+    "1 Topaz"
+  ],
+  "298": [
+    "3 Bones",
+    "1 Fiber",
+    "1 Tin",
+    "1 Black Glass-Like Flowers"
+  ],
+  "299": [
+    "3 Softwood",
+    "1 Fabric",
+    "1 Clay",
+    "1 Green Glass-Like Flowers",
+    "1 Mechanical Parts"
+  ],
+  "300": [
+    "2 Gold Ingot",
+    "2 Brass Ingot",
+    "1 Bronze Ingot",
+    "1 Spinel"
+  ],
+  "301": [
+    "3 Tropical Wood",
+    "1 Fabric",
+    "1 Clay",
+    "1 Yellow Cactus Flower",
+    "1 Mechanical Parts"
+  ],
+  "109": [
+    "2 Festive Wrapping Paper",
+    "1 White Daisy"
+  ],
+  "110": [
+    "2 Festive Wrapping Paper",
+    "1 White Daisy"
+  ],
+  "461": [
+    "5 Copter Seeds",
+    "5 Giant Acorns",
+    "10 Hardwood"
+  ],
+  "462": [
+    "3 Copter Seeds",
+    "3 Grassy Ore",
+    "2 Balloon Fish",
+    "1 Blue Lily of the Valley",
+    "1 Yellow Lily of the Valley"
+  ],
+  "111": [
+    "5 Hardwood",
+    "1 Iron Ingot"
+  ],
+  "387": [
+    "5 Posidonia",
+    "10 Broken Weapon",
+    "5 Goldenrod Eternal Poppies",
+    "15 Petrified Wood",
+    "500 Storybook Magic"
+  ],
+  "112": [
+    "4 Dry Wood",
+    "2 White Bell Flower",
+    "2 Orange & Red Marsh Milkweed"
+  ],
+  "113": [
+    "10 Softwood",
+    "5 Dry Wood",
+    "1 Red Passion Lily",
+    "1 Green Passion Lily"
+  ],
+  "114": [
+    "25 Soil",
+    "50 Stone",
+    "15 Clay"
+  ],
+  "115": [
+    "1 Four-Leaf Clover",
+    "9 Three-Leaf Clover",
+    "5 Iron Ingot"
+  ],
+  "116": [
+    "1 Four-Leaf Clover",
+    "1 Glass",
+    "1 Fiber",
+    "1 Iron Ingot"
+  ],
+  "302": [
+    "3 Round Soil Area",
+    "1 Blue Luminescent Flower",
+    "1 Green Luminescent Flower",
+    "1 Pink Luminescent Flower",
+    "1 Red Luminescent Flower"
+  ],
+  "303": [
+    "3 Rectangular Soil Area",
+    "1 Blue Luminescent Flower",
+    "1 Green Luminescent Flower",
+    "1 Pink Luminescent Flower",
+    "1 Red Luminescent Flower"
+  ],
+  "389": [
+    "5 Gold Ingot",
+    "2 Magma",
+    "5 Lightning Spice",
+    "5 Gravel",
+    "500 Storybook Magic"
+  ],
+  "463": [
+    "4 Glass",
+    "1 Honeycomb Stone"
+  ],
+  "117": [
+    "4 Hardwood",
+    "2 Stone",
+    "2 Iron Ingot"
+  ],
+  "464": [
+    "5 Goose Feathers",
+    "2 Grassy Ore",
+    "3 Copter Seeds"
+  ],
+  "390": [
+    "5 Broken Weapon",
+    "5 Petrified Wood",
+    "2 Moss",
+    "500 Storybook Magic"
+  ],
+  "304": [
+    "1 Gold Ingot",
+    "1 Brass Ingot",
+    "1 Spinel"
+  ],
+  "118": [
+    "1 Gold Ingot",
+    "9 Soya"
+  ],
+  "305": [
+    "3 Stone",
+    "1 Blue Zircon"
+  ]
+
     },
     "furniture": {},
     "meals": {}
