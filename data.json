@@ -31432,11 +31432,13 @@
       "34": "owned",
       "36": "owned",
       "37": "owned",
+      "38": "neutral",
+      "39": "neutral",
       "40": "owned",
       "41": "owned",
       "42": "owned",
       "43": "owned",
-      "44": "neutral",
+      "44": "owned",
       "45": "owned",
       "46": "owned",
       "47": "owned",
@@ -31444,13 +31446,21 @@
       "49": "owned",
       "50": "owned",
       "51": "owned",
+      "52": "neutral",
       "53": "owned",
       "54": "owned",
+      "55": "neutral",
+      "56": "neutral",
+      "57": "neutral",
       "58": "owned",
       "59": "owned",
+      "60": "neutral",
+      "61": "neutral",
       "62": "owned",
+      "63": "neutral",
       "64": "owned",
       "65": "owned",
+      "66": "owned",
       "67": "owned",
       "68": "neutral",
       "69": "owned",
@@ -31463,17 +31473,20 @@
       "81": "owned",
       "82": "owned",
       "84": "owned",
+      "85": "owned",
       "87": "owned",
       "88": "owned",
       "89": "owned",
       "90": "owned",
       "96": "owned",
       "97": "owned",
+      "98": "owned",
       "99": "owned",
       "100": "owned",
       "101": "owned",
       "102": "owned",
       "103": "owned",
+      "104": "neutral",
       "105": "owned",
       "107": "owned",
       "109": "owned",
@@ -34057,6 +34070,9 @@
         "30 Soil",
         "5000 Dreamlight"
       ],
+      "568": [
+        "10 Dream Shard"
+      ],
       "569": [
         "20 Vitalys Crystal",
         "10 Red Algae",
@@ -34467,6 +34483,10 @@
         "7 Dry Wood",
         "3 Coal Ore"
       ],
+      "666": [
+        "15 Dry Wood",
+        "15 Fiber"
+      ],
       "667": [
         "15 Softwood",
         "5 Sunflower",
@@ -34505,9 +34525,17 @@
         "10 Hardwood",
         "1 White Bell Flower"
       ],
+      "675": [
+        "15 Dry Wood",
+        "15 Fiber"
+      ],
       "676": [
         "1 Festive Wrapping Paper",
         "1 Holiday Feast Chair"
+      ],
+      "677": [
+        "15 Softwood",
+        "15 Fiber"
       ],
       "678": [
         "10 Iron Ingot",
@@ -34626,6 +34654,14 @@
         "10 Hardwood",
         "1 Red Bromeliad"
       ],
+      "701": [
+        "15 Hardwood",
+        "15 Fiber"
+      ],
+      "702": [
+        "15 Hardwood",
+        "15 Fiber"
+      ],
       "703": [
         "15 Fabric",
         "23 Rope",
@@ -34687,6 +34723,10 @@
         "2 Old Stuffing",
         "2 Old Paper",
         "2 Fabric"
+      ],
+      "715": [
+        "15 Softwood",
+        "15 Fiber"
       ],
       "716": [
         "28 Mushroom",
@@ -35134,5 +35174,5 @@
     "furniture": {},
     "meals": {}
   },
-  "savedAt": "2026-05-13T09:51:07.594Z"
+  "savedAt": "2026-05-13T09:57:20.438Z"
 }
