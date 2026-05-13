@@ -10,8 +10,7 @@
       {
         "id": 17,
         "name": "Mysterious Moth Wings",
-        "meta": "A BUG'S LIFE",
-        "meta2": ""
+        "meta": "A BUG'S LIFE"
       },
       {
         "id": 1,
@@ -2788,7 +2787,7 @@
         "meta": "OTHER (GENERAL)"
       },
       {
-        "id": 1475,
+        "id": 1478,
         "name": "Blooming Flower Wings",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
@@ -2804,13 +2803,13 @@
         "meta": "OTHER (GENERAL)"
       },
       {
-        "id": 1473,
+        "id": 1470,
         "name": "Blue and Gold Sleeved Gown",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
       },
       {
-        "id": 1474,
+        "id": 1471,
         "name": "Blue and Gold Strapless Gown",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
@@ -3018,6 +3017,36 @@
         "meta": "OTHER (GENERAL)"
       },
       {
+        "id": 1479,
+        "name": "Bluebird Cottager Aviator Cap",
+        "meta": "OTHER (GENERAL)",
+        "meta2": ""
+      },
+      {
+        "id": 1480,
+        "name": "Bluebird Cottager Boots",
+        "meta": "OTHER (GENERAL)",
+        "meta2": ""
+      },
+      {
+        "id": 1481,
+        "name": "Bluebird Cottager Capelet",
+        "meta": "OTHER (GENERAL)",
+        "meta2": ""
+      },
+      {
+        "id": 1482,
+        "name": "Bluebird Cottager Dress",
+        "meta": "OTHER (GENERAL)",
+        "meta2": ""
+      },
+      {
+        "id": 1483,
+        "name": "Bluebird Cottager Tunic",
+        "meta": "OTHER (GENERAL)",
+        "meta2": ""
+      },
+      {
         "id": 964,
         "name": "Bo Peep Ear Headband",
         "meta": "OTHER (GENERAL)"
@@ -3189,25 +3218,25 @@
         "meta": "OTHER (GENERAL)"
       },
       {
-        "id": 1476,
+        "id": 1484,
         "name": "Cave of Wonders Spirit Jersey",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
       },
       {
-        "id": 1477,
+        "id": 1485,
         "name": "Celestial Stunner Crown",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
       },
       {
-        "id": 1478,
+        "id": 1486,
         "name": "Celestial Stunner Gown",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
       },
       {
-        "id": 1479,
+        "id": 1487,
         "name": "Celestial Stunner Shoes",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
@@ -3248,7 +3277,7 @@
         "meta": "OTHER (GENERAL)"
       },
       {
-        "id": 1480,
+        "id": 1488,
         "name": "Classic Fox Backpack",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
@@ -3339,6 +3368,18 @@
         "meta": "OTHER (GENERAL)"
       },
       {
+        "id": 1489,
+        "name": "Crimson Western Dress",
+        "meta": "OTHER (GENERAL)",
+        "meta2": ""
+      },
+      {
+        "id": 1490,
+        "name": "Crimson Western Fascinator",
+        "meta": "OTHER (GENERAL)",
+        "meta2": ""
+      },
+      {
         "id": 1021,
         "name": "Criss-Cross Your Heart Top",
         "meta": "OTHER (GENERAL)"
@@ -3405,19 +3446,19 @@
         "meta2": ""
       },
       {
-        "id": 1481,
+        "id": 1491,
         "name": "Duo-Tone Rain Boots",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
       },
       {
-        "id": 1482,
+        "id": 1492,
         "name": "Duo-Tone Rain Coat",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
       },
       {
-        "id": 1483,
+        "id": 1493,
         "name": "Duo-Tone Rain Hat",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
@@ -3558,6 +3599,12 @@
         "meta": "OTHER (GENERAL)"
       },
       {
+        "id": 1472,
+        "name": "Gardener's Apron",
+        "meta": "OTHER (GENERAL)",
+        "meta2": ""
+      },
+      {
         "id": 1060,
         "name": "Gilded Royalty Outfit",
         "meta": "OTHER (GENERAL)"
@@ -3571,6 +3618,12 @@
         "id": 1062,
         "name": "Glow Ears Headband",
         "meta": "OTHER (GENERAL)"
+      },
+      {
+        "id": 1473,
+        "name": "Glowing Necklace",
+        "meta": "OTHER (GENERAL)",
+        "meta2": ""
       },
       {
         "id": 1063,
@@ -3653,7 +3706,7 @@
         "meta": "OTHER (GENERAL)"
       },
       {
-        "id": 1484,
+        "id": 1494,
         "name": "Golden Perfect Petals Dress",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
@@ -4021,13 +4074,19 @@
         "meta": "OTHER (GENERAL)"
       },
       {
-        "id": 1485,
+        "id": 1495,
+        "name": "Ladybug Backpack",
+        "meta": "OTHER (GENERAL)",
+        "meta2": ""
+      },
+      {
+        "id": 1496,
         "name": "Lava Flow Bodysuit",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
       },
       {
-        "id": 1486,
+        "id": 1497,
         "name": "Lava Flow Helmet",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
@@ -4103,7 +4162,7 @@
         "meta": "OTHER (GENERAL)"
       },
       {
-        "id": 1487,
+        "id": 1498,
         "name": "Lovely Knitted Cardigan",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
@@ -4229,13 +4288,7 @@
         "meta": "OTHER (GENERAL)"
       },
       {
-        "id": 1488,
-        "name": "Nature's Protector Boots",
-        "meta": "OTHER (GENERAL)",
-        "meta2": ""
-      },
-      {
-        "id": 1489,
+        "id": 1499,
         "name": "Nature's Protector Pauldron Top",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
@@ -4351,7 +4404,7 @@
         "meta": "OTHER (GENERAL)"
       },
       {
-        "id": 1490,
+        "id": 1500,
         "name": "Perfect Petals Dress",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
@@ -4375,6 +4428,12 @@
         "id": 1212,
         "name": "Pink Baseball Cap",
         "meta": "OTHER (GENERAL)"
+      },
+      {
+        "id": 1501,
+        "name": "Pink Bowtie 'n' Suspenders Shirt",
+        "meta": "OTHER (GENERAL)",
+        "meta2": ""
       },
       {
         "id": 1213,
@@ -4467,7 +4526,13 @@
         "meta": "OTHER (GENERAL)"
       },
       {
-        "id": 1491,
+        "id": 1502,
+        "name": "Polka Dot Dress",
+        "meta": "OTHER (GENERAL)",
+        "meta2": ""
+      },
+      {
+        "id": 1503,
         "name": "Polka Dot Heels",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
@@ -4593,12 +4658,6 @@
         "meta": "OTHER (GENERAL)"
       },
       {
-        "id": 1492,
-        "name": "Purple Perfect Petals Dress",
-        "meta": "OTHER (GENERAL)",
-        "meta2": ""
-      },
-      {
         "id": 1254,
         "name": "Purple Sleeveless Turtleneck Crop Top",
         "meta": "OTHER (GENERAL)"
@@ -4607,6 +4666,18 @@
         "id": 1255,
         "name": "Purple Witch Boots",
         "meta": "OTHER (GENERAL)"
+      },
+      {
+        "id": 1474,
+        "name": "Purple Witch Gloves",
+        "meta": "OTHER (GENERAL)",
+        "meta2": ""
+      },
+      {
+        "id": 1504,
+        "name": "Purple Witch Gloves",
+        "meta": "OTHER (GENERAL)",
+        "meta2": ""
       },
       {
         "id": 1256,
@@ -4999,14 +5070,32 @@
         "meta": "OTHER (GENERAL)"
       },
       {
+        "id": 1475,
+        "name": "Spring Thaw Crystal Tiara",
+        "meta": "OTHER (GENERAL)",
+        "meta2": ""
+      },
+      {
         "id": 1334,
         "name": "Spring Thaw Dress",
         "meta": "OTHER (GENERAL)"
       },
       {
+        "id": 1476,
+        "name": "Spring Thaw Dress",
+        "meta": "OTHER (GENERAL)",
+        "meta2": ""
+      },
+      {
         "id": 1335,
         "name": "Spring Thaw Jacket",
         "meta": "OTHER (GENERAL)"
+      },
+      {
+        "id": 1477,
+        "name": "Spring Thaw Jacket",
+        "meta": "OTHER (GENERAL)",
+        "meta2": ""
       },
       {
         "id": 1336,
@@ -5029,25 +5118,25 @@
         "meta": "OTHER (GENERAL)"
       },
       {
-        "id": 1493,
+        "id": 1505,
         "name": "Stylish Sailor Hat",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
       },
       {
-        "id": 1494,
+        "id": 1506,
         "name": "Stylish Sailor Pants",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
       },
       {
-        "id": 1495,
+        "id": 1507,
         "name": "Stylish Sailor Shoes",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
       },
       {
-        "id": 1496,
+        "id": 1508,
         "name": "Stylish Sailor Top",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
@@ -5238,31 +5327,31 @@
         "meta": "OTHER (GENERAL)"
       },
       {
-        "id": 1497,
+        "id": 1509,
         "name": "Valley Jester Cap",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
       },
       {
-        "id": 1498,
+        "id": 1510,
         "name": "Valley Jester Capris",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
       },
       {
-        "id": 1499,
+        "id": 1511,
         "name": "Valley Jester Shoes",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
       },
       {
-        "id": 1500,
+        "id": 1512,
         "name": "Valley Jester Top",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
       },
       {
-        "id": 1501,
+        "id": 1513,
         "name": "Valley Jester Wings",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
@@ -5330,7 +5419,7 @@
         "meta": "OTHER (GENERAL)"
       },
       {
-        "id": 1502,
+        "id": 1514,
         "name": "Western Heeled Boots",
         "meta": "OTHER (GENERAL)",
         "meta2": ""
@@ -5950,7 +6039,7 @@
       },
       {
         "id": 1465,
-        "name": "BB—8 Headband",
+        "name": "BB-8 Heaband",
         "meta": "STAR WARS",
         "meta2": ""
       },
@@ -5960,31 +6049,29 @@
         "meta": "STAR WARS"
       },
       {
-        "id": 1467,
+        "id": 556,
         "name": "Padmé Amidala's Lakeside Hairstyle",
-        "meta": "STAR WARS",
-        "meta2": ""
+        "meta": "STAR WARS"
       },
       {
-        "id": 1468,
+        "id": 557,
         "name": "Padmé Amidala's Lakeside Shoes",
-        "meta": "STAR WARS",
-        "meta2": ""
+        "meta": "STAR WARS"
       },
       {
-        "id": 1469,
+        "id": 1466,
         "name": "Padmé Amidala's Summer Meadow Gown",
         "meta": "STAR WARS",
         "meta2": ""
       },
       {
-        "id": 1470,
+        "id": 1467,
         "name": "Padmé Amidala's Summer Meadow Hairstyle",
         "meta": "STAR WARS",
         "meta2": ""
       },
       {
-        "id": 1471,
+        "id": 1468,
         "name": "Padmé Amidala's Summer Meadow Shoes",
         "meta": "STAR WARS",
         "meta2": ""
@@ -6665,7 +6752,7 @@
         "meta": "THE PRINCESS AND THE FROG"
       },
       {
-        "id": 1472,
+        "id": 1469,
         "name": "Green Flapper Dress",
         "meta": "THE PRINCESS AND THE FROG",
         "meta2": ""
@@ -7533,15 +7620,3399 @@
     ],
     "crafting": [
       {
-        "id": 1,
-        "name": "TEST",
-        "meta": "TEST",
+        "id": 567,
+        "name": "Digging Training Manuel",
+        "meta": "Enchantments",
         "meta2": ""
       },
       {
-        "id": 2,
-        "name": "TEST2",
-        "meta": "TEST2",
+        "id": 568,
+        "name": "Dreamlight",
+        "meta": "Enchantments",
+        "meta2": ""
+      },
+      {
+        "id": 569,
+        "name": "Even More Miraculous Fishing Bait",
+        "meta": "Enchantments",
+        "meta2": ""
+      },
+      {
+        "id": 570,
+        "name": "Even More Miraculous Growth Elixir",
+        "meta": "Enchantments",
+        "meta2": ""
+      },
+      {
+        "id": 585,
+        "name": "Even More Miraculous Pickaxe Polish",
+        "meta": "Enchantments",
+        "meta2": ""
+      },
+      {
+        "id": 571,
+        "name": "Even More Miraculous Shovel Varnish",
+        "meta": "Enchantments",
+        "meta2": ""
+      },
+      {
+        "id": 572,
+        "name": "Fishing Training Manual",
+        "meta": "Enchantments",
+        "meta2": ""
+      },
+      {
+        "id": 573,
+        "name": "Foraging Training Manual",
+        "meta": "Enchantments",
+        "meta2": ""
+      },
+      {
+        "id": 574,
+        "name": "Gardening Training Manual",
+        "meta": "Enchantments",
+        "meta2": ""
+      },
+      {
+        "id": 575,
+        "name": "Mining Training Manual",
+        "meta": "Enchantments",
+        "meta2": ""
+      },
+      {
+        "id": 576,
+        "name": "Miracle Fishing Bait",
+        "meta": "Enchantments",
+        "meta2": ""
+      },
+      {
+        "id": 577,
+        "name": "Miracle Growth Elixir",
+        "meta": "Enchantments",
+        "meta2": ""
+      },
+      {
+        "id": 578,
+        "name": "Miracle Pickaxe Polish",
+        "meta": "Enchantments",
+        "meta2": ""
+      },
+      {
+        "id": 579,
+        "name": "Miracle Shovel Varnish",
+        "meta": "Enchantments",
+        "meta2": ""
+      },
+      {
+        "id": 580,
+        "name": "Pixelized Cooking Flame",
+        "meta": "Enchantments",
+        "meta2": ""
+      },
+      {
+        "id": 581,
+        "name": "Purified Night Shard",
+        "meta": "Enchantments",
+        "meta2": ""
+      },
+      {
+        "id": 584,
+        "name": "Snippet-Catching Training Manual",
+        "meta": "Enchantments",
+        "meta2": ""
+      },
+      {
+        "id": 582,
+        "name": "Superior Pixelized Cooking Flame",
+        "meta": "Enchantments",
+        "meta2": ""
+      },
+      {
+        "id": 583,
+        "name": "Timebending Training Manual",
+        "meta": "Enchantments",
+        "meta2": ""
+      },
+      {
+        "id": 648,
+        "name": "Alpine Cobblestone Path",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 649,
+        "name": "Alpine Cobblestone Road",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 586,
+        "name": "Ancient's Path",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 587,
+        "name": "Ancient's Road",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 588,
+        "name": "Asphalt",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 589,
+        "name": "Asphalt with Border",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 650,
+        "name": "Black Metal Barrier",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 590,
+        "name": "Blend Left-Curving Trolley Tracks",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 591,
+        "name": "Blend Right-Curving Trolley Tracks",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 636,
+        "name": "Blue Bronze Pathway",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 593,
+        "name": "Brick Road",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 594,
+        "name": "Brick Road with Border",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 651,
+        "name": "Classic Farm Fence",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 595,
+        "name": "Curved Trolley Tracks",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 596,
+        "name": "Dark Wire Mesh Fence",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 597,
+        "name": "Dark Wood Fence",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 598,
+        "name": "Deluxe Sugar Cookie Pavement",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 599,
+        "name": "Elegant White Fence",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 652,
+        "name": "Feathered Fence",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 653,
+        "name": "Flowering Wood Fencing",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 600,
+        "name": "Gem & Opal Road",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 601,
+        "name": "Gem & Opal Road with Border",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 602,
+        "name": "Gold & Opal Road",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 603,
+        "name": "Gold & Opal Road with Border",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 637,
+        "name": "Gold Bumblestone Path",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 604,
+        "name": "Golden Brick Road",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 605,
+        "name": "Golden Brick Road with Border",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 639,
+        "name": "Green and Purple Speckled Path",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 606,
+        "name": "Green Bamboo Fence",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 640,
+        "name": "Green Bumblestone Path",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 607,
+        "name": "Iron Spike and Brick Fence — Base",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 608,
+        "name": "Leaf-Strewn Path",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 609,
+        "name": "Leaf-Strewn Path with Border",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 610,
+        "name": "Loose Gravel Path",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 611,
+        "name": "Loose Gravel Path with Border",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 612,
+        "name": "Main Street Path",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 647,
+        "name": "Marble Fence",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 613,
+        "name": "Metal Spike Fence",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 614,
+        "name": "Muddy Path",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 615,
+        "name": "Muddy Path with Border",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 616,
+        "name": "Natural Rock Path",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 617,
+        "name": "Natural Rock Path with Border",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 619,
+        "name": "Oswaldian Blend Left-Curving Trolley Tracks",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 620,
+        "name": "Oswaldian Blend Right-Curving Trolley Tracks",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 621,
+        "name": "Oswaldian Curved Trolley Tracks",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 622,
+        "name": "Oswaldian Straight Trolley Tracks",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 618,
+        "name": "Pale Wood Fence",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 641,
+        "name": "Precious Amber Pebble Path",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 642,
+        "name": "Precious Pebble Path",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 643,
+        "name": "Red Bronze Pathway",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 654,
+        "name": "Rustic Log Fence",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 623,
+        "name": "Savanna Wooden Fence",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 625,
+        "name": "Sinister Brick Road",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 626,
+        "name": "Sinister Brick Road with Border",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 655,
+        "name": "Slate Stone Path",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 627,
+        "name": "Snowy Brick Road",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 628,
+        "name": "Snowy Brick Road with Border",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 656,
+        "name": "Snowy Classic Farm Fence",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 657,
+        "name": "Snowy Rustic Log Fence",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 658,
+        "name": "Snowy Stones",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 644,
+        "name": "Stone Slab Path",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 645,
+        "name": "Stone Slab Road",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 624,
+        "name": "Straight Trolley Tracks",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 629,
+        "name": "Sugar Cookie Pavement",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 630,
+        "name": "Sun-Baked Earthen Road",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 631,
+        "name": "Sun-Baked Earthen Road with Border",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 632,
+        "name": "White Bamboo Fence",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 633,
+        "name": "White Picket Fence",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 634,
+        "name": "Wire Mesh Fence",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 635,
+        "name": "Wrought Iron Fence",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 646,
+        "name": "Yellow and Blue Speckled Path",
+        "meta": "Fences & Paving",
+        "meta2": ""
+      },
+      {
+        "id": 722,
+        "name": "Basic Faerie Lure Trap",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 723,
+        "name": "Basic Faerie Slow Trap",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 724,
+        "name": "Basic Faerie Snippet Repellent",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 725,
+        "name": "Basic Fall Leaves Lure Trap",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 726,
+        "name": "Basic Fall Leaves Slow Trap",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 727,
+        "name": "Basic Fall Leaves Snippet Repellent",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 728,
+        "name": "Basic Olympic Lure Trap",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 729,
+        "name": "Basic Olympic Slow Trap",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 730,
+        "name": "Basic Olympic Snippet Repellent",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 659,
+        "name": "Bayou Companion Home",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 660,
+        "name": "Black Flat-Top Stove",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 661,
+        "name": "Black Gas Stove",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 662,
+        "name": "Black Retro Portable Radio",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 663,
+        "name": "Blue Retro Portable Radio",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 664,
+        "name": "Brown Retro Portable Radio",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 665,
+        "name": "Campfire",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 666,
+        "name": "Chin Up White Mannequin",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 667,
+        "name": "Cozy Companion Home",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 668,
+        "name": "Custom Signpost",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 669,
+        "name": "Delicious Gift",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 731,
+        "name": "Fairytale Armor",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 670,
+        "name": "Flying Companion Feeder",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 671,
+        "name": "Fuzzy Friend Companion Dish",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 672,
+        "name": "Gray Flat-Top Stove",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 673,
+        "name": "Gray Gas Stove",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 674,
+        "name": "Gray Mailbox",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 675,
+        "name": "Hand on Hip Black Mannequin",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 676,
+        "name": "Handcrafted Gift",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 677,
+        "name": "Hesitant White Mannequin",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 678,
+        "name": "Iron Crafting Station",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 679,
+        "name": "Large Blue Chest",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 680,
+        "name": "Large Chest",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 681,
+        "name": "Large Green Chest",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 682,
+        "name": "Large Red Chest",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 683,
+        "name": "Large White Chest",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 684,
+        "name": "Large Yellow Chest",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 685,
+        "name": "Medium Blue Chest",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 686,
+        "name": "Medium Chest",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 687,
+        "name": "Medium Green Chest",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 688,
+        "name": "Medium Red Chest",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 689,
+        "name": "Medium White Chest",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 690,
+        "name": "Medium Yellow Chest",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 691,
+        "name": "Naughty Gift",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 692,
+        "name": "Pale Gray Flat-Top Stove",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 693,
+        "name": "Pale Gray Gas Stove",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 694,
+        "name": "Pastel Egg Cooking Station",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 695,
+        "name": "Pink Flat-Top Stove",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 696,
+        "name": "Pink Gas Stove",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 697,
+        "name": "Pixar Companion Ball",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 698,
+        "name": "Playful Companion Pinwheel",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 699,
+        "name": "Purple Button",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 700,
+        "name": "Red Mailbox",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 701,
+        "name": "Relaxed Black Mannequin",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 702,
+        "name": "Relaxed White Mannequin",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 703,
+        "name": "Rozian Mask",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 704,
+        "name": "Shiny Gift",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 705,
+        "name": "Slow Cooker",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 706,
+        "name": "Small Blue Chest",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 707,
+        "name": "Small Chest",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 708,
+        "name": "Small Green Chest",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 709,
+        "name": "Small Red Chest",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 710,
+        "name": "Small White Chest",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 711,
+        "name": "Small Yellow Chest",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 712,
+        "name": "Substitute Snout",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 715,
+        "name": "Thoughtful Black Mannequin",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 720,
+        "name": "Timebending Table",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 713,
+        "name": "Tony's Apron",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 714,
+        "name": "Tony's Shirt",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 721,
+        "name": "Tropical Companion Home",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 716,
+        "name": "Uncrafting Station",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 717,
+        "name": "White Flat-Top Stove",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 718,
+        "name": "White Gas Stove",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 719,
+        "name": "Wooden Crafting Station",
+        "meta": "Functional Items",
+        "meta2": ""
+      },
+      {
+        "id": 994,
+        "name": "\"Don't Put 'Em All in One Basket\" Basket",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 409,
+        "name": "\"End of the Rainbow\" Cauldron",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1011,
+        "name": "\"La Ratatouille\" Sign",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1028,
+        "name": "'60s Era TV Set",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 410,
+        "name": "Acorn Drums",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 263,
+        "name": "Adirondack Chair",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 355,
+        "name": "Agrabah Chair",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 411,
+        "name": "Alpine Cuckoo Clock",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 412,
+        "name": "Alpine Dining Chair",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 413,
+        "name": "Alpine Farmhouse Sink",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 414,
+        "name": "Alpine Floral Arch",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 415,
+        "name": "Alpine Water Tower",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 264,
+        "name": "Ancient Canoe",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 265,
+        "name": "Ancient's Fish Vehicle",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 266,
+        "name": "Ancient's Landing Wall",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 267,
+        "name": "Ancient's Wooden Lamppost",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 356,
+        "name": "Archery Target",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1029,
+        "name": "Ariel's Crafting Station",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 416,
+        "name": "Artful Roots Arch",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 357,
+        "name": "Atrium Candles",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 268,
+        "name": "Attorney Stand",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1012,
+        "name": "Autumn Harvest Pennants",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 358,
+        "name": "Autumn Mage Scarecrow",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 359,
+        "name": "Autumnal Bind Barrier",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 360,
+        "name": "Autumnal Volleyball Net",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 269,
+        "name": "Bamboo Bench",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 270,
+        "name": "Barbecue",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1030,
+        "name": "Barrel Part",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1031,
+        "name": "Basic Armchair",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1032,
+        "name": "Basic Beach Chair",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 271,
+        "name": "Basic Canvas",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1033,
+        "name": "Basic Chair",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1034,
+        "name": "Basic Couch",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1035,
+        "name": "Basic Desk",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1036,
+        "name": "Basic Double Bed",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1037,
+        "name": "Basic Dresser",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1038,
+        "name": "Basic Fridge",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1039,
+        "name": "Basic Lamp",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1040,
+        "name": "Basic Large Table",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1041,
+        "name": "Basic Parasol and Towel",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1042,
+        "name": "Basic Picnic Table",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1043,
+        "name": "Basic Rug",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1044,
+        "name": "Basic Side Table",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1045,
+        "name": "Basic Wardrobe",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1046,
+        "name": "Basket",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1047,
+        "name": "Bench",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 417,
+        "name": "Bicycle Coffee Bar",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 272,
+        "name": "Bird's Nest",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1048,
+        "name": "Bistro Chair",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1049,
+        "name": "Bistro Table",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 273,
+        "name": "Black and White Flower Disk",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 274,
+        "name": "Black and White Flower Rectangle",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 418,
+        "name": "Black and White Striped Settee",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 419,
+        "name": "Black Glass Mod Coffee Table",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 420,
+        "name": "Black Leaf Sculpture",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 361,
+        "name": "Black Rose Stones",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1050,
+        "name": "Black Wrought Iron Streetlamp",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1051,
+        "name": "Blank Sandwich Board",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 275,
+        "name": "Blue Ancient's Lamppost",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1052,
+        "name": "Blue and Silver Balloon Arch",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1053,
+        "name": "Blue and Silver Balloon Cluster",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 421,
+        "name": "Blue Birthday Candle Lamppost",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 276,
+        "name": "Blue Bivouac Tent",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 422,
+        "name": "Blue Heffalump Hot Air Balloon",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 277,
+        "name": "Blue, Green, and Purple Flower Disk",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 278,
+        "name": "Blue, Green, and Purple Flower Rectangle",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 362,
+        "name": "Brave Bear Tapestry",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 363,
+        "name": "Bridge Lamp Post",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 364,
+        "name": "Broken Cobblestones",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 279,
+        "name": "Broken Stone Pillar",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 280,
+        "name": "Broken Stone Wall Corner",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 365,
+        "name": "Broken Teacup",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 281,
+        "name": "Cactus Grove",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1013,
+        "name": "Cart",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 423,
+        "name": "Cast Iron Greenhouse",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 424,
+        "name": "Cast Iron Greyhound Sculpture",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 366,
+        "name": "Chariot Lift",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1014,
+        "name": "Charter Rug",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 425,
+        "name": "Checkered Fashion-Show Runway",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1015,
+        "name": "Cinderella Popcorn Bucket",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1016,
+        "name": "Classic Snowman",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 367,
+        "name": "Classroom Blackboard",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 368,
+        "name": "Classroom Pens & Pencils",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 282,
+        "name": "Clay Jug",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 283,
+        "name": "Colorful Glass Tub",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1017,
+        "name": "Colorful Park Bench",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1018,
+        "name": "Compost Bin",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 284,
+        "name": "Cooking Campfire",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 285,
+        "name": "Corner Wall Shelf",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 286,
+        "name": "Corner Zircon Tiles",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 369,
+        "name": "Corporate Ceiling Lamp",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 426,
+        "name": "Cozy Alpine Rocking Chair",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 287,
+        "name": "Crumbling Landing Wall",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 427,
+        "name": "Dark Deco Mirror",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 428,
+        "name": "De Vil Manor Archway",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 429,
+        "name": "De Vil Manor Corner",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 430,
+        "name": "De Vil Manor Corner Storehouse",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 431,
+        "name": "De Vil Manor Entry",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 432,
+        "name": "De Vil Manor Small Entry",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 433,
+        "name": "De Vil Manor Wing",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 434,
+        "name": "De Vil Solarium",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 435,
+        "name": "Decorative Horse Feeder",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 288,
+        "name": "Double Bronze & Blue Barrier",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 289,
+        "name": "Double Bronze & Red Barrier",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 370,
+        "name": "Dump Truck Armchair",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1019,
+        "name": "Egg-cellent Balloons",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1020,
+        "name": "Election Sign",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1021,
+        "name": "Elegant Gazebo",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 436,
+        "name": "Elegant Skunk House",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1022,
+        "name": "Elegant Town Square Check",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 371,
+        "name": "Elevated Display Bubble",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1023,
+        "name": "Enchanted Stage",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 437,
+        "name": "Fairy Harp",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 438,
+        "name": "Fairy Pipe Organ",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1024,
+        "name": "Falling Penstermon and Bell Flower Pot",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1025,
+        "name": "Fancy Gift Box",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 439,
+        "name": "Farmhouse Pantry Wall",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 440,
+        "name": "Farmhouse Water Trough",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1026,
+        "name": "Festive Pennants",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 1027,
+        "name": "Figment Popcorn Bucket",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 290,
+        "name": "Fireworks Mount",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 441,
+        "name": "Fitting Room Screen",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 442,
+        "name": "Flat Straw Bale",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 443,
+        "name": "Floral Bench Swing",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 444,
+        "name": "Floral Fairy Bench",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 445,
+        "name": "Floral Fairy Chair",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 446,
+        "name": "Floral Fairy Table",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 447,
+        "name": "Flowery Alpine Rug",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 448,
+        "name": "Flowery Wishblossom Garden",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 372,
+        "name": "Fountain of Thebes",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 78,
+        "name": "Fox Cutout",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 373,
+        "name": "Garden Temple",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 449,
+        "name": "Giant Beehive",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 450,
+        "name": "Giant Feather Carpet",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 451,
+        "name": "Giant Galosh Planter",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 291,
+        "name": "Giant Hourglass",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 374,
+        "name": "Giant Leaf Chair",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 79,
+        "name": "Giant Meatball",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 292,
+        "name": "Gold Bumblestone Block",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 452,
+        "name": "Gothic Bench",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 453,
+        "name": "Gothic Patio Chair",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 454,
+        "name": "Gothic Patio Table",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 80,
+        "name": "Granite Fire Bowl",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 375,
+        "name": "Gray Storybook Frame",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 376,
+        "name": "Great Tome Banner",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 377,
+        "name": "Grecian Workout Bench",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 378,
+        "name": "Greek Mosaic Rug",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 293,
+        "name": "Green Ancient's Lamppost",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 379,
+        "name": "Green Bind Armchair",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 380,
+        "name": "Green Bind Couch",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 381,
+        "name": "Green Bind L Couch",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 294,
+        "name": "Green Bivouac Tent",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 295,
+        "name": "Green Bumblestone Block",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 296,
+        "name": "Green Cobra Statue",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 81,
+        "name": "Green Egg Lamppost",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 455,
+        "name": "Green Heffalump Hot Air Balloon",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 456,
+        "name": "Green Leaf Sculpture",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 297,
+        "name": "Green Leafy Trellis",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 82,
+        "name": "Green Light High Beach Torch",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 83,
+        "name": "Green Light Low Beach Torch",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 382,
+        "name": "Green Novel Tennis Table",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 383,
+        "name": "Green Rustic Wooden Desk",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 84,
+        "name": "Green Wrought Iron Streetlamp",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 85,
+        "name": "Green, Yellow and White Balloon Arch",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 86,
+        "name": "Green, Yellow and White Balloon Cluster",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 87,
+        "name": "Half-Barrel",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 384,
+        "name": "Halloween Town Clock",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 88,
+        "name": "Hanging Egg Chair",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 89,
+        "name": "Harmonious Screen",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 90,
+        "name": "Haughty Snowman",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 91,
+        "name": "Hay Bale",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 92,
+        "name": "Hay Bales",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 457,
+        "name": "Heart-Shaped Planter",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 93,
+        "name": "Heavy Wooden Table",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 94,
+        "name": "Helm Bookshelf",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 95,
+        "name": "Holiday Feast Chair",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 96,
+        "name": "Holiday Feast Plate and Cutlery",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 458,
+        "name": "Honeycomb Picnic Table",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 459,
+        "name": "Horseshoe Archway",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 97,
+        "name": "Hydrangea and Bell Flower Pot",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 98,
+        "name": "Icy Armchair",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 99,
+        "name": "Icy Counter",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 100,
+        "name": "Imagination Land Arch",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 101,
+        "name": "Impatiens and Bromeliad Pot",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 460,
+        "name": "Iron Dress Form",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 102,
+        "name": "Jubilant Topiary",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 103,
+        "name": "Kinara",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 104,
+        "name": "Lamppost with Blue Light",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 105,
+        "name": "Lamppost with Green Light",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 106,
+        "name": "Lamppost with Red Light",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 107,
+        "name": "Lamppost with Yellow Light",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 298,
+        "name": "Large Black Bivouac Tent",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 299,
+        "name": "Large Blue Market Stall",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 385,
+        "name": "Large Elevated Display Bubble",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 300,
+        "name": "Large Heap of Riches",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 386,
+        "name": "Large Low Display Bubble",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 108,
+        "name": "Large Marketplace Chest",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 301,
+        "name": "Large Red Market Stall",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 109,
+        "name": "Large Round Gift Box",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 110,
+        "name": "Large Square Gift Box",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 461,
+        "name": "Leafy Canoe",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 462,
+        "name": "Leafy Hammock Seat",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 111,
+        "name": "Left Signpost",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 387,
+        "name": "Lilo's Bunk Bed",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 112,
+        "name": "Log Cutout",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 113,
+        "name": "Lost Boys Audition Sign",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 388,
+        "name": "Low Display Bubble",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 114,
+        "name": "Low Sculpted Pillar",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 115,
+        "name": "Lucky Clover Archway",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 116,
+        "name": "Lucky Shamrock Banner",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 302,
+        "name": "Luminescent Flower Disk",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 303,
+        "name": "Luminescent Flower Rectangle",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 389,
+        "name": "Madrigal Family Door",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 463,
+        "name": "Magnifying Glass Post",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 117,
+        "name": "Mailbox",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 464,
+        "name": "Matchbox Bed",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 390,
+        "name": "Medieval Wooden Chair",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 304,
+        "name": "Medium Heap of Riches",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 118,
+        "name": "Menorah",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 305,
+        "name": "Metallic Flagstone Tile",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 119,
+        "name": "Metallic Mickey Popcorn Bucket",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 120,
+        "name": "Mickey Mouse Park Balloons",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 121,
+        "name": "Mickey Mouse Water Tower",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 122,
+        "name": "Mickey's Halloween Candy Bowl",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 123,
+        "name": "Mine Cart Popcorn Bucket",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 465,
+        "name": "Mod Red Settee",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 124,
+        "name": "Modular Dragon Body",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 125,
+        "name": "Modular Dragon Head",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 126,
+        "name": "Modular Dragon Tail",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 127,
+        "name": "Moss-Covered Rock Cutout",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 128,
+        "name": "Mossy Base",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 129,
+        "name": "Mossy Circle-Carving Stone",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 130,
+        "name": "Mossy Eye-Carving Stone",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 131,
+        "name": "Nasturtium and Marsh Milkweed Pot",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 132,
+        "name": "Nautical-Themed Couch",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 133,
+        "name": "New Orleans Parade Arch",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 134,
+        "name": "Oak Tree Cutout",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 135,
+        "name": "Old Barrel",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 136,
+        "name": "Ornate Parisian Chair",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 137,
+        "name": "Ornate Parisian Statue",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 138,
+        "name": "Ornate Parisian Table",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 139,
+        "name": "Outdoor Lounge Chair",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 140,
+        "name": "Outhouse",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 141,
+        "name": "Over Easy Chair",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 142,
+        "name": "Painted Wood Table",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 143,
+        "name": "Palm Tree Cutout",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 144,
+        "name": "Pampas Grass Jug",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 145,
+        "name": "Parisian Chair",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 146,
+        "name": "Parisian Table",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 147,
+        "name": "Park Banner Lamppost",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 148,
+        "name": "Park Recycling Bin",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 149,
+        "name": "Passion Lily and Houseleek Pot",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 150,
+        "name": "Photo Backdrop",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 151,
+        "name": "Pile of Crates",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 152,
+        "name": "Pine Tree Cutout",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 153,
+        "name": "Pink and Blue Flower Disk",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 154,
+        "name": "Pink, Blue and Purple Flower Rectangle",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 155,
+        "name": "Pink, Red and Purple Flower Rectangle",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 156,
+        "name": "Pink, Yellow and Black Flower Disk",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 157,
+        "name": "Pirate Map on the Wall",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 158,
+        "name": "Playful Pumpkin Scarecrow",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 159,
+        "name": "Pooh's Popcorn Bucket",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 160,
+        "name": "Poplar Tree Cutout",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 161,
+        "name": "Potted Lily Pad Bush",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 162,
+        "name": "Potted Spring Egg Tree",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 163,
+        "name": "Purple Egg Lamppost",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 164,
+        "name": "Purple Wrought Iron Streetlamp",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 165,
+        "name": "Purple, Pink and Yellow Flower Disk",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 166,
+        "name": "Raccoon Cutout",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 167,
+        "name": "Rainbow Rose Glass Breezeway",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 168,
+        "name": "Rectangular Soil Area",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 169,
+        "name": "Red and Black Passion Lily Pot",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 170,
+        "name": "Red and Yellow Flower Disk",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 171,
+        "name": "Red Egg Lamppost",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 172,
+        "name": "Red Light High Beach Torch",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 173,
+        "name": "Red Light Low Beach Torch",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 174,
+        "name": "Red, Black, and Yellow Balloon Cluster",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 175,
+        "name": "Red, Blue and Green Flower Rectangle",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 176,
+        "name": "Red, White and Purple Flower Rectangle",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 177,
+        "name": "Refreshment Chest",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 178,
+        "name": "Right Signpost",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 179,
+        "name": "Rock and Ferns Cutout",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 180,
+        "name": "Rock Cutout",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 181,
+        "name": "Romantic Arch",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 182,
+        "name": "Round Blue Three-Pronged Lamppost",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 183,
+        "name": "Round Gift Box",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 184,
+        "name": "Round Lamppost with Blue Light",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 185,
+        "name": "Round Lamppost with Orange Light",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 186,
+        "name": "Round Lamppost with Pink Light",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 187,
+        "name": "Round Lamppost with White Light",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 188,
+        "name": "Round Orange Three-Pronged Lamppost",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 189,
+        "name": "Round Pink Three-Pronged Lamppost",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 190,
+        "name": "Round Soil Area",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 191,
+        "name": "Round White Three-Pronged Lamppost",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 192,
+        "name": "Royal Blossom Column",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 193,
+        "name": "Rustic Clock Tower",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 194,
+        "name": "Rustic Wooden Case",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 195,
+        "name": "Sack",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 196,
+        "name": "Sandcastle Door",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 197,
+        "name": "Sandcastle Tower",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 198,
+        "name": "Sandcastle Tower Corner",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 199,
+        "name": "Sandcastle Tower Wall",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 200,
+        "name": "Sandcastle Wall",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 201,
+        "name": "Saucery Extract",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 202,
+        "name": "Scrooge McDuck's Store Sign",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 203,
+        "name": "Ship Coffee Table",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 204,
+        "name": "Short Birdhouse",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 205,
+        "name": "Sizzling BBQ Cooking Station",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 206,
+        "name": "Small Marketplace Chest",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 207,
+        "name": "Snow Hut",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 208,
+        "name": "Snow Kid",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 209,
+        "name": "Snow Lady",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 210,
+        "name": "Spring Egg Bounty",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 211,
+        "name": "Spring Stall",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 212,
+        "name": "Square Gift Box",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 213,
+        "name": "Squirrel Cutout",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 214,
+        "name": "Stack of Crates",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 215,
+        "name": "Stack of Firewood",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 216,
+        "name": "Stall",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 217,
+        "name": "Star Lily and Falling Penstemon Pot",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 218,
+        "name": "Stellar Blue DJ Booth",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 219,
+        "name": "Stellar Pink DJ Booth",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 220,
+        "name": "Stitch Popcorn Bucket",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 221,
+        "name": "Stitch's Television",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 222,
+        "name": "Stone Well",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 223,
+        "name": "Stony Bench",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 224,
+        "name": "Sturdy Chair",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 225,
+        "name": "Summer Crafting Station",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 226,
+        "name": "Sunflower and Daisy Pot",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 227,
+        "name": "Sunny Side Up Arch",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 228,
+        "name": "Swimming Pool",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 229,
+        "name": "Tall Birdhouse",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 230,
+        "name": "Tall Round Gift Box",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 231,
+        "name": "Tall Square Gift Box",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 232,
+        "name": "Tissue Box",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 233,
+        "name": "Tool Rack",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 234,
+        "name": "Tree of Holiday Cheer",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 235,
+        "name": "Trellis",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 236,
+        "name": "Trellis Arch",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 237,
+        "name": "Uncooked Spaghetti Wall",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 238,
+        "name": "Vintage Cooler",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 239,
+        "name": "WALL-E's Boot Bouquet",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 240,
+        "name": "White, Red and Purple Flower Disk",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 241,
+        "name": "White, Yellow and Black Balloon Arch",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 242,
+        "name": "White, Yellow and Black Balloon Cluster",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 243,
+        "name": "Wide Arched Window",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 244,
+        "name": "Wonderland Candle",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 245,
+        "name": "Wooden Bucket",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 246,
+        "name": "Wooden Lamppost with Blue Light",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 247,
+        "name": "Wooden Lamppost with Green Light",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 248,
+        "name": "Wooden Lamppost with Pink Light",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 249,
+        "name": "Wooden Lamppost with Yellow Light",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 250,
+        "name": "Wooden Table",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 251,
+        "name": "Wooden Training Dummy",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 252,
+        "name": "Wrought Iron Arch",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 253,
+        "name": "Wrought Iron Walkway Slab",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 254,
+        "name": "Yellow and White Flower Rectangle",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 255,
+        "name": "Yellow Egg Lamppost",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 256,
+        "name": "Yellow Light High Beach Torch",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 257,
+        "name": "Yellow Light Low Beach Torch",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 258,
+        "name": "Yellow, Green and Purple Flower Rectangle",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 259,
+        "name": "Yellow, Red and Black Balloon Arch",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 260,
+        "name": "Yellow, Red and Blue Flower Disk",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 261,
+        "name": "Yule Goat",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 262,
+        "name": "Zen Garden",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
+        "id": 551,
+        "name": "Blue Bird Snippet",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 552,
+        "name": "Blue Demon Snippet",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 547,
+        "name": "Brass Ingot",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 530,
+        "name": "Brick",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 548,
+        "name": "Bronze Ingot",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 531,
+        "name": "Coal Ore",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 549,
+        "name": "Electric Power",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 532,
+        "name": "Empty Vial",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 533,
+        "name": "Fabric",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 534,
+        "name": "Fiber",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 535,
+        "name": "Four-Leaf Clover",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 536,
+        "name": "Glass",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 537,
+        "name": "Gold Inglot",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 538,
+        "name": "Gold Nugget",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 553,
+        "name": "Green Bird Snippet",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 554,
+        "name": "Green Demon Snippet",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 555,
+        "name": "Green Frog Snippet",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 539,
+        "name": "Iron Ingot",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 550,
+        "name": "Mechanical Parts",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 540,
+        "name": "Night Shard",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 556,
+        "name": "Pink Demon Snippet",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 557,
+        "name": "Pink Frog Snippet",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 541,
+        "name": "Pixel Shard Duplicates",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 558,
+        "name": "Purple Frog Snippet",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 559,
+        "name": "Red Bird Snippet",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 560,
+        "name": "Red Demon Snippet",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 542,
+        "name": "Rope",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 543,
+        "name": "Seaweed",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 561,
+        "name": "Shadowy Bird Snippet",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 562,
+        "name": "Shadowy Demon Snippet",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 563,
+        "name": "Shadowy Frog Snippet",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 544,
+        "name": "Soil",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 566,
+        "name": "Storybook Magic",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 545,
+        "name": "Tinkering Parts",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 546,
+        "name": "V-EGG-egetable Seed",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 564,
+        "name": "Yellow Bird Snippet",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 565,
+        "name": "Yellow Frog Snippet",
+        "meta": "MATERIALS",
+        "meta2": ""
+      },
+      {
+        "id": 1,
+        "name": "TEST",
+        "meta": "TEST",
         "meta2": ""
       }
     ],
@@ -7644,7 +11115,7 @@
         "meta": "ALADDIN"
       },
       {
-        "id": 3330,
+        "id": 3329,
         "name": "Agrabah Palace Wallpaper",
         "meta": "ALADDIN",
         "meta2": ""
@@ -7955,6 +11426,11 @@
         "meta": "ALICE IN WONDERLAND"
       },
       {
+        "id": 101,
+        "name": "Dinah Companion House",
+        "meta": "ALICE IN WONDERLAND"
+      },
+      {
         "id": 103,
         "name": "Door Knob Door",
         "meta": "ALICE IN WONDERLAND"
@@ -8045,12 +11521,6 @@
         "meta": "ALICE IN WONDERLAND"
       },
       {
-        "id": 3331,
-        "name": "Lily Pad Cymbal Frog",
-        "meta": "ALICE IN WONDERLAND",
-        "meta2": ""
-      },
-      {
         "id": 125,
         "name": "Lovely Dice",
         "meta": "ALICE IN WONDERLAND"
@@ -8082,6 +11552,11 @@
       },
       {
         "id": 132,
+        "name": "Pink Print Wallpaper",
+        "meta": "ALICE IN WONDERLAND"
+      },
+      {
+        "id": 131,
         "name": "Pink Print Wallpaper",
         "meta": "ALICE IN WONDERLAND"
       },
@@ -8141,6 +11616,11 @@
         "meta": "ALICE IN WONDERLAND"
       },
       {
+        "id": 146,
+        "name": "Singing Pansy Flower",
+        "meta": "ALICE IN WONDERLAND"
+      },
+      {
         "id": 145,
         "name": "Singing Pansy Flower",
         "meta": "ALICE IN WONDERLAND"
@@ -8171,7 +11651,17 @@
         "meta": "ALICE IN WONDERLAND"
       },
       {
+        "id": 152,
+        "name": "Teatime Bird Feeder",
+        "meta": "ALICE IN WONDERLAND"
+      },
+      {
         "id": 153,
+        "name": "Teatime Fountain",
+        "meta": "ALICE IN WONDERLAND"
+      },
+      {
+        "id": 154,
         "name": "Teatime Fountain",
         "meta": "ALICE IN WONDERLAND"
       },
@@ -8327,7 +11817,7 @@
         "meta2": ""
       },
       {
-        "id": 3329,
+        "id": 3330,
         "name": "Thumper Topiary",
         "meta": "BAMBI",
         "meta2": ""
@@ -9248,7 +12738,7 @@
         "meta": "COCO"
       },
       {
-        "id": 3332,
+        "id": 3331,
         "name": "Dinosaur Egg",
         "meta": "DINOSAUR",
         "meta2": ""
@@ -9504,7 +12994,7 @@
         "meta": "DISNEY"
       },
       {
-        "id": 3333,
+        "id": 3332,
         "name": "Main Street Lamppost",
         "meta": "DISNEY",
         "meta2": ""
@@ -9645,12 +13135,6 @@
         "meta": "DISNEY"
       },
       {
-        "id": 3334,
-        "name": "Spring Light Archway",
-        "meta": "DISNEY",
-        "meta2": ""
-      },
-      {
         "id": 421,
         "name": "Stitch Popcorn Bucket",
         "meta": "DISNEY"
@@ -9736,7 +13220,7 @@
         "meta": "DISNEY FAIRIES"
       },
       {
-        "id": 3335,
+        "id": 3333,
         "name": "Cheerful Garden Gnome",
         "meta": "DISNEY FAIRIES",
         "meta2": ""
@@ -10632,6 +14116,12 @@
         "meta": "GENERAL"
       },
       {
+        "id": 3371,
+        "name": "Alpine Companion House",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
         "id": 2010,
         "name": "Alpine Flower Cart",
         "meta": "GENERAL"
@@ -10692,6 +14182,12 @@
         "meta": "GENERAL"
       },
       {
+        "id": 3372,
+        "name": "Aurora Borealis",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
         "id": 2025,
         "name": "Autumn Harvest Pennants",
         "meta": "GENERAL"
@@ -10735,6 +14231,12 @@
         "id": 2030,
         "name": "Autumnal Volleyball Net",
         "meta": "GENERAL"
+      },
+      {
+        "id": 3373,
+        "name": "BallOOn Family BOuquet",
+        "meta": "GENERAL",
+        "meta2": ""
       },
       {
         "id": 2032,
@@ -11658,6 +15160,12 @@
         "meta": "GENERAL"
       },
       {
+        "id": 3374,
+        "name": "Brick Corner Post",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
         "id": 2214,
         "name": "Bridge Lamp Post",
         "meta": "GENERAL"
@@ -11731,6 +15239,12 @@
         "id": 2228,
         "name": "Bronze and Crystal",
         "meta": "GENERAL"
+      },
+      {
+        "id": 3375,
+        "name": "Bronze and Crystal",
+        "meta": "GENERAL",
+        "meta2": ""
       },
       {
         "id": 2229,
@@ -12053,8 +15567,26 @@
         "meta": "GENERAL"
       },
       {
+        "id": 3376,
+        "name": "Crystal Cavern Texture",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
+        "id": 3377,
+        "name": "Crystal Cavern Wall",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
         "id": 3326,
         "name": "Crystal Paving Stones",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
+        "id": 3378,
+        "name": "Crystalline Alcove",
         "meta": "GENERAL",
         "meta2": ""
       },
@@ -12435,6 +15967,12 @@
         "meta": "GENERAL"
       },
       {
+        "id": 3379,
+        "name": "Election Victory Party",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
         "id": 2367,
         "name": "Elegant Stone Barrier",
         "meta": "GENERAL"
@@ -12450,6 +15988,12 @@
         "meta": "GENERAL"
       },
       {
+        "id": 3380,
+        "name": "Enchanted Floating Planets",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
         "id": 2369,
         "name": "Enchanted Frost",
         "meta": "GENERAL"
@@ -12458,6 +16002,12 @@
         "id": 2370,
         "name": "Enchanted Frost Wallpaper",
         "meta": "GENERAL"
+      },
+      {
+        "id": 3381,
+        "name": "Enchanted Shooting Stars",
+        "meta": "GENERAL",
+        "meta2": ""
       },
       {
         "id": 2372,
@@ -12515,6 +16065,12 @@
         "meta": "GENERAL"
       },
       {
+        "id": 3382,
+        "name": "Fashionista Backdrop",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
         "id": 2383,
         "name": "Festive Blue Star",
         "meta": "GENERAL"
@@ -12570,9 +16126,21 @@
         "meta": "GENERAL"
       },
       {
+        "id": 3383,
+        "name": "Floral Cottage Print",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
         "id": 2394,
         "name": "Flower Shop Front",
         "meta": "GENERAL"
+      },
+      {
+        "id": 3384,
+        "name": "Flowing Volcano",
+        "meta": "GENERAL",
+        "meta2": ""
       },
       {
         "id": 2395,
@@ -12623,6 +16191,12 @@
         "id": 2404,
         "name": "Friendly Jack-O'—Lantern",
         "meta": "GENERAL"
+      },
+      {
+        "id": 3385,
+        "name": "Frontier General Store Stand",
+        "meta": "GENERAL",
+        "meta2": ""
       },
       {
         "id": 2405,
@@ -13176,6 +16750,12 @@
         "meta": "GENERAL"
       },
       {
+        "id": 3386,
+        "name": "Heavy Storm Cloud",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
         "id": 2514,
         "name": "Herringbone Honey",
         "meta": "GENERAL"
@@ -13254,6 +16834,12 @@
         "id": 2529,
         "name": "Horse Hitching Post",
         "meta": "GENERAL"
+      },
+      {
+        "id": 3387,
+        "name": "Huge Swirling Sandstorm",
+        "meta": "GENERAL",
+        "meta2": ""
       },
       {
         "id": 2530,
@@ -13671,6 +17257,24 @@
         "meta": "GENERAL"
       },
       {
+        "id": 3388,
+        "name": "Lava Creek",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
+        "id": 3389,
+        "name": "Lava Stone Stream",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
+        "id": 3390,
+        "name": "Lava Stone Trail",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
         "id": 2613,
         "name": "Lavish Black Couch",
         "meta": "GENERAL"
@@ -13796,6 +17400,12 @@
         "meta": "GENERAL"
       },
       {
+        "id": 3391,
+        "name": "Light Storm Cloud",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
         "id": 2638,
         "name": "Light Terrazzo",
         "meta": "GENERAL"
@@ -13889,6 +17499,12 @@
         "id": 2656,
         "name": "Luminous Vivarium Wall",
         "meta": "GENERAL"
+      },
+      {
+        "id": 3392,
+        "name": "Luxury Corvid Perch",
+        "meta": "GENERAL",
+        "meta2": ""
       },
       {
         "id": 2657,
@@ -14041,6 +17657,24 @@
         "meta": "GENERAL"
       },
       {
+        "id": 3393,
+        "name": "Moontide Glow Banner",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
+        "id": 3394,
+        "name": "Moontide Glow Lamppost",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
+        "id": 3395,
+        "name": "Moontide Glow Stage",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
         "id": 2687,
         "name": "Mortar & Pestle",
         "meta": "GENERAL"
@@ -14149,6 +17783,12 @@
         "id": 2708,
         "name": "Old Armchair",
         "meta": "GENERAL"
+      },
+      {
+        "id": 3396,
+        "name": "Old Fireplace",
+        "meta": "GENERAL",
+        "meta2": ""
       },
       {
         "id": 2709,
@@ -14542,6 +18182,42 @@
         "meta": "GENERAL"
       },
       {
+        "id": 3397,
+        "name": "Peaceful Meadow Aquarium",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
+        "id": 3398,
+        "name": "Peaceful Meadow Companion Home",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
+        "id": 3399,
+        "name": "Peaceful Meadow Diorama Goofy",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
+        "id": 3400,
+        "name": "Peaceful Meadow Diorama Mirabel",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
+        "id": 3401,
+        "name": "Peaceful Meadow Diorama Pillar",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
+        "id": 3402,
+        "name": "Peaceful Meadow Diorama Thorns",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
         "id": 2786,
         "name": "Perched Raven Statue",
         "meta": "GENERAL"
@@ -14570,6 +18246,12 @@
         "id": 2791,
         "name": "Philodendron in Yellow Pot",
         "meta": "GENERAL"
+      },
+      {
+        "id": 3403,
+        "name": "Photo Shoot Spotlight",
+        "meta": "GENERAL",
+        "meta2": ""
       },
       {
         "id": 2792,
@@ -14715,6 +18397,12 @@
         "id": 2820,
         "name": "Potted Tropical Plant",
         "meta": "GENERAL"
+      },
+      {
+        "id": 3404,
+        "name": "Powhatan Picnic",
+        "meta": "GENERAL",
+        "meta2": ""
       },
       {
         "id": 2821,
@@ -15424,6 +19112,12 @@
         "meta": "GENERAL"
       },
       {
+        "id": 3406,
+        "name": "Simple Door",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
         "id": 2960,
         "name": "Simple Gray-Blue Wallpaper",
         "meta": "GENERAL"
@@ -15632,6 +19326,12 @@
         "id": 3001,
         "name": "Small Shattered Castle Wall",
         "meta": "GENERAL"
+      },
+      {
+        "id": 3405,
+        "name": "Small Swirling Sandstorm",
+        "meta": "GENERAL",
+        "meta2": ""
       },
       {
         "id": 3002,
@@ -15909,6 +19609,12 @@
         "meta": "GENERAL"
       },
       {
+        "id": 3407,
+        "name": "Sunbird Feeder",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
         "id": 3057,
         "name": "Sunny Rustic Tiles",
         "meta": "GENERAL"
@@ -15927,6 +19633,12 @@
         "id": 3060,
         "name": "Sweet Blue Chandelier",
         "meta": "GENERAL"
+      },
+      {
+        "id": 3408,
+        "name": "Swirling Snow",
+        "meta": "GENERAL",
+        "meta2": ""
       },
       {
         "id": 3061,
@@ -16009,6 +19721,12 @@
         "meta": "GENERAL"
       },
       {
+        "id": 3409,
+        "name": "The Enchanted Flower",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
         "id": 3078,
         "name": "The Stained Glass Window to Imagination",
         "meta": "GENERAL"
@@ -16047,6 +19765,12 @@
         "id": 3084,
         "name": "Thorny Wardrobe",
         "meta": "GENERAL"
+      },
+      {
+        "id": 3410,
+        "name": "Thunderstorm Cloud",
+        "meta": "GENERAL",
+        "meta2": ""
       },
       {
         "id": 3085,
@@ -16144,9 +19868,69 @@
         "meta": "GENERAL"
       },
       {
+        "id": 3413,
+        "name": "Tulip Field Bed",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
+        "id": 3414,
+        "name": "Tulip Field Bottleneck",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
+        "id": 3415,
+        "name": "Tulip Field End",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
+        "id": 3416,
+        "name": "Tulip Field Rows",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
+        "id": 3411,
+        "name": "Tulip Field — Left Curve",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
+        "id": 3412,
+        "name": "Tulip Field — Right Curve",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
         "id": 3104,
         "name": "Tulip Lamp",
         "meta": "GENERAL"
+      },
+      {
+        "id": 3417,
+        "name": "Tulip Town Bell Tower",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
+        "id": 3418,
+        "name": "Tulip Town Building",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
+        "id": 3419,
+        "name": "Tulip Town Entry Arch",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
+        "id": 3420,
+        "name": "Tulip Town Windmill",
+        "meta": "GENERAL",
+        "meta2": ""
       },
       {
         "id": 3105,
@@ -16162,6 +19946,12 @@
         "id": 3107,
         "name": "Valley Pirates' Treasure",
         "meta": "GENERAL"
+      },
+      {
+        "id": 3421,
+        "name": "Vanellope and Mike's Billboard",
+        "meta": "GENERAL",
+        "meta2": ""
       },
       {
         "id": 3108,
@@ -16202,6 +19992,12 @@
         "id": 3115,
         "name": "Vivid Peacock Topiary",
         "meta": "GENERAL"
+      },
+      {
+        "id": 3422,
+        "name": "Volcanic Rock",
+        "meta": "GENERAL",
+        "meta2": ""
       },
       {
         "id": 3116,
@@ -16789,6 +20585,12 @@
         "meta": "GENERAL"
       },
       {
+        "id": 3423,
+        "name": "Wild Tulip Bed",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
         "id": 3324,
         "name": "Willow Tree",
         "meta": "GENERAL",
@@ -16928,6 +20730,12 @@
         "id": 3259,
         "name": "Wintery Wood",
         "meta": "GENERAL"
+      },
+      {
+        "id": 3424,
+        "name": "Wishblossom Fair Table",
+        "meta": "GENERAL",
+        "meta2": ""
       },
       {
         "id": 3260,
@@ -17110,6 +20918,18 @@
         "meta": "GENERAL"
       },
       {
+        "id": 3425,
+        "name": "Worn Brick Road",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
+        "id": 3426,
+        "name": "Worn Brick Road with Border",
+        "meta": "GENERAL",
+        "meta2": ""
+      },
+      {
         "id": 3296,
         "name": "Worn Brick Wallpaper",
         "meta": "GENERAL"
@@ -17191,12 +21011,6 @@
         "meta": "HERCULES"
       },
       {
-        "id": 3336,
-        "name": "Corinthian Marble DJ Table",
-        "meta": "HERCULES",
-        "meta2": ""
-      },
-      {
         "id": 606,
         "name": "Curved Marble Bench",
         "meta": "HERCULES"
@@ -17220,12 +21034,6 @@
         "id": 610,
         "name": "Lightning Generator",
         "meta": "HERCULES"
-      },
-      {
-        "id": 3337,
-        "name": "Marble Hades Statue",
-        "meta": "HERCULES",
-        "meta2": ""
       },
       {
         "id": 611,
@@ -17608,6 +21416,11 @@
         "meta": "LADY AND THE TRAMP"
       },
       {
+        "id": 687,
+        "name": "Night Tree with Lanterns",
+        "meta": "LADY AND THE TRAMP"
+      },
+      {
         "id": 688,
         "name": "Night Tree with Lanterns",
         "meta": "LADY AND THE TRAMP"
@@ -17631,12 +21444,6 @@
         "id": 692,
         "name": "Telephone Pole",
         "meta": "LADY AND THE TRAMP"
-      },
-      {
-        "id": 3338,
-        "name": "Tony's Restaurant Sign",
-        "meta": "LADY AND THE TRAMP",
-        "meta2": ""
       },
       {
         "id": 693,
@@ -17757,12 +21564,6 @@
         "id": 716,
         "name": "Disposable Camera",
         "meta": "LILO & STITCH"
-      },
-      {
-        "id": 3339,
-        "name": "Donald Sign",
-        "meta": "LILO & STITCH",
-        "meta2": ""
       },
       {
         "id": 717,
@@ -18810,12 +22611,6 @@
         "meta": "MOANA"
       },
       {
-        "id": 3340,
-        "name": "Granite Fire Bowl",
-        "meta": "MOANA",
-        "meta2": ""
-      },
-      {
         "id": 926,
         "name": "Handwoven Palm Basket",
         "meta": "MOANA"
@@ -19356,7 +23151,7 @@
         "meta": "MULAN"
       },
       {
-        "id": 3341,
+        "id": 3334,
         "name": "Bamboo Fountain",
         "meta": "MULAN",
         "meta2": ""
@@ -20217,133 +24012,133 @@
         "meta": "PIRATES OF THE CARIBBEAN"
       },
       {
-        "id": 3342,
+        "id": 3335,
         "name": "Arrow Making Bench",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3343,
+        "id": 3336,
         "name": "Beaded Wall Hanging",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3344,
+        "id": 3337,
         "name": "Chair of the Chieftain",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3345,
+        "id": 3338,
         "name": "Decorative Powhatan Cradleboard",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3346,
+        "id": 3339,
         "name": "Drum Ornament",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3347,
+        "id": 3340,
         "name": "Meeko's House",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3348,
+        "id": 3341,
         "name": "Moontide Glow Waves",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3349,
+        "id": 3342,
         "name": "Natural Wood Bed",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3350,
+        "id": 3343,
         "name": "Natural Wood Bench",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3351,
+        "id": 3344,
         "name": "Natural Wood Drying Rafter",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3352,
+        "id": 3345,
         "name": "Natural Wood Horizontal Rafter",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3353,
+        "id": 3346,
         "name": "Natural Wood Shelves",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3354,
+        "id": 3347,
         "name": "Natural Wood Vertical Rafter",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3355,
+        "id": 3348,
         "name": "Natural Wood Wall Shelf",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3364,
+        "id": 3357,
         "name": "Natural Wooden Pergola",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3365,
+        "id": 3358,
         "name": "Natural Wooden Pergola Corner Post",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3366,
+        "id": 3359,
         "name": "Natural Wooden Pergola Pond",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3367,
+        "id": 3360,
         "name": "Natural Wooden Pergola Post",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3368,
+        "id": 3361,
         "name": "Natural Wooden Pergola Side",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3356,
+        "id": 3349,
         "name": "Powhatan Canoe",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3357,
+        "id": 3350,
         "name": "Powhatan Drum",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3358,
+        "id": 3351,
         "name": "Pug Treats Carousel",
         "meta": "POCAHONTAS",
         "meta2": ""
@@ -20354,43 +24149,43 @@
         "meta": "POCAHONTAS"
       },
       {
-        "id": 3359,
+        "id": 3352,
         "name": "Short Harvest Bowl",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3360,
+        "id": 3353,
         "name": "Storyteller's Fire",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3369,
+        "id": 3362,
         "name": "Swirling Forest Leaves",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3370,
+        "id": 3363,
         "name": "Swirling Leaves",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3361,
+        "id": 3354,
         "name": "Tall Harvest Bowl",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3362,
+        "id": 3355,
         "name": "Wooden Mortar and Pestle",
         "meta": "POCAHONTAS",
         "meta2": ""
       },
       {
-        "id": 3363,
+        "id": 3356,
         "name": "Yehakin Wallpaper",
         "meta": "POCAHONTAS",
         "meta2": ""
@@ -21111,37 +24906,37 @@
         "meta": "STAR WARS"
       },
       {
-        "id": 3371,
+        "id": 3364,
         "name": "Tatooine Desert Archway",
         "meta": "STAR WARS",
         "meta2": ""
       },
       {
-        "id": 3372,
+        "id": 3365,
         "name": "Tatooine Desert Wall",
         "meta": "STAR WARS",
         "meta2": ""
       },
       {
-        "id": 3373,
+        "id": 3366,
         "name": "Tatooine Desert Wall Corner",
         "meta": "STAR WARS",
         "meta2": ""
       },
       {
-        "id": 3374,
+        "id": 3367,
         "name": "Tatooine Landspeeder",
         "meta": "STAR WARS",
         "meta2": ""
       },
       {
-        "id": 3375,
+        "id": 3368,
         "name": "Tatooine Market Stall",
         "meta": "STAR WARS",
         "meta2": ""
       },
       {
-        "id": 3376,
+        "id": 3369,
         "name": "Tatooine Moisture Vaporator",
         "meta": "STAR WARS",
         "meta2": ""
@@ -23392,7 +27187,7 @@
         "meta": "WINNIE THE POOH"
       },
       {
-        "id": 3377,
+        "id": 3370,
         "name": "Sycamore Tree",
         "meta": "WINNIE THE POOH",
         "meta2": ""
@@ -23806,12 +27601,6 @@
         "id": 1879,
         "name": "Hopps' Hay Maze Low Wall",
         "meta": "ZOOTOPIA"
-      },
-      {
-        "id": 3378,
-        "name": "Hopps' Hay Maze Sign",
-        "meta": "ZOOTOPIA",
-        "meta2": ""
       },
       {
         "id": 1880,
@@ -26646,60 +30435,6 @@
     ]
   },
   "owned": {
-    "characters": {
-      "1": "owned",
-      "2": "owned",
-      "3": "owned",
-      "4": "owned",
-      "5": "owned",
-      "6": "owned",
-      "7": "owned",
-      "8": "owned",
-      "9": "owned",
-      "10": "owned",
-      "11": "owned",
-      "12": "owned",
-      "13": "owned",
-      "14": "owned",
-      "15": "owned",
-      "16": "owned",
-      "19": "owned",
-      "21": "owned",
-      "22": "owned",
-      "23": "owned",
-      "24": "owned",
-      "25": "owned",
-      "26": "owned",
-      "27": "owned",
-      "28": "owned",
-      "29": "owned",
-      "30": "owned",
-      "31": "owned",
-      "32": "owned",
-      "33": "owned",
-      "34": "owned",
-      "35": "owned",
-      "36": "owned",
-      "37": "owned",
-      "38": "owned",
-      "39": "owned",
-      "40": "owned",
-      "41": "owned",
-      "42": "owned",
-      "43": "owned",
-      "44": "owned",
-      "45": "owned",
-      "46": "owned",
-      "47": "owned",
-      "48": "owned",
-      "49": "owned",
-      "50": "owned",
-      "51": "owned",
-      "52": "owned",
-      "54": "neutral",
-      "58": "owned",
-      "59": "owned"
-    },
     "clothing": {
       "1": "owned",
       "2": "owned",
@@ -26723,7 +30458,7 @@
       "41": "owned",
       "42": "owned",
       "43": "owned",
-      "44": "owned",
+      "44": "neutral",
       "45": "owned",
       "46": "owned",
       "47": "owned",
@@ -26744,7 +30479,7 @@
       "70": "owned",
       "72": "owned",
       "74": "owned",
-      "77": "neutral",
+      "77": "owned",
       "78": "owned",
       "79": "owned",
       "81": "owned",
@@ -27378,7 +31113,7 @@
       "1410": "owned",
       "1421": "owned",
       "1422": "owned",
-      "1423": "owned",
+      "1423": "neutral",
       "1425": "owned",
       "1426": "owned",
       "1427": "owned",
@@ -27410,7 +31145,7 @@
       "9": "owned",
       "10": "owned",
       "11": "owned",
-      "12": "neutral",
+      "12": "owned",
       "13": "owned",
       "14": "owned",
       "15": "owned",
@@ -27540,138 +31275,6 @@
       "401": "owned",
       "408": "owned",
       "529": "owned"
-    },
-    "companions": {
-      "3007": "owned",
-      "3013": "owned",
-      "3100": "owned",
-      "3101": "owned",
-      "3106": "owned",
-      "3107": "owned",
-      "3117": "owned",
-      "3119": "owned",
-      "3120": "owned",
-      "3130": "owned",
-      "3136": "owned",
-      "3138": "owned",
-      "3202": "owned",
-      "3401": "owned",
-      "3402": "owned",
-      "3410": "owned",
-      "3418": "owned",
-      "3425": "owned",
-      "3426": "owned"
-    },
-    "fish": {
-      "1": "owned",
-      "2": "owned",
-      "3": "owned",
-      "5": "owned",
-      "6": "owned",
-      "7": "owned",
-      "8": "owned",
-      "11": "owned",
-      "12": "owned",
-      "13": "owned",
-      "14": "owned",
-      "17": "owned",
-      "18": "owned",
-      "19": "owned",
-      "21": "owned",
-      "24": "owned",
-      "26": "owned",
-      "27": "owned",
-      "32": "owned",
-      "35": "owned",
-      "41": "owned",
-      "43": "owned",
-      "45": "owned",
-      "46": "owned",
-      "47": "owned",
-      "48": "owned",
-      "49": "owned",
-      "51": "owned",
-      "52": "owned",
-      "53": "owned",
-      "54": "owned",
-      "55": "owned",
-      "56": "owned",
-      "57": "owned",
-      "58": "owned",
-      "59": "owned"
-    },
-    "foraging": {
-      "2": "owned",
-      "3": "owned",
-      "4": "owned",
-      "5": "owned",
-      "6": "owned",
-      "7": "owned",
-      "8": "owned",
-      "9": "owned",
-      "12": "owned",
-      "13": "owned",
-      "14": "owned",
-      "15": "owned",
-      "16": "owned",
-      "17": "owned",
-      "18": "owned",
-      "19": "owned",
-      "20": "owned",
-      "21": "owned",
-      "22": "owned",
-      "23": "owned",
-      "24": "owned",
-      "25": "owned",
-      "26": "owned",
-      "27": "owned",
-      "28": "owned",
-      "29": "owned",
-      "30": "owned",
-      "31": "owned",
-      "32": "owned",
-      "33": "owned",
-      "34": "owned",
-      "35": "owned",
-      "36": "owned",
-      "37": "owned",
-      "38": "owned",
-      "39": "owned",
-      "40": "owned",
-      "41": "owned",
-      "62": "owned",
-      "63": "owned",
-      "64": "owned",
-      "68": "owned",
-      "71": "owned",
-      "73": "owned",
-      "86": "owned",
-      "87": "owned",
-      "88": "owned",
-      "89": "owned",
-      "90": "owned",
-      "91": "owned",
-      "92": "owned",
-      "93": "owned",
-      "94": "owned",
-      "95": "owned",
-      "96": "owned",
-      "97": "owned",
-      "98": "owned",
-      "99": "owned",
-      "100": "owned",
-      "102": "owned",
-      "103": "owned",
-      "104": "owned",
-      "105": "owned",
-      "106": "owned",
-      "107": "owned",
-      "108": "owned",
-      "109": "owned",
-      "110": "owned",
-      "111": "owned",
-      "112": "owned",
-      "113": "owned"
     },
     "furniture": {
       "7": "owned",
@@ -28343,7 +31946,7 @@
       "2065": "owned",
       "2072": "owned",
       "2075": "owned",
-      "2078": "neutral",
+      "2078": "owned",
       "2079": "owned",
       "2080": "owned",
       "2081": "owned",
@@ -28351,7 +31954,7 @@
       "2083": "owned",
       "2085": "owned",
       "2086": "owned",
-      "2088": "neutral",
+      "2088": "owned",
       "2089": "owned",
       "2090": "owned",
       "2091": "owned",
@@ -28436,7 +32039,7 @@
       "2262": "owned",
       "2263": "owned",
       "2269": "owned",
-      "2273": "owned",
+      "2273": "neutral",
       "2274": "owned",
       "2277": "owned",
       "2280": "owned",
@@ -28632,7 +32235,7 @@
       "2885": "owned",
       "2887": "owned",
       "2888": "owned",
-      "2889": "neutral",
+      "2889": "owned",
       "2890": "owned",
       "2891": "owned",
       "2892": "owned",
@@ -28718,7 +32321,7 @@
       "3156": "owned",
       "3157": "owned",
       "3158": "owned",
-      "3159": "neutral",
+      "3159": "owned",
       "3161": "owned",
       "3167": "owned",
       "3170": "owned",
@@ -28773,94 +32376,6 @@
       "3325": "owned",
       "3326": "owned",
       "3327": "owned"
-    },
-    "gems": {
-      "1": "owned",
-      "2": "owned",
-      "3": "owned",
-      "4": "owned",
-      "5": "owned",
-      "6": "owned",
-      "7": "owned",
-      "8": "owned",
-      "9": "owned",
-      "10": "owned",
-      "11": "owned",
-      "12": "owned",
-      "13": "owned",
-      "14": "owned",
-      "15": "owned",
-      "16": "owned",
-      "17": "owned",
-      "18": "owned",
-      "19": "owned",
-      "20": "owned",
-      "21": "owned",
-      "22": "owned",
-      "23": "owned",
-      "24": "owned",
-      "37": "owned",
-      "38": "neutral",
-      "43": "owned"
-    },
-    "ingredients": {
-      "1": "owned",
-      "2": "owned",
-      "3": "owned",
-      "4": "owned",
-      "5": "owned",
-      "6": "owned",
-      "7": "owned",
-      "8": "owned",
-      "9": "owned",
-      "10": "owned",
-      "11": "owned",
-      "12": "owned",
-      "13": "owned",
-      "14": "owned",
-      "15": "owned",
-      "16": "owned",
-      "17": "owned",
-      "18": "owned",
-      "19": "owned",
-      "20": "owned",
-      "21": "owned",
-      "22": "owned",
-      "23": "owned",
-      "24": "owned",
-      "25": "owned",
-      "26": "owned",
-      "27": "owned",
-      "28": "owned",
-      "29": "owned",
-      "30": "owned",
-      "31": "owned",
-      "32": "owned",
-      "33": "owned",
-      "34": "owned",
-      "35": "owned",
-      "36": "owned",
-      "37": "owned",
-      "38": "owned",
-      "39": "owned",
-      "40": "owned",
-      "41": "owned",
-      "42": "owned",
-      "43": "owned",
-      "44": "owned",
-      "45": "owned",
-      "46": "owned",
-      "47": "owned",
-      "48": "owned",
-      "49": "owned",
-      "50": "owned",
-      "51": "owned",
-      "57": "owned",
-      "58": "owned",
-      "62": "owned",
-      "63": "owned",
-      "76": "owned",
-      "79": "owned"
     },
     "meals": {
       "1": "owned",
@@ -29085,19 +32600,18 @@
     }
   },
   "checked": {
-    "characters": {},
     "clothing": {
       "65": false,
       "67": false,
       "70": false,
       "105": false
     },
-    "crafting": {},
-    "companions": {},
-    "fish": {},
-    "foraging": {},
+    "crafting": {
+      "575": false
+    },
     "furniture": {
       "149": false,
+      "436": false,
       "531": false,
       "617": false,
       "684": false,
@@ -29114,47 +32628,1207 @@
       "3218": false,
       "3266": false
     },
-    "gems": {},
-    "ingredients": {},
     "meals": {
       "209": false
     }
   },
   "nextId": {
-    "characters": 68,
-    "clothing": 1503,
-    "crafting": 3,
-    "companions": 3547,
-    "fish": 61,
-    "foraging": 120,
-    "furniture": 3379,
-    "gems": 51,
-    "ingredients": 92,
+    "clothing": 1515,
+    "crafting": 1054,
+    "furniture": 3427,
     "meals": 469
   },
   "ingredients": {
-    "characters": {},
     "clothing": {},
-    "crafting": {},
-    "companions": {},
-    "fish": {},
-    "foraging": {},
+    "crafting": {
+      "263": [
+        "3 Tropical Wood",
+        "1 Brass Ingot",
+        "1 Plastic Scrap"
+      ],
+      "264": [
+        "3 Softwood",
+        "1 Rope",
+        "1 Amber"
+      ],
+      "265": [
+        "3 Stone",
+        "1 Mechanical Parts"
+      ],
+      "266": [
+        "5 Quartz",
+        "5 Stone"
+      ],
+      "267": [
+        "3 Hardwood",
+        "1 Bronze Ingot",
+        "1 Amber"
+      ],
+      "268": [
+        "10 Tropical Wood",
+        "5 Brass Ingot",
+        "5 Plastic Scrap"
+      ],
+      "269": [
+        "3 Bamboo",
+        "1 Fiber"
+      ],
+      "270": [
+        "3 Brass Ingot",
+        "1 Coal Ore",
+        "1 Ancient Plate",
+        "1 Mechanical Parts",
+        "1 Bronze Ingot"
+      ],
+      "271": [
+        "10 Tropical Wood",
+        "5 Fiber"
+      ],
+      "272": [
+        "2 Fiber",
+        "2 Softwood"
+      ],
+      "273": [
+        "3 Round Soil Area",
+        "1 White Bird of Paradise",
+        "1 Black Glass-like Flowers"
+      ],
+      "274": [
+        "3 Rectangular Soil Area",
+        "1 White Bird of Paradise",
+        "1 Black Glass-like Flowers"
+      ],
+      "275": [
+        "3 Quartz",
+        "1 Oasis Glass",
+        "1 Electric Power",
+        "1 Blue Zircon"
+      ],
+      "355": [
+        "1 Sorcerer Hat Hermit",
+        "5 Iron Ingot",
+        "500 Storybook Magic"
+      ],
+      "356": [
+        "2 Blue Tale Cone Flower",
+        "3 Yellow Tale Cone Flowers",
+        "10 Petrified Wood",
+        "8 Wheat"
+      ],
+      "357": [
+        "3 Pine Cone",
+        "1 Opal"
+      ],
+      "358": [
+        "10 Petrified Wood",
+        "5 Trumpet Snail",
+        "5 Soil",
+        "10 Pine Cone",
+        "1 Sorcerer Hat Hermit Crab"
+      ],
+      "359": [
+        "3 Mud",
+        "1 Petrified Wood",
+        "1 Yellow Tale Cone Flowers",
+        "1 Red Bird Snippet"
+      ],
+      "360": [
+        "10 Mud",
+        "2 Petrified Wood",
+        "4 Commom Club Rush"
+      ],
+      "361": [
+        "1 Sea Monster Tooth",
+        "2 Common Club Rush",
+        "2 Fairy Bubbles",
+        "1 Slate Gray Rose"
+      ],
+      "409": [
+        "10 Four Leaf Clover",
+        "10 Iron Ingot",
+        "20 gold Ingot"
+      ],
+      "410": [
+        "2 Giant Acorns",
+        "2 Balloon Fish",
+        "1 Grassy Ore"
+      ],
+      "411": [
+        "1 Pyrite",
+        "2 Dry Wood",
+        "2 Yellow Crocus",
+        "1 White Crocus"
+      ],
+      "412": [
+        "2 Reclaimed Barn Wood",
+        "1 Rusty Hinge",
+        "1 Yellow Crocus",
+        "1 Purple Crocus"
+      ],
+      "413": [
+        "2 Rusty Hinge",
+        "2 Reclaimed Barn Wood",
+        "2 Silver Ore",
+        "2 Yellow Crocus",
+        "2 White Crocus"
+      ],
+      "414": [
+        "4 Dry Wood",
+        "4 White Crocus",
+        "4 Yellow Crocus",
+        "4 Purple Crocus",
+        "4 Pink Crocus"
+      ],
+      "415": [
+        "5 Pixie Dust",
+        "5 Pebbles",
+        "5 Reclaimed Barn Wood",
+        "3 Old Braided Rope",
+        "5 Silver Ore"
+      ],
+      "416": [
+        "6 Grassy Ore",
+        "6 Soil",
+        "6 Hardwood",
+        "2 Honeycomb Stone"
+      ],
+      "417": [
+        "4 Sequin Strands",
+        "6 Antique Clothes Iron",
+        "6 Wire Coat Hanger",
+        "2 Black Silk Flower",
+        "2 Silver Slk Flower"
+      ],
+      "418": [
+        "3 Sequin Strands",
+        "3 Antique Clothes Iron",
+        "2 Wire Coat Hanger",
+        "2 Silver Silk Flowers"
+      ],
+      "419": [
+        "8 Glass",
+        "2 Antique Clothes Iron"
+      ],
+      "420": [
+        "2 Beady Soil",
+        "1 Stone",
+        "1 Black Silk Flower",
+        "1 Jasper"
+      ],
+      "530": [
+        "5 Clay",
+        "1 Coal Ore"
+      ],
+      "531": [
+        "1 Charcoal"
+      ],
+      "532": [
+        "3 Glass"
+      ],
+      "533": [
+        "5 Cotton"
+      ],
+      "534": [
+        "1 Seaweed"
+      ],
+      "535": [
+        "10 Three-Leaf Clover",
+        "500 Dreamlight"
+      ],
+      "536": [
+        "5 Sand",
+        "1 Coal Ore"
+      ],
+      "537": [
+        "5 Gold Nugget",
+        "1 Coal Ore"
+      ],
+      "538": [
+        "Found while Mining"
+      ],
+      "539": [
+        "5 Iron Ore",
+        "1 Coal Ore"
+      ],
+      "540": [
+        "1 Onyx"
+      ],
+      "541": [
+        "5 Pixel Shard"
+      ],
+      "542": [
+        "8 Fiber"
+      ],
+      "543": [
+        "1 Red Algae"
+      ],
+      "544": [
+        "1 Rich Soil"
+      ],
+      "545": [
+        "2 Iron Ingot"
+      ],
+      "546": [
+        "1 Egg-cellent Fruit",
+        "1 Wild Spring Egg",
+        "20 Dreamlight"
+      ],
+      "547": [
+        "3 Cooper",
+        "2 Zinc",
+        "1 Coal Ore"
+      ],
+      "548": [
+        "4 Cooper",
+        "1 Tin",
+        "1 Coal Ore"
+      ],
+      "549": [
+        "1 Cooper",
+        "3 Electric Eel"
+      ],
+      "550": [
+        "1 Brass Ingot",
+        "1 Bronze Ingot"
+      ],
+      "551": [
+        "White Bird Snippet"
+      ],
+      "552": [
+        "White Bird Snippet"
+      ],
+      "553": [
+        "White Bird Snippet"
+      ],
+      "554": [
+        "White Bird Snippet"
+      ],
+      "555": [
+        "White Bird Snippet"
+      ],
+      "556": [
+        "White Bird Snippet"
+      ],
+      "557": [
+        "White Bird Snippet"
+      ],
+      "558": [
+        "White Bird Snippet"
+      ],
+      "559": [
+        "White Bird Snippet"
+      ],
+      "560": [
+        "White Bird Snippet"
+      ],
+      "561": [
+        "White Bird Snippet"
+      ],
+      "562": [
+        "White Bird Snippet"
+      ],
+      "563": [
+        "White Bird Snippet"
+      ],
+      "564": [
+        "White Bird Snippet"
+      ],
+      "565": [
+        "White Bird Snippet"
+      ],
+      "566": [
+        "Any Snippet"
+      ],
+      "567": [
+        "20 Pebbles",
+        "20 Sand",
+        "30 Soil",
+        "5000 Dreamlight"
+      ],
+      "568": [
+        "10 Dream Shard"
+      ],
+      "569": [
+        "20 Vitalys Crystal",
+        "10 Red Algae",
+        "1000 Dreamlight"
+      ],
+      "570": [
+        "20 Vitalys Crystal",
+        "20 Rich Soil",
+        "1000 Dreamlight"
+      ],
+      "571": [
+        "20 Vitalys Crystal",
+        "20 Dry Wood",
+        "1000 Dreamlight"
+      ],
+      "572": [
+        "2 Swordfish",
+        "5 Bream",
+        "10 Herring",
+        "5000 Dreamlight"
+      ],
+      "573": [
+        "30 Banana",
+        "20 Blueberry",
+        "10 Basil",
+        "5000 Dreamlight"
+      ],
+      "574": [
+        "40 Corn",
+        "60 Tomato",
+        "20 Carrot",
+        "5000 Dreamlight"
+      ],
+      "575": [
+        "2 Topaz",
+        "2 Aquamarine",
+        "2 Peridot",
+        "5000 Dreamlight"
+      ],
+      "576": [
+        "10 Vitalys Crystal",
+        "5 Red Algae",
+        "500 Dreamlight"
+      ],
+      "577": [
+        "10 Vytalis Crystal",
+        "10 Rich Soil",
+        "500 Dreamlight"
+      ],
+      "578": [
+        "10 Vitalys Crystal",
+        "5 Onyx",
+        "500 Dreamlight"
+      ],
+      "579": [
+        "10 Vitalys Crystal",
+        "10 Dry Wood",
+        "500 Dreamlight"
+      ],
+      "580": [
+        "5 Pixel Shard"
+      ],
+      "581": [
+        "5 Night Shard",
+        "1 Dream Shard"
+      ],
+      "582": [
+        "10 Pixel Shard"
+      ],
+      "583": [
+        "10 Wooden Oar",
+        "10 Dinglehopper",
+        "10 Pink Bow",
+        "5000 Dremlight"
+      ],
+      "584": [
+        "5000 Dreamlight",
+        "10 Blue Bird Snippet",
+        "10 Pink Demon Snipper",
+        "10 Green Frog Snippet"
+      ],
+      "585": [
+        "20 Vitalys Crystal",
+        "10 Onyx",
+        "1000 Dreamlight"
+      ],
+      "586": [
+        "1 Stone",
+        "1 Pebbles",
+        "1 Coal Ore"
+      ],
+      "587": [
+        "1 Stone",
+        "1 Pebbles",
+        "1 Coal Ore"
+      ],
+      "588": [
+        "1 Sand",
+        "1 Pebbles",
+        "1 Coal Ore"
+      ],
+      "589": [
+        "1 Sand",
+        "1 Pebbles",
+        "1 Coal Ore"
+      ],
+      "590": [
+        "8 Tropical Wood",
+        "10 Plastic Scrap",
+        "5 Cooper"
+      ],
+      "591": [
+        "8 Tropical Wood",
+        "10 plastic Scrap",
+        "5 Cooper"
+      ],
+      "593": [
+        "2 Stone"
+      ],
+      "594": [
+        "2 Stone"
+      ],
+      "595": [
+        "8 Tropical Wood",
+        "10 Plastic Scrap",
+        "5 Cooper"
+      ],
+      "596": [
+        "2 Iron Ingot"
+      ],
+      "597": [
+        "5 Dark Wood"
+      ],
+      "598": [
+        "2 Candy"
+      ],
+      "599": [
+        "4 Softwood",
+        "1 White & Pink Falling Penstemon"
+      ],
+      "600": [
+        "1 Stone",
+        "1 Aquamarine",
+        "1 Tourmaline"
+      ],
+      "601": [
+        "1 Stone",
+        "1 Aquamarine",
+        "1 Tourmaline"
+      ],
+      "602": [
+        "1 Stone",
+        "1 Gold Ingot"
+      ],
+      "603": [
+        "1 Stone",
+        "1 Gold Ingot"
+      ],
+      "604": [
+        "1 Gold Ingot"
+      ],
+      "605": [
+        "1 Gold Ingot"
+      ],
+      "606": [
+        "5 Softwood",
+        "5 Fiber"
+      ],
+      "607": [
+        "2 Iron Ingot",
+        "3 Brick"
+      ],
+      "608": [
+        "1 Hardwood",
+        "1 Soil"
+      ],
+      "609": [
+        "1 Hardwood",
+        "1 Soil"
+      ],
+      "610": [
+        "1 Soil",
+        "1 Pebbles"
+      ],
+      "611": [
+        "1 Soil",
+        "1 Pebbles"
+      ],
+      "612": [
+        "1 Clay",
+        "1 Pebbles",
+        "1 Sand"
+      ],
+      "613": [
+        "2 Brick",
+        "3 Iron Ingot"
+      ],
+      "614": [
+        "1 Soil",
+        "1 Hardwood"
+      ],
+      "615": [
+        "1 Soil",
+        "1 Hardwood"
+      ],
+      "616": [
+        "1 Pebbles",
+        "1 Sand"
+      ],
+      "617": [
+        "1 Pebbles",
+        "1 Sand"
+      ],
+      "618": [
+        "3 Softwood",
+        "2 Hardwood"
+      ],
+      "619": [
+        "8 Tropical Wood",
+        "10 Plastic Scrap",
+        "5 Cooper"
+      ],
+      "620": [
+        "8 Tropical Wood",
+        "10 Plastic Scrap",
+        "5 Cooper"
+      ],
+      "621": [
+        "8 Tropical Wood",
+        "10 Plastic Scrap",
+        "5 Cooper"
+      ],
+      "622": [
+        "8 Tropical Wood",
+        "10 Plastic Scrap",
+        "5 Cooper"
+      ],
+      "623": [
+        "5 Hardwood"
+      ],
+      "624": [
+        "8 Tropical Wood",
+        "10 Plastic Scrap",
+        "5 Cooper"
+      ],
+      "625": [
+        "1 Stone",
+        "1 Soil"
+      ],
+      "626": [
+        "1 Stone",
+        "1 Soil"
+      ],
+      "627": [
+        "1 Stone",
+        "1 Snowball"
+      ],
+      "628": [
+        "1 Stone",
+        "1 Snowball"
+      ],
+      "629": [
+        "2 Candy"
+      ],
+      "630": [
+        "1 Soil",
+        "1 Clay"
+      ],
+      "631": [
+        "1 Soil",
+        "1 Clay"
+      ],
+      "632": [
+        "5 Softwood"
+      ],
+      "633": [
+        "5 Softwood"
+      ],
+      "634": [
+        "2 Iron Ingot"
+      ],
+      "635": [
+        "1 Wrought Iron"
+      ],
+      "636": [
+        "1 Spinel",
+        "1 Bronze Ingot",
+        "1 Blue Zircon"
+      ],
+      "637": [
+        "3 Bumblestone",
+        "1 Scales"
+      ],
+      "639": [
+        "1 Plastic Scrap",
+        "1 Alexandrite"
+      ],
+      "640": [
+        "3 Bumblestone",
+        "1 Scales",
+        "1 Alexandrite"
+      ],
+      "641": [
+        "1 Pearl",
+        "1 Pebbles",
+        "1 Amber"
+      ],
+      "642": [
+        "1 Pearl",
+        "1 Pebbles",
+        "1 Jade"
+      ],
+      "643": [
+        "3 Spinel",
+        "1 Bronze Ingot"
+      ],
+      "644": [
+        "2 Ancient Radiator"
+      ],
+      "645": [
+        "2 Ancient Gear"
+      ],
+      "647": [
+        "3 Marble",
+        "Crimson Eternal Poppies",
+        "Fuschia Eternal Poppies"
+      ],
+      "648": [
+        "1 Pixie Dust",
+        "1 Pebbles"
+      ],
+      "649": [
+        "1 Pixie Dust",
+        "1 Pebbles"
+      ],
+      "650": [
+        "1 Stone",
+        "1 Beady Soil",
+        "1 Wire Coat Hanger"
+      ],
+      "651": [
+        "1 Dry Wood",
+        "1 White Crocus",
+        "1 Pink Crocus"
+      ],
+      "652": [
+        "2 Goose Feathers",
+        "1 Giant Acorns"
+      ],
+      "653": [
+        "1 Giant Acorns",
+        "1 Grassy Ore",
+        "1 Glass"
+      ],
+      "654": [
+        "1 Reclaimed Barn Wood",
+        "2 Rusty Hinge"
+      ],
+      "655": [
+        "1 Pebbles",
+        "1 Beady Soil"
+      ],
+      "656": [
+        "1 Drywood",
+        "1 Pink Crocus",
+        "1 White Crocus",
+        "1 Snowball"
+      ],
+      "657": [
+        "1 Reclaimed Barn Wood",
+        "2 Rusty Hinge",
+        "1 Snowball"
+      ],
+      "658": [
+        "2 Pebbles"
+      ],
+      "659": [
+        "5 Hardwood",
+        "5 Blue Marsh Milkweed",
+        "1 Orange & Red Marsh Milkweed",
+        "10 Clay",
+        "1 Okra Seed"
+      ],
+      "660": [
+        "10 Iron Ingot",
+        "3 Glass",
+        "1 Black Passion Lily"
+      ],
+      "661": [
+        "12 Iron Ingot",
+        "2 Glass"
+      ],
+      "662": [
+        "5 Softwood",
+        "2 Iron Ingot"
+      ],
+      "663": [
+        "5 Softwood",
+        "1 Iron Ingot",
+        "1 Blue Star Lily"
+      ],
+      "664": [
+        "10 Softwood",
+        "1 Iron Ingot"
+      ],
+      "665": [
+        "10 Iron Ingot",
+        "7 Dry Wood",
+        "3 Coal Ore"
+      ],
+      "666": [
+        "15 Dry Wood",
+        "15 Fiber"
+      ],
+      "667": [
+        "15 Softwood",
+        "5 Sunflower",
+        "5 White & Red Hydrangea",
+        "1 Topaz"
+      ],
+      "668": [
+        "10 Softwood"
+      ],
+      "669": [
+        "1 Festive Wrapping Paper",
+        "1 Hot Cocoa",
+        "1 Minnie's Gingerbread Cookies"
+      ],
+      "670": [
+        "5 Softwood",
+        "5 Clay",
+        "5 Wheat",
+        "2 Red Bell Flower"
+      ],
+      "671": [
+        "5 Clay",
+        "5 Wheat",
+        "2 Red Bell Flower"
+      ],
+      "672": [
+        "10 Iron Ingot",
+        "2 Glass"
+      ],
+      "673": [
+        "12 Iron Ingot",
+        "2 Glass"
+      ],
+      "674": [
+        "2 Iron Ingot",
+        "10 Hardwood",
+        "1 White Bell Flower"
+      ],
+      "675": [
+        "15 Dry Wood",
+        "15 Fiber"
+      ],
+      "676": [
+        "1 Festive Wrapping Paper",
+        "1 Holiday Feast Chair"
+      ],
+      "677": [
+        "15 Softwood",
+        "15 Fiber"
+      ],
+      "678": [
+        "10 Iron Ingot",
+        "10 Hardwood",
+        "1 Topaz"
+      ],
+      "679": [
+        "25 Dark Wood",
+        "5 Gold Ingot",
+        "5000 Dreamlight",
+        "5 Blue Passion Lily"
+      ],
+      "680": [
+        "25 Dark Wood",
+        "5 Gold Ingot",
+        "5000 Dreamlight"
+      ],
+      "681": [
+        "25 Dark Wood",
+        "5 Gold Ingot",
+        "5000 Dreamlight",
+        "10 Green Passion Lily"
+      ],
+      "682": [
+        "25 Dark Wood",
+        "5 Gold Ingot",
+        "5000 Dreamlight",
+        "6 Red Nasturtium"
+      ],
+      "683": [
+        "25 Dark Wood",
+        "5 Gold Ingot",
+        "5000 Dreamlight",
+        "10 White Impatiens"
+      ],
+      "684": [
+        "25 Dark Wood",
+        "5 Gold Ingot",
+        "5000 Dreamlight",
+        "3 Yellow Nasturium"
+      ],
+      "685": [
+        "25 Hardwood",
+        "5 Iron Ingot",
+        "1000 Dreamlight",
+        "3 Blue Star Lily"
+      ],
+      "686": [
+        "25 Hardwood",
+        "5 Iron Ingot",
+        "1000 Dreamlight"
+      ],
+      "687": [
+        "25 Hardwood",
+        "5 Iron Ingot",
+        "1000 Dreamlight",
+        "5 Green Rising Penstermon"
+      ],
+      "688": [
+        "25 Hardwood",
+        "5 Iron Ingot",
+        "1000 Dreamlight",
+        "10 Red Bell Flower"
+      ],
+      "689": [
+        "25 Hardwood",
+        "5 Iron Ingot",
+        "1000 Dreamlight",
+        "6 White Marsh Milkweed"
+      ],
+      "690": [
+        "25 Hardwood",
+        "5 Iron Ingot",
+        "1000 Dreamlight",
+        "6 Sunflowers"
+      ],
+      "691": [
+        "1 Festive Wrapping Paper",
+        "1 Coal Ore"
+      ],
+      "692": [
+        "10 Iron Ingot",
+        "3 Glass"
+      ],
+      "693": [
+        "12 Iron Ingot",
+        "2 Glass"
+      ],
+      "694": [
+        "15 Fishy Green Egg",
+        "5 Purple Spring Egg",
+        "1 Onyx"
+      ],
+      "695": [
+        "10 Iron Ingot",
+        "3 Glass",
+        "1 Pink Houseleek"
+      ],
+      "696": [
+        "12 Iron Ingot",
+        "2 Glass",
+        "1 Pink Houseleek"
+      ],
+      "697": [
+        "3 Red Bell Flower",
+        "5 Yellow Daisiy",
+        "5 Blue Hydrangea"
+      ],
+      "699": [
+        "1 Blue Button",
+        "2 Red Button",
+        "100 Dreamlight"
+      ],
+      "700": [
+        "2 Iron Ingot",
+        "10 Hardwood",
+        "1 Red Bromeliad"
+      ],
+      "701": [
+        "15 Hardwood",
+        "15 Fiber"
+      ],
+      "702": [
+        "15 Hardwood",
+        "15 Fiber"
+      ],
+      "703": [
+        "15 Fabric",
+        "23 Rope",
+        "25 Softwood"
+      ],
+      "704": [
+        "1 Festive Wrapping Paper",
+        "1 Shiny Ruby",
+        "1 Shiny Emerald"
+      ],
+      "705": [
+        "2500 Dreamlight",
+        "6 Iron Ingot",
+        "2 Tinkering Parts",
+        "20 Hardwood"
+      ],
+      "706": [
+        "25 Softwood",
+        "25 Stone",
+        "5 Blue Falling Penstemon"
+      ],
+      "707": [
+        "25 Softwood",
+        "25 Stone"
+      ],
+      "708": [
+        "25 Softwood",
+        "25 Stone"
+      ],
+      "709": [
+        "25 Softwood",
+        "25 Stone",
+        "10 Red Falling Penstemon"
+      ],
+      "710": [
+        "25 Softwood",
+        "25 Stone",
+        "6 White Daisy"
+      ],
+      "711": [
+        "25 Softwood",
+        "25 Stone",
+        "6 Dandelion"
+      ],
+      "712": [
+        "6 Raspberry",
+        "4 Blue Falling Penstemon",
+        "4 Purple Falling Penstemon",
+        "10 Soil",
+        "1 Topaz",
+        "12 Saucery Extract"
+      ],
+      "713": [
+        "2 Old Stuffing",
+        "2 Old Paper",
+        "2 Fabric"
+      ],
+      "714": [
+        "2 Old Stuffing",
+        "2 Old Paper",
+        "2 Fabric"
+      ],
+      "715": [
+        "15 Softwood",
+        "15 Fiber"
+      ],
+      "716": [
+        "28 Mushroom",
+        "17 Glass",
+        "6 Purple Bell Flower",
+        "4 Blue Passion Lily",
+        "35 Hardwood"
+      ],
+      "717": [
+        "10 Iron Ingot",
+        "3 Glass"
+      ],
+      "718": [
+        "12 Iron Ingot",
+        "2 Glass",
+        "1 Black Passion Lily"
+      ],
+      "719": [
+        "10 Iron Ingot",
+        "10 Hardwood",
+        "1 Topaz",
+        "3 Red Falling Penstermon"
+      ],
+      "720": [
+        "10 Quartz",
+        "10 Zinc",
+        "3 Mechanical Parts",
+        "3 Blue Luminescent Flower"
+      ],
+      "721": [
+        "15 Tropical Wood",
+        "10 Bamboo",
+        "1 Spinel",
+        "3 Green Glass-Like Flowers"
+      ],
+      "722": [
+        "1 Magma",
+        "1 Stygiam Mudskipper",
+        "5 Petrified Wood",
+        "10 volcanic Rock",
+        "500 Storybook Magic"
+      ],
+      "723": [
+        "1 Opal",
+        "1 Sorcerer Hat Hermit Crab",
+        "5 Petrified Wood",
+        "10 Volcanic Rock",
+        "500 Storybook Magic"
+      ],
+      "724": [
+        "1 Star Sapphire",
+        "1 Lamprey",
+        "5 Petrified Wood",
+        "10 Volcanic Rock",
+        "500 Storybook Magic"
+      ],
+      "725": [
+        "1 Magma",
+        "1 Stygian Mudskipper",
+        "5 Pine Cone",
+        "10 Moss",
+        "500 Storybook Magic"
+      ],
+      "726": [
+        "1 Opal",
+        "1 Sorcerer Hat Hermit Crab",
+        "5 Pine Cone",
+        "10 Moss",
+        "500 Storybook Magic"
+      ],
+      "727": [
+        "1 Star Snippet",
+        "1 Lamprey",
+        "5 Pine Cone",
+        "10 Moss",
+        "500 Storybook Magic"
+      ],
+      "728": [
+        "1 Magma",
+        "1 Stygian Mudskipper",
+        "5 Gold Ingot",
+        "10 Marble",
+        "500 Storybook Magic"
+      ],
+      "729": [
+        "1 Opal",
+        "1 Sorcerer Hat Hermit Crab",
+        "5 Gold Ingot",
+        "10 Marble",
+        "500 Storybook Magic"
+      ],
+      "730": [
+        "1 Star Sapphire",
+        "1 Lamprey",
+        "5 Gold Ingot",
+        "10 Marble",
+        "500 Storybook Magic"
+      ],
+      "731": [
+        "5 Iron Ingot",
+        "3 White Rose",
+        "2 Opal",
+        "2 Star Sapphire"
+      ],
+      "994": [
+        "10 Wild Spring Egg",
+        "10 Egg-cellent Fruit",
+        "5 Spring V-EGG-etable",
+        "20 Fiber"
+      ],
+      "1011": [
+        "5 Iron Ingot",
+        "1 Sea Monster Tooth",
+        "500 Storybook Magic"
+      ],
+      "1012": [
+        "10 Dark Wood",
+        "5 Fabric",
+        "10 Cron",
+        "4 Pumpkin"
+      ],
+      "1028": [
+        "2 Glass",
+        "4 Wire Coat Hanger",
+        "2 Antique Clothes Iron",
+        "2 Jasper"
+      ],
+      "1029": [
+        "40 Sand",
+        "10 Scallop",
+        "3 Aquamarine",
+        "10 Gold Ingot",
+        "20 Hardwood"
+      ],
+      "1030": [
+        "5 Dark Wood",
+        "1 Iron Ingot"
+      ],
+      "1031": [
+        "10 Hardwood",
+        "10 Fiber"
+      ],
+      "1032": [
+        "10 Softwood",
+        "10 Fiber",
+        "10 Sand"
+      ],
+      "1033": [
+        "5 Softwood"
+      ],
+      "1034": [
+        "20 Hardwood",
+        "20 Fiber"
+      ],
+      "1035": [
+        "20 Hardwood"
+      ],
+      "1036": [
+        "20 Hardwood",
+        "5 Fabric"
+      ],
+      "1037": [
+        "25 Softwood"
+      ],
+      "1038": [
+        "10 Iron Ingot",
+        "10 Snowball"
+      ],
+      "1039": [
+        "10 Dry Wood",
+        "3 Fabric",
+        "1 Glass"
+      ],
+      "1040": [
+        "15 Softwood"
+      ],
+      "1041": [
+        "10 Fiber",
+        "10 Sand"
+      ],
+      "1042": [
+        "10 Softwood",
+        "20 Hardwood"
+      ],
+      "1043": [
+        "20 Fiber"
+      ],
+      "1044": [
+        "10 Softwood"
+      ],
+      "1045": [
+        "30 Softwood"
+      ],
+      "1046": [
+        "6 Fiber",
+        "1 Pink Hydrangea"
+      ],
+      "1047": [
+        "5 Softwood",
+        "1 Iron Ingot"
+      ],
+      "1048": [
+        "4 Hardwood",
+        "1 Green Rising Penstermon"
+      ],
+      "1049": [
+        "10 Softwood",
+        "6 Fiber",
+        "1 Green Rising Penstermon"
+      ],
+      "1050": [
+        "5 Iron Ingot",
+        "2 Glass",
+        "1 Topaz"
+      ],
+      "1051": [
+        "15 Stones",
+        "20 Hardwood",
+        "10 Wheat",
+        "5 Egg"
+      ]
+    },
     "furniture": {},
-    "gems": {},
-    "ingredients": {},
     "meals": {}
   },
   "deletedIds": {
-    "clothing": {
-      "556": true,
-      "557": true,
-      "1453": true,
-      "1466": true,
-      "1503": true,
-      "1504": true,
-      "1505": true,
-      "1506": true
-    },
+    "clothing": {},
     "crafting": {
       "2": true,
       "3": true,
@@ -29232,234 +33906,6 @@
       "75": true,
       "76": true,
       "77": true,
-      "78": true,
-      "79": true,
-      "80": true,
-      "81": true,
-      "82": true,
-      "83": true,
-      "84": true,
-      "85": true,
-      "86": true,
-      "87": true,
-      "88": true,
-      "89": true,
-      "90": true,
-      "91": true,
-      "92": true,
-      "93": true,
-      "94": true,
-      "95": true,
-      "96": true,
-      "97": true,
-      "98": true,
-      "99": true,
-      "100": true,
-      "101": true,
-      "102": true,
-      "103": true,
-      "104": true,
-      "105": true,
-      "106": true,
-      "107": true,
-      "108": true,
-      "109": true,
-      "110": true,
-      "111": true,
-      "112": true,
-      "113": true,
-      "114": true,
-      "115": true,
-      "116": true,
-      "117": true,
-      "118": true,
-      "119": true,
-      "120": true,
-      "121": true,
-      "122": true,
-      "123": true,
-      "124": true,
-      "125": true,
-      "126": true,
-      "127": true,
-      "128": true,
-      "129": true,
-      "130": true,
-      "131": true,
-      "132": true,
-      "133": true,
-      "134": true,
-      "135": true,
-      "136": true,
-      "137": true,
-      "138": true,
-      "139": true,
-      "140": true,
-      "141": true,
-      "142": true,
-      "143": true,
-      "144": true,
-      "145": true,
-      "146": true,
-      "147": true,
-      "148": true,
-      "149": true,
-      "150": true,
-      "151": true,
-      "152": true,
-      "153": true,
-      "154": true,
-      "155": true,
-      "156": true,
-      "157": true,
-      "158": true,
-      "159": true,
-      "160": true,
-      "161": true,
-      "162": true,
-      "163": true,
-      "164": true,
-      "165": true,
-      "166": true,
-      "167": true,
-      "168": true,
-      "169": true,
-      "170": true,
-      "171": true,
-      "172": true,
-      "173": true,
-      "174": true,
-      "175": true,
-      "176": true,
-      "177": true,
-      "178": true,
-      "179": true,
-      "180": true,
-      "181": true,
-      "182": true,
-      "183": true,
-      "184": true,
-      "185": true,
-      "186": true,
-      "187": true,
-      "188": true,
-      "189": true,
-      "190": true,
-      "191": true,
-      "192": true,
-      "193": true,
-      "194": true,
-      "195": true,
-      "196": true,
-      "197": true,
-      "198": true,
-      "199": true,
-      "200": true,
-      "201": true,
-      "202": true,
-      "203": true,
-      "204": true,
-      "205": true,
-      "206": true,
-      "207": true,
-      "208": true,
-      "209": true,
-      "210": true,
-      "211": true,
-      "212": true,
-      "213": true,
-      "214": true,
-      "215": true,
-      "216": true,
-      "217": true,
-      "218": true,
-      "219": true,
-      "220": true,
-      "221": true,
-      "222": true,
-      "223": true,
-      "224": true,
-      "225": true,
-      "226": true,
-      "227": true,
-      "228": true,
-      "229": true,
-      "230": true,
-      "231": true,
-      "232": true,
-      "233": true,
-      "234": true,
-      "235": true,
-      "236": true,
-      "237": true,
-      "238": true,
-      "239": true,
-      "240": true,
-      "241": true,
-      "242": true,
-      "243": true,
-      "244": true,
-      "245": true,
-      "246": true,
-      "247": true,
-      "248": true,
-      "249": true,
-      "250": true,
-      "251": true,
-      "252": true,
-      "253": true,
-      "254": true,
-      "255": true,
-      "256": true,
-      "257": true,
-      "258": true,
-      "259": true,
-      "260": true,
-      "261": true,
-      "262": true,
-      "263": true,
-      "264": true,
-      "265": true,
-      "266": true,
-      "267": true,
-      "268": true,
-      "269": true,
-      "270": true,
-      "271": true,
-      "272": true,
-      "273": true,
-      "274": true,
-      "275": true,
-      "276": true,
-      "277": true,
-      "278": true,
-      "279": true,
-      "280": true,
-      "281": true,
-      "282": true,
-      "283": true,
-      "284": true,
-      "285": true,
-      "286": true,
-      "287": true,
-      "288": true,
-      "289": true,
-      "290": true,
-      "291": true,
-      "292": true,
-      "293": true,
-      "294": true,
-      "295": true,
-      "296": true,
-      "297": true,
-      "298": true,
-      "299": true,
-      "300": true,
-      "301": true,
-      "302": true,
-      "303": true,
-      "304": true,
-      "305": true,
       "306": true,
       "307": true,
       "308": true,
@@ -29509,42 +33955,6 @@
       "352": true,
       "353": true,
       "354": true,
-      "355": true,
-      "356": true,
-      "357": true,
-      "358": true,
-      "359": true,
-      "360": true,
-      "361": true,
-      "362": true,
-      "363": true,
-      "364": true,
-      "365": true,
-      "366": true,
-      "367": true,
-      "368": true,
-      "369": true,
-      "370": true,
-      "371": true,
-      "372": true,
-      "373": true,
-      "374": true,
-      "375": true,
-      "376": true,
-      "377": true,
-      "378": true,
-      "379": true,
-      "380": true,
-      "381": true,
-      "382": true,
-      "383": true,
-      "384": true,
-      "385": true,
-      "386": true,
-      "387": true,
-      "388": true,
-      "389": true,
-      "390": true,
       "391": true,
       "392": true,
       "393": true,
@@ -29563,63 +33973,6 @@
       "406": true,
       "407": true,
       "408": true,
-      "409": true,
-      "410": true,
-      "411": true,
-      "412": true,
-      "413": true,
-      "414": true,
-      "415": true,
-      "416": true,
-      "417": true,
-      "418": true,
-      "419": true,
-      "420": true,
-      "421": true,
-      "422": true,
-      "423": true,
-      "424": true,
-      "425": true,
-      "426": true,
-      "427": true,
-      "428": true,
-      "429": true,
-      "430": true,
-      "431": true,
-      "432": true,
-      "433": true,
-      "434": true,
-      "435": true,
-      "436": true,
-      "437": true,
-      "438": true,
-      "439": true,
-      "440": true,
-      "441": true,
-      "442": true,
-      "443": true,
-      "444": true,
-      "445": true,
-      "446": true,
-      "447": true,
-      "448": true,
-      "449": true,
-      "450": true,
-      "451": true,
-      "452": true,
-      "453": true,
-      "454": true,
-      "455": true,
-      "456": true,
-      "457": true,
-      "458": true,
-      "459": true,
-      "460": true,
-      "461": true,
-      "462": true,
-      "463": true,
-      "464": true,
-      "465": true,
       "466": true,
       "467": true,
       "468": true,
@@ -29685,15 +34038,8 @@
       "528": true,
       "529": true
     },
-    "furniture": {
-      "101": true,
-      "131": true,
-      "146": true,
-      "152": true,
-      "154": true,
-      "687": true
-    },
+    "furniture": {},
     "meals": {}
   },
-  "savedAt": "2026-05-12T22:08:27.797Z"
+  "savedAt": "2026-05-13T07:12:15.545Z"
 }
