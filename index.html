@@ -824,11 +824,11 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
       <h1>✦ DLV Guide</h1>
       <p>Disney Dreamlight Valley</p>
     </div>
-    <div id="nav-list"><div class="nav-item" data-cat="clothing" onclick="switchCat('clothing')">
+    <div id="nav-list"><div class="nav-item active" data-cat="clothing" onclick="switchCat('clothing')">
       <img class="nav-icon" src="/DLV-Guide/images/Menu_Icon_Clothing.png" alt="Clothing sets">
       <span class="nav-label">Clothing sets</span>
-      <span class="nav-count">688/1509</span>
-    </div><div class="nav-item active" data-cat="crafting" onclick="switchCat('crafting')">
+      <span class="nav-count">692/1509</span>
+    </div><div class="nav-item" data-cat="crafting" onclick="switchCat('crafting')">
       <img class="nav-icon" src="/DLV-Guide/images/Crafting.png" alt="Crafting recipes">
       <span class="nav-label">Crafting recipes</span>
       <span class="nav-count">209/729</span>
@@ -849,10 +849,10 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
   <div id="main">
     <div id="topbar">
       <button id="menu-btn" onclick="toggleSidebar()">☰</button>
-      <h2 id="page-title">Crafting recipes</h2>
+      <h2 id="page-title">Clothing sets</h2>
       <div class="progress-wrap">
-        <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width: 28.6694%;"></div></div>
-        <span class="progress-text" id="progress-text">209 / 729</span>
+        <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width: 45.8582%;"></div></div>
+        <span class="progress-text" id="progress-text">692 / 1509</span>
       </div>
     </div>
     <div id="search-bar">
@@ -864,285 +864,934 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
       </div>
     </div>
     <div id="list-area"><div class="add-row">
-    <input type="text" id="add-name" placeholder="Ajouter crafting recipe...">
+    <input type="text" id="add-name" placeholder="Ajouter clothing set...">
     <input type="text" id="add-meta" class="add-meta-input" placeholder="Tag 1">
     <input type="text" id="add-meta2" class="add-meta2-input" placeholder="Tag 2">
     <button class="add-btn" id="add-btn-main">+ Ajouter</button>
-  </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('crafting',0)" data-group-key="Enchantments" data-group-idx="0">
+  </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',0)" data-group-key="A BUG'S LIFE" data-group-idx="0">
         <span class="group-accordion-arrow">▶</span>
-        <span class="group-accordion-label">Enchantments</span>
+        <span class="group-accordion-label">A BUG'S LIFE</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/2</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="A BUG'S LIFE" data-group-idx="0" data-loaded="1">
+        <div class="list-item" data-id="1452">
+    <span class="item-owned" onclick="cycleOwned(1452)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1452)">Atta Leaf Crown</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1452)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1452)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="17">
+    <span class="item-owned" onclick="cycleOwned(17)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(17)">Mysterious Moth Wings</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(17)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(17)" title="Supprimer">✕</button>
+  </div>
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',1)" data-group-key="ALADDIN" data-group-idx="1">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">ALADDIN</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:69%"></span></span>
+          <span class="group-accordion-count">11/16</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="ALADDIN" data-group-idx="1" data-loaded="1"><div class="list-item" data-id="1">
+    <span class="item-owned owned" onclick="cycleOwned(1)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1)">Celebration Jasmine Costume</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="2">
+    <span class="item-owned owned" onclick="cycleOwned(2)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(2)">Celebration Jasmine Hairstyle</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(2)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(2)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="3">
+    <span class="item-owned owned" onclick="cycleOwned(3)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(3)">Desert Bloom Necklace</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(3)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(3)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="4">
+    <span class="item-owned owned" onclick="cycleOwned(4)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(4)">Desert Bloom Slip-Ons</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(4)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(4)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="5">
+    <span class="item-owned owned" onclick="cycleOwned(5)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(5)">Desert Bloom Top</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(5)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(5)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="6">
+    <span class="item-owned owned" onclick="cycleOwned(6)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(6)">Desert Bloom Trousers</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(6)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(6)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="7">
+    <span class="item-owned owned" onclick="cycleOwned(7)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(7)">Desert Protection Amulet</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(7)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(7)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="8">
+    <span class="item-owned owned" onclick="cycleOwned(8)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(8)">Diamond in the Rough Loafers</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(8)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(8)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="9">
+    <span class="item-owned owned" onclick="cycleOwned(9)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(9)">Diamond in the Rough Top</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(9)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(9)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="10">
+    <span class="item-owned owned" onclick="cycleOwned(10)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(10)">Diamond in the Rough Trousers</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(10)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(10)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="11">
+    <span class="item-owned owned" onclick="cycleOwned(11)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(11)">Diamond in the Rough Vest</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(11)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(11)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="12">
+    <span class="item-owned" onclick="cycleOwned(12)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(12)">Jafar Costume Outfit</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(12)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(12)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="13">
+    <span class="item-owned" onclick="cycleOwned(13)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(13)">Jasmine's Bubble Ponytail</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(13)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(13)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="14">
+    <span class="item-owned" onclick="cycleOwned(14)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(14)">Jeweled Vizier Top</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(14)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(14)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="15">
+    <span class="item-owned" onclick="cycleOwned(15)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(15)">Jeweled Vizier Trousers</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(15)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(15)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="16">
+    <span class="item-owned" onclick="cycleOwned(16)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(16)">Red Vizier Loafers</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(16)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(16)" title="Supprimer">✕</button>
+  </div></div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',2)" data-group-key="ALICE IN WONDERLAND" data-group-idx="2">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">ALICE IN WONDERLAND</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:19%"></span></span>
+          <span class="group-accordion-count">3/16</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="ALICE IN WONDERLAND" data-group-idx="2" data-loaded="1"><div class="list-item" data-id="18">
+    <span class="item-owned" onclick="cycleOwned(18)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(18)">Alice Costume Dress</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(18)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(18)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="19">
+    <span class="item-owned" onclick="cycleOwned(19)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(19)">Black Court of Hearts Crown</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(19)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(19)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="20">
+    <span class="item-owned" onclick="cycleOwned(20)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(20)">Blue Delftware Dress</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(20)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(20)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="21">
+    <span class="item-owned" onclick="cycleOwned(21)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(21)">Caterpillar Jacket</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(21)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(21)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="22">
+    <span class="item-owned owned" onclick="cycleOwned(22)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(22)">Cheshire Cat Gloves</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(22)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(22)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="23">
+    <span class="item-owned owned" onclick="cycleOwned(23)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(23)">Cheshire Cat Jacket</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(23)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(23)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="24">
+    <span class="item-owned" onclick="cycleOwned(24)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(24)">Cheshire Cat Tail</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(24)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(24)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="25">
+    <span class="item-owned" onclick="cycleOwned(25)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(25)">Cheshire Sweater</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(25)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(25)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="26">
+    <span class="item-owned" onclick="cycleOwned(26)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(26)">Court of Hearts Crown</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(26)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(26)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="27">
+    <span class="item-owned" onclick="cycleOwned(27)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(27)">Court of Hearts Gown</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(27)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(27)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="28">
+    <span class="item-owned" onclick="cycleOwned(28)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(28)">Hatter Costume Hat</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(28)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(28)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="29">
+    <span class="item-owned" onclick="cycleOwned(29)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(29)">Monochrome Court of Hearts Gown</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(29)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(29)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="30">
+    <span class="item-owned" onclick="cycleOwned(30)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(30)">Whimsical Hatter Top</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(30)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(30)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="31">
+    <span class="item-owned" onclick="cycleOwned(31)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(31)">Whimsical Hatter Vest</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(31)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(31)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="32">
+    <span class="item-owned owned" onclick="cycleOwned(32)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(32)">Whimsical Wonderland Dress</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(32)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(32)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="33">
+    <span class="item-owned" onclick="cycleOwned(33)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(33)">White Rabbit Waistcoats</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(33)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(33)" title="Supprimer">✕</button>
+  </div></div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',3)" data-group-key="ATLANTIS" data-group-idx="3">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">ATLANTIS</span>
         <span class="group-accordion-progress-wrap">
           <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:50%"></span></span>
-          <span class="group-accordion-count">9/18</span>
+          <span class="group-accordion-count">1/2</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="Enchantments" data-group-idx="0" data-loaded="0">
-        
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('crafting',1)" data-group-key="Fences &amp; Paving" data-group-idx="1">
+      <div class="group-accordion-panel" data-group-panel="ATLANTIS" data-group-idx="3" data-loaded="1"><div class="list-item" data-id="34">
+    <span class="item-owned owned" onclick="cycleOwned(34)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(34)">Audrey Mechanic Costume</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(34)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(34)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="35">
+    <span class="item-owned" onclick="cycleOwned(35)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(35)">Milo Costume Outfit</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(35)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(35)" title="Supprimer">✕</button>
+  </div></div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',4)" data-group-key="BAMBI" data-group-idx="4">
         <span class="group-accordion-arrow">▶</span>
-        <span class="group-accordion-label">Fences &amp; Paving</span>
+        <span class="group-accordion-label">BAMBI</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:27%"></span></span>
-          <span class="group-accordion-count">19/71</span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 100%;"></span></span>
+          <span class="group-accordion-count">1/1</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="Fences &amp; Paving" data-group-idx="1" data-loaded="0">
-        
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('crafting',2)" data-group-key="Functional Items" data-group-idx="2">
+      <div class="group-accordion-panel" data-group-panel="BAMBI" data-group-idx="4" data-loaded="1"><div class="list-item" data-id="1447">
+    <span class="item-owned owned" onclick="cycleOwned(1447)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1447)">Bambi Deer Costume Tail</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1447)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1447)" title="Supprimer">✕</button>
+  </div></div><button class="group-accordion-btn open" onclick="toggleGroupAccordion('clothing',5)" data-group-key="BEAUTY AND THE BEAST" data-group-idx="5">
         <span class="group-accordion-arrow">▶</span>
-        <span class="group-accordion-label">Functional Items</span>
+        <span class="group-accordion-label">BEAUTY AND THE BEAST</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:33%"></span></span>
-          <span class="group-accordion-count">23/69</span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 100%;"></span></span>
+          <span class="group-accordion-count">2/2</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="Functional Items" data-group-idx="2" data-loaded="0">
-        
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('crafting',3)" data-group-key="Furniture" data-group-idx="3">
-        <span class="group-accordion-arrow">▶</span>
-        <span class="group-accordion-label">Furniture</span>
-        <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:26%"></span></span>
-          <span class="group-accordion-count">140/529</span>
-        </span>
-      </button>
-      <div class="group-accordion-panel" data-group-panel="Furniture" data-group-idx="3" data-loaded="1">
-        <div class="alpha-nav"><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,0)" title="23 éléments">A</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,1)" title="72 éléments">B</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,2)" title="33 éléments">C</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,3)" title="17 éléments">D</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,4)" title="8 éléments">E</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,5)" title="24 éléments">F</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,6)" title="37 éléments">G</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,7)" title="16 éléments">H</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,8)" title="6 éléments">I</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,9)" title="1 éléments">J</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,10)" title="1 éléments">K</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,11)" title="31 éléments">L</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,12)" title="30 éléments">M</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,13)" title="4 éléments">N</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,14)" title="15 éléments">O</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,15)" title="49 éléments">P</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,16)" title="43 éléments">R</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,17)" title="64 éléments">S</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,18)" title="12 éléments">T</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,19)" title="2 éléments">U</button><button class="alpha-nav-btn open" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,20)" title="3 éléments">V</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,21)" title="23 éléments">W</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,22)" title="10 éléments">Y</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,23)" title="1 éléments">Z</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,24)" title="4 éléments">#</button></div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,0)" data-alpha-key="A" data-alpha-idx="0">
+      <div class="group-accordion-panel open" data-group-panel="BEAUTY AND THE BEAST" data-group-idx="5" data-loaded="1"><div class="alpha-nav"><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,0)" title="1 éléments">A</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,1)" title="12 éléments">B</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,2)" title="9 éléments">C</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,3)" title="4 éléments">E</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,4)" title="7 éléments">G</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,5)" title="2 éléments">I</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,6)" title="4 éléments">L</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,7)" title="2 éléments">M</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,8)" title="3 éléments">O</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,9)" title="3 éléments">P</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,10)" title="13 éléments">R</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,11)" title="2 éléments">S</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,12)" title="4 éléments">T</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,13)" title="2 éléments">Y</button><button class="alpha-nav-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,14)" title="1 éléments">#</button></div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,0)" data-alpha-key="A" data-alpha-idx="0">
       <span class="alpha-accordion-arrow">▶</span>
       <span class="alpha-accordion-label">A</span>
-      <span class="alpha-accordion-count">4/23</span>
-    </button>
-    <div class="alpha-accordion-panel" data-alpha-panel="A" data-alpha-idx="0">
-      
-    </div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,1)" data-alpha-key="B" data-alpha-idx="1">
-      <span class="alpha-accordion-arrow">▶</span>
-      <span class="alpha-accordion-label">B</span>
-      <span class="alpha-accordion-count">27/72</span>
-    </button>
-    <div class="alpha-accordion-panel" data-alpha-panel="B" data-alpha-idx="1">
-      
-    </div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,2)" data-alpha-key="C" data-alpha-idx="2">
-      <span class="alpha-accordion-arrow">▶</span>
-      <span class="alpha-accordion-label">C</span>
-      <span class="alpha-accordion-count">10/33</span>
-    </button>
-    <div class="alpha-accordion-panel" data-alpha-panel="C" data-alpha-idx="2">
-      
-    </div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,3)" data-alpha-key="D" data-alpha-idx="3">
-      <span class="alpha-accordion-arrow">▶</span>
-      <span class="alpha-accordion-label">D</span>
-      <span class="alpha-accordion-count">2/17</span>
-    </button>
-    <div class="alpha-accordion-panel" data-alpha-panel="D" data-alpha-idx="3">
-      
-    </div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,4)" data-alpha-key="E" data-alpha-idx="4">
-      <span class="alpha-accordion-arrow">▶</span>
-      <span class="alpha-accordion-label">E</span>
-      <span class="alpha-accordion-count">3/8</span>
-    </button>
-    <div class="alpha-accordion-panel" data-alpha-panel="E" data-alpha-idx="4">
-      
-    </div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,5)" data-alpha-key="F" data-alpha-idx="5">
-      <span class="alpha-accordion-arrow">▶</span>
-      <span class="alpha-accordion-label">F</span>
-      <span class="alpha-accordion-count">6/24</span>
-    </button>
-    <div class="alpha-accordion-panel" data-alpha-panel="F" data-alpha-idx="5">
-      
-    </div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,6)" data-alpha-key="G" data-alpha-idx="6">
-      <span class="alpha-accordion-arrow">▶</span>
-      <span class="alpha-accordion-label">G</span>
-      <span class="alpha-accordion-count">5/37</span>
-    </button>
-    <div class="alpha-accordion-panel" data-alpha-panel="G" data-alpha-idx="6">
-      
-    </div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,7)" data-alpha-key="H" data-alpha-idx="7">
-      <span class="alpha-accordion-arrow">▶</span>
-      <span class="alpha-accordion-label">H</span>
-      <span class="alpha-accordion-count">5/16</span>
-    </button>
-    <div class="alpha-accordion-panel" data-alpha-panel="H" data-alpha-idx="7">
-      
-    </div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,8)" data-alpha-key="I" data-alpha-idx="8">
-      <span class="alpha-accordion-arrow">▶</span>
-      <span class="alpha-accordion-label">I</span>
-      <span class="alpha-accordion-count">1/6</span>
-    </button>
-    <div class="alpha-accordion-panel" data-alpha-panel="I" data-alpha-idx="8">
-      
-    </div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,9)" data-alpha-key="J" data-alpha-idx="9">
-      <span class="alpha-accordion-arrow">▶</span>
-      <span class="alpha-accordion-label">J</span>
-      <span class="alpha-accordion-count">0/1</span>
-    </button>
-    <div class="alpha-accordion-panel" data-alpha-panel="J" data-alpha-idx="9">
-      
-    </div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,10)" data-alpha-key="K" data-alpha-idx="10">
-      <span class="alpha-accordion-arrow">▶</span>
-      <span class="alpha-accordion-label">K</span>
       <span class="alpha-accordion-count">1/1</span>
     </button>
-    <div class="alpha-accordion-panel" data-alpha-panel="K" data-alpha-idx="10">
-      
-    </div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,11)" data-alpha-key="L" data-alpha-idx="11">
+    <div class="alpha-accordion-panel" data-alpha-panel="A" data-alpha-idx="0"></div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,1)" data-alpha-key="B" data-alpha-idx="1">
+      <span class="alpha-accordion-arrow">▶</span>
+      <span class="alpha-accordion-label">B</span>
+      <span class="alpha-accordion-count">9/12</span>
+    </button>
+    <div class="alpha-accordion-panel" data-alpha-panel="B" data-alpha-idx="1"></div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,2)" data-alpha-key="C" data-alpha-idx="2">
+      <span class="alpha-accordion-arrow">▶</span>
+      <span class="alpha-accordion-label">C</span>
+      <span class="alpha-accordion-count">5/9</span>
+    </button>
+    <div class="alpha-accordion-panel" data-alpha-panel="C" data-alpha-idx="2"></div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,3)" data-alpha-key="E" data-alpha-idx="3">
+      <span class="alpha-accordion-arrow">▶</span>
+      <span class="alpha-accordion-label">E</span>
+      <span class="alpha-accordion-count">2/4</span>
+    </button>
+    <div class="alpha-accordion-panel" data-alpha-panel="E" data-alpha-idx="3"></div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,4)" data-alpha-key="G" data-alpha-idx="4">
+      <span class="alpha-accordion-arrow">▶</span>
+      <span class="alpha-accordion-label">G</span>
+      <span class="alpha-accordion-count">3/7</span>
+    </button>
+    <div class="alpha-accordion-panel" data-alpha-panel="G" data-alpha-idx="4"></div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,5)" data-alpha-key="I" data-alpha-idx="5">
+      <span class="alpha-accordion-arrow">▶</span>
+      <span class="alpha-accordion-label">I</span>
+      <span class="alpha-accordion-count">2/2</span>
+    </button>
+    <div class="alpha-accordion-panel" data-alpha-panel="I" data-alpha-idx="5"></div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,6)" data-alpha-key="L" data-alpha-idx="6">
       <span class="alpha-accordion-arrow">▶</span>
       <span class="alpha-accordion-label">L</span>
-      <span class="alpha-accordion-count">7/31</span>
+      <span class="alpha-accordion-count">2/4</span>
     </button>
-    <div class="alpha-accordion-panel" data-alpha-panel="L" data-alpha-idx="11">
-      
-    </div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,12)" data-alpha-key="M" data-alpha-idx="12">
+    <div class="alpha-accordion-panel" data-alpha-panel="L" data-alpha-idx="6"></div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,7)" data-alpha-key="M" data-alpha-idx="7">
       <span class="alpha-accordion-arrow">▶</span>
       <span class="alpha-accordion-label">M</span>
-      <span class="alpha-accordion-count">7/30</span>
+      <span class="alpha-accordion-count">0/2</span>
     </button>
-    <div class="alpha-accordion-panel" data-alpha-panel="M" data-alpha-idx="12">
-      
-    </div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,13)" data-alpha-key="N" data-alpha-idx="13">
-      <span class="alpha-accordion-arrow">▶</span>
-      <span class="alpha-accordion-label">N</span>
-      <span class="alpha-accordion-count">1/4</span>
-    </button>
-    <div class="alpha-accordion-panel" data-alpha-panel="N" data-alpha-idx="13">
-      
-    </div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,14)" data-alpha-key="O" data-alpha-idx="14">
+    <div class="alpha-accordion-panel" data-alpha-panel="M" data-alpha-idx="7"></div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,8)" data-alpha-key="O" data-alpha-idx="8">
       <span class="alpha-accordion-arrow">▶</span>
       <span class="alpha-accordion-label">O</span>
-      <span class="alpha-accordion-count">5/15</span>
+      <span class="alpha-accordion-count">3/3</span>
     </button>
-    <div class="alpha-accordion-panel" data-alpha-panel="O" data-alpha-idx="14">
-      
-    </div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,15)" data-alpha-key="P" data-alpha-idx="15">
+    <div class="alpha-accordion-panel" data-alpha-panel="O" data-alpha-idx="8"></div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,9)" data-alpha-key="P" data-alpha-idx="9">
       <span class="alpha-accordion-arrow">▶</span>
       <span class="alpha-accordion-label">P</span>
-      <span class="alpha-accordion-count">15/49</span>
+      <span class="alpha-accordion-count">2/3</span>
     </button>
-    <div class="alpha-accordion-panel" data-alpha-panel="P" data-alpha-idx="15">
-      
-    </div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,16)" data-alpha-key="R" data-alpha-idx="16">
+    <div class="alpha-accordion-panel" data-alpha-panel="P" data-alpha-idx="9"></div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,10)" data-alpha-key="R" data-alpha-idx="10">
       <span class="alpha-accordion-arrow">▶</span>
       <span class="alpha-accordion-label">R</span>
-      <span class="alpha-accordion-count">9/43</span>
+      <span class="alpha-accordion-count">5/13</span>
     </button>
-    <div class="alpha-accordion-panel" data-alpha-panel="R" data-alpha-idx="16">
-      
-    </div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,17)" data-alpha-key="S" data-alpha-idx="17">
+    <div class="alpha-accordion-panel" data-alpha-panel="R" data-alpha-idx="10"></div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,11)" data-alpha-key="S" data-alpha-idx="11">
       <span class="alpha-accordion-arrow">▶</span>
       <span class="alpha-accordion-label">S</span>
-      <span class="alpha-accordion-count">17/64</span>
+      <span class="alpha-accordion-count">2/2</span>
     </button>
-    <div class="alpha-accordion-panel" data-alpha-panel="S" data-alpha-idx="17">
-      
-    </div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,18)" data-alpha-key="T" data-alpha-idx="18">
+    <div class="alpha-accordion-panel" data-alpha-panel="S" data-alpha-idx="11"></div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,12)" data-alpha-key="T" data-alpha-idx="12">
       <span class="alpha-accordion-arrow">▶</span>
       <span class="alpha-accordion-label">T</span>
-      <span class="alpha-accordion-count">4/12</span>
+      <span class="alpha-accordion-count">3/4</span>
     </button>
-    <div class="alpha-accordion-panel" data-alpha-panel="T" data-alpha-idx="18">
-      
-    </div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,19)" data-alpha-key="U" data-alpha-idx="19">
-      <span class="alpha-accordion-arrow">▶</span>
-      <span class="alpha-accordion-label">U</span>
-      <span class="alpha-accordion-count">1/2</span>
-    </button>
-    <div class="alpha-accordion-panel" data-alpha-panel="U" data-alpha-idx="19">
-      
-    </div><button class="alpha-accordion-btn open" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,20)" data-alpha-key="V" data-alpha-idx="20">
-      <span class="alpha-accordion-arrow">▶</span>
-      <span class="alpha-accordion-label">V</span>
-      <span class="alpha-accordion-count">0/3</span>
-    </button>
-    <div class="alpha-accordion-panel open" data-alpha-panel="V" data-alpha-idx="20">
-      <div class="list-item recipe-item" data-id="238">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(238)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(238)">Vintage Cooler</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,238)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(238)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(238)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="238">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-238" onkeydown="if(event.key==='Enter')addIngredient(238)">
-          <button class="ingredient-add-btn" onclick="addIngredient(238)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="1218">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(1218)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(1218)">Vintage Lamppost</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,1218)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(1218)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(1218)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="1218">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-1218" onkeydown="if(event.key==='Enter')addIngredient(1218)">
-          <button class="ingredient-add-btn" onclick="addIngredient(1218)">+</button>
-        </div>
-      </div>
-    </div><div class="list-item recipe-item" data-id="1219">
-      <div class="recipe-main">
-        <span class="item-owned" onclick="cycleOwned(1219)" title="Possession">·</span>
-        <span class="item-label" onclick="toggleCheck(1219)">Vintage Swing Machine</span>
-        <button class="accordion-btn" onclick="toggleAccordion(this,1219)" title="Ingrédients">
-          <span class="accordion-arrow">▶</span> Ing.
-        </button>
-        <button class="item-edit" onclick="startEdit(1219)" title="Modifier">✎</button>
-        <button class="item-delete" onclick="deleteItem(1219)" title="Supprimer">✕</button>
-      </div>
-      <div class="ingredient-panel" data-item-id="1219">
-        
-        <div class="ingredient-add-row">
-          <input class="ingredient-input" type="text" placeholder="Ajouter un ingrédient..." id="ing-input-1219" onkeydown="if(event.key==='Enter')addIngredient(1219)">
-          <button class="ingredient-add-btn" onclick="addIngredient(1219)">+</button>
-        </div>
-      </div>
-    </div>
-    </div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,21)" data-alpha-key="W" data-alpha-idx="21">
-      <span class="alpha-accordion-arrow">▶</span>
-      <span class="alpha-accordion-label">W</span>
-      <span class="alpha-accordion-count">6/23</span>
-    </button>
-    <div class="alpha-accordion-panel" data-alpha-panel="W" data-alpha-idx="21">
-      
-    </div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,22)" data-alpha-key="Y" data-alpha-idx="22">
+    <div class="alpha-accordion-panel" data-alpha-panel="T" data-alpha-idx="12"></div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,13)" data-alpha-key="Y" data-alpha-idx="13">
       <span class="alpha-accordion-arrow">▶</span>
       <span class="alpha-accordion-label">Y</span>
-      <span class="alpha-accordion-count">3/10</span>
+      <span class="alpha-accordion-count">2/2</span>
     </button>
-    <div class="alpha-accordion-panel" data-alpha-panel="Y" data-alpha-idx="22">
-      
-    </div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,23)" data-alpha-key="Z" data-alpha-idx="23">
-      <span class="alpha-accordion-arrow">▶</span>
-      <span class="alpha-accordion-label">Z</span>
-      <span class="alpha-accordion-count">0/1</span>
-    </button>
-    <div class="alpha-accordion-panel" data-alpha-panel="Z" data-alpha-idx="23">
-      
-    </div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;crafting&quot;,&quot;Furniture&quot;,24)" data-alpha-key="#" data-alpha-idx="24">
+    <div class="alpha-accordion-panel" data-alpha-panel="Y" data-alpha-idx="13"></div><button class="alpha-accordion-btn" onclick="toggleAlphaAccordion(&quot;clothing&quot;,&quot;BEAUTY AND THE BEAST&quot;,14)" data-alpha-key="#" data-alpha-idx="14">
       <span class="alpha-accordion-arrow">▶</span>
       <span class="alpha-accordion-label">#</span>
-      <span class="alpha-accordion-count">1/4</span>
+      <span class="alpha-accordion-count">1/1</span>
     </button>
-    <div class="alpha-accordion-panel" data-alpha-panel="#" data-alpha-idx="24">
-      
-    </div>
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('crafting',4)" data-group-key="MATERIALS" data-group-idx="4">
+    <div class="alpha-accordion-panel" data-alpha-panel="#" data-alpha-idx="14"></div></div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',6)" data-group-key="BRAVE" data-group-idx="6">
         <span class="group-accordion-arrow">▶</span>
-        <span class="group-accordion-label">MATERIALS</span>
+        <span class="group-accordion-label">BRAVE</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:43%"></span></span>
-          <span class="group-accordion-count">18/42</span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 50%;"></span></span>
+          <span class="group-accordion-count">1/2</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="MATERIALS" data-group-idx="4" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="BRAVE" data-group-idx="6" data-loaded="1"><div class="list-item" data-id="105">
+    <span class="item-owned owned" onclick="cycleOwned(105)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(105)">Merida's Curls</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(105)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(105)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="106">
+    <span class="item-owned" onclick="cycleOwned(106)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(106)">Tartan Celebration Outfit</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(106)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(106)" title="Supprimer">✕</button>
+  </div></div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',7)" data-group-key="CARS" data-group-idx="7">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">CARS</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 67%;"></span></span>
+          <span class="group-accordion-count">2/3</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="CARS" data-group-idx="7" data-loaded="1"><div class="list-item" data-id="107">
+    <span class="item-owned owned" onclick="cycleOwned(107)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(107)">Jaunty Bow Updo</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(107)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(107)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="108">
+    <span class="item-owned" onclick="cycleOwned(108)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(108)">Lightning McQueen Racing Jacket</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(108)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(108)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="109">
+    <span class="item-owned owned" onclick="cycleOwned(109)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(109)">V8 Swing Dress</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(109)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(109)" title="Supprimer">✕</button>
+  </div></div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',8)" data-group-key="CINDERELLA" data-group-idx="8">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">CINDERELLA</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="CINDERELLA" data-group-idx="8" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',9)" data-group-key="COCO" data-group-idx="9">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">COCO</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="COCO" data-group-idx="9" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',10)" data-group-key="DISNEY" data-group-idx="10">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">DISNEY</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="DISNEY" data-group-idx="10" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',11)" data-group-key="DISNEY FAIRIES" data-group-idx="11">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">DISNEY FAIRIES</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="DISNEY FAIRIES" data-group-idx="11" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',12)" data-group-key="DREAMLIGHT VALLEY" data-group-idx="12">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">DREAMLIGHT VALLEY</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="DREAMLIGHT VALLEY" data-group-idx="12" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',13)" data-group-key="ELEMENTAL" data-group-idx="13">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">ELEMENTAL</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="ELEMENTAL" data-group-idx="13" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',14)" data-group-key="ENCANTO" data-group-idx="14">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">ENCANTO</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="ENCANTO" data-group-idx="14" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',15)" data-group-key="ENCHANTED" data-group-idx="15">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">ENCHANTED</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="ENCHANTED" data-group-idx="15" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',16)" data-group-key="FANTASIA" data-group-idx="16">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">FANTASIA</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="FANTASIA" data-group-idx="16" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',17)" data-group-key="FINDING NEMO" data-group-idx="17">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">FINDING NEMO</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="FINDING NEMO" data-group-idx="17" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',18)" data-group-key="FROZEN" data-group-idx="18">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">FROZEN</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="FROZEN" data-group-idx="18" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',19)" data-group-key="HERCULES" data-group-idx="19">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">HERCULES</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="HERCULES" data-group-idx="19" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',20)" data-group-key="HOCUS POCUS" data-group-idx="20">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">HOCUS POCUS</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="HOCUS POCUS" data-group-idx="20" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',21)" data-group-key="INSIDE OUT" data-group-idx="21">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">INSIDE OUT</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="INSIDE OUT" data-group-idx="21" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',22)" data-group-key="LADY AND THE TRAMP" data-group-idx="22">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">LADY AND THE TRAMP</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="LADY AND THE TRAMP" data-group-idx="22" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',23)" data-group-key="LIGHTYEAR" data-group-idx="23">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">LIGHTYEAR</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="LIGHTYEAR" data-group-idx="23" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',24)" data-group-key="LILO &amp; STITCH" data-group-idx="24">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">LILO &amp; STITCH</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="LILO &amp; STITCH" data-group-idx="24" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',25)" data-group-key="MALEFICENT" data-group-idx="25">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">MALEFICENT</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="MALEFICENT" data-group-idx="25" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',26)" data-group-key="MICKEY &amp; FRIENDS" data-group-idx="26">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">MICKEY &amp; FRIENDS</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="MICKEY &amp; FRIENDS" data-group-idx="26" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',27)" data-group-key="MOANA" data-group-idx="27">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">MOANA</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="MOANA" data-group-idx="27" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',28)" data-group-key="MONSTERS, INC." data-group-idx="28">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">MONSTERS, INC.</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="MONSTERS, INC." data-group-idx="28" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',29)" data-group-key="MULAN" data-group-idx="29">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">MULAN</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="MULAN" data-group-idx="29" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',30)" data-group-key="ONE HUNDRED AND ONE DALMATIANS" data-group-idx="30">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">ONE HUNDRED AND ONE DALMATIANS</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="ONE HUNDRED AND ONE DALMATIANS" data-group-idx="30" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',31)" data-group-key="OSWALD" data-group-idx="31">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">OSWALD</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="OSWALD" data-group-idx="31" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',32)" data-group-key="OTHER (GENERAL)" data-group-idx="32">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">OTHER (GENERAL)</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="OTHER (GENERAL)" data-group-idx="32" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',33)" data-group-key="PETER PAN" data-group-idx="33">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">PETER PAN</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="PETER PAN" data-group-idx="33" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',34)" data-group-key="PIRATES OF THE CARIBBEAN" data-group-idx="34">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">PIRATES OF THE CARIBBEAN</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="PIRATES OF THE CARIBBEAN" data-group-idx="34" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',35)" data-group-key="POCAHONTAS" data-group-idx="35">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">POCAHONTAS</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="POCAHONTAS" data-group-idx="35" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',36)" data-group-key="RATATOUILLE" data-group-idx="36">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">RATATOUILLE</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="RATATOUILLE" data-group-idx="36" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',37)" data-group-key="SLEEPING BEAUTY" data-group-idx="37">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">SLEEPING BEAUTY</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="SLEEPING BEAUTY" data-group-idx="37" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',38)" data-group-key="SNOW WHITE" data-group-idx="38">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">SNOW WHITE</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="SNOW WHITE" data-group-idx="38" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',39)" data-group-key="STAR WARS" data-group-idx="39">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">STAR WARS</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="STAR WARS" data-group-idx="39" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',40)" data-group-key="TANGLED" data-group-idx="40">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">TANGLED</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="TANGLED" data-group-idx="40" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',41)" data-group-key="THE ARISTOCATS" data-group-idx="41">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">THE ARISTOCATS</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="THE ARISTOCATS" data-group-idx="41" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',42)" data-group-key="THE EMPEROR'S NEW GROOVE" data-group-idx="42">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">THE EMPEROR'S NEW GROOVE</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="THE EMPEROR'S NEW GROOVE" data-group-idx="42" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',43)" data-group-key="THE GREAT MOUSE DETECTIVE" data-group-idx="43">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">THE GREAT MOUSE DETECTIVE</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="THE GREAT MOUSE DETECTIVE" data-group-idx="43" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',44)" data-group-key="THE INCREDIBLES" data-group-idx="44">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">THE INCREDIBLES</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="THE INCREDIBLES" data-group-idx="44" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',45)" data-group-key="THE LION KING" data-group-idx="45">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">THE LION KING</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="THE LION KING" data-group-idx="45" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',46)" data-group-key="THE LITTLE MERMAID" data-group-idx="46">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">THE LITTLE MERMAID</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="THE LITTLE MERMAID" data-group-idx="46" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',47)" data-group-key="THE PRINCESS AND THE FROG" data-group-idx="47">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">THE PRINCESS AND THE FROG</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="THE PRINCESS AND THE FROG" data-group-idx="47" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',48)" data-group-key="THE SWORD IN THE STONE" data-group-idx="48">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">THE SWORD IN THE STONE</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="THE SWORD IN THE STONE" data-group-idx="48" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',49)" data-group-key="TIM BURTON'S THE NIGHTMARE BEFORE CHRISTMAS" data-group-idx="49">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">TIM BURTON'S THE NIGHTMARE BEFORE CHRISTMAS</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="TIM BURTON'S THE NIGHTMARE BEFORE CHRISTMAS" data-group-idx="49" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',50)" data-group-key="TOY STORY" data-group-idx="50">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">TOY STORY</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="TOY STORY" data-group-idx="50" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',51)" data-group-key="TRON" data-group-idx="51">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">TRON</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="TRON" data-group-idx="51" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',52)" data-group-key="TURNING RED" data-group-idx="52">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">TURNING RED</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="TURNING RED" data-group-idx="52" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',53)" data-group-key="UP" data-group-idx="53">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">UP</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="UP" data-group-idx="53" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',54)" data-group-key="WALL-E" data-group-idx="54">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">WALL-E</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="WALL-E" data-group-idx="54" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',55)" data-group-key="WINNIE THE POOH" data-group-idx="55">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">WINNIE THE POOH</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="WINNIE THE POOH" data-group-idx="55" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('clothing',56)" data-group-key="WRECK-IT RALPH" data-group-idx="56">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">WRECK-IT RALPH</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 0%;"></span></span>
+          <span class="group-accordion-count">0/0</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="WRECK-IT RALPH" data-group-idx="56" data-loaded="0">
         
       </div></div>
   </div>
