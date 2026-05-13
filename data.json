@@ -33908,6 +33908,11 @@
         "1 Bronze Ingot",
         "1 Amber"
       ],
+      "268": [
+        "10 Tropical Wood",
+        "5 Brass Ingot",
+        "5 Plastic Scrap"
+      ],
       "269": [
         "3 Bamboo",
         "1 Fiber"
@@ -33981,10 +33986,48 @@
         "1 Tropical Wood",
         "1 Red Luminescent Flower"
       ],
+      "283": [
+        "3 Oasis Glass",
+        "1 Bronze Ingot",
+        "1 Mechanical Parts"
+      ],
+      "284": [
+        "3 Copper",
+        "3 Copper",
+        "1 Pebbles",
+        "1 Bones"
+      ],
+      "285": [
+        "3 Bamboo",
+        "1 Zinc",
+        "1 Plastic Scrap"
+      ],
+      "286": [
+        "3 Blue Zircon"
+      ],
+      "287": [
+        "2 Quartz",
+        "2 Stone"
+      ],
+      "288": [
+        "3 Spinel",
+        "1 Bronze Ingot",
+        "1 Blue Zircon"
+      ],
+      "289": [
+        "3 Spinel",
+        "1 Bronze Ingot"
+      ],
       "355": [
         "1 Sorcerer Hat Hermit",
         "5 Iron Ingot",
         "500 Storybook Magic"
+      ],
+      "356": [
+        "2 Blue Tale Cone Flower",
+        "3 Yellow Tale Cone Flowers",
+        "10 Petrified Wood",
+        "8 Wheat"
       ],
       "357": [
         "3 Pine Cone",
@@ -34052,6 +34095,19 @@
         "2 Petrified Wood",
         "1 Coal Ore",
         "1 Slate Gray Rose"
+      ],
+      "369": [
+        "5 Iron Ore",
+        "2 Sea Monster Tooth",
+        "1 Star Sapphire",
+        "500 Storybook Magic"
+      ],
+      "370": [
+        "5 Coal Ore",
+        "10 Lightning Spice",
+        "10 Volcanic Rock",
+        "10 Gravel",
+        "500 Storybook Magic"
       ],
       "409": [
         "10 Four Leaf Clover",
@@ -34151,6 +34207,106 @@
         "5 Black Silk Flower",
         "5 Silver Silk Flower"
       ],
+      "426": [
+        "2 Reclaimed Barn Wood",
+        "1 Rusty Hinge",
+        "1 Pink Crocus",
+        "1 Purple Crocus"
+      ],
+      "427": [
+        "6 Glass",
+        "2 Antique Clothes Iron",
+        "2 Sequin Strands"
+      ],
+      "428": [
+        "15 Pixie Dust",
+        "2 Pyrite",
+        "10 Reclaimed Barn Wood",
+        "5 Black Silk Flower",
+        "3 Jasper"
+      ],
+      "429": [
+        "15 Pixie Dust",
+        "15 Antique Clothes Iron",
+        "10 Sequin Strands",
+        "5 Silver Silk Flower",
+        "5 Green Silk Flower"
+      ],
+      "430": [
+        "15 Pixie Dust",
+        "15 Stone",
+        "10 Sequin Strands",
+        "5 Red Silk Flower",
+        "5 Green Silk Flower"
+      ],
+      "431": [
+        "15 Pixie Dust",
+        "15 Stone",
+        "10 Sequin Strands",
+        "5 Silver Silk Flower",
+        "5 Green Silk Flower"
+      ],
+      "432": [
+        "15 Pixie Dust",
+        "15 Stone",
+        "10 Sequin Strands",
+        "5 Black Silk Flower",
+        "5 Green Silk Flower"
+      ],
+      "433": [
+        "15 Pixie Dust",
+        "15 Antique Clothes Iron",
+        "10 Sequin Strands",
+        "5 Red Silk Flower",
+        "5 Silver Silk Flower"
+      ],
+      "434": [
+        "15 Pixie Dust",
+        "15 Antique Clothes Iron",
+        "10 Sequin Strands",
+        "5 Black Silk Flower",
+        "5 Red Silk Flower"
+      ],
+      "435": [
+        "5 Reclaimed Barn Wood",
+        "5 Wheat",
+        "2 Snowball",
+        "4 Pink Crocus",
+        "4 White Crocus"
+      ],
+      "436": [
+        "10 Beady Soil",
+        "5 Black Silk Flower",
+        "3 Red Silk Flower",
+        "2 Jasper"
+      ],
+      "437": [
+        "6 Giant Acorns",
+        "4 Hardwood",
+        "4 Grassy Ore",
+        "4 Blue Lily of the Valley",
+        "2 Purple Lily of the Valley"
+      ],
+      "438": [
+        "6 Giant Acorns",
+        "4 Hardwood",
+        "4 Grassy Ore",
+        "4 Blue Lily of the Valley",
+        "2 Pink Lily of the Valley"
+      ],
+      "439": [
+        "4 Rusty Hinge",
+        "4 Dry Wood",
+        "4 Silver Ore",
+        "4 Pink Crocus",
+        "4 Yellow Crocus"
+      ],
+      "440": [
+        "2 Reclaimed Barn Wood",
+        "1 Snowball",
+        "1 Pink Crocus",
+        "1 Purple Crocus"
+      ],
       "530": [
         "5 Clay",
         "1 Coal Ore"
@@ -34204,6 +34360,11 @@
       "545": [
         "2 Iron Ingot"
       ],
+      "546": [
+        "1 Egg-cellent Fruit",
+        "1 Wild Spring Egg",
+        "20 Dreamlight"
+      ],
       "547": [
         "3 Cooper",
         "2 Zinc",
@@ -34225,6 +34386,9 @@
       "551": [
         "White Bird Snippet"
       ],
+      "552": [
+        "White Bird Snippet"
+      ],
       "553": [
         "White Bird Snippet"
       ],
@@ -34232,6 +34396,9 @@
         "White Bird Snippet"
       ],
       "555": [
+        "White Bird Snippet"
+      ],
+      "556": [
         "White Bird Snippet"
       ],
       "557": [
@@ -34260,6 +34427,9 @@
       ],
       "565": [
         "White Bird Snippet"
+      ],
+      "566": [
+        "Any Snippet"
       ],
       "567": [
         "20 Pebbles",
@@ -34329,9 +34499,15 @@
         "10 Dry Wood",
         "500 Dreamlight"
       ],
+      "580": [
+        "5 Pixel Shard"
+      ],
       "581": [
         "5 Night Shard",
         "1 Dream Shard"
+      ],
+      "582": [
+        "10 Pixel Shard"
       ],
       "583": [
         "10 Wooden Oar",
@@ -34537,6 +34713,9 @@
         "1 Clay"
       ],
       "632": [
+        "5 Softwood"
+      ],
+      "633": [
         "5 Softwood"
       ],
       "634": [
@@ -35055,11 +35234,63 @@
         "2 Fabric",
         "3 Pebbles"
       ],
+      "1017": [
+        "5 Iron Ingot",
+        "2 Red Falling Penstemon",
+        "3 Green Rising Penstemon",
+        "1 Sunflower"
+      ],
+      "1019": [
+        "10 Purple Spring Egg",
+        "5 Wild Spring Egg",
+        "5 Egg-cellent Fruit",
+        "5 Spring V-EGG-etable",
+        "5 Rope"
+      ],
+      "1021": [
+        "200 Dry Wood",
+        "50 Glass",
+        "10 Diamond",
+        "10 Crystal"
+      ],
+      "1022": [
+        "200 Stone",
+        "100 Hardwood",
+        "30 Gold Ingot",
+        "10 Blue Passion Lily"
+      ],
+      "1024": [
+        "1 Flower Pots",
+        "1 Blue Falling Penstemon",
+        "2 White Bell Flower"
+      ],
+      "1025": [
+        "2 Festive Wrapping Paper",
+        "1 White Daisy"
+      ],
+      "1026": [
+        "5 Hardwood",
+        "5 Fiber",
+        "2 Fabric"
+      ],
+      "1027": [
+        "40 Green Button",
+        "20 Flower Button",
+        "5 Purple Button",
+        "10 Red Button"
+      ],
       "1028": [
         "2 Glass",
         "4 Wire Coat Hanger",
         "2 Antique Clothes Iron",
         "2 Jasper"
+      ],
+      "1029": [
+        "40 Sand",
+        "10 Scallop",
+        "3 Aquamarine",
+        "10 Gold Ingot",
+        "20 Hardwood"
       ],
       "1030": [
         "5 Dark Wood",
@@ -35283,6 +35514,56 @@
         "15 Softwood",
         "4 Coal Ore",
         "3 White Bell Flower"
+      ],
+      "1084": [
+        "8 Dark Wood",
+        "8 Iron Ingot",
+        "12 Fabric",
+        "15 Tinkering Parts",
+        "2 Rope"
+      ],
+      "1085": [
+        "3 Softwood",
+        "1 Rope",
+        "1 Fabric"
+      ],
+      "1087": [
+        "10 Hardwood"
+      ],
+      "1089": [
+        "1 Flower Pots",
+        "1 Red Daisy",
+        "2 White Marsh Milkweed"
+      ],
+      "1090": [
+        "1 Flower Pots",
+        "1 Dandelion",
+        "1 Purple Rising Penstemon"
+      ],
+      "1091": [
+        "5 Rope",
+        "1 White & Red Hydrangea",
+        "1 Purple Hydrangea",
+        "1 Yellow Daisy"
+      ],
+      "1092": [
+        "100 Iron Ingot",
+        "6 Topaz",
+        "6 Aquamarine",
+        "6 Tourmaline"
+      ],
+      "1093": [
+        "40 Green Button",
+        "5 Blue Button",
+        "20 Flower Button",
+        "5 Purple Button"
+      ],
+      "1094": [
+        "5 Fishy Green Egg",
+        "5 Purple Spring Egg",
+        "5 Wild Spring Egg",
+        "5 Egg-cellent Fruit",
+        "5 Spring V-EGG-etable"
       ],
       "1133": [
         "1 Magma",
@@ -35613,5 +35894,5 @@
     },
     "meals": {}
   },
-  "savedAt": "2026-05-13T13:27:35.038Z"
+  "savedAt": "2026-05-13T13:46:10.534Z"
 }
