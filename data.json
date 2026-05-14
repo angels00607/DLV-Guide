@@ -9036,6 +9036,12 @@
         "meta2": ""
       },
       {
+        "id": 1225,
+        "name": "Black Gas Stove",
+        "meta": "Furniture",
+        "meta2": ""
+      },
+      {
         "id": 419,
         "name": "Black Glass Mod Coffee Table",
         "meta": "Furniture",
@@ -17829,6 +17835,12 @@
         "id": 2537,
         "name": "Illuminated Regal Fountain",
         "meta": "GENERAL"
+      },
+      {
+        "id": 3431,
+        "name": "Imperfect Bouquet",
+        "meta": "GENERAL",
+        "meta2": ""
       },
       {
         "id": 2538,
@@ -32272,6 +32284,7 @@
       "107": "owned",
       "109": "owned",
       "110": "owned",
+      "111": "owned",
       "114": "owned",
       "115": "owned",
       "116": "owned",
@@ -32309,7 +32322,10 @@
       "177": "owned",
       "178": "owned",
       "179": "owned",
+      "182": "owned",
       "183": "owned",
+      "184": "owned",
+      "190": "owned",
       "192": "owned",
       "193": "owned",
       "194": "owned",
@@ -32326,6 +32342,8 @@
       "210": "owned",
       "211": "owned",
       "212": "owned",
+      "214": "owned",
+      "215": "owned",
       "223": "owned",
       "224": "owned",
       "229": "owned",
@@ -32333,6 +32351,8 @@
       "231": "owned",
       "235": "owned",
       "237": "owned",
+      "245": "owned",
+      "246": "owned",
       "249": "owned",
       "250": "owned",
       "251": "owned",
@@ -32340,10 +32360,13 @@
       "253": "owned",
       "255": "owned",
       "256": "owned",
+      "260": "owned",
       "261": "owned",
       "355": "owned",
+      "357": "owned",
       "358": "owned",
       "359": "owned",
+      "360": "owned",
       "374": "owned",
       "379": "owned",
       "389": "owned",
@@ -32387,10 +32410,13 @@
       "597": "owned",
       "598": "owned",
       "599": "owned",
+      "600": "owned",
+      "601": "owned",
       "602": "owned",
       "603": "owned",
       "604": "owned",
       "605": "owned",
+      "606": "owned",
       "607": "owned",
       "608": "owned",
       "609": "owned",
@@ -32408,6 +32434,7 @@
       "626": "owned",
       "627": "owned",
       "628": "owned",
+      "629": "owned",
       "630": "owned",
       "631": "owned",
       "632": "owned",
@@ -32415,7 +32442,9 @@
       "635": "owned",
       "658": "owned",
       "659": "owned",
+      "661": "owned",
       "662": "owned",
+      "663": "owned",
       "664": "owned",
       "665": "owned",
       "668": "owned",
@@ -32423,11 +32452,13 @@
       "676": "owned",
       "678": "owned",
       "680": "owned",
+      "685": "owned",
       "686": "owned",
       "691": "owned",
       "694": "owned",
       "703": "owned",
       "705": "owned",
+      "706": "owned",
       "707": "owned",
       "712": "owned",
       "713": "owned",
@@ -32474,6 +32505,8 @@
       "1060": "owned",
       "1061": "owned",
       "1065": "owned",
+      "1069": "owned",
+      "1070": "owned",
       "1077": "owned",
       "1078": "owned",
       "1079": "owned",
@@ -32491,10 +32524,13 @@
       "1096": "owned",
       "1098": "owned",
       "1105": "owned",
+      "1110": "owned",
       "1111": "owned",
+      "1124": "owned",
       "1125": "owned",
       "1152": "owned",
-      "1158": "owned"
+      "1158": "owned",
+      "1225": "owned"
     },
     "furniture": {
       "7": "owned",
@@ -33183,10 +33219,12 @@
       "2004": "owned",
       "2007": "owned",
       "2018": "owned",
+      "2021": "owned",
       "2025": "owned",
       "2026": "owned",
       "2028": "owned",
       "2029": "owned",
+      "2030": "owned",
       "2034": "owned",
       "2035": "owned",
       "2036": "owned",
@@ -33574,6 +33612,7 @@
       "3025": "neutral",
       "3026": "owned",
       "3028": "owned",
+      "3029": "owned",
       "3030": "owned",
       "3031": "owned",
       "3033": "owned",
@@ -33693,9 +33732,12 @@
       "3388": "owned",
       "3389": "owned",
       "3390": "owned",
+      "3395": "owned",
+      "3404": "owned",
       "3422": "owned",
       "3427": "owned",
-      "3428": "owned"
+      "3428": "owned",
+      "3431": "owned"
     },
     "meals": {
       "1": "owned",
@@ -33956,8 +33998,8 @@
   },
   "nextId": {
     "clothing": 1535,
-    "crafting": 1225,
-    "furniture": 3429,
+    "crafting": 1226,
+    "furniture": 3432,
     "meals": 469
   },
   "ingredients": {
@@ -36260,9 +36302,11 @@
     "clothing": {},
     "crafting": {},
     "furniture": {
-      "131": true
+      "131": true,
+      "3429": true,
+      "3430": true
     },
     "meals": {}
   },
-  "savedAt": "2026-05-14T15:02:38.478Z"
+  "savedAt": "2026-05-14T16:32:20.519Z"
 }
