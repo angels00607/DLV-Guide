@@ -6,7 +6,7 @@
         "name": "Atta Leaf Crown",
         "meta": "A BUG'S LIFE",
         "meta2": ""
-      }, 
+      },
       {
         "id": 17,
         "name": "Mysterious Moth Wings",
@@ -4758,6 +4758,12 @@
         "id": 1253,
         "name": "Purple High-Waisted Jean Shorts",
         "meta": "OTHER (GENERAL)"
+      },
+      {
+        "id": 1534,
+        "name": "Purple Perfect Petals Dress",
+        "meta": "OTHER (GENERAL)",
+        "meta2": ""
       },
       {
         "id": 1254,
@@ -31593,6 +31599,7 @@
       "389": "owned",
       "391": "owned",
       "392": "owned",
+      "394": "owned",
       "395": "owned",
       "396": "owned",
       "399": "owned",
@@ -31634,6 +31641,7 @@
       "450": "owned",
       "451": "owned",
       "452": "owned",
+      "453": "owned",
       "454": "owned",
       "455": "owned",
       "457": "owned",
@@ -31719,6 +31727,7 @@
       "630": "owned",
       "633": "owned",
       "634": "owned",
+      "635": "owned",
       "636": "owned",
       "637": "owned",
       "638": "owned",
@@ -31740,6 +31749,7 @@
       "665": "owned",
       "666": "owned",
       "667": "owned",
+      "668": "owned",
       "669": "owned",
       "670": "owned",
       "671": "owned",
@@ -31928,6 +31938,7 @@
       "1001": "owned",
       "1002": "owned",
       "1004": "owned",
+      "1005": "owned",
       "1006": "owned",
       "1007": "owned",
       "1008": "owned",
@@ -32031,6 +32042,7 @@
       "1224": "owned",
       "1227": "owned",
       "1228": "owned",
+      "1230": "owned",
       "1242": "owned",
       "1243": "owned",
       "1244": "owned",
@@ -32069,6 +32081,7 @@
       "1295": "owned",
       "1298": "owned",
       "1300": "owned",
+      "1307": "owned",
       "1308": "owned",
       "1309": "owned",
       "1316": "owned",
@@ -32167,7 +32180,8 @@
       "1530": "owned",
       "1531": "owned",
       "1532": "owned",
-      "1533": "owned"
+      "1533": "owned",
+      "1534": "owned"
     },
     "crafting": {
       "2": "neutral",
@@ -32485,6 +32499,7 @@
       "104": "owned",
       "105": "owned",
       "118": "owned",
+      "119": "owned",
       "124": "owned",
       "125": "owned",
       "127": "owned",
@@ -32513,6 +32528,7 @@
       "177": "owned",
       "178": "owned",
       "179": "owned",
+      "181": "owned",
       "183": "owned",
       "190": "owned",
       "192": "owned",
@@ -32697,6 +32713,7 @@
       "707": "owned",
       "709": "owned",
       "711": "owned",
+      "715": "owned",
       "716": "owned",
       "718": "owned",
       "719": "owned",
@@ -32892,6 +32909,7 @@
       "1187": "owned",
       "1188": "owned",
       "1189": "owned",
+      "1190": "owned",
       "1207": "owned",
       "1208": "owned",
       "1209": "owned",
@@ -33351,6 +33369,7 @@
       "2574": "owned",
       "2578": "owned",
       "2582": "owned",
+      "2584": "owned",
       "2594": "owned",
       "2597": "owned",
       "2598": "owned",
@@ -33544,7 +33563,8 @@
       "3128": "owned",
       "3131": "owned",
       "3134": "owned",
-      "3141": "owned",
+      "3136": "owned",
+      "3141": "neutral",
       "3143": "owned",
       "3145": "owned",
       "3149": "owned",
@@ -33571,6 +33591,7 @@
       "3202": "owned",
       "3204": "owned",
       "3207": "owned",
+      "3208": "owned",
       "3210": "owned",
       "3213": "owned",
       "3214": "owned",
@@ -33618,6 +33639,9 @@
       "3333": "owned",
       "3377": "owned",
       "3378": "owned",
+      "3388": "owned",
+      "3389": "owned",
+      "3422": "owned",
       "3427": "owned"
     },
     "meals": {
@@ -33877,7 +33901,7 @@
     }
   },
   "nextId": {
-    "clothing": 1534,
+    "clothing": 1535,
     "crafting": 1225,
     "furniture": 3428,
     "meals": 469
@@ -33885,6 +33909,188 @@
   "ingredients": {
     "clothing": {},
     "crafting": {
+      "78": [
+        "6 Dry Wood",
+        "3 Orange Houseleek"
+      ],
+      "79": [
+        "2 Tomato",
+        "2 Chili Pepper",
+        "3 Clay"
+      ],
+      "80": [
+        "20 Sand",
+        "25 Stone",
+        "10 Coal Ore",
+        "3 Red Falling Penstemon"
+      ],
+      "81": [
+        "5 Fishy Green Egg",
+        "1 Emerald",
+        "1 Glass",
+        "2 Gold Ingot",
+        "1 Stone"
+      ],
+      "82": [
+        "5 Softwood",
+        "5 Fiber",
+        "3 Sand",
+        "1 Peridot"
+      ],
+      "83": [
+        "5 Softwood",
+        "5 Fiber",
+        "3 Sand",
+        "1 Peridot"
+      ],
+      "84": [
+        "5 Iron Ingot",
+        "2 Glass",
+        "1 Emerald"
+      ],
+      "85": [
+        "10 Iron Ingot",
+        "20 Green Rising Penstemon",
+        "20 Dandelion",
+        "20 White Daisy"
+      ],
+      "86": [
+        "5 Iron Ingot",
+        "8 Green Rising Penstemon",
+        "8 Dandelion",
+        "8 White Daisy"
+      ],
+      "87": [
+        "5 Dark Wood",
+        "1 Iron Ingot"
+      ],
+      "88": [
+        "25 Purple Spring Egg",
+        "20 Wild Spring Egg",
+        "20 Egg-cellent Fruit",
+        "20 Spring V-EGG-etable"
+      ],
+      "90": [
+        "10 Snowball",
+        "1 Crystal",
+        "2 Fabric",
+        "2 Ruby"
+      ],
+      "91": [
+        "10 Fiber",
+        "10 Wheat"
+      ],
+      "92": [
+        "10 Fiber",
+        "10 Wheat"
+      ],
+      "93": [
+        "20 Softwood"
+      ],
+      "94": [
+        "25 Dark Wood",
+        "5 Iron Ingot"
+      ],
+      "95": [
+        "5 Hardwood",
+        "3 Fabric"
+      ],
+      "96": [
+        "5 Clay",
+        "1 Gold Ingot",
+        "1 Fabric"
+      ],
+      "97": [
+        "1 Flower Pots",
+        "1 Blue Hydrangea",
+        "2 Purple Bell Flower"
+      ],
+      "99": [
+        "50 Snowball",
+        "15 Crystal"
+      ],
+      "101": [
+        "1 Flower Pots",
+        "1 Purple Impatiens",
+        "2 Yellow Bromeliad"
+      ],
+      "102": [
+        "5 Clay",
+        "5 Soil",
+        "3 Pink Houseleek"
+      ],
+      "103": [
+        "3 Softwood",
+        "7 Soya"
+      ],
+      "104": [
+        "3 Iron Ingot",
+        "1 Glass",
+        "1 Sapphire"
+      ],
+      "105": [
+        "3 Iron Ingot",
+        "1 Glass",
+        "1 Emerald"
+      ],
+      "106": [
+        "3 Iron Ingot",
+        "1 Glass",
+        "1 Garnet"
+      ],
+      "107": [
+        "3 Iron Ingot",
+        "1 Glass",
+        "1 Topaz"
+      ],
+      "109": [
+        "2 Festive Wrapping Paper",
+        "1 White Daisy"
+      ],
+      "110": [
+        "2 Festive Wrapping Paper",
+        "1 White Daisy"
+      ],
+      "111": [
+        "5 Hardwood",
+        "1 Iron Ingot"
+      ],
+      "112": [
+        "4 Dry Wood",
+        "2 White Bell Flower",
+        "2 Orange & Red Marsh Milkweed"
+      ],
+      "113": [
+        "10 Softwood",
+        "5 Dry Wood",
+        "1 Red Passion Lily",
+        "1 Green Passion Lily"
+      ],
+      "114": [
+        "25 Soil",
+        "50 Stone",
+        "15 Clay"
+      ],
+      "115": [
+        "1 Four-Leaf Clover",
+        "9 Three-Leaf Clover",
+        "5 Iron Ingot"
+      ],
+      "116": [
+        "1 Four-Leaf Clover",
+        "1 Glass",
+        "1 Fiber",
+        "1 Iron Ingot"
+      ],
+      "117": [
+        "4 Hardwood",
+        "2 Stone",
+        "2 Iron Ingot"
+      ],
+      "118": [
+        "1 Gold Ingot",
+        "9 Soya"
+      ],
       "263": [
         "3 Tropical Wood",
         "1 Brass Ingot",
@@ -34018,6 +34224,97 @@
         "3 Spinel",
         "1 Bronze Ingot"
       ],
+      "290": [
+        "3 Evergem",
+        "1 Coal Ore",
+        "1 Electric Power",
+        "1 Blue Zircon",
+        "1 Peridot"
+      ],
+      "291": [
+        "3 Oasis Glass",
+        "1 Glass",
+        "1 Sand"
+      ],
+      "292": [
+        "3 Bumblestone",
+        "1 Scales"
+      ],
+      "293": [
+        "3 Quartz",
+        "1 Oasis Glass",
+        "1 Electric Power",
+        "1 Jade"
+      ],
+      "294": [
+        "3 Bones",
+        "1 Fiber",
+        "1 Tin",
+        "1 Green Glass-Like Flowers"
+      ],
+      "295": [
+        "3 Bumblestone",
+        "1 Scales",
+        "1 Alexandrite"
+      ],
+      "296": [
+        "3 Bronze Ingot",
+        "1 Quartz",
+        "1 Green Fly Trap"
+      ],
+      "297": [
+        "3 Tropical Wood",
+        "1 Green Fly Trap"
+      ],
+      "298": [
+        "3 Bones",
+        "1 Fiber",
+        "1 Tin",
+        "1 Black Glass-Like Flowers"
+      ],
+      "299": [
+        "3 Softwood",
+        "1 Fabric",
+        "1 Clay",
+        "1 Green Glass-Like Flowers",
+        "1 Mechanical Parts"
+      ],
+      "300": [
+        "2 Gold Ingot",
+        "2 Brass Ingot",
+        "1 Bronze Ingot",
+        "1 Spinel"
+      ],
+      "301": [
+        "3 Tropical Wood",
+        "1 Fabric",
+        "1 Clay",
+        "1 Yellow Cactus Flower",
+        "1 Mechanical Parts"
+      ],
+      "302": [
+        "3 Round Soil Area",
+        "1 Blue Luminescent Flower",
+        "1 Green Luminescent Flower",
+        "1 Pink Luminescent Flower",
+        "1 Red Luminescent Flower"
+      ],
+      "303": [
+        "3 Rectangular Soil Area",
+        "1 Blue Luminescent Flower",
+        "1 Green Luminescent Flower",
+        "1 Pink Luminescent Flower",
+        "1 Red Luminescent Flower"
+      ],
+      "304": [
+        "1 Gold Ingot",
+        "1 Brass Ingot",
+        "1 Spinel"
+      ],
+      "305": [
+        "3 Stone",
+        "1 Blue Zircon"
+      ],
       "355": [
         "1 Sorcerer Hat Hermit",
         "5 Iron Ingot",
@@ -34107,6 +34404,109 @@
         "10 Lightning Spice",
         "10 Volcanic Rock",
         "10 Gravel",
+        "500 Storybook Magic"
+      ],
+      "372": [
+        "5 Pure Ice",
+        "2 Volcanic Rock",
+        "5 Sea Monster Tooth",
+        "5 Star Sapphire",
+        "500 Storybook Magic"
+      ],
+      "373": [
+        "10 Stone",
+        "3 Crimson Eternal Poppies",
+        "2 Ruby",
+        "5 Gravel",
+        "5 Petrified Wood"
+      ],
+      "374": [
+        "10 Mud",
+        "5 Soil",
+        "500 Storybook Magic"
+      ],
+      "375": [
+        "2 Petrified Wood",
+        "250 Storybook Magic",
+        "2 Green Frog Snippet"
+      ],
+      "376": [
+        "10 Fairy Bubbles",
+        "20 Yellow Tale Cone Flowers",
+        "10 Blue Tale Cone Flower",
+        "10 Olive Green Tale Cone Flower",
+        "5 Beige Tale Cone Flower"
+      ],
+      "377": [
+        "20 Lightning Spice",
+        "5 Gravel",
+        "20 Marble",
+        "5 Iron Ingot"
+      ],
+      "378": [
+        "1 Gravel",
+        "2 Broken Weapon",
+        "1 Ruby",
+        "4 Blue Tale Cone Flower"
+      ],
+      "379": [
+        "5 Petrified Wood",
+        "2 Moss",
+        "5 Pine Cone",
+        "2 Teal Eternal Poppies"
+      ],
+      "380": [
+        "20 Petrified Wood",
+        "20 Moss",
+        "1 Pine Cone",
+        "1 Common Club Rush",
+        "1 Teal Eternal Poppies"
+      ],
+      "381": [
+        "15 Petrified Wood",
+        "6 Moss",
+        "15 Pine Cone",
+        "6 Posidonia",
+        "6 Teal Eternal Poppies"
+      ],
+      "382": [
+        "5 Petrified Wood",
+        "10 Pine Cone",
+        "5 Moss",
+        "10 Mud",
+        "10 Green Bird Snippet"
+      ],
+      "383": [
+        "5 Petrified Wood",
+        "3 Iron Ingot",
+        "1 Opal",
+        "2 Olive Green Tale Cone Flower"
+      ],
+      "384": [
+        "5 Petrified Wood",
+        "2 White Rose",
+        "2 Trumpet Snail",
+        "2 Sea Monster Tooth",
+        "500 Storybook Magic"
+      ],
+      "387": [
+        "5 Posidonia",
+        "10 Broken Weapon",
+        "5 Goldenrod Eternal Poppies",
+        "15 Petrified Wood",
+        "500 Storybook Magic"
+      ],
+      "389": [
+        "5 Gold Ingot",
+        "2 Magma",
+        "5 Lightning Spice",
+        "5 Gravel",
+        "500 Storybook Magic"
+      ],
+      "390": [
+        "5 Broken Weapon",
+        "5 Petrified Wood",
+        "2 Moss",
         "500 Storybook Magic"
       ],
       "409": [
@@ -34306,6 +34706,142 @@
         "1 Snowball",
         "1 Pink Crocus",
         "1 Purple Crocus"
+      ],
+      "441": [
+        "2 Sequin Strands",
+        "2 Wire Coat Hanger",
+        "2 Black Silk Flower",
+        "2 Red Silk Flower",
+        "2 Silver Silk Flower"
+      ],
+      "442": [
+        "5 Old Braided Rope",
+        "5 Wheat"
+      ],
+      "443": [
+        "4 Grassy Ore",
+        "3 Blue Lily of the Valley",
+        "3 Purple Lily of the Valley",
+        "10 Hardwood"
+      ],
+      "444": [
+        "3 Reclaimed Barn Wood",
+        "1 Copter Seeds",
+        "2 Pincushion Peach"
+      ],
+      "445": [
+        "2 Grassy Ore",
+        "2 Giant Acorns",
+        "1 Soil"
+      ],
+      "446": [
+        "5 Reclaimed Barn Wood",
+        "5 Giant Acorns",
+        "3 Copter Seeds"
+      ],
+      "447": [
+        "2 Pink Crocus",
+        "2 White Crocus",
+        "2 Yellow Crocus",
+        "2 Purple Crocus",
+        "2 Old Braided Rope"
+      ],
+      "448": [
+        "25 Pebbles",
+        "10 Reclaimed Barn Wood",
+        "10 Pink Crocus",
+        "6 Purple Crocus",
+        "4 Yellow Crocus"
+      ],
+      "449": [
+        "2 Honeycomb Stone",
+        "2 Clay",
+        "2 Giant Acorns",
+        "1 Honey Coral",
+        "1 Yellow Lily of the Valley"
+      ],
+      "450": [
+        "12 Goose Feathers",
+        "8 Hardwood"
+      ],
+      "451": [
+        "3 Balloon Fish",
+        "1 Blue Lily of the Valley",
+        "1 Yellow Lily of the Valley"
+      ],
+      "452": [
+        "2 Antique Clothes Iron",
+        "1 Sequin Strands",
+        "1 Red Silk Flower",
+        "1 Beady Soil"
+      ],
+      "453": [
+        "2 Antique Clothes Iron",
+        "1 Sequin Strands",
+        "1 Red Silk Flower",
+        "1 Beady Soil"
+      ],
+      "454": [
+        "3 Antique Clothes Iron",
+        "2 Sequin Strands",
+        "1 Red Silk Flower",
+        "2 Beady Soil",
+        "2 Glass"
+      ],
+      "455": [
+        "8 Balloon Fish",
+        "8 Goose Feathers",
+        "4 Blue Lily of the Valley"
+      ],
+      "456": [
+        "2 Beady Soil",
+        "1 Stone",
+        "1 Green Silk Flower",
+        "1 Jasper"
+      ],
+      "457": [
+        "1 Old Braided Rope",
+        "2 Dry Wood",
+        "1 Pink Crocus",
+        "1 White Crocus"
+      ],
+      "458": [
+        "4 Clay",
+        "4 Hardwood",
+        "2 Honeycomb Stone"
+      ],
+      "459": [
+        "5 Hardwood",
+        "6 Blue Lily of the Valley",
+        "4 Pink Lily of the Valley",
+        "3 Purple Lily of the Valley",
+        "2 Yellow Lily of the Valley"
+      ],
+      "460": [
+        "4 Antique Clothes Iron",
+        "4 Beady Soil",
+        "2 Red Silk Flower"
+      ],
+      "461": [
+        "5 Copter Seeds",
+        "5 Giant Acorns",
+        "10 Hardwood"
+      ],
+      "462": [
+        "3 Copter Seeds",
+        "3 Grassy Ore",
+        "2 Balloon Fish",
+        "1 Blue Lily of the Valley",
+        "1 Yellow Lily of the Valley"
+      ],
+      "463": [
+        "4 Glass",
+        "1 Honeycomb Stone"
+      ],
+      "464": [
+        "5 Goose Feathers",
+        "2 Grassy Ore",
+        "3 Copter Seeds"
       ],
       "530": [
         "5 Clay",
@@ -35259,6 +35795,12 @@
         "30 Gold Ingot",
         "10 Blue Passion Lily"
       ],
+      "1023": [
+        "15 Clam",
+        "13 Scallop",
+        "35 Clay",
+        "20 Hardwood"
+      ],
       "1024": [
         "1 Flower Pots",
         "1 Blue Falling Penstemon",
@@ -35565,6 +36107,21 @@
         "5 Egg-cellent Fruit",
         "5 Spring V-EGG-etable"
       ],
+      "1095": [
+        "6 Dry Wood",
+        "2 Dandelion",
+        "2 Pink Hydrangea",
+        "2 Blue Marsh Milkweed"
+      ],
+      "1096": [
+        "6 Clay",
+        "2 Soil"
+      ],
+      "1098": [
+        "50 Stone",
+        "20 Pebbles",
+        "10 Gold Ingot"
+      ],
       "1133": [
         "1 Magma",
         "1 Stygian Mudskipper",
@@ -35640,793 +36197,16 @@
         "5 Pink Crocus",
         "4 Purple Crocus",
         "2 Yellow Crocus"
-      ],
-       "1023": [
-    "15 Clam",
-    "13 Scallop",
-    "35 Clay",
-    "20 Hardwood"
-  ],
-  "290": [
-    "3 Evergem",
-    "1 Coal Ore",
-    "1 Electric Power",
-    "1 Blue Zircon",
-    "1 Peridot"
-  ],
-  "441": [
-    "2 Sequin Strands",
-    "2 Wire Coat Hanger",
-    "2 Black Silk Flower",
-    "2 Red Silk Flower",
-    "2 Silver Silk Flower"
-  ],
-  "442": [
-    "5 Old Braided Rope",
-    "5 Wheat"
-  ],
-  "443": [
-    "4 Grassy Ore",
-    "3 Blue Lily of the Valley",
-    "3 Purple Lily of the Valley",
-    "10 Hardwood"
-  ],
-  "444": [
-    "3 Reclaimed Barn Wood",
-    "1 Copter Seeds",
-    "2 Pincushion Peach"
-  ],
-  "445": [
-    "2 Grassy Ore",
-    "2 Giant Acorns",
-    "1 Soil"
-  ],
-  "446": [
-    "5 Reclaimed Barn Wood",
-    "5 Giant Acorns",
-    "3 Copter Seeds"
-  ],
-  "1095": [
-    "6 Dry Wood",
-    "2 Dandelion",
-    "2 Pink Hydrangea",
-    "2 Blue Marsh Milkweed"
-  ],
-  "1096": [
-    "6 Clay",
-    "2 Soil"
-  ],
-  "447": [
-    "2 Pink Crocus",
-    "2 White Crocus",
-    "2 Yellow Crocus",
-    "2 Purple Crocus",
-    "2 Old Braided Rope"
-  ],
-  "448": [
-    "25 Pebbles",
-    "10 Reclaimed Barn Wood",
-    "10 Pink Crocus",
-    "6 Purple Crocus",
-    "4 Yellow Crocus"
-  ],
-  "1098": [
-    "50 Stone",
-    "20 Pebbles",
-    "10 Gold Ingot"
-  ],
-  "372": [
-    "5 Pure Ice",
-    "2 Volcanic Rock",
-    "5 Sea Monster Tooth",
-    "5 Star Sapphire",
-    "500 Storybook Magic"
-  ],
-  "78": [
-    "6 Dry Wood",
-    "3 Orange Houseleek"
-  ],
-  "373": [
-    "10 Stone",
-    "3 Crimson Eternal Poppies",
-    "2 Ruby",
-    "5 Gravel",
-    "5 Petrified Wood"
-  ],
-  "449": [
-    "2 Honeycomb Stone",
-    "2 Clay",
-    "2 Giant Acorns",
-    "1 Honey Coral",
-    "1 Yellow Lily of the Valley"
-  ],
-  "450": [
-    "12 Goose Feathers",
-    "8 Hardwood"
-  ],
-  "451": [
-    "3 Balloon Fish",
-    "1 Blue Lily of the Valley",
-    "1 Yellow Lily of the Valley"
-  ],
-  "291": [
-    "3 Oasis Glass",
-    "1 Glass",
-    "1 Sand"
-  ],
-  "374": [
-    "10 Mud",
-    "5 Soil",
-    "500 Storybook Magic"
-  ],
-  "79": [
-    "2 Tomato",
-    "2 Chili Pepper",
-    "3 Clay"
-  ],
-  "292": [
-    "3 Bumblestone",
-    "1 Scales"
-  ],
-  "452": [
-    "2 Antique Clothes Iron",
-    "1 Sequin Strands",
-    "1 Red Silk Flower",
-    "1 Beady Soil"
-  ],
-  "453": [
-    "2 Antique Clothes Iron",
-    "1 Sequin Strands",
-    "1 Red Silk Flower",
-    "1 Beady Soil"
-  ],
-  "454": [
-    "3 Antique Clothes Iron",
-    "2 Sequin Strands",
-    "1 Red Silk Flower",
-    "2 Beady Soil",
-    "2 Glass"
-  ],
-  "80": [
-    "20 Sand",
-    "25 Stone",
-    "10 Coal Ore",
-    "3 Red Falling Penstemon"
-  ],
-  "375": [
-    "2 Petrified Wood",
-    "250 Storybook Magic",
-    "2 Green Frog Snippet"
-  ],
-  "376": [
-    "10 Fairy Bubbles",
-    "20 Yellow Tale Cone Flowers",
-    "10 Blue Tale Cone Flower",
-    "10 Olive Green Tale Cone Flower",
-    "5 Beige Tale Cone Flower"
-  ],
-  "377": [
-    "20 Lightning Spice",
-    "5 Gravel",
-    "20 Marble",
-    "5 Iron Ingot"
-  ],
-  "378": [
-    "1 Gravel",
-    "2 Broken Weapon",
-    "1 Ruby",
-    "4 Blue Tale Cone Flower"
-  ],
-  "293": [
-    "3 Quartz",
-    "1 Oasis Glass",
-    "1 Electric Power",
-    "1 Jade"
-  ],
-  "379": [
-    "5 Petrified Wood",
-    "2 Moss",
-    "5 Pine Cone",
-    "2 Teal Eternal Poppies"
-  ],
-  "380": [
-    "20 Petrified Wood",
-    "20 Moss",
-    "1 Pine Cone",
-    "1 Common Club Rush",
-    "1 Teal Eternal Poppies"
-  ],
-  "381": [
-    "15 Petrified Wood",
-    "6 Moss",
-    "15 Pine Cone",
-    "6 Posidonia",
-    "6 Teal Eternal Poppies"
-  ],
-  "294": [
-    "3 Bones",
-    "1 Fiber",
-    "1 Tin",
-    "1 Green Glass-Like Flowers"
-  ],
-  "295": [
-    "3 Bumblestone",
-    "1 Scales",
-    "1 Alexandrite"
-  ],
-  "296": [
-    "3 Bronze Ingot",
-    "1 Quartz",
-    "1 Green Fly Trap"
-  ],
-  "81": [
-    "5 Fishy Green Egg",
-    "1 Emerald",
-    "1 Glass",
-    "2 Gold Ingot",
-    "1 Stone"
-  ],
-  "455": [
-    "8 Balloon Fish",
-    "8 Goose Feathers",
-    "4 Blue Lily of the Valley"
-  ],
-  "456": [
-    "2 Beady Soil",
-    "1 Stone",
-    "1 Green Silk Flower",
-    "1 Jasper"
-  ],
-  "297": [
-    "3 Tropical Wood",
-    "1 Green Fly Trap"
-  ],
-  "82": [
-    "5 Softwood",
-    "5 Fiber",
-    "3 Sand",
-    "1 Peridot"
-  ],
-  "83": [
-    "5 Softwood",
-    "5 Fiber",
-    "3 Sand",
-    "1 Peridot"
-  ],
-  "382": [
-    "5 Petrified Wood",
-    "10 Pine Cone",
-    "5 Moss",
-    "10 Mud",
-    "10 Green Bird Snippet"
-  ],
-  "383": [
-    "5 Petrified Wood",
-    "3 Iron Ingot",
-    "1 Opal",
-    "2 Olive Green Tale Cone Flower"
-  ],
-  "84": [
-    "5 Iron Ingot",
-    "2 Glass",
-    "1 Emerald"
-  ],
-  "85": [
-    "10 Iron Ingot",
-    "20 Green Rising Penstemon",
-    "20 Dandelion",
-    "20 White Daisy"
-  ],
-  "86": [
-    "5 Iron Ingot",
-    "8 Green Rising Penstemon",
-    "8 Dandelion",
-    "8 White Daisy"
-  ],
-  "87": [
-    "5 Dark Wood",
-    "1 Iron Ingot"
-  ],
-  "384": [
-    "5 Petrified Wood",
-    "2 White Rose",
-    "2 Trumpet Snail",
-    "2 Sea Monster Tooth",
-    "500 Storybook Magic"
-  ],
-  "88": [
-    "25 Purple Spring Egg",
-    "20 Wild Spring Egg",
-    "20 Egg-cellent Fruit",
-    "20 Spring V-EGG-etable"
-  ],
-  "90": [
-    "10 Snowball",
-    "1 Crystal",
-    "2 Fabric",
-    "2 Ruby"
-  ],
-  "91": [
-    "10 Fiber",
-    "10 Wheat"
-  ],
-  "92": [
-    "10 Fiber",
-    "10 Wheat"
-  ],
-  "457": [
-    "1 Old Braided Rope",
-    "2 Dry Wood",
-    "1 Pink Crocus",
-    "1 White Crocus"
-  ],
-  "93": [
-    "20 Softwood"
-  ],
-  "94": [
-    "25 Dark Wood",
-    "5 Iron Ingot"
-  ],
-  "95": [
-    "5 Hardwood",
-    "3 Fabric"
-  ],
-  "96": [
-    "5 Clay",
-    "1 Gold Ingot",
-    "1 Fabric"
-  ],
-  "458": [
-    "4 Clay",
-    "4 Hardwood",
-    "2 Honeycomb Stone"
-  ],
-  "459": [
-    "5 Hardwood",
-    "6 Blue Lily of the Valley",
-    "4 Pink Lily of the Valley",
-    "3 Purple Lily of the Valley",
-    "2 Yellow Lily of the Valley"
-  ],
-  "97": [
-    "1 Flower Pots",
-    "1 Blue Hydrangea",
-    "2 Purple Bell Flower"
-  ],
-  "99": [
-    "50 Snowball",
-    "15 Crystal"
-  ],
-  "101": [
-    "1 Flower Pots",
-    "1 Purple Impatiens",
-    "2 Yellow Bromeliad"
-  ],
-  "460": [
-    "4 Antique Clothes Iron",
-    "4 Beady Soil",
-    "2 Red Silk Flower"
-  ],
-  "102": [
-    "5 Clay",
-    "5 Soil",
-    "3 Pink Houseleek"
-  ],
-  "103": [
-    "3 Softwood",
-    "7 Soya"
-  ],
-  "104": [
-    "3 Iron Ingot",
-    "1 Glass",
-    "1 Sapphire"
-  ],
-  "105": [
-    "3 Iron Ingot",
-    "1 Glass",
-    "1 Emerald"
-  ],
-  "106": [
-    "3 Iron Ingot",
-    "1 Glass",
-    "1 Garnet"
-  ],
-  "107": [
-    "3 Iron Ingot",
-    "1 Glass",
-    "1 Topaz"
-  ],
-  "298": [
-    "3 Bones",
-    "1 Fiber",
-    "1 Tin",
-    "1 Black Glass-Like Flowers"
-  ],
-  "299": [
-    "3 Softwood",
-    "1 Fabric",
-    "1 Clay",
-    "1 Green Glass-Like Flowers",
-    "1 Mechanical Parts"
-  ],
-  "300": [
-    "2 Gold Ingot",
-    "2 Brass Ingot",
-    "1 Bronze Ingot",
-    "1 Spinel"
-  ],
-  "301": [
-    "3 Tropical Wood",
-    "1 Fabric",
-    "1 Clay",
-    "1 Yellow Cactus Flower",
-    "1 Mechanical Parts"
-  ],
-  "109": [
-    "2 Festive Wrapping Paper",
-    "1 White Daisy"
-  ],
-  "110": [
-    "2 Festive Wrapping Paper",
-    "1 White Daisy"
-  ],
-  "461": [
-    "5 Copter Seeds",
-    "5 Giant Acorns",
-    "10 Hardwood"
-  ],
-  "462": [
-    "3 Copter Seeds",
-    "3 Grassy Ore",
-    "2 Balloon Fish",
-    "1 Blue Lily of the Valley",
-    "1 Yellow Lily of the Valley"
-  ],
-  "111": [
-    "5 Hardwood",
-    "1 Iron Ingot"
-  ],
-  "387": [
-    "5 Posidonia",
-    "10 Broken Weapon",
-    "5 Goldenrod Eternal Poppies",
-    "15 Petrified Wood",
-    "500 Storybook Magic"
-  ],
-  "112": [
-    "4 Dry Wood",
-    "2 White Bell Flower",
-    "2 Orange & Red Marsh Milkweed"
-  ],
-  "113": [
-    "10 Softwood",
-    "5 Dry Wood",
-    "1 Red Passion Lily",
-    "1 Green Passion Lily"
-  ],
-  "114": [
-    "25 Soil",
-    "50 Stone",
-    "15 Clay"
-  ],
-  "115": [
-    "1 Four-Leaf Clover",
-    "9 Three-Leaf Clover",
-    "5 Iron Ingot"
-  ],
-  "116": [
-    "1 Four-Leaf Clover",
-    "1 Glass",
-    "1 Fiber",
-    "1 Iron Ingot"
-  ],
-  "302": [
-    "3 Round Soil Area",
-    "1 Blue Luminescent Flower",
-    "1 Green Luminescent Flower",
-    "1 Pink Luminescent Flower",
-    "1 Red Luminescent Flower"
-  ],
-  "303": [
-    "3 Rectangular Soil Area",
-    "1 Blue Luminescent Flower",
-    "1 Green Luminescent Flower",
-    "1 Pink Luminescent Flower",
-    "1 Red Luminescent Flower"
-  ],
-  "389": [
-    "5 Gold Ingot",
-    "2 Magma",
-    "5 Lightning Spice",
-    "5 Gravel",
-    "500 Storybook Magic"
-  ],
-  "463": [
-    "4 Glass",
-    "1 Honeycomb Stone"
-  ],
-  "117": [
-    "4 Hardwood",
-    "2 Stone",
-    "2 Iron Ingot"
-  ],
-  "464": [
-    "5 Goose Feathers",
-    "2 Grassy Ore",
-    "3 Copter Seeds"
-  ],
-  "390": [
-    "5 Broken Weapon",
-    "5 Petrified Wood",
-    "2 Moss",
-    "500 Storybook Magic"
-  ],
-  "304": [
-    "1 Gold Ingot",
-    "1 Brass Ingot",
-    "1 Spinel"
-  ],
-  "118": [
-    "1 Gold Ingot",
-    "9 Soya"
-  ],
-  "305": [
-    "3 Stone",
-    "1 Blue Zircon"
-  ]
-
+      ]
     },
     "furniture": {},
     "meals": {}
   },
   "deletedIds": {
     "clothing": {},
-    "crafting": {
-      "1": true,
-      "2": true,
-      "3": true,
-      "4": true,
-      "5": true,
-      "6": true,
-      "7": true,
-      "8": true,
-      "9": true,
-      "10": true,
-      "11": true,
-      "12": true,
-      "13": true,
-      "14": true,
-      "15": true,
-      "16": true,
-      "17": true,
-      "18": true,
-      "19": true,
-      "20": true,
-      "21": true,
-      "22": true,
-      "23": true,
-      "24": true,
-      "25": true,
-      "26": true,
-      "27": true,
-      "28": true,
-      "29": true,
-      "30": true,
-      "31": true,
-      "32": true,
-      "33": true,
-      "34": true,
-      "35": true,
-      "36": true,
-      "37": true,
-      "38": true,
-      "39": true,
-      "40": true,
-      "41": true,
-      "42": true,
-      "43": true,
-      "44": true,
-      "45": true,
-      "46": true,
-      "47": true,
-      "48": true,
-      "49": true,
-      "50": true,
-      "51": true,
-      "52": true,
-      "53": true,
-      "54": true,
-      "55": true,
-      "56": true,
-      "57": true,
-      "58": true,
-      "59": true,
-      "60": true,
-      "61": true,
-      "62": true,
-      "63": true,
-      "64": true,
-      "65": true,
-      "66": true,
-      "67": true,
-      "68": true,
-      "69": true,
-      "70": true,
-      "71": true,
-      "72": true,
-      "73": true,
-      "74": true,
-      "75": true,
-      "76": true,
-      "77": true,
-      "89": true,
-      "98": true,
-      "100": true,
-      "108": true,
-      "181": true,
-      "206": true,
-      "232": true,
-      "239": true,
-      "244": true,
-      "268": true,
-      "306": true,
-      "307": true,
-      "308": true,
-      "309": true,
-      "310": true,
-      "311": true,
-      "312": true,
-      "313": true,
-      "314": true,
-      "315": true,
-      "316": true,
-      "317": true,
-      "318": true,
-      "319": true,
-      "320": true,
-      "321": true,
-      "322": true,
-      "323": true,
-      "324": true,
-      "325": true,
-      "326": true,
-      "327": true,
-      "328": true,
-      "329": true,
-      "330": true,
-      "331": true,
-      "332": true,
-      "333": true,
-      "334": true,
-      "335": true,
-      "336": true,
-      "337": true,
-      "338": true,
-      "339": true,
-      "340": true,
-      "341": true,
-      "342": true,
-      "343": true,
-      "344": true,
-      "345": true,
-      "346": true,
-      "347": true,
-      "348": true,
-      "349": true,
-      "350": true,
-      "351": true,
-      "352": true,
-      "353": true,
-      "354": true,
-      "356": true,
-      "371": true,
-      "385": true,
-      "386": true,
-      "388": true,
-      "391": true,
-      "392": true,
-      "393": true,
-      "394": true,
-      "395": true,
-      "396": true,
-      "397": true,
-      "398": true,
-      "399": true,
-      "400": true,
-      "401": true,
-      "402": true,
-      "403": true,
-      "404": true,
-      "405": true,
-      "406": true,
-      "407": true,
-      "408": true,
-      "466": true,
-      "467": true,
-      "468": true,
-      "469": true,
-      "470": true,
-      "471": true,
-      "472": true,
-      "473": true,
-      "474": true,
-      "475": true,
-      "476": true,
-      "477": true,
-      "478": true,
-      "479": true,
-      "480": true,
-      "481": true,
-      "482": true,
-      "483": true,
-      "484": true,
-      "485": true,
-      "486": true,
-      "487": true,
-      "488": true,
-      "489": true,
-      "490": true,
-      "491": true,
-      "492": true,
-      "493": true,
-      "494": true,
-      "495": true,
-      "496": true,
-      "497": true,
-      "498": true,
-      "499": true,
-      "500": true,
-      "501": true,
-      "502": true,
-      "503": true,
-      "504": true,
-      "505": true,
-      "506": true,
-      "507": true,
-      "508": true,
-      "509": true,
-      "510": true,
-      "511": true,
-      "512": true,
-      "513": true,
-      "514": true,
-      "515": true,
-      "516": true,
-      "517": true,
-      "518": true,
-      "519": true,
-      "520": true,
-      "521": true,
-      "522": true,
-      "523": true,
-      "524": true,
-      "525": true,
-      "526": true,
-      "527": true,
-      "528": true,
-      "529": true,
-      "546": true,
-      "552": true,
-      "556": true,
-      "566": true,
-      "568": true,
-      "580": true,
-      "582": true,
-      "633": true,
-      "666": true,
-      "675": true,
-      "677": true,
-      "701": true,
-      "702": true,
-      "715": true,
-      "1018": true,
-      "1020": true,
-      "1029": true
-    },
-    "furniture": {
-      "687": true
-    },
+    "crafting": {},
+    "furniture": {},
     "meals": {}
   },
-  "savedAt": "2026-05-13T13:46:10.534Z"
+  "savedAt": "2026-05-14T10:05:57.946Z"
 }
