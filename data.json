@@ -9496,18 +9496,6 @@
         "meta2": "ETERNITY ISLE"
       },
       {
-        "id": 1231,
-        "name": "Swirly Striped Rug",
-        "meta": "",
-        "meta2": "STORYBOOK VALE"
-      },
-      {
-        "id": 1232,
-        "name": "The Stained Glass Window to Imagination",
-        "meta": "",
-        "meta2": "STORYBOOK VALE"
-      },
-      {
         "id": 1233,
         "name": "Transparent Blooming Teapot",
         "meta": "",
@@ -9516,7 +9504,7 @@
       {
         "id": 1234,
         "name": "Transportation Table",
-        "meta": "",
+        "meta": "Furniture",
         "meta2": "STORYBOOK VALE"
       },
       {
@@ -9826,12 +9814,6 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 647,
-        "name": "Marble Fence",
-        "meta": "Fences & Paving",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
         "id": 613,
         "name": "Metal Spike Fence",
         "meta": "Fences & Paving",
@@ -10046,6 +10028,12 @@
         "name": "Yellow and Blue Speckled Path",
         "meta": "Fences & Paving",
         "meta2": "ETERNITY ISLE"
+      },
+      {
+        "id": 647,
+        "name": "Marble Fence",
+        "meta": "Fences & Paving",
+        "meta2": "STORYBOOK VALE"
       },
       {
         "id": 599,
@@ -12592,6 +12580,12 @@
         "meta2": "STORYBOOK VALE"
       },
       {
+        "id": 1288,
+        "name": "Swirly Striped Rug",
+        "meta": "Furniture",
+        "meta2": "STORYBOOK VALE"
+      },
+      {
         "id": 1154,
         "name": "The Bind Fountain",
         "meta": "Furniture",
@@ -12600,6 +12594,12 @@
       {
         "id": 1155,
         "name": "The Princess and the Frog Chest",
+        "meta": "Furniture",
+        "meta2": "STORYBOOK VALE"
+      },
+      {
+        "id": 1289,
+        "name": "The Stained Glass Window to Imagination",
         "meta": "Furniture",
         "meta2": "STORYBOOK VALE"
       },
@@ -14120,7 +14120,7 @@
       {
         "id": 3528,
         "name": "Snowy Stones",
-        "meta": "",
+        "meta": "GENERAL",
         "meta2": "WISHBLOSSOM MOUNTAINS"
       },
       {
@@ -22026,7 +22026,7 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 2669,
+        "id": 3551,
         "name": "Melancholy Rose Painting",
         "meta": "GENERAL",
         "meta2": "DREAMLIGHT VALLEY"
@@ -29859,7 +29859,7 @@
         "id": 3353,
         "name": "Storyteller's Fire",
         "meta": "POCAHONTAS",
-        "meta2": "DREAMLIGHT VALLEY"
+        "meta2": "WISHBLOSSOM MOUNTAINS"
       },
       {
         "id": 3362,
@@ -37034,6 +37034,7 @@
       "394": "owned",
       "395": "owned",
       "396": "owned",
+      "397": "owned",
       "399": "owned",
       "400": "owned",
       "401": "owned",
@@ -37067,6 +37068,7 @@
       "439": "owned",
       "440": "owned",
       "442": "owned",
+      "443": "owned",
       "444": "owned",
       "446": "owned",
       "447": "owned",
@@ -37300,6 +37302,7 @@
       "865": "owned",
       "868": "owned",
       "869": "owned",
+      "876": "owned",
       "878": "owned",
       "879": "owned",
       "881": "owned",
@@ -37317,6 +37320,7 @@
       "898": "owned",
       "899": "owned",
       "901": "owned",
+      "903": "owned",
       "905": "owned",
       "906": "owned",
       "907": "owned",
@@ -37510,6 +37514,7 @@
       "1276": "owned",
       "1277": "owned",
       "1279": "owned",
+      "1280": "owned",
       "1281": "owned",
       "1282": "owned",
       "1283": "owned",
@@ -37543,6 +37548,7 @@
       "1355": "owned",
       "1356": "owned",
       "1357": "owned",
+      "1359": "owned",
       "1364": "owned",
       "1365": "owned",
       "1366": "owned",
@@ -37581,6 +37587,7 @@
       "1425": "owned",
       "1426": "owned",
       "1427": "owned",
+      "1430": "owned",
       "1432": "owned",
       "1433": "owned",
       "1434": "owned",
@@ -37968,6 +37975,7 @@
       "56": "owned",
       "58": "owned",
       "59": "owned",
+      "64": "owned",
       "71": "owned",
       "85": "owned",
       "88": "owned",
@@ -38089,6 +38097,7 @@
       "326": "owned",
       "327": "owned",
       "331": "owned",
+      "333": "owned",
       "335": "owned",
       "336": "owned",
       "337": "owned",
@@ -38178,6 +38187,7 @@
       "666": "owned",
       "671": "owned",
       "672": "owned",
+      "673": "owned",
       "674": "owned",
       "675": "owned",
       "676": "owned",
@@ -38323,6 +38333,7 @@
       "939": "owned",
       "943": "owned",
       "944": "owned",
+      "945": "owned",
       "946": "owned",
       "947": "owned",
       "949": "owned",
@@ -38433,6 +38444,7 @@
       "1253": "owned",
       "1272": "owned",
       "1282": "owned",
+      "1284": "owned",
       "1289": "owned",
       "1351": "owned",
       "1362": "owned",
@@ -38617,6 +38629,7 @@
       "1835": "owned",
       "1838": "owned",
       "1841": "owned",
+      "1842": "owned",
       "1843": "owned",
       "1848": "owned",
       "1849": "owned",
@@ -38625,6 +38638,7 @@
       "1852": "owned",
       "1854": "owned",
       "1860": "owned",
+      "1861": "neutral",
       "1862": "owned",
       "1863": "owned",
       "1865": "owned",
@@ -38674,6 +38688,7 @@
       "2083": "owned",
       "2085": "owned",
       "2086": "owned",
+      "2087": "owned",
       "2088": "owned",
       "2089": "owned",
       "2090": "owned",
@@ -38767,6 +38782,7 @@
       "2273": "neutral",
       "2274": "owned",
       "2277": "owned",
+      "2278": "owned",
       "2280": "owned",
       "2281": "owned",
       "2287": "owned",
@@ -38875,6 +38891,7 @@
       "2600": "owned",
       "2603": "owned",
       "2605": "owned",
+      "2607": "owned",
       "2611": "owned",
       "2613": "owned",
       "2615": "owned",
@@ -38899,6 +38916,7 @@
       "2686": "owned",
       "2691": "owned",
       "2694": "owned",
+      "2696": "owned",
       "2697": "owned",
       "2698": "owned",
       "2699": "owned",
@@ -38974,6 +38992,7 @@
       "2877": "owned",
       "2878": "owned",
       "2879": "owned",
+      "2880": "owned",
       "2881": "owned",
       "2882": "neutral",
       "2883": "owned",
@@ -39114,6 +39133,7 @@
       "3269": "owned",
       "3270": "owned",
       "3271": "owned",
+      "3273": "owned",
       "3277": "owned",
       "3284": "owned",
       "3288": "owned",
@@ -39142,6 +39162,9 @@
       "3331": "owned",
       "3332": "owned",
       "3333": "owned",
+      "3336": "owned",
+      "3338": "owned",
+      "3339": "owned",
       "3349": "owned",
       "3353": "owned",
       "3377": "owned",
@@ -39154,7 +39177,8 @@
       "3422": "owned",
       "3427": "owned",
       "3428": "owned",
-      "3431": "owned"
+      "3431": "owned",
+      "3551": "owned"
     },
     "meals": {
       "1": "owned",
@@ -39387,7 +39411,8 @@
     },
     "crafting": {
       "369": false,
-      "575": false
+      "575": false,
+      "1234": false
     },
     "furniture": {
       "149": false,
@@ -39415,8 +39440,8 @@
   },
   "nextId": {
     "clothing": 1535,
-    "crafting": 1288,
-    "furniture": 3551,
+    "crafting": 1290,
+    "furniture": 3552,
     "meals": 469
   },
   "ingredients": {
@@ -41661,9 +41686,14 @@
   },
   "deletedIds": {
     "clothing": {},
-    "crafting": {},
-    "furniture": {},
+    "crafting": {
+      "1231": true,
+      "1232": true
+    },
+    "furniture": {
+      "2669": true
+    },
     "meals": {}
   },
-  "savedAt": "2026-05-15T09:19:50.437Z"
+  "savedAt": "2026-05-15T09:46:38.239Z"
 }
