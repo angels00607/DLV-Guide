@@ -9502,12 +9502,6 @@
         "meta2": "STORYBOOK VALE"
       },
       {
-        "id": 1234,
-        "name": "Transportation Table",
-        "meta": "Furniture",
-        "meta2": "STORYBOOK VALE"
-      },
-      {
         "id": 1226,
         "name": "Snowy Alpine Building",
         "meta": "",
@@ -9616,8 +9610,20 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1297,
+        "name": "Pixelized Cooking Flame",
+        "meta": "Enchantments",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 581,
         "name": "Purified Night Shard",
+        "meta": "Enchantments",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1298,
+        "name": "Superior Pixelized Cooking Flame",
         "meta": "Enchantments",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -9632,18 +9638,6 @@
         "name": "Snippet-Catching Training Manual",
         "meta": "Enchantments",
         "meta2": "STORYBOOK VALE"
-      },
-      {
-        "id": 648,
-        "name": "Alpine Cobblestone Path",
-        "meta": "Fences & Paving",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 649,
-        "name": "Alpine Cobblestone Road",
-        "meta": "Fences & Paving",
-        "meta2": "DREAMLIGHT VALLEY"
       },
       {
         "id": 586,
@@ -9670,24 +9664,6 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 650,
-        "name": "Black Metal Barrier",
-        "meta": "Fences & Paving",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 590,
-        "name": "Blend Left-Curving Trolley Tracks",
-        "meta": "Fences & Paving",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 591,
-        "name": "Blend Right-Curving Trolley Tracks",
-        "meta": "Fences & Paving",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
         "id": 593,
         "name": "Brick Road",
         "meta": "Fences & Paving",
@@ -9696,18 +9672,6 @@
       {
         "id": 594,
         "name": "Brick Road with Border",
-        "meta": "Fences & Paving",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 651,
-        "name": "Classic Farm Fence",
-        "meta": "Fences & Paving",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 595,
-        "name": "Curved Trolley Tracks",
         "meta": "Fences & Paving",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -9730,8 +9694,8 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 653,
-        "name": "Flowering Wood Fencing",
+        "id": 599,
+        "name": "Elegant White Fence",
         "meta": "Fences & Paving",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -9844,38 +9808,8 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 619,
-        "name": "Oswaldian Blend Left-Curving Trolley Tracks",
-        "meta": "Fences & Paving",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 620,
-        "name": "Oswaldian Blend Right-Curving Trolley Tracks",
-        "meta": "Fences & Paving",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 621,
-        "name": "Oswaldian Curved Trolley Tracks",
-        "meta": "Fences & Paving",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 622,
-        "name": "Oswaldian Straight Trolley Tracks",
-        "meta": "Fences & Paving",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
         "id": 618,
         "name": "Pale Wood Fence",
-        "meta": "Fences & Paving",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 654,
-        "name": "Rustic Log Fence",
         "meta": "Fences & Paving",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -9898,12 +9832,6 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 655,
-        "name": "Slate Stone Path",
-        "meta": "Fences & Paving",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
         "id": 627,
         "name": "Snowy Brick Road",
         "meta": "Fences & Paving",
@@ -9912,24 +9840,6 @@
       {
         "id": 628,
         "name": "Snowy Brick Road with Border",
-        "meta": "Fences & Paving",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 656,
-        "name": "Snowy Classic Farm Fence",
-        "meta": "Fences & Paving",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 657,
-        "name": "Snowy Rustic Log Fence",
-        "meta": "Fences & Paving",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 624,
-        "name": "Straight Trolley Tracks",
         "meta": "Fences & Paving",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -9970,8 +9880,26 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 590,
+        "name": "Blend Left-Curving Trolley Tracks",
+        "meta": "Fences & Paving",
+        "meta2": "ETERNITY ISLE"
+      },
+      {
+        "id": 591,
+        "name": "Blend Right-Curving Trolley Tracks",
+        "meta": "Fences & Paving",
+        "meta2": "ETERNITY ISLE"
+      },
+      {
         "id": 636,
         "name": "Blue Bronze Pathway",
+        "meta": "Fences & Paving",
+        "meta2": "ETERNITY ISLE"
+      },
+      {
+        "id": 595,
+        "name": "Curved Trolley Tracks",
         "meta": "Fences & Paving",
         "meta2": "ETERNITY ISLE"
       },
@@ -9990,6 +9918,30 @@
       {
         "id": 640,
         "name": "Green Bumblestone Path",
+        "meta": "Fences & Paving",
+        "meta2": "ETERNITY ISLE"
+      },
+      {
+        "id": 619,
+        "name": "Oswaldian Blend Left-Curving Trolley Tracks",
+        "meta": "Fences & Paving",
+        "meta2": "ETERNITY ISLE"
+      },
+      {
+        "id": 620,
+        "name": "Oswaldian Blend Right-Curving Trolley Tracks",
+        "meta": "Fences & Paving",
+        "meta2": "ETERNITY ISLE"
+      },
+      {
+        "id": 621,
+        "name": "Oswaldian Curved Trolley Tracks",
+        "meta": "Fences & Paving",
+        "meta2": "ETERNITY ISLE"
+      },
+      {
+        "id": 622,
+        "name": "Oswaldian Straight Trolley Tracks",
         "meta": "Fences & Paving",
         "meta2": "ETERNITY ISLE"
       },
@@ -10024,26 +9976,80 @@
         "meta2": "ETERNITY ISLE"
       },
       {
+        "id": 624,
+        "name": "Straight Trolley Tracks",
+        "meta": "Fences & Paving",
+        "meta2": "ETERNITY ISLE"
+      },
+      {
         "id": 646,
         "name": "Yellow and Blue Speckled Path",
         "meta": "Fences & Paving",
         "meta2": "ETERNITY ISLE"
       },
       {
-        "id": 647,
-        "name": "Marble Fence",
+        "id": 648,
+        "name": "Alpine Cobblestone Path",
         "meta": "Fences & Paving",
-        "meta2": "STORYBOOK VALE"
+        "meta2": "WISHBLOSSOM MOUNTAINS"
       },
       {
-        "id": 599,
-        "name": "Elegant White Fence",
+        "id": 649,
+        "name": "Alpine Cobblestone Road",
+        "meta": "Fences & Paving",
+        "meta2": "WISHBLOSSOM MOUNTAINS"
+      },
+      {
+        "id": 650,
+        "name": "Black Metal Barrier",
+        "meta": "Fences & Paving",
+        "meta2": "WISHBLOSSOM MOUNTAINS"
+      },
+      {
+        "id": 651,
+        "name": "Classic Farm Fence",
         "meta": "Fences & Paving",
         "meta2": "WISHBLOSSOM MOUNTAINS"
       },
       {
         "id": 652,
         "name": "Feathered Fence",
+        "meta": "Fences & Paving",
+        "meta2": "WISHBLOSSOM MOUNTAINS"
+      },
+      {
+        "id": 653,
+        "name": "Flowering Wood Fencing",
+        "meta": "Fences & Paving",
+        "meta2": "WISHBLOSSOM MOUNTAINS"
+      },
+      {
+        "id": 647,
+        "name": "Marble Fence",
+        "meta": "Fences & Paving",
+        "meta2": "WISHBLOSSOM MOUNTAINS"
+      },
+      {
+        "id": 654,
+        "name": "Rustic Log Fence",
+        "meta": "Fences & Paving",
+        "meta2": "WISHBLOSSOM MOUNTAINS"
+      },
+      {
+        "id": 655,
+        "name": "Slate Stone Path",
+        "meta": "Fences & Paving",
+        "meta2": "WISHBLOSSOM MOUNTAINS"
+      },
+      {
+        "id": 656,
+        "name": "Snowy Classic Farm Fence",
+        "meta": "Fences & Paving",
+        "meta2": "WISHBLOSSOM MOUNTAINS"
+      },
+      {
+        "id": 657,
+        "name": "Snowy Rustic Log Fence",
         "meta": "Fences & Paving",
         "meta2": "WISHBLOSSOM MOUNTAINS"
       },
@@ -10540,24 +10546,6 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 1133,
-        "name": "Basic Fairie Lure Trap",
-        "meta": "Furniture",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1134,
-        "name": "Basic Fairie Slow Trap",
-        "meta": "Furniture",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1135,
-        "name": "Basic Fairie Snippet Repellent",
-        "meta": "Furniture",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
         "id": 1038,
         "name": "Basic Fridge",
         "meta": "Furniture",
@@ -10630,6 +10618,24 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1300,
+        "name": "Black Flat-Top Stove",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1301,
+        "name": "Black Gas Stove",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1302,
+        "name": "Black Rétro Portable Radio",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 1050,
         "name": "Black Wrought Iron Streetlamp",
         "meta": "Furniture",
@@ -10668,6 +10674,12 @@
       {
         "id": 1068,
         "name": "Blue Light Low Beach Torch",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1303,
+        "name": "Blue Retro Portable Radio",
         "meta": "Furniture",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -10716,6 +10728,12 @@
       {
         "id": 1074,
         "name": "Bromeliad and Marsh Milkweed Pot",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1304,
+        "name": "Brown Retro Portable Radio",
         "meta": "Furniture",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -10810,8 +10828,20 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1305,
+        "name": "Cozy Companion Home",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 1087,
         "name": "Crate",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1306,
+        "name": "Custom Signpost",
         "meta": "Furniture",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -10865,7 +10895,7 @@
       },
       {
         "id": 1022,
-        "name": "Elegant Town Square Check",
+        "name": "Elegant Town Square Clock",
         "meta": "Furniture",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -10912,6 +10942,12 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1307,
+        "name": "Flying Companion Feeder",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 1098,
         "name": "Fountain",
         "meta": "Furniture",
@@ -10938,6 +10974,24 @@
       {
         "id": 80,
         "name": "Granite Fire Bowl",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1308,
+        "name": "Gray Flat-Top Stove",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1309,
+        "name": "Gray Gas Stove",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1310,
+        "name": "Gray Mailbox",
         "meta": "Furniture",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -11050,6 +11104,12 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1311,
+        "name": "Iron Crafting Station",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 102,
         "name": "Jubilant Topiary",
         "meta": "Furniture",
@@ -11086,8 +11146,26 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1312,
+        "name": "Large Blue Chest",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1313,
+        "name": "Large Chest",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 1106,
         "name": "Large Green chest",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1314,
+        "name": "Large Red Chest",
         "meta": "Furniture",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -11100,6 +11178,18 @@
       {
         "id": 110,
         "name": "Large Square Gift Box",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1315,
+        "name": "Large White Chest",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1316,
+        "name": "Large Yellow Chest",
         "meta": "Furniture",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -11290,12 +11380,6 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 1170,
-        "name": "Painted Farm Gate",
-        "meta": "Furniture",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
         "id": 142,
         "name": "Painted Wood Table",
         "meta": "Furniture",
@@ -11368,14 +11452,20 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 1171,
-        "name": "Pink Alpine Lamppost",
+        "id": 153,
+        "name": "Pink and Blue Flower Disk",
         "meta": "Furniture",
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 153,
-        "name": "Pink and Blue Flower Disk",
+        "id": 1317,
+        "name": "Pink Flat-Top Stove",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1318,
+        "name": "Pink Gas Stove",
         "meta": "Furniture",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -11400,6 +11490,18 @@
       {
         "id": 157,
         "name": "Pirate Map on the Wall",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1319,
+        "name": "Pixar Companion Ball",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1320,
+        "name": "Playful Companion Pinwheel",
         "meta": "Furniture",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -11470,12 +11572,6 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 1188,
-        "name": "Rectangular Straw Bale",
-        "meta": "Furniture",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
         "id": 169,
         "name": "Red and Black Passion Lily Pot",
         "meta": "Furniture",
@@ -11502,6 +11598,12 @@
       {
         "id": 173,
         "name": "Red Light Low Beach Torch",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1321,
+        "name": "Red Mailbox",
         "meta": "Furniture",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -11692,6 +11794,48 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1322,
+        "name": "Slow Cooker",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1323,
+        "name": "Small Blue Chest",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1324,
+        "name": "Small Chest",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1325,
+        "name": "Small Green Chest",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1326,
+        "name": "Small Red Chest",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1327,
+        "name": "Small White Chest",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1328,
+        "name": "Small Yellow Chest",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 207,
         "name": "Snow Hut",
         "meta": "Furniture",
@@ -11706,42 +11850,6 @@
       {
         "id": 209,
         "name": "Snow Lady",
-        "meta": "Furniture",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1199,
-        "name": "Snowy alpine Building",
-        "meta": "Furniture",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1200,
-        "name": "Snowy Alpine Corner - Short",
-        "meta": "Furniture",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1201,
-        "name": "Snowy Alpine Corner - Tall",
-        "meta": "Furniture",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1209,
-        "name": "Snowy Pink Alpine Lamppost",
-        "meta": "Furniture",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1211,
-        "name": "Snowy Rectangle Straw Bale",
-        "meta": "Furniture",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1213,
-        "name": "Snowy Yellow Alpine Lamppost",
         "meta": "Furniture",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -11860,18 +11968,6 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 1216,
-        "name": "Swinging Alpine Door",
-        "meta": "Furniture",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1153,
-        "name": "Swirly Stripped Rug",
-        "meta": "Furniture",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
         "id": 229,
         "name": "Tall Birdhouse",
         "meta": "Furniture",
@@ -11886,12 +11982,6 @@
       {
         "id": 231,
         "name": "Tall Square Gift Box",
-        "meta": "Furniture",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1156,
-        "name": "The Staines Glass Window to Imagination",
         "meta": "Furniture",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -11926,14 +12016,26 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1329,
+        "name": "Uncrafting Station",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 238,
         "name": "Vintage Cooler",
         "meta": "Furniture",
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 1219,
-        "name": "Vintage Swing Machine",
+        "id": 1330,
+        "name": "White Flat-Top Stove",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1331,
+        "name": "White Gas Stove",
         "meta": "Furniture",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -11964,6 +12066,12 @@
       {
         "id": 245,
         "name": "Wooden Bucket",
+        "meta": "Furniture",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1332,
+        "name": "Wooden Crafting Station",
         "meta": "Furniture",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -12358,6 +12466,24 @@
         "meta2": "STORYBOOK VALE"
       },
       {
+        "id": 1133,
+        "name": "Basic Fairie Lure Trap",
+        "meta": "Furniture",
+        "meta2": "STORYBOOK VALE"
+      },
+      {
+        "id": 1134,
+        "name": "Basic Fairie Slow Trap",
+        "meta": "Furniture",
+        "meta2": "STORYBOOK VALE"
+      },
+      {
+        "id": 1135,
+        "name": "Basic Fairie Snippet Repellent",
+        "meta": "Furniture",
+        "meta2": "STORYBOOK VALE"
+      },
+      {
         "id": 361,
         "name": "Black Rose Stones",
         "meta": "Furniture",
@@ -12600,6 +12726,12 @@
       {
         "id": 1289,
         "name": "The Stained Glass Window to Imagination",
+        "meta": "Furniture",
+        "meta2": "STORYBOOK VALE"
+      },
+      {
+        "id": 1234,
+        "name": "Transportation Table",
         "meta": "Furniture",
         "meta2": "STORYBOOK VALE"
       },
@@ -13024,6 +13156,18 @@
         "meta2": "WISHBLOSSOM MOUNTAINS"
       },
       {
+        "id": 1170,
+        "name": "Painted Farm Gate",
+        "meta": "Furniture",
+        "meta2": "WISHBLOSSOM MOUNTAINS"
+      },
+      {
+        "id": 1171,
+        "name": "Pink Alpine Lamppost",
+        "meta": "Furniture",
+        "meta2": "WISHBLOSSOM MOUNTAINS"
+      },
+      {
         "id": 1172,
         "name": "Pink Birthday Candle Lamppost",
         "meta": "Furniture",
@@ -13120,6 +13264,12 @@
         "meta2": "WISHBLOSSOM MOUNTAINS"
       },
       {
+        "id": 1188,
+        "name": "Rectangular Straw Bale",
+        "meta": "Furniture",
+        "meta2": "WISHBLOSSOM MOUNTAINS"
+      },
+      {
         "id": 1189,
         "name": "Red Leaf Sculpture",
         "meta": "Furniture",
@@ -13180,6 +13330,24 @@
         "meta2": "WISHBLOSSOM MOUNTAINS"
       },
       {
+        "id": 1199,
+        "name": "Snowy alpine Building",
+        "meta": "Furniture",
+        "meta2": "WISHBLOSSOM MOUNTAINS"
+      },
+      {
+        "id": 1200,
+        "name": "Snowy Alpine Corner - Short",
+        "meta": "Furniture",
+        "meta2": "WISHBLOSSOM MOUNTAINS"
+      },
+      {
+        "id": 1201,
+        "name": "Snowy Alpine Corner - Tall",
+        "meta": "Furniture",
+        "meta2": "WISHBLOSSOM MOUNTAINS"
+      },
+      {
         "id": 1202,
         "name": "Snowy Alpine Half Arch",
         "meta": "Furniture",
@@ -13222,14 +13390,32 @@
         "meta2": "WISHBLOSSOM MOUNTAINS"
       },
       {
+        "id": 1209,
+        "name": "Snowy Pink Alpine Lamppost",
+        "meta": "Furniture",
+        "meta2": "WISHBLOSSOM MOUNTAINS"
+      },
+      {
         "id": 1210,
         "name": "Snowy Purple Alpine Lamppost",
         "meta": "Furniture",
         "meta2": "WISHBLOSSOM MOUNTAINS"
       },
       {
+        "id": 1211,
+        "name": "Snowy Rectangle Straw Bale",
+        "meta": "Furniture",
+        "meta2": "WISHBLOSSOM MOUNTAINS"
+      },
+      {
         "id": 1212,
         "name": "Snowy White Alpine Lamppost",
+        "meta": "Furniture",
+        "meta2": "WISHBLOSSOM MOUNTAINS"
+      },
+      {
+        "id": 1213,
+        "name": "Snowy Yellow Alpine Lamppost",
         "meta": "Furniture",
         "meta2": "WISHBLOSSOM MOUNTAINS"
       },
@@ -13242,6 +13428,12 @@
       {
         "id": 1215,
         "name": "Stony Alpine Fireplace",
+        "meta": "Furniture",
+        "meta2": "WISHBLOSSOM MOUNTAINS"
+      },
+      {
+        "id": 1216,
+        "name": "Swinging Alpine Door",
         "meta": "Furniture",
         "meta2": "WISHBLOSSOM MOUNTAINS"
       },
@@ -13300,6 +13492,12 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1290,
+        "name": "Delicious Gift",
+        "meta": "MATERIALS",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 532,
         "name": "Empty Vial",
         "meta": "MATERIALS",
@@ -13342,8 +13540,20 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1291,
+        "name": "Handcrafted Gift",
+        "meta": "MATERIALS",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 539,
         "name": "Iron Ingot",
+        "meta": "MATERIALS",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1292,
+        "name": "Naughty Gift",
         "meta": "MATERIALS",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -13360,6 +13570,12 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1293,
+        "name": "Purified Night Shard",
+        "meta": "MATERIALS",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 542,
         "name": "Rope",
         "meta": "MATERIALS",
@@ -13368,6 +13584,12 @@
       {
         "id": 543,
         "name": "Seaweed",
+        "meta": "MATERIALS",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1294,
+        "name": "Shiny Gift",
         "meta": "MATERIALS",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -14115,12 +14337,6 @@
         "id": 3527,
         "name": "Snowy Rectangular Straw Bale",
         "meta": "",
-        "meta2": "WISHBLOSSOM MOUNTAINS"
-      },
-      {
-        "id": 3528,
-        "name": "Snowy Stones",
-        "meta": "GENERAL",
         "meta2": "WISHBLOSSOM MOUNTAINS"
       },
       {
@@ -24186,6 +24402,12 @@
         "meta2": "WISHBLOSSOM MOUNTAINS"
       },
       {
+        "id": 3528,
+        "name": "Snowy Stones",
+        "meta": "GENERAL",
+        "meta2": "WISHBLOSSOM MOUNTAINS"
+      },
+      {
         "id": 3012,
         "name": "Spindly Winter Holiday Tree",
         "meta": "GENERAL",
@@ -29859,7 +30081,7 @@
         "id": 3353,
         "name": "Storyteller's Fire",
         "meta": "POCAHONTAS",
-        "meta2": "WISHBLOSSOM MOUNTAINS"
+        "meta2": "DREAMLIGHT VALLEY"
       },
       {
         "id": 3362,
@@ -37699,7 +37921,7 @@
       "75": "owned",
       "76": "owned",
       "77": "owned",
-      "78": "owned",
+      "78": "neutral",
       "79": "owned",
       "80": "owned",
       "81": "owned",
@@ -37752,9 +37974,9 @@
       "177": "owned",
       "178": "owned",
       "179": "owned",
-      "182": "owned",
+      "182": "neutral",
       "183": "owned",
-      "184": "owned",
+      "184": "neutral",
       "190": "owned",
       "192": "owned",
       "193": "owned",
@@ -37924,6 +38146,7 @@
       "1047": "owned",
       "1048": "owned",
       "1049": "owned",
+      "1050": "owned",
       "1051": "owned",
       "1052": "owned",
       "1054": "owned",
@@ -37950,7 +38173,16 @@
       "1096": "owned",
       "1098": "owned",
       "1152": "owned",
-      "1158": "owned"
+      "1158": "owned",
+      "1293": "owned",
+      "1301": "owned",
+      "1303": "owned",
+      "1306": "owned",
+      "1311": "owned",
+      "1313": "owned",
+      "1323": "owned",
+      "1324": "owned",
+      "1329": "owned"
     },
     "furniture": {
       "7": "owned",
@@ -38760,6 +38992,7 @@
       "2229": "owned",
       "2230": "owned",
       "2233": "owned",
+      "2235": "owned",
       "2238": "owned",
       "2239": "owned",
       "2240": "owned",
@@ -38775,6 +39008,7 @@
       "2255": "owned",
       "2256": "owned",
       "2257": "owned",
+      "2260": "owned",
       "2261": "owned",
       "2262": "owned",
       "2263": "owned",
@@ -39103,6 +39337,7 @@
       "3177": "owned",
       "3178": "owned",
       "3180": "owned",
+      "3181": "owned",
       "3182": "owned",
       "3190": "owned",
       "3193": "owned",
@@ -39412,7 +39647,8 @@
     "crafting": {
       "369": false,
       "575": false,
-      "1234": false
+      "1234": false,
+      "1306": false
     },
     "furniture": {
       "149": false,
@@ -39440,7 +39676,7 @@
   },
   "nextId": {
     "clothing": 1535,
-    "crafting": 1290,
+    "crafting": 1333,
     "furniture": 3552,
     "meals": 469
   },
@@ -41687,13 +41923,19 @@
   "deletedIds": {
     "clothing": {},
     "crafting": {
+      "1153": true,
+      "1156": true,
+      "1219": true,
       "1231": true,
-      "1232": true
+      "1232": true,
+      "1295": true,
+      "1296": true,
+      "1299": true
     },
     "furniture": {
       "2669": true
     },
     "meals": {}
   },
-  "savedAt": "2026-05-15T09:46:38.239Z"
+  "savedAt": "2026-05-15T10:26:23.609Z"
 }
