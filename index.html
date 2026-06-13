@@ -1004,6 +1004,42 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
 }
 .alpha-acc-panel.open { display: flex; }
 
+/* Word sub-accordion (3rd level, nested inside alpha or group panels) */
+.word-accordions-wrap { display: flex; flex-direction: column; }
+.word-accordion { display: flex; flex-direction: column; }
+.word-acc-btn {
+  width: 100%; display: flex; align-items: center; gap: 8px;
+  padding: 6px 14px 6px 28px;
+  background: var(--surface2); border: none;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  font-family: 'Nunito', sans-serif; text-align: left;
+  user-select: none; transition: background 0.12s;
+}
+.word-acc-btn:hover { background: var(--accent-light); }
+.word-acc-btn.open { background: var(--accent-light); }
+.word-acc-arrow {
+  font-size: 9px; color: var(--text3);
+  transition: transform 0.2s; display: inline-block; flex-shrink: 0;
+}
+.word-acc-btn.open .word-acc-arrow { transform: rotate(90deg); color: var(--accent); }
+.word-acc-label {
+  font-size: 11px; font-weight: 700; color: var(--text2);
+  letter-spacing: 0.2px;
+}
+.word-acc-btn.open .word-acc-label { color: var(--accent); }
+.word-acc-count {
+  margin-left: auto; font-size: 10px; font-weight: 700;
+  color: var(--text3); background: var(--surface);
+  padding: 1px 7px; border-radius: 20px;
+}
+.word-acc-btn.open .word-acc-count { color: var(--accent); background: rgba(124,92,191,0.1); }
+.word-acc-panel {
+  display: none; flex-direction: column;
+  border-bottom: 1px solid var(--border);
+}
+.word-acc-panel.open { display: flex; }
+
 /* Old alpha styles — unused, kept for safety */
 .alpha-section-header { display: none; }
 .alpha-rail { display: none; }
@@ -2129,13 +2165,83 @@ function alphaSort(a, b) {
   return a.localeCompare(b);
 }
 
+// Extract the first significant word of an item's name, for sub-sub-grouping
+// (e.g. "Green Shirt" -> "GREEN", "Pale Pink Dress" -> "PALE")
+function getFirstWord(item) {
+  const name = (item.name || '').trim();
+  const match = name.match(/^[A-Za-zÀ-ÖØ-öø-ÿ'’-]+/);
+  if (!match) return null;
+  const word = match[0].normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
+  if (word.length < 2) return null;
+  return word;
+}
+
+// Minimum number of items sharing the same first word to justify a sub-sub-accordion
+const WORD_GROUP_THRESHOLD = 2;
+
+// Group a list of items by shared first word. Returns {wordGroups, leftovers}
+// where wordGroups is an array of {word, items} (only words shared by >=WORD_GROUP_THRESHOLD items,
+// sorted alphabetically) and leftovers is the array of items not part of any word group,
+// in original order.
+function groupByFirstWord(items) {
+  const counts = {};
+  items.forEach(item => {
+    const w = getFirstWord(item);
+    if (!w) return;
+    counts[w] = (counts[w] || 0) + 1;
+  });
+  const words = Object.keys(counts).filter(w => counts[w] >= WORD_GROUP_THRESHOLD).sort((a,b)=>a.localeCompare(b));
+  if (!words.length) return { wordGroups: [], leftovers: items };
+  const wordSet = new Set(words);
+  const buckets = {};
+  const leftovers = [];
+  items.forEach(item => {
+    const w = getFirstWord(item);
+    if (w && wordSet.has(w)) {
+      if (!buckets[w]) buckets[w] = [];
+      buckets[w].push(item);
+    } else {
+      leftovers.push(item);
+    }
+  });
+  const wordGroups = words.map(w => ({ word: w, items: buckets[w] }));
+  return { wordGroups, leftovers };
+}
+
+// Render a flat list of items, applying word-level sub-sub-accordions where relevant
+function renderItemsWithWordGroups(items, cat, catChecked, groupField, isAccordion, scopeKey) {
+  const { wordGroups, leftovers } = groupByFirstWord(items);
+  if (!wordGroups.length) {
+    return items.map(item => renderItemHtml(item, cat, catChecked, groupField, isAccordion)).join('');
+  }
+  let html = '';
+  wordGroups.forEach((wg, wIdx) => {
+    const done = wg.items.filter(it => owned[cat]?.[it.id] === 'owned').length;
+    html += `<div class="word-accordion" data-scope="${scopeKey}" data-word="${escAttr(wg.word)}">
+      <button class="word-acc-btn" onclick="toggleWordAcc(this)" data-word-idx="${wIdx}">
+        <span class="word-acc-arrow">▶</span>
+        <span class="word-acc-label">${esc(wg.word)}</span>
+        <span class="word-acc-count">${done}/${wg.items.length}</span>
+      </button>
+      <div class="word-acc-panel">
+        ${wg.items.map(item => renderItemHtml(item, cat, catChecked, groupField, isAccordion)).join('')}
+      </div>
+    </div>`;
+  });
+  // Leftover items (no shared first word) rendered directly, after the word groups
+  html += leftovers.map(item => renderItemHtml(item, cat, catChecked, groupField, isAccordion)).join('');
+  return `<div class="word-accordions-wrap">${html}</div>`;
+}
+
 // Render items for a group panel (used for lazy loading)
 const ALPHA_GROUP_THRESHOLD = 20;
 
 function renderGroupItems(groupItems, cat, catChecked, groupField, groupKey = '') {
   const isAccordion = ACCORDION_CATS.has(cat);
+  const scopeKey = escAttr(cat + '|' + groupKey);
+
   if (groupItems.length <= ALPHA_GROUP_THRESHOLD) {
-    return groupItems.map(item => renderItemHtml(item, cat, catChecked, groupField, isAccordion)).join('');
+    return renderItemsWithWordGroups(groupItems, cat, catChecked, groupField, isAccordion, scopeKey);
   }
 
   // Build alpha groups
@@ -2146,11 +2252,11 @@ function renderGroupItems(groupItems, cat, catChecked, groupField, groupKey = ''
     alphaGroups[letter].push(item);
   });
   const letters = Object.keys(alphaGroups).sort(alphaSort);
-  const scopeKey = escAttr(cat + '|' + groupKey);
 
   const sections = letters.map(letter => {
     const items = alphaGroups[letter];
     const done = items.filter(it => owned[cat]?.[it.id] === 'owned').length;
+    const letterScope = scopeKey + '|' + escAttr(letter);
     return `<div class="alpha-accordion" data-scope="${scopeKey}" data-letter="${escAttr(letter)}">
       <button class="alpha-acc-btn" onclick="toggleAlphaAcc(this)">
         <span class="alpha-acc-arrow">▶</span>
@@ -2158,7 +2264,7 @@ function renderGroupItems(groupItems, cat, catChecked, groupField, groupKey = ''
         <span class="alpha-acc-count">${done}/${items.length}</span>
       </button>
       <div class="alpha-acc-panel">
-        ${items.map(item => renderItemHtml(item, cat, catChecked, groupField, isAccordion)).join('')}
+        ${renderItemsWithWordGroups(items, cat, catChecked, groupField, isAccordion, letterScope)}
       </div>
     </div>`;
   }).join('');
@@ -2169,8 +2275,31 @@ function renderGroupItems(groupItems, cat, catChecked, groupField, groupKey = ''
 function toggleAlphaAcc(btn) {
   const panel = btn.nextElementSibling;
   const isOpen = btn.classList.contains('open');
-  btn.classList.toggle('open', !isOpen);
-  panel.classList.toggle('open', !isOpen);
+  // Close all sibling alpha-accordions within the same parent
+  const parent = btn.closest('.alpha-accordions-wrap');
+  if (parent) {
+    parent.querySelectorAll('.alpha-acc-btn').forEach(b => b.classList.remove('open'));
+    parent.querySelectorAll('.alpha-acc-panel').forEach(p => p.classList.remove('open'));
+  }
+  if (!isOpen) {
+    btn.classList.add('open');
+    panel.classList.add('open');
+  }
+}
+
+// Toggle a word-level sub-sub-accordion (one open at a time per parent)
+function toggleWordAcc(btn) {
+  const panel = btn.nextElementSibling;
+  const isOpen = btn.classList.contains('open');
+  const parent = btn.closest('.word-accordions-wrap');
+  if (parent) {
+    parent.querySelectorAll('.word-acc-btn').forEach(b => b.classList.remove('open'));
+    parent.querySelectorAll('.word-acc-panel').forEach(p => p.classList.remove('open'));
+  }
+  if (!isOpen) {
+    btn.classList.add('open');
+    panel.classList.add('open');
+  }
 }
 
 function renderList() {
