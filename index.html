@@ -1178,7 +1178,7 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
 </style>
 </head>
 <body>
-<div id="overlay" onclick="closeSidebar()" class=""></div>
+<div id="overlay" onclick="closeSidebar()" class="active"></div>
 <div id="loading-screen" style="position: fixed; inset: 0px; background: rgb(247, 243, 255); display: none; flex-direction: column; align-items: center; justify-content: center; z-index: 9999; font-family: Nunito, sans-serif;">
   <div style="font-size:32px;margin-bottom:12px">✦</div>
   <div style="font-size:16px;font-weight:700;color:#7c5cbf">DLV Guide</div>
@@ -1196,12 +1196,12 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
     <div class="zone-card all-zones" onclick="pickZone('all')">
       <span class="zone-card-dot all"></span>
       <span class="zone-card-name">Toutes les zones</span>
-      <span class="zone-card-count" id="zpc-all">2727 / 5972</span>
+      <span class="zone-card-count" id="zpc-all">2736 / 5971</span>
     </div>
     <div class="zone-card" onclick="pickZone('DREAMLIGHT VALLEY')">
       <span class="zone-card-dot dv"></span>
       <span class="zone-card-name">Dreamlight Valley</span>
-      <span class="zone-card-count" id="zpc-dv">2659 / 4827</span>
+      <span class="zone-card-count" id="zpc-dv">2668 / 4827</span>
     </div>
     <div class="zone-card" onclick="pickZone('ETERNITY ISLE')">
       <span class="zone-card-dot ei"></span>
@@ -1221,36 +1221,36 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
   </div>
 </div>
 
-<button id="scroll-top" onclick="document.getElementById('list-area').scrollTo({top:0,behavior:'smooth'})" title="Remonter en haut" class="">↑</button>
+<button id="scroll-top" onclick="document.getElementById('list-area').scrollTo({top:0,behavior:'smooth'})" title="Remonter en haut" class="visible">↑</button>
 <div id="app">
-  <div id="sidebar" class="">
+  <div id="sidebar" class="open">
     <div id="sidebar-header">
       <div id="sidebar-header-top">
         <h1>✦ DLV Guide</h1>
         <p>Disney Dreamlight Valley</p>
       </div>
       <div id="sidebar-zone-chip" onclick="showZonePicker()">
-        <span id="sidebar-zone-dot" style="background: rgb(124, 92, 191);"></span>
-        <span id="sidebar-zone-label">Dreamlight Valley</span>
+        <span id="sidebar-zone-dot" style="background: rgb(176, 160, 204);"></span>
+        <span id="sidebar-zone-label">Toutes les zones</span>
         <span id="sidebar-zone-change">Changer ›</span>
       </div>
     </div>
     <div id="nav-list"><div class="nav-item" data-cat="clothing" onclick="switchCat('clothing')">
       <img class="nav-icon" src="/DLV-Guide/images/Menu_Icon_Clothing.png" alt="Clothing sets">
       <span class="nav-label">Clothing sets</span>
-      <span class="nav-count">910/1532</span>
+      <span class="nav-count">935/1586</span>
     </div><div class="nav-item" data-cat="crafting" onclick="switchCat('crafting')">
       <img class="nav-icon" src="/DLV-Guide/images/Crafting.png" alt="Crafting recipes">
       <span class="nav-label">Crafting recipes</span>
-      <span class="nav-count">153/241</span>
+      <span class="nav-count">171/501</span>
     </div><div class="nav-item active" data-cat="furniture" onclick="switchCat('furniture')">
       <img class="nav-icon" src="/DLV-Guide/images/Menu_Icon_Furniture.png" alt="Furniture sets">
       <span class="nav-label">Furniture sets</span>
-      <span class="nav-count">1378/2835</span>
+      <span class="nav-count">1417/3416</span>
     </div><div class="nav-item" data-cat="meals" onclick="switchCat('meals')">
       <img class="nav-icon" src="/DLV-Guide/images/Menu_Icon_Meals.png" alt="Meal recipes">
       <span class="nav-label">Meal recipes</span>
-      <span class="nav-count">218/219</span>
+      <span class="nav-count">219/468</span>
     </div></div>
     <div id="sidebar-footer">
       <button class="sidebar-btn save" onclick="openGhModal()" title="Sauvegarder sur GitHub">💾 Sauvegarder</button>
@@ -1262,8 +1262,8 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
       <button id="menu-btn" onclick="toggleSidebar()">☰</button>
       <h2 id="page-title">Furniture sets</h2>
       <div class="progress-wrap">
-        <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width: 41.235%;"></div></div>
-        <span class="progress-text" id="progress-text">1409 / 3417</span>
+        <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width: 41.481265%;"></div></div>
+        <span class="progress-text" id="progress-text">1417 / 3416</span>
       </div>
     </div>
     <div id="search-bar">
@@ -1277,9 +1277,19 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
     <div id="list-area"><div class="add-row">
     <input type="text" id="add-name" placeholder="Ajouter furniture set...">
     <input type="text" id="add-meta" class="add-meta-input" placeholder="Tag 1">
-    <select class="zone-select"><option value="">— Aucune zone —</option><option value="DREAMLIGHT VALLEY" selected="">Dreamlight Valley</option><option value="ETERNITY ISLE">Eternity Isle</option><option value="STORYBOOK VALE">Storybook Vale</option><option value="WISHBLOSSOM MOUNTAINS">Wishblossom Mountains</option></select>
+    <select class="zone-select"><option value="" selected="">— Aucune zone —</option><option value="DREAMLIGHT VALLEY">Dreamlight Valley</option><option value="ETERNITY ISLE">Eternity Isle</option><option value="STORYBOOK VALE">Storybook Vale</option><option value="WISHBLOSSOM MOUNTAINS">Wishblossom Mountains</option></select>
     <button class="add-btn" id="add-btn-main">+ Ajouter</button>
-  </div><button class="group-accordion-btn open" onclick="toggleGroupAccordion('furniture',0)" data-group-key="A BUG'S LIFE" data-group-idx="0">
+  </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',0)" data-group-key="—" data-group-idx="0">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">—</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/118</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="—" data-group-idx="0" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',1)" data-group-key="A BUG'S LIFE" data-group-idx="1">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">A BUG'S LIFE</span>
         <span class="group-accordion-progress-wrap">
@@ -1287,74 +1297,39 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">1/5</span>
         </span>
       </button>
-      <div class="group-accordion-panel open" data-group-panel="A BUG'S LIFE" data-group-idx="0" data-loaded="1">
-        <div class="list-item" data-id="3328">
-    <span class="item-owned owned" onclick="cycleOwned(3328)" title="Possession">✓</span>
-    <span class="item-label" onclick="toggleCheck(3328)">Blossom Tree Critter Home</span>
-    
-    
-    <button class="item-edit" onclick="startEdit(3328)" title="Modifier">✎</button>
-    <button class="item-delete" onclick="deleteItem(3328)" title="Supprimer">✕</button>
-  </div><div class="list-item" data-id="1">
-    <span class="item-owned" onclick="cycleOwned(1)" title="Possession">·</span>
-    <span class="item-label" onclick="toggleCheck(1)">Cottonsedge Flower</span>
-    
-    
-    <button class="item-edit" onclick="startEdit(1)" title="Modifier">✎</button>
-    <button class="item-delete" onclick="deleteItem(1)" title="Supprimer">✕</button>
-  </div><div class="list-item" data-id="2">
-    <span class="item-owned" onclick="cycleOwned(2)" title="Possession">·</span>
-    <span class="item-label" onclick="toggleCheck(2)">Giant Clover</span>
-    
-    
-    <button class="item-edit" onclick="startEdit(2)" title="Modifier">✎</button>
-    <button class="item-delete" onclick="deleteItem(2)" title="Supprimer">✕</button>
-  </div><div class="list-item" data-id="3">
-    <span class="item-owned" onclick="cycleOwned(3)" title="Possession">·</span>
-    <span class="item-label" onclick="toggleCheck(3)">Giant String Lights</span>
-    
-    
-    <button class="item-edit" onclick="startEdit(3)" title="Modifier">✎</button>
-    <button class="item-delete" onclick="deleteItem(3)" title="Supprimer">✕</button>
-  </div><div class="list-item" data-id="4">
-    <span class="item-owned" onclick="cycleOwned(4)" title="Possession">·</span>
-    <span class="item-label" onclick="toggleCheck(4)">Snail Shell Horn</span>
-    
-    
-    <button class="item-edit" onclick="startEdit(4)" title="Modifier">✎</button>
-    <button class="item-delete" onclick="deleteItem(4)" title="Supprimer">✕</button>
-  </div>
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',1)" data-group-key="ALADDIN" data-group-idx="1">
+      <div class="group-accordion-panel" data-group-panel="A BUG'S LIFE" data-group-idx="1" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',2)" data-group-key="ALADDIN" data-group-idx="2">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">ALADDIN</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 48%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:48%"></span></span>
           <span class="group-accordion-count">30/62</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="ALADDIN" data-group-idx="1" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="ALADDIN" data-group-idx="2" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',2)" data-group-key="ALICE IN WONDERLAND" data-group-idx="2">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',3)" data-group-key="ALICE IN WONDERLAND" data-group-idx="3">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">ALICE IN WONDERLAND</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 55%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:55%"></span></span>
           <span class="group-accordion-count">36/65</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="ALICE IN WONDERLAND" data-group-idx="2" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="ALICE IN WONDERLAND" data-group-idx="3" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',3)" data-group-key="ANCIENT CIVILIZATION" data-group-idx="3">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',4)" data-group-key="ANCIENT CIVILIZATION" data-group-idx="4">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">ANCIENT CIVILIZATION</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 9%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:9%"></span></span>
           <span class="group-accordion-count">2/23</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="ANCIENT CIVILIZATION" data-group-idx="3" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="ANCIENT CIVILIZATION" data-group-idx="4" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',4)" data-group-key="BAMBI" data-group-idx="4">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',5)" data-group-key="BAMBI" data-group-idx="5">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">BAMBI</span>
         <span class="group-accordion-progress-wrap">
@@ -1362,19 +1337,19 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">1/2</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="BAMBI" data-group-idx="4" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="BAMBI" data-group-idx="5" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',5)" data-group-key="BEAUTY AND THE BEAST" data-group-idx="5">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',6)" data-group-key="BEAUTY AND THE BEAST" data-group-idx="6">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">BEAUTY AND THE BEAST</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 60%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:60%"></span></span>
           <span class="group-accordion-count">51/85</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="BEAUTY AND THE BEAST" data-group-idx="5" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="BEAUTY AND THE BEAST" data-group-idx="6" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',6)" data-group-key="BIG HERO 6" data-group-idx="6">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',7)" data-group-key="BIG HERO 6" data-group-idx="7">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">BIG HERO 6</span>
         <span class="group-accordion-progress-wrap">
@@ -1382,19 +1357,19 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">0/5</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="BIG HERO 6" data-group-idx="6" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="BIG HERO 6" data-group-idx="7" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',7)" data-group-key="BRAVE" data-group-idx="7">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',8)" data-group-key="BRAVE" data-group-idx="8">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">BRAVE</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 25%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:25%"></span></span>
           <span class="group-accordion-count">2/8</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="BRAVE" data-group-idx="7" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="BRAVE" data-group-idx="8" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',8)" data-group-key="CARS" data-group-idx="8">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',9)" data-group-key="CARS" data-group-idx="9">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">CARS</span>
         <span class="group-accordion-progress-wrap">
@@ -1402,19 +1377,19 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">7/9</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="CARS" data-group-idx="8" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="CARS" data-group-idx="9" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',9)" data-group-key="CINDERELLA" data-group-idx="9">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',10)" data-group-key="CINDERELLA" data-group-idx="10">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">CINDERELLA</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 59%;"></span></span>
-          <span class="group-accordion-count">42/71</span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:61%"></span></span>
+          <span class="group-accordion-count">43/71</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="CINDERELLA" data-group-idx="9" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="CINDERELLA" data-group-idx="10" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',10)" data-group-key="COCO" data-group-idx="10">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',11)" data-group-key="COCO" data-group-idx="11">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">COCO</span>
         <span class="group-accordion-progress-wrap">
@@ -1422,9 +1397,9 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">0/5</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="COCO" data-group-idx="10" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="COCO" data-group-idx="11" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',11)" data-group-key="DINOSAUR" data-group-idx="11">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',12)" data-group-key="DINOSAUR" data-group-idx="12">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">DINOSAUR</span>
         <span class="group-accordion-progress-wrap">
@@ -1432,9 +1407,9 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">1/1</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="DINOSAUR" data-group-idx="11" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="DINOSAUR" data-group-idx="12" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',12)" data-group-key="Disney" data-group-idx="12">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',13)" data-group-key="Disney" data-group-idx="13">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">Disney</span>
         <span class="group-accordion-progress-wrap">
@@ -1442,9 +1417,9 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">1/1</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="Disney" data-group-idx="12" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="Disney" data-group-idx="13" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',13)" data-group-key="DISNEY" data-group-idx="13">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',14)" data-group-key="DISNEY" data-group-idx="14">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">DISNEY</span>
         <span class="group-accordion-progress-wrap">
@@ -1452,9 +1427,9 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">8/94</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="DISNEY" data-group-idx="13" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="DISNEY" data-group-idx="14" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',14)" data-group-key="DISNEY FAIRIES" data-group-idx="14">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',15)" data-group-key="DISNEY FAIRIES" data-group-idx="15">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">DISNEY FAIRIES</span>
         <span class="group-accordion-progress-wrap">
@@ -1462,9 +1437,9 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">3/34</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="DISNEY FAIRIES" data-group-idx="14" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="DISNEY FAIRIES" data-group-idx="15" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',15)" data-group-key="DREAMLIGHT VALLEY" data-group-idx="15">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',16)" data-group-key="DREAMLIGHT VALLEY" data-group-idx="16">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">DREAMLIGHT VALLEY</span>
         <span class="group-accordion-progress-wrap">
@@ -1472,9 +1447,9 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">1/12</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="DREAMLIGHT VALLEY" data-group-idx="15" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="DREAMLIGHT VALLEY" data-group-idx="16" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',16)" data-group-key="ELEMENTAL" data-group-idx="16">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',17)" data-group-key="ELEMENTAL" data-group-idx="17">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">ELEMENTAL</span>
         <span class="group-accordion-progress-wrap">
@@ -1482,19 +1457,19 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">0/3</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="ELEMENTAL" data-group-idx="16" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="ELEMENTAL" data-group-idx="17" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',17)" data-group-key="ENCANTO" data-group-idx="17">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',18)" data-group-key="ENCANTO" data-group-idx="18">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">ENCANTO</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 57%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:57%"></span></span>
           <span class="group-accordion-count">17/30</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="ENCANTO" data-group-idx="17" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="ENCANTO" data-group-idx="18" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',18)" data-group-key="FANTASIA" data-group-idx="18">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',19)" data-group-key="FANTASIA" data-group-idx="19">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">FANTASIA</span>
         <span class="group-accordion-progress-wrap">
@@ -1502,9 +1477,9 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">0/1</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="FANTASIA" data-group-idx="18" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="FANTASIA" data-group-idx="19" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',19)" data-group-key="FINDING NEMO" data-group-idx="19">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',20)" data-group-key="FINDING NEMO" data-group-idx="20">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">FINDING NEMO</span>
         <span class="group-accordion-progress-wrap">
@@ -1512,39 +1487,39 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">0/1</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="FINDING NEMO" data-group-idx="19" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="FINDING NEMO" data-group-idx="20" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',20)" data-group-key="FROZEN" data-group-idx="20">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',21)" data-group-key="FROZEN" data-group-idx="21">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">FROZEN</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 56%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:56%"></span></span>
           <span class="group-accordion-count">50/89</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="FROZEN" data-group-idx="20" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="FROZEN" data-group-idx="21" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',21)" data-group-key="GENERAL" data-group-idx="21">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',22)" data-group-key="GENERAL" data-group-idx="22">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">GENERAL</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 44%;"></span></span>
-          <span class="group-accordion-count">607/1371</span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:45%"></span></span>
+          <span class="group-accordion-count">612/1370</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="GENERAL" data-group-idx="21" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="GENERAL" data-group-idx="22" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',22)" data-group-key="HERCULES" data-group-idx="22">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',23)" data-group-key="HERCULES" data-group-idx="23">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">HERCULES</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 29%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:29%"></span></span>
           <span class="group-accordion-count">5/17</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="HERCULES" data-group-idx="22" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="HERCULES" data-group-idx="23" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',23)" data-group-key="HOCUS POCUS" data-group-idx="23">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',24)" data-group-key="HOCUS POCUS" data-group-idx="24">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">HOCUS POCUS</span>
         <span class="group-accordion-progress-wrap">
@@ -1552,9 +1527,9 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">0/4</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="HOCUS POCUS" data-group-idx="23" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="HOCUS POCUS" data-group-idx="24" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',24)" data-group-key="INSIDE OUT" data-group-idx="24">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',25)" data-group-key="INSIDE OUT" data-group-idx="25">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">INSIDE OUT</span>
         <span class="group-accordion-progress-wrap">
@@ -1562,19 +1537,19 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">2/24</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="INSIDE OUT" data-group-idx="24" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="INSIDE OUT" data-group-idx="25" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',25)" data-group-key="LADY AND THE TRAMP" data-group-idx="25">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',26)" data-group-key="LADY AND THE TRAMP" data-group-idx="26">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">LADY AND THE TRAMP</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 66%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:66%"></span></span>
           <span class="group-accordion-count">33/50</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="LADY AND THE TRAMP" data-group-idx="25" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="LADY AND THE TRAMP" data-group-idx="26" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',26)" data-group-key="LIGHTYEAR" data-group-idx="26">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',27)" data-group-key="LIGHTYEAR" data-group-idx="27">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">LIGHTYEAR</span>
         <span class="group-accordion-progress-wrap">
@@ -1582,19 +1557,19 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">0/2</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="LIGHTYEAR" data-group-idx="26" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="LIGHTYEAR" data-group-idx="27" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',27)" data-group-key="LILO &amp; STITCH" data-group-idx="27">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',28)" data-group-key="LILO &amp; STITCH" data-group-idx="28">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">LILO &amp; STITCH</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 63%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:63%"></span></span>
           <span class="group-accordion-count">47/75</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="LILO &amp; STITCH" data-group-idx="27" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="LILO &amp; STITCH" data-group-idx="28" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',28)" data-group-key="MALEFICENT" data-group-idx="28">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',29)" data-group-key="MALEFICENT" data-group-idx="29">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">MALEFICENT</span>
         <span class="group-accordion-progress-wrap">
@@ -1602,59 +1577,59 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">0/1</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="MALEFICENT" data-group-idx="28" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="MALEFICENT" data-group-idx="29" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',29)" data-group-key="MICKEY &amp; FRIENDS" data-group-idx="29">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',30)" data-group-key="MICKEY &amp; FRIENDS" data-group-idx="30">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">MICKEY &amp; FRIENDS</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 50%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:50%"></span></span>
           <span class="group-accordion-count">65/131</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="MICKEY &amp; FRIENDS" data-group-idx="29" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="MICKEY &amp; FRIENDS" data-group-idx="30" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',30)" data-group-key="MOANA" data-group-idx="30">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',31)" data-group-key="MOANA" data-group-idx="31">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">MOANA</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 80%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:80%"></span></span>
           <span class="group-accordion-count">39/49</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="MOANA" data-group-idx="30" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="MOANA" data-group-idx="31" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',31)" data-group-key="MONSTERS, INC." data-group-idx="31">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',32)" data-group-key="MONSTERS, INC." data-group-idx="32">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">MONSTERS, INC.</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 57%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:57%"></span></span>
           <span class="group-accordion-count">45/79</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="MONSTERS, INC." data-group-idx="31" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="MONSTERS, INC." data-group-idx="32" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',32)" data-group-key="MULAN" data-group-idx="32">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',33)" data-group-key="MULAN" data-group-idx="33">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">MULAN</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:30%"></span></span>
-          <span class="group-accordion-count">21/70</span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:31%"></span></span>
+          <span class="group-accordion-count">22/70</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="MULAN" data-group-idx="32" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="MULAN" data-group-idx="33" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',33)" data-group-key="ONE HUNDRED AND ONE DALMATIANS" data-group-idx="33">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',34)" data-group-key="ONE HUNDRED AND ONE DALMATIANS" data-group-idx="34">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">ONE HUNDRED AND ONE DALMATIANS</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 24%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:24%"></span></span>
           <span class="group-accordion-count">8/33</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="ONE HUNDRED AND ONE DALMATIANS" data-group-idx="33" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="ONE HUNDRED AND ONE DALMATIANS" data-group-idx="34" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',34)" data-group-key="OSWALD" data-group-idx="34">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',35)" data-group-key="OSWALD" data-group-idx="35">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">OSWALD</span>
         <span class="group-accordion-progress-wrap">
@@ -1662,19 +1637,19 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">0/18</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="OSWALD" data-group-idx="34" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="OSWALD" data-group-idx="35" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',35)" data-group-key="PETER PAN" data-group-idx="35">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',36)" data-group-key="PETER PAN" data-group-idx="36">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">PETER PAN</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 21%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:21%"></span></span>
           <span class="group-accordion-count">8/39</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="PETER PAN" data-group-idx="35" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="PETER PAN" data-group-idx="36" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',36)" data-group-key="PIRATES OF THE CARIBBEAN" data-group-idx="36">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',37)" data-group-key="PIRATES OF THE CARIBBEAN" data-group-idx="37">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">PIRATES OF THE CARIBBEAN</span>
         <span class="group-accordion-progress-wrap">
@@ -1682,9 +1657,9 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">0/14</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="PIRATES OF THE CARIBBEAN" data-group-idx="36" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="PIRATES OF THE CARIBBEAN" data-group-idx="37" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',37)" data-group-key="POCAHONTAS" data-group-idx="37">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',38)" data-group-key="POCAHONTAS" data-group-idx="38">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">POCAHONTAS</span>
         <span class="group-accordion-progress-wrap">
@@ -1692,29 +1667,39 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">6/30</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="POCAHONTAS" data-group-idx="37" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="POCAHONTAS" data-group-idx="38" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',38)" data-group-key="RATATOUILLE" data-group-idx="38">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',39)" data-group-key="RATATOUILLE" data-group-idx="39">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">RATATOUILLE</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 75%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:75%"></span></span>
           <span class="group-accordion-count">36/48</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="RATATOUILLE" data-group-idx="38" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="RATATOUILLE" data-group-idx="39" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',39)" data-group-key="SLEEPING BEAUTY" data-group-idx="39">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',40)" data-group-key="ROBIN HOOD" data-group-idx="40">
+        <span class="group-accordion-arrow">▶</span>
+        <span class="group-accordion-label">ROBIN HOOD</span>
+        <span class="group-accordion-progress-wrap">
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:0%"></span></span>
+          <span class="group-accordion-count">0/1</span>
+        </span>
+      </button>
+      <div class="group-accordion-panel" data-group-panel="ROBIN HOOD" data-group-idx="40" data-loaded="0">
+        
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',41)" data-group-key="SLEEPING BEAUTY" data-group-idx="41">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">SLEEPING BEAUTY</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 10%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:10%"></span></span>
           <span class="group-accordion-count">5/48</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="SLEEPING BEAUTY" data-group-idx="39" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="SLEEPING BEAUTY" data-group-idx="41" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',40)" data-group-key="SLEEPY HOLLOW" data-group-idx="40">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',42)" data-group-key="SLEEPY HOLLOW" data-group-idx="42">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">SLEEPY HOLLOW</span>
         <span class="group-accordion-progress-wrap">
@@ -1722,19 +1707,19 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">0/1</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="SLEEPY HOLLOW" data-group-idx="40" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="SLEEPY HOLLOW" data-group-idx="42" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',41)" data-group-key="SNOW WHITE" data-group-idx="41">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',43)" data-group-key="SNOW WHITE" data-group-idx="43">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">SNOW WHITE</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 20%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:20%"></span></span>
           <span class="group-accordion-count">7/35</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="SNOW WHITE" data-group-idx="41" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="SNOW WHITE" data-group-idx="43" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',42)" data-group-key="STAR WARS" data-group-idx="42">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',44)" data-group-key="STAR WARS" data-group-idx="44">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">STAR WARS</span>
         <span class="group-accordion-progress-wrap">
@@ -1742,19 +1727,19 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">0/16</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="STAR WARS" data-group-idx="42" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="STAR WARS" data-group-idx="44" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',43)" data-group-key="TANGLED" data-group-idx="43">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',45)" data-group-key="TANGLED" data-group-idx="45">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">TANGLED</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 43%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:43%"></span></span>
           <span class="group-accordion-count">21/49</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="TANGLED" data-group-idx="43" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="TANGLED" data-group-idx="45" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',44)" data-group-key="THE ARISTOCATS" data-group-idx="44">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',46)" data-group-key="THE ARISTOCATS" data-group-idx="46">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">THE ARISTOCATS</span>
         <span class="group-accordion-progress-wrap">
@@ -1762,9 +1747,9 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">2/4</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="THE ARISTOCATS" data-group-idx="44" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="THE ARISTOCATS" data-group-idx="46" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',45)" data-group-key="THE BLACK CAULDRON" data-group-idx="45">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',47)" data-group-key="THE BLACK CAULDRON" data-group-idx="47">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">THE BLACK CAULDRON</span>
         <span class="group-accordion-progress-wrap">
@@ -1772,9 +1757,9 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">0/1</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="THE BLACK CAULDRON" data-group-idx="45" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="THE BLACK CAULDRON" data-group-idx="47" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',46)" data-group-key="THE EMPEROR'S NEW GROOVE" data-group-idx="46">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',48)" data-group-key="THE EMPEROR'S NEW GROOVE" data-group-idx="48">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">THE EMPEROR'S NEW GROOVE</span>
         <span class="group-accordion-progress-wrap">
@@ -1782,39 +1767,39 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">0/5</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="THE EMPEROR'S NEW GROOVE" data-group-idx="46" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="THE EMPEROR'S NEW GROOVE" data-group-idx="48" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',47)" data-group-key="THE INCREDIBLES" data-group-idx="47">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',49)" data-group-key="THE INCREDIBLES" data-group-idx="49">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">THE INCREDIBLES</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 11%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:11%"></span></span>
           <span class="group-accordion-count">1/9</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="THE INCREDIBLES" data-group-idx="47" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="THE INCREDIBLES" data-group-idx="49" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',48)" data-group-key="THE LION KING" data-group-idx="48">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',50)" data-group-key="THE LION KING" data-group-idx="50">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">THE LION KING</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 65%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:65%"></span></span>
           <span class="group-accordion-count">37/57</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="THE LION KING" data-group-idx="48" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="THE LION KING" data-group-idx="50" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',49)" data-group-key="THE LITTLE MERMAID" data-group-idx="49">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',51)" data-group-key="THE LITTLE MERMAID" data-group-idx="51">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">THE LITTLE MERMAID</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 42%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:42%"></span></span>
           <span class="group-accordion-count">34/81</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="THE LITTLE MERMAID" data-group-idx="49" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="THE LITTLE MERMAID" data-group-idx="51" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',50)" data-group-key="THE PRINCESS AND THE FROG" data-group-idx="50">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',52)" data-group-key="THE PRINCESS AND THE FROG" data-group-idx="52">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">THE PRINCESS AND THE FROG</span>
         <span class="group-accordion-progress-wrap">
@@ -1822,19 +1807,19 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">12/42</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="THE PRINCESS AND THE FROG" data-group-idx="50" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="THE PRINCESS AND THE FROG" data-group-idx="52" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',51)" data-group-key="THE SWORD IN THE STONE" data-group-idx="51">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',53)" data-group-key="THE SWORD IN THE STONE" data-group-idx="53">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">THE SWORD IN THE STONE</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 71%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:71%"></span></span>
           <span class="group-accordion-count">17/24</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="THE SWORD IN THE STONE" data-group-idx="51" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="THE SWORD IN THE STONE" data-group-idx="53" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',52)" data-group-key="TIM BURTON'S THE NIGHTMARE BEFORE CHRISTMAS" data-group-idx="52">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',54)" data-group-key="TIM BURTON'S THE NIGHTMARE BEFORE CHRISTMAS" data-group-idx="54">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">TIM BURTON'S THE NIGHTMARE BEFORE CHRISTMAS</span>
         <span class="group-accordion-progress-wrap">
@@ -1842,19 +1827,708 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">4/37</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="TIM BURTON'S THE NIGHTMARE BEFORE CHRISTMAS" data-group-idx="52" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="TIM BURTON'S THE NIGHTMARE BEFORE CHRISTMAS" data-group-idx="54" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',53)" data-group-key="TOY STORY" data-group-idx="53">
+      </div><button class="group-accordion-btn open" onclick="toggleGroupAccordion('furniture',55)" data-group-key="TOY STORY" data-group-idx="55">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">TOY STORY</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 37%;"></span></span>
-          <span class="group-accordion-count">24/65</span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:38%"></span></span>
+          <span class="group-accordion-count">25/65</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="TOY STORY" data-group-idx="53" data-loaded="0">
-        
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',54)" data-group-key="TURNING RED" data-group-idx="54">
+      <div class="group-accordion-panel open" data-group-panel="TOY STORY" data-group-idx="55" data-loaded="1">
+        <div class="alpha-accordions-wrap"><div class="alpha-accordion" data-scope="furniture|TOY STORY" data-letter="A">
+      <button class="alpha-acc-btn" onclick="toggleAlphaAcc(this)">
+        <span class="alpha-acc-arrow">▶</span>
+        <span class="alpha-acc-label">A</span>
+        <span class="alpha-acc-count">3/4</span>
+      </button>
+      <div class="alpha-acc-panel">
+        <div class="word-accordions-wrap"><div class="word-accordion" data-scope="furniture|TOY STORY|A" data-word="ALIEN">
+      <button class="word-acc-btn" onclick="toggleWordAcc(this)" data-word-idx="0">
+        <span class="word-acc-arrow">▶</span>
+        <span class="word-acc-label">ALIEN</span>
+        <span class="word-acc-count">2/2</span>
+      </button>
+      <div class="word-acc-panel">
+        <div class="list-item" data-id="1669">
+    <span class="item-owned owned" onclick="cycleOwned(1669)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1669)">Alien Guessing Booth</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1669)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1669)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1670">
+    <span class="item-owned owned" onclick="cycleOwned(1670)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1670)">Alien Toy</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1670)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1670)" title="Supprimer">✕</button>
+  </div>
+      </div>
+    </div><div class="list-item" data-id="1671">
+    <span class="item-owned owned" onclick="cycleOwned(1671)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1671)">Arched Window to Deep Space</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1671)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1671)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1672">
+    <span class="item-owned" onclick="cycleOwned(1672)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1672)">Art Deco Woody Poster</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1672)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1672)" title="Supprimer">✕</button>
+  </div></div>
+      </div>
+    </div><div class="alpha-accordion" data-scope="furniture|TOY STORY" data-letter="B">
+      <button class="alpha-acc-btn" onclick="toggleAlphaAcc(this)">
+        <span class="alpha-acc-arrow">▶</span>
+        <span class="alpha-acc-label">B</span>
+        <span class="alpha-acc-count">1/2</span>
+      </button>
+      <div class="alpha-acc-panel">
+        <div class="list-item" data-id="1673">
+    <span class="item-owned owned" onclick="cycleOwned(1673)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1673)">Blanket Fort</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1673)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1673)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1674">
+    <span class="item-owned" onclick="cycleOwned(1674)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1674)">Blue "Wanderer" Couch</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1674)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1674)" title="Supprimer">✕</button>
+  </div>
+      </div>
+    </div><div class="alpha-accordion" data-scope="furniture|TOY STORY" data-letter="C">
+      <button class="alpha-acc-btn" onclick="toggleAlphaAcc(this)">
+        <span class="alpha-acc-arrow">▶</span>
+        <span class="alpha-acc-label">C</span>
+        <span class="alpha-acc-count">4/6</span>
+      </button>
+      <div class="alpha-acc-panel">
+        <div class="word-accordions-wrap"><div class="word-accordion" data-scope="furniture|TOY STORY|C" data-word="CLOUDY">
+      <button class="word-acc-btn" onclick="toggleWordAcc(this)" data-word-idx="0">
+        <span class="word-acc-arrow">▶</span>
+        <span class="word-acc-label">CLOUDY</span>
+        <span class="word-acc-count">2/3</span>
+      </button>
+      <div class="word-acc-panel">
+        <div class="list-item" data-id="1676">
+    <span class="item-owned owned" onclick="cycleOwned(1676)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1676)">Cloudy Island</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1676)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1676)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1677">
+    <span class="item-owned owned" onclick="cycleOwned(1677)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1677)">Cloudy Lamp</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1677)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1677)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1678">
+    <span class="item-owned" onclick="cycleOwned(1678)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1678)">Cloudy Wallpaper</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1678)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1678)" title="Supprimer">✕</button>
+  </div>
+      </div>
+    </div><div class="list-item" data-id="1675">
+    <span class="item-owned owned" onclick="cycleOwned(1675)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1675)">Chest Coffee Table</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1675)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1675)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1679">
+    <span class="item-owned owned" onclick="cycleOwned(1679)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1679)">Coffee Cart</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1679)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1679)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1680">
+    <span class="item-owned" onclick="cycleOwned(1680)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1680)">Colorful L Couch</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1680)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1680)" title="Supprimer">✕</button>
+  </div></div>
+      </div>
+    </div><div class="alpha-accordion" data-scope="furniture|TOY STORY" data-letter="D">
+      <button class="alpha-acc-btn" onclick="toggleAlphaAcc(this)">
+        <span class="alpha-acc-arrow">▶</span>
+        <span class="alpha-acc-label">D</span>
+        <span class="alpha-acc-count">0/1</span>
+      </button>
+      <div class="alpha-acc-panel">
+        <div class="list-item" data-id="1681">
+    <span class="item-owned" onclick="cycleOwned(1681)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1681)">Dump Truck Armchair</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1681)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1681)" title="Supprimer">✕</button>
+  </div>
+      </div>
+    </div><div class="alpha-accordion" data-scope="furniture|TOY STORY" data-letter="E">
+      <button class="alpha-acc-btn" onclick="toggleAlphaAcc(this)">
+        <span class="alpha-acc-arrow">▶</span>
+        <span class="alpha-acc-label">E</span>
+        <span class="alpha-acc-count">0/1</span>
+      </button>
+      <div class="alpha-acc-panel">
+        <div class="list-item" data-id="1682">
+    <span class="item-owned" onclick="cycleOwned(1682)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1682)">Entertainment System</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1682)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1682)" title="Supprimer">✕</button>
+  </div>
+      </div>
+    </div><div class="alpha-accordion" data-scope="furniture|TOY STORY" data-letter="F">
+      <button class="alpha-acc-btn" onclick="toggleAlphaAcc(this)">
+        <span class="alpha-acc-arrow">▶</span>
+        <span class="alpha-acc-label">F</span>
+        <span class="alpha-acc-count">0/4</span>
+      </button>
+      <div class="alpha-acc-panel">
+        <div class="word-accordions-wrap"><div class="word-accordion" data-scope="furniture|TOY STORY|F" data-word="FORKY">
+      <button class="word-acc-btn" onclick="toggleWordAcc(this)" data-word-idx="0">
+        <span class="word-acc-arrow">▶</span>
+        <span class="word-acc-label">FORKY</span>
+        <span class="word-acc-count">0/2</span>
+      </button>
+      <div class="word-acc-panel">
+        <div class="list-item" data-id="1685">
+    <span class="item-owned" onclick="cycleOwned(1685)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1685)">Forky Figurine — Celestial Base</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1685)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1685)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1686">
+    <span class="item-owned" onclick="cycleOwned(1686)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1686)">Forky Figurine — Purple Base</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1686)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1686)" title="Supprimer">✕</button>
+  </div>
+      </div>
+    </div><div class="list-item" data-id="1683">
+    <span class="item-owned" onclick="cycleOwned(1683)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1683)">Flower Play Table</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1683)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1683)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1684">
+    <span class="item-owned" onclick="cycleOwned(1684)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1684)">Foam Straw</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1684)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1684)" title="Supprimer">✕</button>
+  </div></div>
+      </div>
+    </div><div class="alpha-accordion" data-scope="furniture|TOY STORY" data-letter="G">
+      <button class="alpha-acc-btn" onclick="toggleAlphaAcc(this)">
+        <span class="alpha-acc-arrow">▶</span>
+        <span class="alpha-acc-label">G</span>
+        <span class="alpha-acc-count">0/4</span>
+      </button>
+      <div class="alpha-acc-panel">
+        <div class="list-item" data-id="1687">
+    <span class="item-owned" onclick="cycleOwned(1687)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1687)">Galaxy Table</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1687)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1687)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1688">
+    <span class="item-owned" onclick="cycleOwned(1688)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1688)">Geometric Side Table</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1688)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1688)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1689">
+    <span class="item-owned" onclick="cycleOwned(1689)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1689)">Graphic Sofa</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1689)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1689)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1690">
+    <span class="item-owned" onclick="cycleOwned(1690)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1690)">Green Rug</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1690)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1690)" title="Supprimer">✕</button>
+  </div>
+      </div>
+    </div><div class="alpha-accordion" data-scope="furniture|TOY STORY" data-letter="H">
+      <button class="alpha-acc-btn" onclick="toggleAlphaAcc(this)">
+        <span class="alpha-acc-arrow">▶</span>
+        <span class="alpha-acc-label">H</span>
+        <span class="alpha-acc-count">3/5</span>
+      </button>
+      <div class="alpha-acc-panel">
+        <div class="word-accordions-wrap"><div class="word-accordion" data-scope="furniture|TOY STORY|H" data-word="HALF-ARCH">
+      <button class="word-acc-btn" onclick="toggleWordAcc(this)" data-word-idx="0">
+        <span class="word-acc-arrow">▶</span>
+        <span class="word-acc-label">HALF-ARCH</span>
+        <span class="word-acc-count">0/2</span>
+      </button>
+      <div class="word-acc-panel">
+        <div class="list-item" data-id="1691">
+    <span class="item-owned" onclick="cycleOwned(1691)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1691)">Half-Arch Window — Left</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1691)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1691)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1692">
+    <span class="item-owned" onclick="cycleOwned(1692)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1692)">Half-Arch Window — Right</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1692)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1692)" title="Supprimer">✕</button>
+  </div>
+      </div>
+    </div><div class="list-item" data-id="1658">
+    <span class="item-owned owned" onclick="cycleOwned(1658)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1658)">"Hats Off" Lamp</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1658)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1658)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1693">
+    <span class="item-owned owned" onclick="cycleOwned(1693)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1693)">Half-Cup Chair</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1693)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1693)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1694">
+    <span class="item-owned owned" onclick="cycleOwned(1694)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1694)">Hydrangea Bundle</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1694)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1694)" title="Supprimer">✕</button>
+  </div></div>
+      </div>
+    </div><div class="alpha-accordion" data-scope="furniture|TOY STORY" data-letter="I">
+      <button class="alpha-acc-btn" onclick="toggleAlphaAcc(this)">
+        <span class="alpha-acc-arrow">▶</span>
+        <span class="alpha-acc-label">I</span>
+        <span class="alpha-acc-count">1/1</span>
+      </button>
+      <div class="alpha-acc-panel">
+        <div class="list-item" data-id="1695">
+    <span class="item-owned owned" onclick="cycleOwned(1695)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1695)">Infinity and Beyond Wallpaper</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1695)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1695)" title="Supprimer">✕</button>
+  </div>
+      </div>
+    </div><div class="alpha-accordion" data-scope="furniture|TOY STORY" data-letter="K">
+      <button class="alpha-acc-btn" onclick="toggleAlphaAcc(this)">
+        <span class="alpha-acc-arrow">▶</span>
+        <span class="alpha-acc-label">K</span>
+        <span class="alpha-acc-count">0/1</span>
+      </button>
+      <div class="alpha-acc-panel">
+        <div class="list-item" data-id="1696">
+    <span class="item-owned" onclick="cycleOwned(1696)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1696)">Kiddie Playroom Shelf</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1696)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1696)" title="Supprimer">✕</button>
+  </div>
+      </div>
+    </div><div class="alpha-accordion" data-scope="furniture|TOY STORY" data-letter="L">
+      <button class="alpha-acc-btn" onclick="toggleAlphaAcc(this)">
+        <span class="alpha-acc-arrow">▶</span>
+        <span class="alpha-acc-label">L</span>
+        <span class="alpha-acc-count">0/1</span>
+      </button>
+      <div class="alpha-acc-panel">
+        <div class="list-item" data-id="1697">
+    <span class="item-owned" onclick="cycleOwned(1697)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1697)">Lively Coffee Table</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1697)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1697)" title="Supprimer">✕</button>
+  </div>
+      </div>
+    </div><div class="alpha-accordion" data-scope="furniture|TOY STORY" data-letter="P">
+      <button class="alpha-acc-btn" onclick="toggleAlphaAcc(this)">
+        <span class="alpha-acc-arrow">▶</span>
+        <span class="alpha-acc-label">P</span>
+        <span class="alpha-acc-count">3/5</span>
+      </button>
+      <div class="alpha-acc-panel">
+        <div class="list-item" data-id="1698">
+    <span class="item-owned owned" onclick="cycleOwned(1698)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1698)">Photo Booth</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1698)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1698)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1699">
+    <span class="item-owned owned" onclick="cycleOwned(1699)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1699)">Pixar Ball</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1699)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1699)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1700">
+    <span class="item-owned" onclick="cycleOwned(1700)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1700)">Plastic Kiddie Slide</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1700)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1700)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1701">
+    <span class="item-owned owned" onclick="cycleOwned(1701)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1701)">Playroom Nightstand</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1701)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1701)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1702">
+    <span class="item-owned" onclick="cycleOwned(1702)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1702)">Popcorn Machine</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1702)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1702)" title="Supprimer">✕</button>
+  </div>
+      </div>
+    </div><div class="alpha-accordion" data-scope="furniture|TOY STORY" data-letter="R">
+      <button class="alpha-acc-btn" onclick="toggleAlphaAcc(this)">
+        <span class="alpha-acc-arrow">▶</span>
+        <span class="alpha-acc-label">R</span>
+        <span class="alpha-acc-count">3/6</span>
+      </button>
+      <div class="alpha-acc-panel">
+        <div class="word-accordions-wrap"><div class="word-accordion" data-scope="furniture|TOY STORY|R" data-word="RED">
+      <button class="word-acc-btn" onclick="toggleWordAcc(this)" data-word-idx="0">
+        <span class="word-acc-arrow">▶</span>
+        <span class="word-acc-label">RED</span>
+        <span class="word-acc-count">1/2</span>
+      </button>
+      <div class="word-acc-panel">
+        <div class="list-item" data-id="1703">
+    <span class="item-owned" onclick="cycleOwned(1703)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1703)">Red and White Striped Wallpaper</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1703)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1703)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1704">
+    <span class="item-owned owned" onclick="cycleOwned(1704)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1704)">Red Drapery</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1704)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1704)" title="Supprimer">✕</button>
+  </div>
+      </div>
+    </div><div class="word-accordion" data-scope="furniture|TOY STORY|R" data-word="RV">
+      <button class="word-acc-btn" onclick="toggleWordAcc(this)" data-word-idx="1">
+        <span class="word-acc-arrow">▶</span>
+        <span class="word-acc-label">RV</span>
+        <span class="word-acc-count">1/2</span>
+      </button>
+      <div class="word-acc-panel">
+        <div class="list-item" data-id="1707">
+    <span class="item-owned owned" onclick="cycleOwned(1707)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1707)">RV Tiles</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1707)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1707)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1708">
+    <span class="item-owned" onclick="cycleOwned(1708)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1708)">RV Wallpaper</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1708)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1708)" title="Supprimer">✕</button>
+  </div>
+      </div>
+    </div><div class="list-item" data-id="1705">
+    <span class="item-owned" onclick="cycleOwned(1705)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1705)">Reflection of China Texture</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1705)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1705)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1706">
+    <span class="item-owned owned" onclick="cycleOwned(1706)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1706)">Rocket Painting</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1706)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1706)" title="Supprimer">✕</button>
+  </div></div>
+      </div>
+    </div><div class="alpha-accordion" data-scope="furniture|TOY STORY" data-letter="S">
+      <button class="alpha-acc-btn" onclick="toggleAlphaAcc(this)">
+        <span class="alpha-acc-arrow">▶</span>
+        <span class="alpha-acc-label">S</span>
+        <span class="alpha-acc-count">6/10</span>
+      </button>
+      <div class="alpha-acc-panel">
+        <div class="word-accordions-wrap"><div class="word-accordion" data-scope="furniture|TOY STORY|S" data-word="STAGE">
+      <button class="word-acc-btn" onclick="toggleWordAcc(this)" data-word-idx="0">
+        <span class="word-acc-arrow">▶</span>
+        <span class="word-acc-label">STAGE</span>
+        <span class="word-acc-count">2/2</span>
+      </button>
+      <div class="word-acc-panel">
+        <div class="list-item" data-id="1709">
+    <span class="item-owned owned" onclick="cycleOwned(1709)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1709)">Stage Curtain — Left</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1709)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1709)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1710">
+    <span class="item-owned owned" onclick="cycleOwned(1710)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1710)">Stage Curtain — Right</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1710)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1710)" title="Supprimer">✕</button>
+  </div>
+      </div>
+    </div><div class="word-accordion" data-scope="furniture|TOY STORY|S" data-word="STAR">
+      <button class="word-acc-btn" onclick="toggleWordAcc(this)" data-word-idx="1">
+        <span class="word-acc-arrow">▶</span>
+        <span class="word-acc-label">STAR</span>
+        <span class="word-acc-count">0/3</span>
+      </button>
+      <div class="word-acc-panel">
+        <div class="list-item" data-id="1711">
+    <span class="item-owned" onclick="cycleOwned(1711)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1711)">Star Adventurer Stand</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1711)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1711)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1712">
+    <span class="item-owned" onclick="cycleOwned(1712)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1712)">Star Command Geometric</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1712)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1712)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1713">
+    <span class="item-owned" onclick="cycleOwned(1713)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1713)">Star Command Geometric Wall</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1713)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1713)" title="Supprimer">✕</button>
+  </div>
+      </div>
+    </div><div class="word-accordion" data-scope="furniture|TOY STORY|S" data-word="STARRY">
+      <button class="word-acc-btn" onclick="toggleWordAcc(this)" data-word-idx="2">
+        <span class="word-acc-arrow">▶</span>
+        <span class="word-acc-label">STARRY</span>
+        <span class="word-acc-count">2/2</span>
+      </button>
+      <div class="word-acc-panel">
+        <div class="list-item" data-id="1714">
+    <span class="item-owned owned" onclick="cycleOwned(1714)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1714)">Starry Chair</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1714)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1714)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1715">
+    <span class="item-owned owned" onclick="cycleOwned(1715)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1715)">Starry Stool</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1715)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1715)" title="Supprimer">✕</button>
+  </div>
+      </div>
+    </div><div class="list-item" data-id="1659">
+    <span class="item-owned" onclick="cycleOwned(1659)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1659)">"Show Your Strength" Test</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1659)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1659)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1716">
+    <span class="item-owned owned" onclick="cycleOwned(1716)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1716)">Star-Shaped Neon Decoration</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1716)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1716)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1717">
+    <span class="item-owned owned" onclick="cycleOwned(1717)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1717)">Step-Up Stool</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1717)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1717)" title="Supprimer">✕</button>
+  </div></div>
+      </div>
+    </div><div class="alpha-accordion" data-scope="furniture|TOY STORY" data-letter="T">
+      <button class="alpha-acc-btn" onclick="toggleAlphaAcc(this)">
+        <span class="alpha-acc-arrow">▶</span>
+        <span class="alpha-acc-label">T</span>
+        <span class="alpha-acc-count">0/1</span>
+      </button>
+      <div class="alpha-acc-panel">
+        <div class="list-item" data-id="1718">
+    <span class="item-owned" onclick="cycleOwned(1718)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1718)">Tall "Wanderer" Cupboard</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1718)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1718)" title="Supprimer">✕</button>
+  </div>
+      </div>
+    </div><div class="alpha-accordion" data-scope="furniture|TOY STORY" data-letter="V">
+      <button class="alpha-acc-btn" onclick="toggleAlphaAcc(this)">
+        <span class="alpha-acc-arrow">▶</span>
+        <span class="alpha-acc-label">V</span>
+        <span class="alpha-acc-count">0/1</span>
+      </button>
+      <div class="alpha-acc-panel">
+        <div class="list-item" data-id="1719">
+    <span class="item-owned" onclick="cycleOwned(1719)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1719)">Vibrant Wall Planter</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1719)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1719)" title="Supprimer">✕</button>
+  </div>
+      </div>
+    </div><div class="alpha-accordion" data-scope="furniture|TOY STORY" data-letter="W">
+      <button class="alpha-acc-btn" onclick="toggleAlphaAcc(this)">
+        <span class="alpha-acc-arrow">▶</span>
+        <span class="alpha-acc-label">W</span>
+        <span class="alpha-acc-count">1/12</span>
+      </button>
+      <div class="alpha-acc-panel">
+        <div class="list-item" data-id="1660">
+    <span class="item-owned" onclick="cycleOwned(1660)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1660)">"Wanderer" Bunk Bed</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1660)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1660)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1661">
+    <span class="item-owned" onclick="cycleOwned(1661)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1661)">"Wanderer" Ceiling Light‎</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1661)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1661)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1662">
+    <span class="item-owned" onclick="cycleOwned(1662)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1662)">"Wanderer" Combination Cupboard</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1662)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1662)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1663">
+    <span class="item-owned" onclick="cycleOwned(1663)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1663)">"Wanderer" Double Cupboard</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1663)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1663)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1664">
+    <span class="item-owned" onclick="cycleOwned(1664)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1664)">"Wanderer" Double- Door Counter</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1664)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1664)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1665">
+    <span class="item-owned" onclick="cycleOwned(1665)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1665)">"Wanderer" Kitchen Island</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1665)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1665)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1666">
+    <span class="item-owned" onclick="cycleOwned(1666)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1666)">"Wanderer" Kitchen Sink</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1666)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1666)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1667">
+    <span class="item-owned" onclick="cycleOwned(1667)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1667)">"Wanderer" Table‎</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1667)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1667)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1668">
+    <span class="item-owned" onclick="cycleOwned(1668)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1668)">"Wanderer" Window‎</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1668)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1668)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1721">
+    <span class="item-owned" onclick="cycleOwned(1721)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1721)">Wooden Kiddie Stove</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1721)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1721)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1720">
+    <span class="item-owned" onclick="cycleOwned(1720)" title="Possession">·</span>
+    <span class="item-label" onclick="toggleCheck(1720)">Woody and Buzz Ice Sculptures</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1720)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1720)" title="Supprimer">✕</button>
+  </div><div class="list-item" data-id="1722">
+    <span class="item-owned owned" onclick="cycleOwned(1722)" title="Possession">✓</span>
+    <span class="item-label" onclick="toggleCheck(1722)">Writer Blocks Column</span>
+    
+    
+    <button class="item-edit" onclick="startEdit(1722)" title="Modifier">✎</button>
+    <button class="item-delete" onclick="deleteItem(1722)" title="Supprimer">✕</button>
+  </div>
+      </div>
+    </div></div>
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',56)" data-group-key="TURNING RED" data-group-idx="56">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">TURNING RED</span>
         <span class="group-accordion-progress-wrap">
@@ -1862,9 +2536,9 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">0/5</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="TURNING RED" data-group-idx="54" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="TURNING RED" data-group-idx="56" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',55)" data-group-key="UP" data-group-idx="55">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',57)" data-group-key="UP" data-group-idx="57">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">UP</span>
         <span class="group-accordion-progress-wrap">
@@ -1872,39 +2546,39 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">0/2</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="UP" data-group-idx="55" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="UP" data-group-idx="57" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',56)" data-group-key="WALL-E" data-group-idx="56">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',58)" data-group-key="WALL-E" data-group-idx="58">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">WALL-E</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 58%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:58%"></span></span>
           <span class="group-accordion-count">29/50</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="WALL-E" data-group-idx="56" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="WALL-E" data-group-idx="58" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',57)" data-group-key="WINNIE THE POOH" data-group-idx="57">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',59)" data-group-key="WINNIE THE POOH" data-group-idx="59">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">WINNIE THE POOH</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 3%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:3%"></span></span>
           <span class="group-accordion-count">1/31</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="WINNIE THE POOH" data-group-idx="57" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="WINNIE THE POOH" data-group-idx="59" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',58)" data-group-key="WRECK-IT RALPH" data-group-idx="58">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',60)" data-group-key="WRECK-IT RALPH" data-group-idx="60">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">WRECK-IT RALPH</span>
         <span class="group-accordion-progress-wrap">
-          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width: 66%;"></span></span>
+          <span class="group-accordion-bar"><span class="group-accordion-fill" style="width:66%"></span></span>
           <span class="group-accordion-count">39/59</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="WRECK-IT RALPH" data-group-idx="58" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="WRECK-IT RALPH" data-group-idx="60" data-loaded="0">
         
-      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',59)" data-group-key="ZOOTOPIA" data-group-idx="59">
+      </div><button class="group-accordion-btn" onclick="toggleGroupAccordion('furniture',61)" data-group-key="ZOOTOPIA" data-group-idx="61">
         <span class="group-accordion-arrow">▶</span>
         <span class="group-accordion-label">ZOOTOPIA</span>
         <span class="group-accordion-progress-wrap">
@@ -1912,7 +2586,7 @@ html, body { height: 100%; font-family: 'Nunito', sans-serif; background: var(--
           <span class="group-accordion-count">1/16</span>
         </span>
       </button>
-      <div class="group-accordion-panel" data-group-panel="ZOOTOPIA" data-group-idx="59" data-loaded="0">
+      <div class="group-accordion-panel" data-group-panel="ZOOTOPIA" data-group-idx="61" data-loaded="0">
         
       </div></div>
   </div>
@@ -3212,6 +3886,7 @@ bindModalOverlay();
     </div>
   </div>
 </div>
+
 
 
 
