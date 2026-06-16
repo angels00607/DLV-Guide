@@ -1640,6 +1640,12 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1601,
+        "name": "Gladiator Sandals",
+        "meta": "GENERAL",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 1584,
         "name": "Apollo Costume Armor",
         "meta": "HERCULES",
@@ -1718,6 +1724,12 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1603,
+        "name": "Gold Bracers",
+        "meta": "HERCULES",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 1570,
         "name": "Golden Bracers",
         "meta": "HERCULES",
@@ -1768,6 +1780,12 @@
       {
         "id": 1574,
         "name": "Moon Headband",
+        "meta": "HERCULES",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1604,
+        "name": "Olympian Bracelet",
         "meta": "HERCULES",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -5452,6 +5470,12 @@
       {
         "id": 1185,
         "name": "Mushroom Peasant Top",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1602,
+        "name": "Mythic Serpentine Dress",
         "meta": "OTHER (GENERAL)",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -15726,6 +15750,12 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 3558,
+        "name": "Slinky Dog Popcorn Bucket",
+        "meta": "DISNEY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 417,
         "name": "Slinky Dog Zigzag Spin",
         "meta": "DISNEY",
@@ -15753,12 +15783,6 @@
         "id": 3334,
         "name": "Spring Light Archway",
         "meta": "DISNEY",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 3552,
-        "name": "Spring Light Archway",
-        "meta": "Disney",
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
@@ -18654,6 +18678,12 @@
         "meta2": "STORYBOOK VALE"
       },
       {
+        "id": 3553,
+        "name": "Curved Ancient Stadium Walkway",
+        "meta": "GENERAL",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 2294,
         "name": "Curved Screen TV",
         "meta": "GENERAL",
@@ -19502,6 +19532,12 @@
       {
         "id": 2427,
         "name": "Glow Popcorn Bucket",
+        "meta": "GENERAL",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 3555,
+        "name": "Glowing Cloud Runway",
         "meta": "GENERAL",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -21272,6 +21308,12 @@
       {
         "id": 2709,
         "name": "Old Plaster and Brick Wallpaper",
+        "meta": "GENERAL",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 3556,
+        "name": "Olympic Golden Cornucopia",
         "meta": "GENERAL",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -36296,6 +36338,7 @@
       "740": "owned",
       "743": "owned",
       "745": "owned",
+      "746": "owned",
       "747": "owned",
       "749": "owned",
       "751": "owned",
@@ -36465,7 +36508,7 @@
       "980": "owned",
       "981": "owned",
       "982": "owned",
-      "983": "neutral",
+      "983": "owned",
       "984": "owned",
       "985": "owned",
       "987": "owned",
@@ -36489,8 +36532,10 @@
       "1012": "owned",
       "1013": "owned",
       "1014": "owned",
+      "1016": "owned",
       "1018": "owned",
       "1019": "owned",
+      "1020": "owned",
       "1022": "owned",
       "1023": "owned",
       "1024": "owned",
@@ -36670,9 +36715,11 @@
       "1318": "owned",
       "1319": "owned",
       "1320": "owned",
+      "1321": "neutral",
       "1322": "owned",
       "1323": "owned",
       "1329": "owned",
+      "1336": "owned",
       "1337": "owned",
       "1338": "owned",
       "1339": "owned",
@@ -36790,7 +36837,14 @@
       "1535": "owned",
       "1536": "owned",
       "1537": "owned",
-      "1547": "owned"
+      "1547": "owned",
+      "1560": "owned",
+      "1574": "owned",
+      "1583": "owned",
+      "1601": "owned",
+      "1602": "owned",
+      "1603": "owned",
+      "1604": "owned"
     },
     "crafting": {
       "2": "neutral",
@@ -37425,6 +37479,7 @@
       "707": "owned",
       "708": "owned",
       "709": "owned",
+      "710": "owned",
       "711": "owned",
       "712": "owned",
       "713": "owned",
@@ -38101,6 +38156,7 @@
       "2308": "owned",
       "2309": "owned",
       "2314": "owned",
+      "2316": "owned",
       "2317": "owned",
       "2318": "owned",
       "2319": "owned",
@@ -38392,6 +38448,7 @@
       "2984": "owned",
       "2990": "owned",
       "2991": "owned",
+      "2994": "owned",
       "2995": "owned",
       "3000": "owned",
       "3005": "owned",
@@ -38477,6 +38534,7 @@
       "3180": "owned",
       "3181": "owned",
       "3182": "owned",
+      "3186": "owned",
       "3190": "owned",
       "3192": "owned",
       "3193": "owned",
@@ -38502,6 +38560,7 @@
       "3222": "owned",
       "3223": "owned",
       "3224": "owned",
+      "3225": "owned",
       "3230": "owned",
       "3233": "owned",
       "3250": "owned",
@@ -38573,7 +38632,11 @@
       "3428": "owned",
       "3431": "owned",
       "3551": "owned",
-      "3552": "owned"
+      "3552": "owned",
+      "3553": "owned",
+      "3555": "owned",
+      "3556": "owned",
+      "3558": "owned"
     },
     "meals": {
       "1": "owned",
@@ -38807,6 +38870,7 @@
       "583": false,
       "751": false,
       "791": false,
+      "1020": false,
       "1121": false,
       "1301": false,
       "1535": false
@@ -38845,9 +38909,9 @@
     }
   },
   "nextId": {
-    "clothing": 1601,
+    "clothing": 1605,
     "crafting": 1333,
-    "furniture": 3553,
+    "furniture": 3559,
     "meals": 469
   },
   "ingredients": {
@@ -41150,9 +41214,12 @@
     "clothing": {},
     "crafting": {},
     "furniture": {
-      "2669": true
+      "2669": true,
+      "3552": true,
+      "3554": true,
+      "3557": true
     },
     "meals": {}
   },
-  "savedAt": "2026-06-14T19:33:36.290Z"
+  "savedAt": "2026-06-16T19:23:27.151Z"
 }
