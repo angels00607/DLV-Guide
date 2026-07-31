@@ -944,90 +944,6 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 146,
-        "name": "Dreamlight MagicBand",
-        "meta": "DISNEY",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 147,
-        "name": "Fantasia Magical Loungefly Backpack",
-        "meta": "DISNEY",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 148,
-        "name": "Lilac Faux-Fur Hat",
-        "meta": "DISNEY",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 149,
-        "name": "Loungefly Hunny Tummy Backpack",
-        "meta": "DISNEY",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 150,
-        "name": "Luminous Mickey Mouse Ears",
-        "meta": "DISNEY",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 151,
-        "name": "Luxurious Lilac Coat",
-        "meta": "DISNEY",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 152,
-        "name": "Magical Tie-Dye Spirit Jersey",
-        "meta": "DISNEY",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 153,
-        "name": "Magical Varsity Jacket",
-        "meta": "DISNEY",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 154,
-        "name": "Maleficent Dragon Loungefly Backpack",
-        "meta": "DISNEY",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 155,
-        "name": "Mickey Mouse Bob",
-        "meta": "DISNEY",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 156,
-        "name": "Raya Costume",
-        "meta": "DISNEY",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 157,
-        "name": "Raya Hairstyle",
-        "meta": "DISNEY",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 158,
-        "name": "Raya Hat",
-        "meta": "DISNEY",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 159,
-        "name": "Waffle Bag",
-        "meta": "DISNEY",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
         "id": 160,
         "name": "Garden Fairy Flower Boots",
         "meta": "DISNEY FAIRIES",
@@ -9590,51 +9506,225 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 1613,
-        "name": "100 Years of Wonder Black Hoodie",
+        "id": 1621,
+        "name": "Dreamlight MagicBand",
         "meta": "DISNEY",
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 1614,
-        "name": "100 Years of Wonder Ears Headband",
+        "id": 1622,
+        "name": "Fantasia Magical Loungefly Backpack",
         "meta": "DISNEY",
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 1615,
-        "name": "100 Years of Wonder Platinum Spirit Jersey",
+        "id": 1623,
+        "name": "Lilac Faux-Fur Hat",
         "meta": "DISNEY",
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 1616,
-        "name": "100 Years of Wonder Sneakers",
+        "id": 1624,
+        "name": "Loungefly Hunny Tummy Backpack",
         "meta": "DISNEY",
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 1617,
-        "name": "100 Years of Wonder Varsity Jacket",
+        "id": 1625,
+        "name": "Luminous Mickey Mouse Ears",
         "meta": "DISNEY",
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 1618,
-        "name": "Black Mickey Mouse Ear Headband",
+        "id": 1626,
+        "name": "Luxurious Lilac Coat",
         "meta": "DISNEY",
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 1619,
-        "name": "Blue Mickey Mouse Ear Headband",
+        "id": 1627,
+        "name": "Magical Tie-Dye Spirit Jersey",
         "meta": "DISNEY",
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 1620,
-        "name": "Celebration Spirit Jersey",
+        "id": 1628,
+        "name": "Magical Varsity Jacket",
         "meta": "DISNEY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1629,
+        "name": "Maleficent Dragon Loungefly Backpack",
+        "meta": "DISNEY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1630,
+        "name": "Mickey Mouse Bob",
+        "meta": "DISNEY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1631,
+        "name": "Raya Costume",
+        "meta": "DISNEY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1632,
+        "name": "Raya Hairstyle",
+        "meta": "DISNEY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1633,
+        "name": "Raya Hat",
+        "meta": "DISNEY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1634,
+        "name": "Waffle Bag",
+        "meta": "DISNEY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1635,
+        "name": "Mickey BOO! Loungefly Backpack",
+        "meta": "DISNEY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1636,
+        "name": "Cinderella Handheld Popcorn Bucket",
+        "meta": "DISNEY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1637,
+        "name": "Figment's Handheld Popcorn Bucket",
+        "meta": "DISNEY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1638,
+        "name": "Handheld Dug Pupcorn Bucket",
+        "meta": "DISNEY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1639,
+        "name": "Handheld Mine Cart Popcorn Bucket",
+        "meta": "DISNEY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1640,
+        "name": "Metallic Mickey's Handheld Popcorn Bucket",
+        "meta": "DISNEY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1641,
+        "name": "Pooh's Handheld Popcorn Bucket",
+        "meta": "DISNEY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1642,
+        "name": "Slinky Dog Handheld Popcorn Bucket",
+        "meta": "DISNEY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1643,
+        "name": "Stitch's Handheld Popcorn Bucket",
+        "meta": "DISNEY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1644,
+        "name": "Magical Tie-Dye Jersey",
+        "meta": "DISNEY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1645,
+        "name": "Nefarious Nature Top",
+        "meta": "DREAMLIGHT VALLEY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1646,
+        "name": "Glowwing Headpiece",
+        "meta": "ENCANTO",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1647,
+        "name": "Butterfly Tiara",
+        "meta": "FANTASIA",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1648,
+        "name": "Basic Asymmetrical Gown",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1649,
+        "name": "Basic Blazer",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1650,
+        "name": "Basic Chelsea Boots",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1651,
+        "name": "Basic Circle Scarf",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1652,
+        "name": "Basic Dress Shoes",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1653,
+        "name": "Basic Fashion Jacket",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1654,
+        "name": "Basic Fedora",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1655,
+        "name": "Basic Headphones",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1656,
+        "name": "Basic Silk Gloves",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1657,
+        "name": "Basic Sweater",
+        "meta": "OTHER (GENERAL)",
         "meta2": "DREAMLIGHT VALLEY"
       }
     ],
@@ -36182,9 +36272,6 @@
       "139": "owned",
       "140": "owned",
       "142": "owned",
-      "147": "owned",
-      "148": "owned",
-      "151": "owned",
       "197": "owned",
       "202": "owned",
       "203": "owned",
@@ -37064,7 +37151,10 @@
       "1604": "owned",
       "1605": "owned",
       "1606": "owned",
-      "1607": "owned"
+      "1607": "owned",
+      "1622": "owned",
+      "1623": "owned",
+      "1626": "owned"
     },
     "crafting": {
       "2": "neutral",
@@ -39385,7 +39475,7 @@
   },
   "nextId": {
     "characters": 68,
-    "clothing": 1621,
+    "clothing": 1659,
     "crafting": 1333,
     "companions": 3547,
     "fish": 61,
@@ -41699,6 +41789,20 @@
   },
   "deletedIds": {
     "clothing": {
+      "146": true,
+      "147": true,
+      "148": true,
+      "149": true,
+      "150": true,
+      "151": true,
+      "152": true,
+      "153": true,
+      "154": true,
+      "155": true,
+      "156": true,
+      "157": true,
+      "158": true,
+      "159": true,
       "405": true,
       "556": true,
       "557": true,
@@ -41708,7 +41812,16 @@
       "1504": true,
       "1505": true,
       "1506": true,
-      "1590": true
+      "1590": true,
+      "1613": true,
+      "1614": true,
+      "1615": true,
+      "1616": true,
+      "1617": true,
+      "1618": true,
+      "1619": true,
+      "1620": true,
+      "1658": true
     },
     "crafting": {
       "1": true,
@@ -42251,5 +42364,5 @@
     },
     "meals": {}
   },
-  "savedAt": "2026-07-31T18:01:10.148Z"
+  "savedAt": "2026-07-31T18:30:32.825Z"
 }
