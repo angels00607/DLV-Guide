@@ -2132,6 +2132,12 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1706,
+        "name": "Island Surf Glider",
+        "meta": "LILO & STITCH",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 286,
         "name": "Stitch Hat",
         "meta": "LILO & STITCH",
@@ -2164,6 +2170,12 @@
       {
         "id": 292,
         "name": "\"Dots & Daisies\" Dress",
+        "meta": "MICKEY & FRIENDS",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1707,
+        "name": "\"Gone Fishing\" Waders",
         "meta": "MICKEY & FRIENDS",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -3626,8 +3638,44 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1705,
+        "name": "Basic Toga Dress",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 882,
         "name": "Bat Wings",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1674,
+        "name": "Beekeeper's Cargo Trousers",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1675,
+        "name": "Beekeeper's Honeycomb Jacket",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1676,
+        "name": "Beekeeper's Veiled Hat",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1677,
+        "name": "Beekeeper's Work Boots",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1678,
+        "name": "Beekeeper's Work Gloves",
         "meta": "OTHER (GENERAL)",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -4172,6 +4220,36 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1679,
+        "name": "Bluebird Cottager Aviator Cap",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1680,
+        "name": "Bluebird Cottager Boots",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1681,
+        "name": "Bluebird Cottager Capelet",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1682,
+        "name": "Bluebird Cottager Dress",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1683,
+        "name": "Bluebird Cottager Tunic",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 964,
         "name": "Bo Peep Ear Headband",
         "meta": "OTHER (GENERAL)",
@@ -4532,6 +4610,18 @@
         "meta2": "STORYBOOK VALE"
       },
       {
+        "id": 1659,
+        "name": "Cozy Acorn Beret",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "HONEYGLOW WOODS"
+      },
+      {
+        "id": 1684,
+        "name": "Crackling Firework Wings",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 1018,
         "name": "Cream and Blue Gloves",
         "meta": "OTHER (GENERAL)",
@@ -4546,6 +4636,18 @@
       {
         "id": 1020,
         "name": "Cream Evening Gloves",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1685,
+        "name": "Crimson Western Dress",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1686,
+        "name": "Crimson Western Fascinator",
         "meta": "OTHER (GENERAL)",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -4652,6 +4754,12 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1660,
+        "name": "Eeyore Purple Earmuffs",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "HONEYGLOW WOODS"
+      },
+      {
         "id": 1033,
         "name": "Elegant Alpine Hat",
         "meta": "OTHER (GENERAL)",
@@ -4660,6 +4768,24 @@
       {
         "id": 1034,
         "name": "Elegant Black Vest with Tie Clip",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1687,
+        "name": "Elegant Firework Dress",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1688,
+        "name": "Elegant Firework Gloves",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1689,
+        "name": "Elegant Firework Wings",
         "meta": "OTHER (GENERAL)",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -4690,6 +4816,12 @@
       {
         "id": 1039,
         "name": "Elliott's Electric Dragon Wings",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1661,
+        "name": "Embroidered Spring Apron",
         "meta": "OTHER (GENERAL)",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -4834,6 +4966,12 @@
       {
         "id": 1062,
         "name": "Glow Ears Headband",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1662,
+        "name": "Glowing Necklace",
         "meta": "OTHER (GENERAL)",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -5288,6 +5426,18 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1663,
+        "name": "Honeybee Gold Earrings",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1664,
+        "name": "Honeybee Gold Necklace",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 1135,
         "name": "Horsey Headband",
         "meta": "OTHER (GENERAL)",
@@ -5386,6 +5536,18 @@
       {
         "id": 1529,
         "name": "Knot Wrap",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1690,
+        "name": "Ladybug Backpack",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1691,
+        "name": "Laurel of Olympus",
         "meta": "OTHER (GENERAL)",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -5494,6 +5656,12 @@
       {
         "id": 1163,
         "name": "Lucky Shirt",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1692,
+        "name": "Luminous Firework Wings",
         "meta": "OTHER (GENERAL)",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -5858,6 +6026,12 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1693,
+        "name": "Pink Bowtie 'n' Suspenders Shirt",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 1213,
         "name": "Pink Cropped Cardigan",
         "meta": "OTHER (GENERAL)",
@@ -5968,6 +6142,12 @@
       {
         "id": 1230,
         "name": "Platinum Dreamlight Signet Rings",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1694,
+        "name": "Polka Dot Dress",
         "meta": "OTHER (GENERAL)",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -6142,6 +6322,12 @@
       {
         "id": 1255,
         "name": "Purple Witch Boots",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1665,
+        "name": "Purple Witch Gloves",
         "meta": "OTHER (GENERAL)",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -6340,6 +6526,36 @@
       {
         "id": 1288,
         "name": "Red Winter Hat",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1695,
+        "name": "Regal Prowess Diadem",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1696,
+        "name": "Regal Prowess Earrings",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1697,
+        "name": "Regal Prowess Ensemble",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1698,
+        "name": "Regal Prowess Gown",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1699,
+        "name": "Regal Prowess Sandals",
         "meta": "OTHER (GENERAL)",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -6644,6 +6860,12 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1666,
+        "name": "Striped Busy Bees' Socks",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "HONEYGLOW WOODS"
+      },
+      {
         "id": 1605,
         "name": "Striped Summer Shorts",
         "meta": "OTHER (GENERAL)",
@@ -6692,6 +6914,12 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1668,
+        "name": "Summer Blossom Braids",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "HONEYGLOW WOODS"
+      },
+      {
         "id": 1437,
         "name": "Summer Feels Shorts",
         "meta": "OTHER (GENERAL)",
@@ -6702,6 +6930,12 @@
         "name": "Summer Safari Cargo Shorts",
         "meta": "OTHER (GENERAL)",
         "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1669,
+        "name": "Summer Wildflower Crown",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "HONEYGLOW WOODS"
       },
       {
         "id": 1342,
@@ -6732,6 +6966,12 @@
         "name": "Sunflower Wings",
         "meta": "OTHER (GENERAL)",
         "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1670,
+        "name": "Sunny Picnic Dress",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "HONEYGLOW WOODS"
       },
       {
         "id": 1347,
@@ -6766,6 +7006,12 @@
       {
         "id": 1352,
         "name": "Sweet Strawberry Platform Shoes",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1671,
+        "name": "Tan (dark) Chino Shorts",
         "meta": "OTHER (GENERAL)",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -6884,6 +7130,18 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1700,
+        "name": "Titan of Light Skirt",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1701,
+        "name": "Titan of Light Top",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 1372,
         "name": "Tousled Short Hair",
         "meta": "OTHER (GENERAL)",
@@ -6898,6 +7156,12 @@
       {
         "id": 1374,
         "name": "Tropical Flourish Gown",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1672,
+        "name": "Turban",
         "meta": "OTHER (GENERAL)",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -7184,6 +7448,12 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1704,
+        "name": "Winter Crystal Diadem",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 1412,
         "name": "Winter Gala Ice Antlers",
         "meta": "OTHER (GENERAL)",
@@ -7278,6 +7548,12 @@
         "name": "Yellow Plaid Shirt",
         "meta": "OTHER (GENERAL)",
         "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1673,
+        "name": "Yellow Raincoat",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "HONEYGLOW WOODS"
       },
       {
         "id": 1428,
@@ -8372,6 +8648,12 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1708,
+        "name": "Firework Waistcoat",
+        "meta": "THE LITTLE MERMAID",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 658,
         "name": "Gold Mariner's Watch",
         "meta": "THE LITTLE MERMAID",
@@ -8786,6 +9068,24 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1709,
+        "name": "Bo Peep Flats",
+        "meta": "TOY STORY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1710,
+        "name": "Bo Peep Onesie",
+        "meta": "TOY STORY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1711,
+        "name": "Bo Peep's Bow Hairdo",
+        "meta": "TOY STORY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 726,
         "name": "Bo Peep's Shepherd's Crook",
         "meta": "TOY STORY",
@@ -8806,6 +9106,12 @@
       {
         "id": 729,
         "name": "Chic Pink Sheep Earrings",
+        "meta": "TOY STORY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1713,
+        "name": "Cloudy Umbrella",
         "meta": "TOY STORY",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -9008,6 +9314,12 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1712,
+        "name": "White Space Gloves",
+        "meta": "TOY STORY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 763,
         "name": "White Space Jacket",
         "meta": "TOY STORY",
@@ -9038,6 +9350,18 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1716,
+        "name": "4*Town Jesse Jeans",
+        "meta": "TURNING RED",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1715,
+        "name": "4*Town Jesse Shirt",
+        "meta": "TURNING RED",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 768,
         "name": "Mei Panda Ears",
         "meta": "TURNING RED",
@@ -9046,6 +9370,12 @@
       {
         "id": 769,
         "name": "Mei Panda Tail",
+        "meta": "TURNING RED",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1714,
+        "name": "Nineties Nostalgia Backpack",
         "meta": "TURNING RED",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -9416,6 +9746,42 @@
         "meta2": "WISHBLOSSOM MOUNTAINS"
       },
       {
+        "id": 1717,
+        "name": "Blue Daisy Knee Socks",
+        "meta": "WINNIE THE POOH",
+        "meta2": "HONEYGLOW WOODS"
+      },
+      {
+        "id": 1718,
+        "name": "Blush-Pink Brave Bomber Jacket",
+        "meta": "WINNIE THE POOH",
+        "meta2": "HONEYGLOW WOODS"
+      },
+      {
+        "id": 1719,
+        "name": "Blush-Pink Brave Hat",
+        "meta": "WINNIE THE POOH",
+        "meta2": "HONEYGLOW WOODS"
+      },
+      {
+        "id": 1720,
+        "name": "Blush-Pink Brave Jeans",
+        "meta": "WINNIE THE POOH",
+        "meta2": "HONEYGLOW WOODS"
+      },
+      {
+        "id": 1721,
+        "name": "Blush-Pink Brave Sneakers",
+        "meta": "WINNIE THE POOH",
+        "meta2": "HONEYGLOW WOODS"
+      },
+      {
+        "id": 1722,
+        "name": "Blush-Pink Brave Vest",
+        "meta": "WINNIE THE POOH",
+        "meta2": "HONEYGLOW WOODS"
+      },
+      {
         "id": 831,
         "name": "Eeyore Bunny Ears",
         "meta": "WINNIE THE POOH",
@@ -9426,6 +9792,66 @@
         "name": "Eeyore Bunny Tail",
         "meta": "WINNIE THE POOH",
         "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1723,
+        "name": "Gloomy Beret",
+        "meta": "WINNIE THE POOH",
+        "meta2": "HONEYGLOW WOODS"
+      },
+      {
+        "id": 1724,
+        "name": "Gloomy Cable-Knit Top",
+        "meta": "WINNIE THE POOH",
+        "meta2": "HONEYGLOW WOODS"
+      },
+      {
+        "id": 1725,
+        "name": "Gloomy Chunky Shoes",
+        "meta": "WINNIE THE POOH",
+        "meta2": "HONEYGLOW WOODS"
+      },
+      {
+        "id": 1726,
+        "name": "Gloomy Plaid Jacket",
+        "meta": "WINNIE THE POOH",
+        "meta2": "HONEYGLOW WOODS"
+      },
+      {
+        "id": 1727,
+        "name": "Gloomy Plaid Shorts",
+        "meta": "WINNIE THE POOH",
+        "meta2": "HONEYGLOW WOODS"
+      },
+      {
+        "id": 1728,
+        "name": "Gloomy Slouchy Socks",
+        "meta": "WINNIE THE POOH",
+        "meta2": "HONEYGLOW WOODS"
+      },
+      {
+        "id": 1729,
+        "name": "Green Brave Scarf",
+        "meta": "WINNIE THE POOH",
+        "meta2": "HONEYGLOW WOODS"
+      },
+      {
+        "id": 1733,
+        "name": "Heroic Helmet",
+        "meta": "WINNIE THE POOH",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1730,
+        "name": "Silly Bear Hat",
+        "meta": "WINNIE THE POOH",
+        "meta2": "HONEYGLOW WOODS"
+      },
+      {
+        "id": 1731,
+        "name": "Silly Bear Pinafore",
+        "meta": "WINNIE THE POOH",
+        "meta2": "HONEYGLOW WOODS"
       },
       {
         "id": 833,
@@ -9444,6 +9870,12 @@
         "name": "Tiggerific Bucket Hat",
         "meta": "WINNIE THE POOH",
         "meta2": "WISHBLOSSOM MOUNTAINS"
+      },
+      {
+        "id": 1732,
+        "name": "Yellow Daisy Ankle Boots",
+        "meta": "WINNIE THE POOH",
+        "meta2": "HONEYGLOW WOODS"
       },
       {
         "id": 836,
@@ -9496,6 +9928,24 @@
       {
         "id": 844,
         "name": "Dark Green Pixel Camo Pants",
+        "meta": "WRECK-IT RALPH",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1734,
+        "name": "Fix-It Drafting Cap",
+        "meta": "WRECK-IT RALPH",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1735,
+        "name": "Fix-It Patched Buttondown",
+        "meta": "WRECK-IT RALPH",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 1736,
+        "name": "Fix-It Tobi Trousers",
         "meta": "WRECK-IT RALPH",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -9638,462 +10088,6 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 868,
-        "name": "Yesss's \"Run the Net\" Dress",
-        "meta": "WRECK-IT RALPH",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1659,
-        "name": "Cozy Acorn Beret",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "HONEYGLOW WOODS"
-      },
-      {
-        "id": 1660,
-        "name": "Eeyore Purple Earmuffs",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "HONEYGLOW WOODS"
-      },
-      {
-        "id": 1661,
-        "name": "Embroidered Spring Apron",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1662,
-        "name": "Glowing Necklace",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1663,
-        "name": "Honeybee Gold Earrings",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1664,
-        "name": "Honeybee Gold Necklace",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1665,
-        "name": "Purple Witch Gloves",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1666,
-        "name": "Striped Busy Bees' Socks",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "HONEYGLOW WOODS"
-      },
-      {
-        "id": 1668,
-        "name": "Summer Blossom Braids",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "HONEYGLOW WOODS"
-      },
-      {
-        "id": 1669,
-        "name": "Summer Wildflower Crown",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "HONEYGLOW WOODS"
-      },
-      {
-        "id": 1670,
-        "name": "Sunny Picnic Dress",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "HONEYGLOW WOODS"
-      },
-      {
-        "id": 1671,
-        "name": "Tan (dark) Chino Shorts",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1672,
-        "name": "Turban",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1673,
-        "name": "Yellow Raincoat",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "HONEYGLOW WOODS"
-      },
-      {
-        "id": 1674,
-        "name": "Beekeeper's Cargo Trousers",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1675,
-        "name": "Beekeeper's Honeycomb Jacket",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1676,
-        "name": "Beekeeper's Veiled Hat",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1677,
-        "name": "Beekeeper's Work Boots",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1678,
-        "name": "Beekeeper's Work Gloves",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1679,
-        "name": "Bluebird Cottager Aviator Cap",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1680,
-        "name": "Bluebird Cottager Boots",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1681,
-        "name": "Bluebird Cottager Capelet",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1682,
-        "name": "Bluebird Cottager Dress",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1683,
-        "name": "Bluebird Cottager Tunic",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1684,
-        "name": "Crackling Firework Wings",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1685,
-        "name": "Crimson Western Dress",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1686,
-        "name": "Crimson Western Fascinator",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1687,
-        "name": "Elegant Firework Dress",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1688,
-        "name": "Elegant Firework Gloves",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1689,
-        "name": "Elegant Firework Wings",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1690,
-        "name": "Ladybug Backpack",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1691,
-        "name": "Laurel of Olympus",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1692,
-        "name": "Luminous Firework Wings",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1693,
-        "name": "Pink Bowtie 'n' Suspenders Shirt",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1694,
-        "name": "Polka Dot Dress",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1695,
-        "name": "Regal Prowess Diadem",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1696,
-        "name": "Regal Prowess Earrings",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1697,
-        "name": "Regal Prowess Ensemble",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1698,
-        "name": "Regal Prowess Gown",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1699,
-        "name": "Regal Prowess Sandals",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1700,
-        "name": "Titan of Light Skirt",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1701,
-        "name": "Titan of Light Top",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1704,
-        "name": "Winter Crystal Diadem",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1705,
-        "name": "Basic Toga Dress",
-        "meta": "OTHER (GENERAL)",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1706,
-        "name": "Island Surf Glider",
-        "meta": "LILO & STITCH",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1707,
-        "name": "\"Gone Fishing\" Waders",
-        "meta": "MICKEY & FRIENDS",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1708,
-        "name": "Firework Waistcoat",
-        "meta": "THE LITTLE MERMAID",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1709,
-        "name": "Bo Peep Flats",
-        "meta": "TOY STORY",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1710,
-        "name": "Bo Peep Onesie",
-        "meta": "TOY STORY",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1711,
-        "name": "Bo Peep's Bow Hairdo",
-        "meta": "TOY STORY",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1712,
-        "name": "White Space Gloves",
-        "meta": "TOY STORY",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1713,
-        "name": "Cloudy Umbrella",
-        "meta": "TOY STORY",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1714,
-        "name": "Nineties Nostalgia Backpack",
-        "meta": "TURNING RED",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1715,
-        "name": "4*Town Jesse Shirt",
-        "meta": "TURNING RED",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1716,
-        "name": "4*Town Jesse Jeans",
-        "meta": "TURNING RED",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1717,
-        "name": "Blue Daisy Knee Socks",
-        "meta": "WINNIE THE POOH",
-        "meta2": "HONEYGLOW WOODS"
-      },
-      {
-        "id": 1718,
-        "name": "Blush-Pink Brave Bomber Jacket",
-        "meta": "WINNIE THE POOH",
-        "meta2": "HONEYGLOW WOODS"
-      },
-      {
-        "id": 1719,
-        "name": "Blush-Pink Brave Hat",
-        "meta": "WINNIE THE POOH",
-        "meta2": "HONEYGLOW WOODS"
-      },
-      {
-        "id": 1720,
-        "name": "Blush-Pink Brave Jeans",
-        "meta": "WINNIE THE POOH",
-        "meta2": "HONEYGLOW WOODS"
-      },
-      {
-        "id": 1721,
-        "name": "Blush-Pink Brave Sneakers",
-        "meta": "WINNIE THE POOH",
-        "meta2": "HONEYGLOW WOODS"
-      },
-      {
-        "id": 1722,
-        "name": "Blush-Pink Brave Vest",
-        "meta": "WINNIE THE POOH",
-        "meta2": "HONEYGLOW WOODS"
-      },
-      {
-        "id": 1723,
-        "name": "Gloomy Beret",
-        "meta": "WINNIE THE POOH",
-        "meta2": "HONEYGLOW WOODS"
-      },
-      {
-        "id": 1724,
-        "name": "Gloomy Cable-Knit Top",
-        "meta": "WINNIE THE POOH",
-        "meta2": "HONEYGLOW WOODS"
-      },
-      {
-        "id": 1725,
-        "name": "Gloomy Chunky Shoes",
-        "meta": "WINNIE THE POOH",
-        "meta2": "HONEYGLOW WOODS"
-      },
-      {
-        "id": 1726,
-        "name": "Gloomy Plaid Jacket",
-        "meta": "WINNIE THE POOH",
-        "meta2": "HONEYGLOW WOODS"
-      },
-      {
-        "id": 1727,
-        "name": "Gloomy Plaid Shorts",
-        "meta": "WINNIE THE POOH",
-        "meta2": "HONEYGLOW WOODS"
-      },
-      {
-        "id": 1728,
-        "name": "Gloomy Slouchy Socks",
-        "meta": "WINNIE THE POOH",
-        "meta2": "HONEYGLOW WOODS"
-      },
-      {
-        "id": 1729,
-        "name": "Green Brave Scarf",
-        "meta": "WINNIE THE POOH",
-        "meta2": "HONEYGLOW WOODS"
-      },
-      {
-        "id": 1730,
-        "name": "Silly Bear Hat",
-        "meta": "WINNIE THE POOH",
-        "meta2": "HONEYGLOW WOODS"
-      },
-      {
-        "id": 1731,
-        "name": "Silly Bear Pinafore",
-        "meta": "WINNIE THE POOH",
-        "meta2": "HONEYGLOW WOODS"
-      },
-      {
-        "id": 1732,
-        "name": "Yellow Daisy Ankle Boots",
-        "meta": "WINNIE THE POOH",
-        "meta2": "HONEYGLOW WOODS"
-      },
-      {
-        "id": 1733,
-        "name": "Heroic Helmet",
-        "meta": "WINNIE THE POOH",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1734,
-        "name": "Fix-It Drafting Cap",
-        "meta": "WRECK-IT RALPH",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1735,
-        "name": "Fix-It Patched Buttondown",
-        "meta": "WRECK-IT RALPH",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1736,
-        "name": "Fix-It Tobi Trousers",
-        "meta": "WRECK-IT RALPH",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
         "id": 1737,
         "name": "Wreck-It Drafting Cap",
         "meta": "WRECK-IT RALPH",
@@ -10114,6 +10108,12 @@
       {
         "id": 1740,
         "name": "Yesss Visor Glasses",
+        "meta": "WRECK-IT RALPH",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 868,
+        "name": "Yesss's \"Run the Net\" Dress",
         "meta": "WRECK-IT RALPH",
         "meta2": "DREAMLIGHT VALLEY"
       }
@@ -10942,6 +10942,12 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 2007,
+        "name": "Agrabah Palace Pouf",
+        "meta": "ALADDIN",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 3330,
         "name": "Agrabah Palace Wallpaper",
         "meta": "ALADDIN",
@@ -11140,6 +11146,12 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 3567,
+        "name": "Royal Vanity Bench",
+        "meta": "ALADDIN",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 50,
         "name": "Royal Vanity Stool",
         "meta": "ALADDIN",
@@ -11196,6 +11208,12 @@
       {
         "id": 59,
         "name": "Tasseled Red Cushion",
+        "meta": "ALADDIN",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 3566,
+        "name": "Torn Purple Drapery",
         "meta": "ALADDIN",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -12280,6 +12298,12 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 3568,
+        "name": "Gaston Figurine — Celestial Base",
+        "meta": "BEAUTY AND THE THE BEAST",
+        "meta2": "ETERNITY ISLE"
+      },
+      {
         "id": 246,
         "name": "Baymax Gaming Chair",
         "meta": "BIG HERO 6",
@@ -12288,12 +12312,6 @@
       {
         "id": 247,
         "name": "Mochi's Cat House",
-        "meta": "BIG HERO 6",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 248,
-        "name": "Red Tool Drawer",
         "meta": "BIG HERO 6",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -13356,7 +13374,7 @@
       {
         "id": 3552,
         "name": "Spring Light Archway",
-        "meta": "Disney",
+        "meta": "DISNEY",
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
@@ -14508,12 +14526,6 @@
       {
         "id": 2006,
         "name": "Agrabah Palace Bench",
-        "meta": "GENERAL",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 2007,
-        "name": "Agrabah Palace Pouf",
         "meta": "GENERAL",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -30679,6 +30691,48 @@
         "name": "Hopps' Hay Maze Wall",
         "meta": "ZOOTOPIA",
         "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 3569,
+        "name": "Honey Lemon Gaming Desk",
+        "meta": "BIG HERO 6",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 3570,
+        "name": "Red Tool Drawer",
+        "meta": "BIG HERO 6",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 3572,
+        "name": "San Fransokyo Food Stall",
+        "meta": "BIG HERO",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 3573,
+        "name": "Honey Lemon Gaming Chair",
+        "meta": "BIG HERO 6",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 3574,
+        "name": "Neon Koi Lantern",
+        "meta": "BIG HERO 6",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 3575,
+        "name": "San Fransokyo Square Archway",
+        "meta": "BIG HERO 6",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
+        "id": 3576,
+        "name": "Highland Will-o'—the-Wisps",
+        "meta": "BRAVE",
+        "meta2": "DREAMLIGHT VALLEY"
       }
     ],
     "meals": [
@@ -37264,6 +37318,7 @@
       "1078": "owned",
       "1079": "owned",
       "1080": "owned",
+      "1081": "missing",
       "1082": "owned",
       "1083": "owned",
       "1084": "owned",
@@ -37505,6 +37560,8 @@
       "1460": "owned",
       "1461": "owned",
       "1464": "owned",
+      "1470": "owned",
+      "1471": "owned",
       "1473": "owned",
       "1474": "owned",
       "1494": "owned",
@@ -38109,6 +38166,7 @@
       "177": "owned",
       "178": "owned",
       "179": "owned",
+      "180": "owned",
       "181": "owned",
       "183": "owned",
       "190": "owned",
@@ -38144,8 +38202,10 @@
       "234": "owned",
       "236": "owned",
       "238": "owned",
+      "239": "owned",
       "241": "owned",
       "242": "owned",
+      "244": "owned",
       "245": "owned",
       "252": "owned",
       "257": "owned",
@@ -39881,7 +39941,7 @@
     "companions": 3547,
     "fish": 61,
     "foraging": 120,
-    "furniture": 3566,
+    "furniture": 3577,
     "gems": 51,
     "ingredients": 92,
     "meals": 469
@@ -42779,9 +42839,11 @@
       "146": true,
       "152": true,
       "154": true,
-      "687": true
+      "248": true,
+      "687": true,
+      "3571": true
     },
     "meals": {}
   },
-  "savedAt": "2026-07-31T21:54:24.947Z"
+  "savedAt": "2026-07-31T22:12:52.775Z"
 }
