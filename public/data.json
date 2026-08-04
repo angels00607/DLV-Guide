@@ -45682,6 +45682,240 @@
         "Seaweed",
         "Rice",
         "Ginger"
+      ],
+      "84": [
+        "Any Fish",
+        "Seaweed",
+        "Rice"
+      ],
+      "85": [
+        "Any Spice",
+        "Tomato",
+        "Cheese",
+        "Wheat"
+      ],
+      "86": [
+        "Dreamlight Fruit",
+        "Wheat"
+      ],
+      "87": [
+        "Cucumber",
+        "Tomato",
+        "Onion",
+        "Lettuce",
+        "Any Spice"
+      ],
+      "88": [
+        "Mushroom",
+        "Wheat",
+        "Tomato",
+        "Cheese"
+      ],
+      "89": [
+        "Rice",
+        "Egg",
+        "Mushroom",
+        "Garlic",
+        "Ginger"
+      ],
+      "90": [
+        "Chili Pepper",
+        "Corn",
+        "Cheese"
+      ],
+      "91": [
+        "Egg",
+        "Cheese",
+        "Milk"
+      ],
+      "92": [
+        "Anglerfish",
+        "Tomato",
+        "Zucchini",
+        "Potato"
+      ],
+      "93": [
+        "Bass",
+        "Any Vegetable 2x"
+      ],
+      "94": [
+        "Any Vegetable 2x",
+        "Tilapia"
+      ],
+      "95": [
+        "Wheat",
+        "Tomato"
+      ],
+      "96": [
+        "Peanut",
+        "Wheat"
+      ],
+      "97": [
+        "Wheat",
+        "Butter",
+        "Garlic",
+        "Oregano"
+      ],
+      "98": [
+        "Tomato",
+        "Cheese",
+        "Wheat"
+      ],
+      "99": [
+        "White Sturgeon",
+        "Basil",
+        "Lemon",
+        "Butter"
+      ],
+      "100": [
+        "Potato",
+        "Canola",
+        "Cheese"
+      ],
+      "101": [
+        "Lettuce",
+        "Bell Pepper",
+        "Corn",
+        "Tomato",
+        "Onion"
+      ],
+      "102": [
+        "Tomato",
+        "Eggplant",
+        "Onion",
+        "Zucchini",
+        "Any Spice"
+      ],
+      "103": [
+        "Rice",
+        "Seaweed",
+        "Salmon"
+      ],
+      "104": [
+        "Salmon",
+        "Rice"
+      ],
+      "105": [
+        "Any Fish",
+        "Lemon"
+      ],
+      "106": [
+        "Egg",
+        "Cheese"
+      ],
+      "107": [
+        "Any Seafood",
+        "Any Spice",
+        "Potato",
+        "Corn"
+      ],
+      "108": [
+        "Any Seafood",
+        "Wheat",
+        "Milk"
+      ],
+      "109": [
+        "Any Seafood",
+        "Wheat",
+        "Butter"
+      ],
+      "110": [
+        "Any Seafood",
+        "Lettuce"
+      ],
+      "111": [
+        "Any Seafood",
+        "Any Vegetable 2x"
+      ],
+      "112": [
+        "Rainbow Trout",
+        "Tomato",
+        "Onion"
+      ],
+      "113": [
+        "Perch",
+        "Wheat",
+        "Butter"
+      ],
+      "114": [
+        "Anglerfish",
+        "Peanut"
+      ],
+      "115": [
+        "Sole",
+        "Wheat",
+        "Butter",
+        "Lemon"
+      ],
+      "116": [
+        "Tomato",
+        "Wheat",
+        "Chili Pepper"
+      ],
+      "117": [
+        "Beam",
+        "Chili Pepper",
+        "Butter"
+      ],
+      "118": [
+        "Fugu",
+        "Ginger",
+        "Garlic"
+      ],
+      "119": [
+        "Any Fish",
+        "Rice"
+      ],
+      "120": [
+        "Kingfish",
+        "Sugarcane",
+        "Lemon"
+      ],
+      "121": [
+        "Dreamlight Fruit",
+        "Rice",
+        "Any Seafood",
+        "Any Sweet"
+      ],
+      "122": [
+        "Egg",
+        "Sugarcane"
+      ],
+      "123": [
+        "Lettuce",
+        "Cucumber",
+        "Any Vegetable",
+        "Any Spice"
+      ],
+      "124": [
+        "Any Vegetable",
+        "Any Spice"
+      ],
+      "125": [
+        "Tuna",
+        "Soya",
+        "Seaweed",
+        "Rice"
+      ],
+      "126": [
+        "Soya",
+        "Salmon",
+        "Sugarcane",
+        "Rice",
+        "Ginger"
+      ],
+      "127": [
+        "Onion",
+        "Tuna",
+        "Lemon",
+        "Wheat",
+        "Any Vegetable"
+      ],
+      "128": [
+        "Any Vegetable 2x",
+        "Tomato",
+        "Cheese",
+        "Wheat"
       ]
     }
   },
@@ -45937,5 +46171,5 @@
     },
     "meals": {}
   },
-  "savedAt": "2026-08-04T13:13:28.746Z"
+  "savedAt": "2026-08-04T13:42:04.432Z"
 }
