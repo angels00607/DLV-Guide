@@ -4898,6 +4898,12 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1743,
+        "name": "Fix it Repair Gloves",
+        "meta": "OTHER (GENERAL)",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 1050,
         "name": "Floral Mini Dress",
         "meta": "OTHER (GENERAL)",
@@ -10127,12 +10133,6 @@
         "id": 868,
         "name": "Yesss's \"Run the Net\" Dress",
         "meta": "WRECK-IT RALPH",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1743,
-        "name": "Fix it Repair Gloves",
-        "meta": "OTHER (GENERAL)",
         "meta2": "DREAMLIGHT VALLEY"
       }
     ],
@@ -35025,13 +35025,13 @@
       {
         "id": 720,
         "name": "Timebending Table",
-        "meta": "Functional Items",
+        "meta": "Other",
         "meta2": "ETERNITY ISLE"
       },
       {
         "id": 721,
         "name": "Tropical Companion Home",
-        "meta": "Functional Items",
+        "meta": "Other",
         "meta2": "ETERNITY ISLE"
       },
       {
@@ -38495,6 +38495,18 @@
         "name": "Yellow Frog Snippet",
         "meta": "MATERIALS",
         "meta2": "STORYBOOK VALE"
+      },
+      {
+        "id": 1632,
+        "name": "Honeyed Memory",
+        "meta": "Enchantments",
+        "meta2": "HONEYGLOW WOODS"
+      },
+      {
+        "id": 1633,
+        "name": "Honeyglow Flower Elixir",
+        "meta": "Enchantments",
+        "meta2": "HONEYGLOW WOODS"
       }
     ]
   },
@@ -42049,7 +42061,7 @@
   "nextId": {
     "characters": 68,
     "clothing": 1744,
-    "crafting": 1632,
+    "crafting": 1634,
     "companions": 3547,
     "fish": 61,
     "foraging": 120,
@@ -43451,6 +43463,10 @@
       "645": [
         "2 Ancient Gear"
       ],
+      "646": [
+        "1 Plastic Scrap",
+        "1 Topaz"
+      ],
       "647": [
         "3 Marble",
         "Crimson Eternal Poppies",
@@ -44350,6 +44366,24 @@
         "5 Pink Crocus",
         "4 Purple Crocus",
         "2 Yellow Crocus"
+      ],
+      "1297": [
+        "5 Pixel Shard"
+      ],
+      "1298": [
+        "10 Pixel Shard"
+      ],
+      "1529": [
+        "3 Marble",
+        "1 Crimson Eternal Poppies",
+        "1 Fuchsia Eternal Poppies"
+      ],
+      "1632": [
+        "6 Golden Honey"
+      ],
+      "1633": [
+        "3 Golden Honey",
+        "1 Rich Soil"
       ]
     },
     "companions": {},
@@ -47535,5 +47569,5 @@
     },
     "meals": {}
   },
-  "savedAt": "2026-08-04T21:35:30.226Z"
+  "savedAt": "2026-08-04T21:52:41.019Z"
 }
