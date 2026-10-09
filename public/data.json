@@ -8,12 +8,6 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 17,
-        "name": "Mysterious Moth Wings",
-        "meta": "A BUG'S LIFE",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
         "id": 1,
         "name": "Celebration Jasmine Costume",
         "meta": "ALADDIN",
@@ -22,30 +16,6 @@
       {
         "id": 2,
         "name": "Celebration Jasmine Hairstyle",
-        "meta": "ALADDIN",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1538,
-        "name": "Cozy Tiger Pajama Hat",
-        "meta": "ALADDIN",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1539,
-        "name": "Cozy Tiger Pajama Pants",
-        "meta": "ALADDIN",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1540,
-        "name": "Cozy Tiger Pajama Slippers",
-        "meta": "ALADDIN",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1541,
-        "name": "Cozy Tiger Pajama Top",
         "meta": "ALADDIN",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -100,30 +70,6 @@
       {
         "id": 11,
         "name": "Diamond in the Rough Vest",
-        "meta": "ALADDIN",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 12,
-        "name": "Jafar Costume Outfit",
-        "meta": "ALADDIN",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 13,
-        "name": "Jasmine's Bubble Ponytail",
-        "meta": "ALADDIN",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 14,
-        "name": "Jeweled Vizier Top",
-        "meta": "ALADDIN",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 15,
-        "name": "Jeweled Vizier Trousers",
         "meta": "ALADDIN",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -46909,6 +46855,11 @@
   },
   "deletedIds": {
     "clothing": {
+      "12": true,
+      "13": true,
+      "14": true,
+      "15": true,
+      "17": true,
       "146": true,
       "147": true,
       "148": true,
@@ -46945,6 +46896,10 @@
       "1512": true,
       "1513": true,
       "1514": true,
+      "1538": true,
+      "1539": true,
+      "1540": true,
+      "1541": true,
       "1590": true,
       "1598": true,
       "1599": true,
@@ -47994,5 +47949,5 @@
     },
     "meals": {}
   },
-  "savedAt": "2026-10-09T11:16:18.112Z"
+  "savedAt": "2026-10-09T11:18:26.185Z"
 }
