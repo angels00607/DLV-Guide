@@ -674,6 +674,12 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
+        "id": 1753,
+        "name": "Birding Top",
+        "meta": "DREAMLIGHT VALLEY",
+        "meta2": "DREAMLIGHT VALLEY"
+      },
+      {
         "id": 1546,
         "name": "Nefarious Nature Boots",
         "meta": "DREAMLIGHT VALLEY",
@@ -722,36 +728,6 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 1646,
-        "name": "Glowwing Headpiece",
-        "meta": "ENCANTO",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 198,
-        "name": "Isabela Ballet Flats",
-        "meta": "ENCANTO",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 200,
-        "name": "Isabela Colorful Wings",
-        "meta": "ENCANTO",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 199,
-        "name": "Isabela Costume Dress",
-        "meta": "ENCANTO",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 201,
-        "name": "Isabela Graceful Wings",
-        "meta": "ENCANTO",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
         "id": 202,
         "name": "Round Green Wireframe Glasses",
         "meta": "ENCANTO",
@@ -764,62 +740,8 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 204,
-        "name": "Giselle Costume Dress",
-        "meta": "ENCHANTED",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1552,
-        "name": "Giselle's Enchanted Cottage Costume",
-        "meta": "ENCHANTED",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1553,
-        "name": "Giselle's Enchanted Cottage Hairstyle",
-        "meta": "ENCHANTED",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 205,
-        "name": "Giselle's Ribboned Hairdo",
-        "meta": "ENCHANTED",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1647,
-        "name": "Butterfly Tiara",
-        "meta": "FANTASIA",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1456,
-        "name": "Spirit of Spring Costume",
-        "meta": "FANTASIA",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 206,
-        "name": "“Friends to the Divers” Crop Jacket",
-        "meta": "FINDING NEMO",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 207,
-        "name": "Octo-Bomber",
-        "meta": "FINDING NEMO",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
         "id": 226,
         "name": "\"Fall's Bounty\" Gown",
-        "meta": "FROZEN",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 208,
-        "name": "Adventuring Anna Costume",
         "meta": "FROZEN",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -839,13 +761,13 @@
         "id": 211,
         "name": "Arendellian Riding Helmet",
         "meta": "FROZEN",
-        "meta2": "DREAMLIGHT VALLEY"
+        "meta2": "WISHBLOSSOM MOUNTAINS"
       },
       {
         "id": 212,
         "name": "Arendellian Riding Outfit",
         "meta": "FROZEN",
-        "meta2": "DREAMLIGHT VALLEY"
+        "meta2": "WISHBLOSSOM MOUNTAINS"
       },
       {
         "id": 213,
@@ -905,17 +827,11 @@
         "id": 222,
         "name": "Cropped Arendellian Riding Outfit",
         "meta": "FROZEN",
-        "meta2": "DREAMLIGHT VALLEY"
+        "meta2": "WISHBLOSSOM MOUNTAINS"
       },
       {
         "id": 223,
         "name": "Dark Green Reindeer-Cinched Scarf",
-        "meta": "FROZEN",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 224,
-        "name": "Elemental Blue Hoodie",
         "meta": "FROZEN",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -980,24 +896,6 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 236,
-        "name": "Icy Cape",
-        "meta": "FROZEN",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 237,
-        "name": "Icy Wings",
-        "meta": "FROZEN",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 238,
-        "name": "Kristoff Coronation Outfit",
-        "meta": "FROZEN",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
         "id": 239,
         "name": "Olaf Presents... This Sweater!",
         "meta": "FROZEN",
@@ -1046,12 +944,6 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 247,
-        "name": "Small Pink Wings",
-        "meta": "FROZEN",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
         "id": 248,
         "name": "Snow Boots",
         "meta": "FROZEN",
@@ -1070,98 +962,8 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 251,
-        "name": "Wintery Fancy Shirt and Bow",
-        "meta": "FROZEN",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1584,
-        "name": "Apollo Costume Armor",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1589,
-        "name": "Apollo Sandals",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1585,
-        "name": "Apollo's Crested Helmet",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1586,
-        "name": "Apollo's Hairstyle",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 252,
-        "name": "Armor of the Styx",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1562,
-        "name": "Azure Greek Chestplate",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1563,
-        "name": "Azure Greek Cloak",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1564,
-        "name": "Azure Greek Helmet",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1565,
-        "name": "Azure Riveted Battle Skirt",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1566,
-        "name": "Crimson Greek Chestplate",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1567,
-        "name": "Crimson Greek Helmet",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1568,
-        "name": "Crimson Riveted Battle Skirt",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1569,
-        "name": "Emerald Greek Cloak",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
         "id": 1603,
         "name": "Gold Bracers",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1570,
-        "name": "Golden Bracers",
         "meta": "HERCULES",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -1172,98 +974,8 @@
         "meta2": "STORYBOOK VALE"
       },
       {
-        "id": 1571,
-        "name": "Hera Costume Dress",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1572,
-        "name": "Hera Headpiece",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1573,
-        "name": "Hera's Hairstyle",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1587,
-        "name": "Hercules' Shield",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1588,
-        "name": "Ivory and Gold Toga Dress",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 255,
-        "name": "Megara Costume Dress",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
         "id": 1574,
         "name": "Moon Headband",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1604,
-        "name": "Olympian Bracelet",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1575,
-        "name": "Sartorial Satyr Blue Horns",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1576,
-        "name": "Sartorial Satyr Blue Outfit",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1577,
-        "name": "Sartorial Satyr Brown Armbands",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1578,
-        "name": "Sartorial Satyr Gold Sandals",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1579,
-        "name": "Sartorial Satyr Horns",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1580,
-        "name": "Sartorial Satyr Outfit",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1581,
-        "name": "Sartorial Satyr Sandals",
-        "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 1582,
-        "name": "Sartorial Satyr Tan Armbands",
         "meta": "HERCULES",
         "meta2": "DREAMLIGHT VALLEY"
       },
@@ -1271,24 +983,12 @@
         "id": 254,
         "name": "Underworld Sandals",
         "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
+        "meta2": "STORYBOOK VALE"
       },
       {
         "id": 1583,
         "name": "Winged Boots",
         "meta": "HERCULES",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 256,
-        "name": "Mary’s Updo",
-        "meta": "HOCUS POCUS",
-        "meta2": "DREAMLIGHT VALLEY"
-      },
-      {
-        "id": 257,
-        "name": "Winifred’s Wig",
-        "meta": "HOCUS POCUS",
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
@@ -9518,9 +9218,9 @@
         "meta2": "DREAMLIGHT VALLEY"
       },
       {
-        "id": 1753,
-        "name": "Birding Top",
-        "meta": "DREAMLIGHT VALLEY",
+        "id": 1754,
+        "name": "Hercules' Shield",
+        "meta": "HERCULES",
         "meta2": "DREAMLIGHT VALLEY"
       }
     ],
@@ -38412,7 +38112,6 @@
       "1601": "owned",
       "1602": "owned",
       "1603": "owned",
-      "1604": "owned",
       "1605": "owned",
       "1606": "owned",
       "1607": "owned",
@@ -38441,7 +38140,8 @@
       "1750": "owned",
       "1751": "owned",
       "1752": "owned",
-      "1753": "owned"
+      "1753": "owned",
+      "1754": "owned"
     },
     "crafting": {
       "2": "neutral",
@@ -40933,7 +40633,7 @@
   },
   "nextId": {
     "characters": 68,
-    "clothing": 1754,
+    "clothing": 1755,
     "crafting": 1943,
     "companions": 3547,
     "fish": 61,
@@ -47124,6 +46824,25 @@
       "194": true,
       "195": true,
       "196": true,
+      "198": true,
+      "199": true,
+      "200": true,
+      "201": true,
+      "204": true,
+      "205": true,
+      "206": true,
+      "207": true,
+      "208": true,
+      "224": true,
+      "236": true,
+      "237": true,
+      "238": true,
+      "247": true,
+      "251": true,
+      "252": true,
+      "255": true,
+      "256": true,
+      "257": true,
       "405": true,
       "556": true,
       "557": true,
@@ -47132,6 +46851,7 @@
       "761": true,
       "1411": true,
       "1453": true,
+      "1456": true,
       "1466": true,
       "1492": true,
       "1503": true,
@@ -47154,9 +46874,38 @@
       "1543": true,
       "1544": true,
       "1545": true,
+      "1552": true,
+      "1553": true,
+      "1562": true,
+      "1563": true,
+      "1564": true,
+      "1565": true,
+      "1566": true,
+      "1567": true,
+      "1568": true,
+      "1569": true,
+      "1570": true,
+      "1571": true,
+      "1572": true,
+      "1573": true,
+      "1575": true,
+      "1576": true,
+      "1577": true,
+      "1578": true,
+      "1579": true,
+      "1580": true,
+      "1581": true,
+      "1582": true,
+      "1584": true,
+      "1585": true,
+      "1586": true,
+      "1587": true,
+      "1588": true,
+      "1589": true,
       "1590": true,
       "1598": true,
       "1599": true,
+      "1604": true,
       "1608": true,
       "1609": true,
       "1610": true,
@@ -47191,6 +46940,8 @@
       "1642": true,
       "1643": true,
       "1644": true,
+      "1646": true,
+      "1647": true,
       "1658": true,
       "1667": true,
       "1702": true,
@@ -48229,5 +47980,5 @@
     },
     "meals": {}
   },
-  "savedAt": "2026-10-09T11:40:58.478Z"
+  "savedAt": "2026-10-09T11:52:34.982Z"
 }
